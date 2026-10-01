@@ -1,0 +1,66 @@
+# =============================================================
+#  LISTE DES SOURCES DE LA VEILLE
+# =============================================================
+#  Pour ajouter une source : copie un bloc de 3 lignes
+#  et remplace le nom, l'adresse du flux RSS et la catégorie.
+#  Pour retirer une source : supprime son bloc
+#  (ou mets un # devant chaque ligne pour la désactiver).
+# =============================================================
+
+sources:
+
+  # ---------- Actualité IA en français ----------
+  - nom: ActuIA
+    url: https://www.actuia.com/feed/
+    categorie: Actualité FR
+
+  - nom: Next
+    url: https://next.ink/feed/
+    categorie: Actualité FR
+
+  # ---------- Actualité IA en anglais ----------
+  - nom: MIT Technology Review (IA)
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    categorie: Actualité EN
+
+  - nom: Ars Technica (IA)
+    url: https://arstechnica.com/ai/feed/
+    categorie: Actualité EN
+
+  # ---------- Blogs officiels des acteurs de l'IA ----------
+  - nom: OpenAI News
+    url: https://openai.com/news/rss.xml
+    categorie: Éditeur
+
+  - nom: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    categorie: Éditeur
+
+  - nom: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    categorie: Éditeur
+
+  # ---------- IA et développement (spécial SLAM) ----------
+  - nom: GitHub Blog
+    url: https://github.blog/feed/
+    categorie: Développement
+
+  # ---------- Communautés ----------
+  - nom: Reddit r/LocalLLaMA
+    url: https://www.reddit.com/r/LocalLLaMA/.rss
+    categorie: Communauté
+
+  - nom: Reddit r/MachineLearning
+    url: https://www.reddit.com/r/MachineLearning/.rss
+    categorie: Communauté
+
+  - nom: Hacker News
+    url: https://news.ycombinator.com/rss
+    categorie: Communauté
+
+  # ---------- Tes alertes Google (à ajouter plus tard) ----------
+  # Crée une alerte sur google.com/alerts, choisis "Flux RSS"
+  # comme mode d'envoi, puis colle son adresse ici :
+  # - nom: Google Alerts "IA générative"
+  #   url: COLLE_ICI_L_ADRESSE_DU_FLUX
+  #   categorie: Alerte
