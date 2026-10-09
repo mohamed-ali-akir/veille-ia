@@ -51,6 +51,7 @@ veille-ia/
 ├── generer_site.py        étape 3 : exporter pour le site
 ├── alerte_discord.py      bonus : alertes Discord
 ├── chercher.py            recherche en ligne de commande (secours)
+├── synthese.py            brouillon de synthèse mensuelle → syntheses/
 ├── tests.py               tests automatiques
 ├── data/veille.db         la base de données
 ├── docs/                  le site web (publié par GitHub Pages)
@@ -72,6 +73,7 @@ py generer_site.py                      # mettre à jour docs/articles.json
 py alerte_discord.py                    # envoyer les alertes Discord
 py -m unittest -v tests                 # lancer les tests
 py chercher.py agent                    # chercher un article en ligne de commande
+py synthese.py                          # brouillon de la synthèse du mois (syntheses/)
 py -m http.server --directory docs      # voir le site sur http://localhost:8000
 ```
 

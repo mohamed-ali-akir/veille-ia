@@ -71,6 +71,7 @@ veille-ia/
 ├── generer_site.py    ÉTAPE 3 : SQLite → docs/articles.json (note >= 1)
 ├── alerte_discord.py  BONUS : articles notés 4-5 → webhook Discord
 ├── chercher.py        recherche en ligne de commande (secours pour la démo)
+├── synthese.py        ÉTAPE 5 : brouillon de synthèse mensuelle (n'écrase jamais)
 ├── tests.py           tests unittest (sans internet ni clé)
 ├── data/veille.db     base SQLite
 ├── docs/              site statique publié par GitHub Pages
@@ -132,6 +133,7 @@ py tri.py                               # filtrer + analyser par l'IA
 py generer_site.py                      # mettre à jour le site
 py alerte_discord.py                    # alertes Discord
 py -m unittest -v tests                 # tests
+py synthese.py                          # brouillon de synthèse du mois → syntheses/AAAA-MM.md
 py -m http.server --directory docs      # voir le site : http://localhost:8000
 git add . && git commit -m "message" && git push
 ```
@@ -147,7 +149,8 @@ git add . && git commit -m "message" && git push
   - `mots_cles.yml` + `tri.py` écrits (Gemini, Mistral en secours).
   - `generer_site.py` + site `docs/` (recherche instantanée sans accents, surlignage,
     filtres, tags cliquables, « À la une », mode sombre, mobile, page Méthodologie).
-  - `alerte_discord.py`, `tests.py` (21 tests), workflow GitHub Actions, README, EPREUVE.md.
+  - `alerte_discord.py`, `tests.py` (21 tests), workflow GitHub Actions, README, EPREUVE.md,
+    `synthese.py` (brouillon de synthèse mensuelle, partie « Mon analyse » à écrire soi-même).
   - Problème : compte Google bloqué pour AI Studio (vérification d'âge) → clé Gemini
     pas encore créée. `GEMINI_API_KEY` contenait le texte d'exemple au lieu de la clé.
   - **Reste à faire** : vraie clé Gemini (PC + secret GitHub), webhook Discord,
