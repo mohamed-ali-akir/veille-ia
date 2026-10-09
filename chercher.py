@@ -1,50 +1,51 @@
 """
 =============================================================
- Recherche rapide dans la base (version provisoire)
+ Recherche rapide dans la base (en ligne de commande)
 =============================================================
-En attendant le site web de l'étape 3, ce petit script permet
-de retrouver un article en quelques secondes.
+Le site web est l'outil principal pour retrouver un article.
+Ce petit script reste utile comme solution de secours
+(par exemple si internet ne marche pas pendant la démo).
 
 Exemples :
-    python chercher.py              -> les 10 derniers articles
-    python chercher.py agent        -> les articles qui parlent d'"agent"
-    python chercher.py "open source"
+    py chercher.py              -> les 10 derniers articles pertinents
+    py chercher.py agent        -> les articles qui parlent d'"agent"
+    py chercher.py "open source"
 =============================================================
 """
 
-import sqlite3
 import sys
-from pathlib import Path
 
-FICHIER_BDD = Path(__file__).parent / "data" / "veille.db"
+from base import FICHIER_BDD, ouvrir_base
 
 
 def main():
     if not FICHIER_BDD.exists():
-        print("La base n'existe pas encore. Lance d'abord : python collecte.py")
+        print("La base n'existe pas encore. Lance d'abord : py collecte.py")
         return
 
-    connexion = sqlite3.connect(FICHIER_BDD)
+    connexion = ouvrir_base()
 
-    # sys.argv contient ce qu'on a tapé après "python chercher.py"
+    # sys.argv contient ce qu'on a tapé après "py chercher.py"
     if len(sys.argv) > 1:
         mot = " ".join(sys.argv[1:])
         print(f'Recherche de "{mot}"...\n')
-        # LIKE '%mot%' = "contient le mot", sans tenir compte des majuscules
+        motif = f"%{mot}%"  # LIKE '%mot%' = "contient le mot"
         articles = connexion.execute(
             """
-            SELECT titre, source, date_publication, url FROM articles
-            WHERE titre LIKE ? OR description LIKE ?
+            SELECT titre, source, date_publication, url, note, resume FROM articles
+            WHERE (note IS NULL OR note >= 1)
+              AND (titre LIKE ? OR description LIKE ? OR resume LIKE ? OR tags LIKE ?)
             ORDER BY date_publication DESC
             LIMIT 20
             """,
-            (f"%{mot}%", f"%{mot}%"),
+            (motif, motif, motif, motif),
         ).fetchall()
     else:
-        print("Les 10 derniers articles :\n")
+        print("Les 10 derniers articles pertinents :\n")
         articles = connexion.execute(
             """
-            SELECT titre, source, date_publication, url FROM articles
+            SELECT titre, source, date_publication, url, note, resume FROM articles
+            WHERE note >= 1
             ORDER BY date_publication DESC
             LIMIT 10
             """
@@ -56,10 +57,13 @@ def main():
         print("Aucun article trouvé.")
         return
 
-    for titre, source, date, url in articles:
-        jour = date[:10] if date else "date inconnue"
-        print(f"- [{jour}] {titre}")
-        print(f"  {source} | {url}\n")
+    for article in articles:
+        jour = (article["date_publication"] or "date inconnue")[:10]
+        note = f"{article['note']}/5" if article["note"] else "pas encore noté"
+        print(f"- [{jour}] {article['titre']}  ({note})")
+        if article["resume"]:
+            print(f"  {article['resume']}")
+        print(f"  {article['source']} | {article['url']}\n")
 
     print(f"{len(articles)} article(s) affiché(s).")
 
