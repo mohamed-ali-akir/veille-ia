@@ -1,0 +1,76 @@
+# =============================================================
+#  MOTS-CLÉS DU FILTRE (étape 2, phase 1 de tri.py)
+# =============================================================
+#  Un article est gardé s'il contient AU MOINS UN de ces mots
+#  dans son titre ou son résumé. Sinon il est classé "hors sujet"
+#  et n'est pas envoyé à l'IA (ça économise le quota de l'API).
+#
+#  Le mot doit être entier : "IA" ne trouve pas "via".
+# =============================================================
+
+# Mots cherchés SANS tenir compte des majuscules/minuscules
+mots_cles:
+  # ----- Généraux -----
+  - intelligence artificielle
+  - artificial intelligence
+  - IA générative
+  - generative AI
+  - machine learning
+  - apprentissage automatique
+  - deep learning
+  - réseau de neurones
+  - neural network
+  - modèle de langage
+  - language model
+  - chatbot
+  - agentique
+  - agentic
+  - agents IA
+  - AI agent
+  - AI agents
+  - prompt
+  - embedding
+  - embeddings
+  - fine-tuning
+  - inference
+  - inférence
+  - vibe coding
+
+  # ----- Modèles, outils et entreprises -----
+  - ChatGPT
+  - GPT
+  - OpenAI
+  - Claude
+  - Anthropic
+  - Gemini
+  - DeepMind
+  - Mistral
+  - Llama
+  - DeepSeek
+  - Qwen
+  - Grok
+  - xAI
+  - Copilot
+  - Cursor
+  - Codex
+  - Hugging Face
+  - Ollama
+  - Perplexity
+  - Midjourney
+  - Stable Diffusion
+  - Sora
+  - Nvidia
+
+# Sigles cherchés EN RESPECTANT les majuscules.
+# Pourquoi ? En minuscules, "ai" serait trouvé dans "j'ai" !
+sigles:
+  - IA
+  - AI
+  - LLM
+  - LLMs
+  - AGI
+  - RAG
+  - MCP
+  - GPU
+  - GPUs
+  - NLP
