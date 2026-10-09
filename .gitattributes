@@ -1,0 +1,4 @@
+# Fins de ligne identiques sous Windows et Linux
+* text=auto
+# La base SQLite est un fichier binaire
+*.db binary

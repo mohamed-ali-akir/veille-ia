@@ -8,62 +8,50 @@ Ce script :
   3. enregistre chaque nouvel article dans une base SQLite
      (data/veille.db)
   4. ignore les articles déjà enregistrés (pas de doublons)
+     et les articles trop anciens (plus de 30 jours)
 
-Pour le lancer :  python collecte.py
+Pour le lancer :  py collecte.py   (Windows)
+                  python collecte.py   (Linux / GitHub Actions)
 =============================================================
 """
 
 import html
 import re
-import sqlite3
-from datetime import datetime, timezone
+import socket
+import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser  # bibliothèque qui sait lire les flux RSS
 import yaml        # bibliothèque qui sait lire le fichier sources.yml
 
+from base import ouvrir_base  # notre module partagé (base.py)
+
 
 # ---------- Réglages ----------
 
-# Dossier où se trouve ce script
-DOSSIER = Path(__file__).parent
-
 # Fichier qui contient la liste des sources
-FICHIER_SOURCES = DOSSIER / "sources.yml"
-
-# Fichier de la base de données (créé automatiquement)
-FICHIER_BDD = DOSSIER / "data" / "veille.db"
+FICHIER_SOURCES = Path(__file__).parent / "sources.yml"
 
 # "Carte d'identité" envoyée aux sites. Certains sites, comme Reddit,
 # refusent les programmes qui ne se présentent pas.
 USER_AGENT = "VeilleIA/1.0 (projet etudiant BTS SIO)"
 
+# On ignore les articles publiés il y a plus de X jours.
+# Sans cette limite, certains flux (OpenAI, Hugging Face) envoient
+# toutes leurs archives : plus de 2000 vieux articles !
+AGE_MAX_JOURS = 30
+
+# Pause (en secondes) entre deux sources, pour ne pas être bloqué
+# par les sites qui limitent les requêtes trop rapides (Reddit)
+PAUSE_ENTRE_SOURCES = 1
+
+# Temps maximum (en secondes) pour attendre la réponse d'un site.
+# Sans ça, un site en panne pourrait bloquer le script indéfiniment.
+socket.setdefaulttimeout(20)
+
 
 # ---------- Fonctions ----------
-
-def creer_base(connexion):
-    """Crée la table 'articles' si elle n'existe pas encore."""
-    connexion.execute("""
-        CREATE TABLE IF NOT EXISTS articles (
-            id               INTEGER PRIMARY KEY AUTOINCREMENT,
-            titre            TEXT NOT NULL,
-            url              TEXT NOT NULL UNIQUE,  -- UNIQUE = pas de doublon
-            source           TEXT NOT NULL,
-            categorie        TEXT,
-            date_publication TEXT,
-            date_collecte    TEXT NOT NULL,
-            description      TEXT,
-
-            -- Colonnes vides pour l'instant,
-            -- elles seront remplies à l'étape 2 (tri et IA)
-            mots_cles        TEXT,
-            tags             TEXT,
-            resume           TEXT,
-            note             INTEGER
-        )
-    """)
-    connexion.commit()
-
 
 def charger_sources():
     """Lit le fichier sources.yml et renvoie la liste des sources."""
@@ -90,6 +78,15 @@ def date_de_publication(entree):
     return None
 
 
+def est_trop_ancien(date_texte):
+    """Renvoie True si l'article a été publié il y a plus de AGE_MAX_JOURS."""
+    if date_texte is None:
+        return False  # date inconnue : on garde l'article par prudence
+    date = datetime.fromisoformat(date_texte)
+    limite = datetime.now(timezone.utc) - timedelta(days=AGE_MAX_JOURS)
+    return date < limite
+
+
 def collecter_source(connexion, source):
     """
     Télécharge le flux d'une source et enregistre ses nouveaux articles.
@@ -110,6 +107,10 @@ def collecter_source(connexion, source):
         if not url or not titre:
             continue  # article incomplet, on passe au suivant
 
+        date = date_de_publication(entree)
+        if est_trop_ancien(date):
+            continue  # article trop vieux, on passe au suivant
+
         # "INSERT OR IGNORE" : si l'URL existe déjà, SQLite ignore l'article
         curseur = connexion.execute(
             """
@@ -123,7 +124,7 @@ def collecter_source(connexion, source):
                 url,
                 source["nom"],
                 source.get("categorie"),
-                date_de_publication(entree),
+                date,
                 maintenant,
                 nettoyer_texte(entree.get("summary")),
             ),
@@ -137,11 +138,7 @@ def collecter_source(connexion, source):
 # ---------- Programme principal ----------
 
 def main():
-    # Crée le dossier "data" s'il n'existe pas
-    FICHIER_BDD.parent.mkdir(exist_ok=True)
-
-    connexion = sqlite3.connect(FICHIER_BDD)
-    creer_base(connexion)
+    connexion = ouvrir_base()
 
     sources = charger_sources()
     print(f"Collecte de {len(sources)} sources...\n")
@@ -157,6 +154,7 @@ def main():
         else:
             print(f"  [OK]     {source['nom']} : {resultat} nouvel(s) article(s)")
             total_nouveaux += resultat
+        time.sleep(PAUSE_ENTRE_SOURCES)
 
     total_base = connexion.execute("SELECT COUNT(*) FROM articles").fetchone()[0]
     connexion.close()

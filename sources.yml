@@ -18,6 +18,14 @@ sources:
     url: https://next.ink/feed/
     categorie: Actualité FR
 
+  - nom: Le Monde Informatique (IA)
+    url: https://www.lemondeinformatique.fr/flux-rss/thematique/intelligence-artificielle/rss.xml
+    categorie: Actualité FR
+
+  - nom: Journal du Net (IA)
+    url: https://www.journaldunet.com/intelligence-artificielle/rss/
+    categorie: Actualité FR
+
   # ---------- Actualité IA en anglais ----------
   - nom: MIT Technology Review (IA)
     url: https://www.technologyreview.com/topic/artificial-intelligence/feed
@@ -25,6 +33,10 @@ sources:
 
   - nom: Ars Technica (IA)
     url: https://arstechnica.com/ai/feed/
+    categorie: Actualité EN
+
+  - nom: TechCrunch (IA)
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
     categorie: Actualité EN
 
   # ---------- Blogs officiels des acteurs de l'IA ----------
@@ -41,8 +53,16 @@ sources:
     categorie: Éditeur
 
   # ---------- IA et développement (spécial SLAM) ----------
-  - nom: GitHub Blog
-    url: https://github.blog/feed/
+  - nom: GitHub Blog (IA)
+    url: https://github.blog/ai-and-ml/feed/
+    categorie: Développement
+
+  - nom: Developpez.com (IA)
+    url: https://intelligence-artificielle.developpez.com/index/rss
+    categorie: Développement
+
+  - nom: Simon Willison
+    url: https://simonwillison.net/atom/everything/
     categorie: Développement
 
   # ---------- Communautés ----------

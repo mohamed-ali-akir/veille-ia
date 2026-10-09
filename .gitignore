@@ -1,0 +1,9 @@
+# Fichiers créés automatiquement par Python
+__pycache__/
+*.pyc
+
+# Fichiers de secrets : ne JAMAIS les envoyer sur GitHub
+.env
+
+# Fichiers temporaires de SQLite
+data/*.db-journal
