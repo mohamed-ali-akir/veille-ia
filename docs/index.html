@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Veille IA · BTS SIO SLAM</title>
+    <meta name="description" content="Veille technologique automatisée sur l'intelligence artificielle, du point de vue d'un développeur.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== EN-TÊTE ========== -->
+    <header class="entete">
+        <div class="conteneur entete-contenu">
+            <a href="index.html" class="logo">
+                <span class="logo-icone" aria-hidden="true">◆</span>
+                Veille IA
+            </a>
+            <nav class="menu">
+                <a href="index.html" aria-current="page">Articles</a>
+                <a href="methodologie.html">Méthodologie</a>
+                <a href="https://github.com/mohamed-ali-akir/veille-ia">Code source</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteneur">
+
+        <!-- ========== PRÉSENTATION ========== -->
+        <section class="intro">
+            <h1>L'actualité de l'intelligence artificielle, triée pour les développeurs</h1>
+            <p class="intro-texte">
+                Articles collectés automatiquement chaque jour, résumés et notés par une IA.
+                <span id="infos-maj" class="infos-maj"></span>
+            </p>
+        </section>
+
+        <!-- ========== RECHERCHE ET FILTRES ========== -->
+        <section class="recherche" aria-label="Recherche">
+            <div class="barre">
+                <span class="barre-loupe" aria-hidden="true">⌕</span>
+                <input id="champ-recherche" type="search" autocomplete="off"
+                       placeholder="Rechercher : agent, Mistral, sécurité, open source…"
+                       aria-label="Rechercher un article">
+                <kbd class="barre-raccourci" title="Raccourci clavier">/</kbd>
+            </div>
+
+            <div class="filtres">
+                <label>Source
+                    <select id="filtre-source"><option value="">Toutes</option></select>
+                </label>
+                <label>Période
+                    <select id="filtre-periode">
+                        <option value="0">Tout</option>
+                        <option value="1">24 heures</option>
+                        <option value="7">7 jours</option>
+                        <option value="30">30 jours</option>
+                    </select>
+                </label>
+                <label>Note minimale
+                    <select id="filtre-note">
+                        <option value="1">Toutes</option>
+                        <option value="3">★★★ et plus</option>
+                        <option value="4">★★★★ et plus</option>
+                        <option value="5">★★★★★</option>
+                    </select>
+                </label>
+                <label>Trier par
+                    <select id="filtre-tri">
+                        <option value="date">Plus récents</option>
+                        <option value="note">Mieux notés</option>
+                    </select>
+                </label>
+            </div>
+
+            <div id="liste-tags" class="tags-filtre" aria-label="Filtrer par tag"></div>
+        </section>
+
+        <!-- ========== À LA UNE (articles notés 5, cachés pendant une recherche) ========== -->
+        <section id="a-la-une" class="a-la-une" hidden>
+            <h2 class="titre-section">À la une</h2>
+            <div id="liste-une" class="grille-une"></div>
+        </section>
+
+        <!-- ========== RÉSULTATS ========== -->
+        <section aria-live="polite">
+            <div class="resultats-entete">
+                <h2 id="compteur" class="titre-section">Chargement…</h2>
+                <button id="bouton-effacer" class="lien-bouton" type="button" hidden>Effacer les filtres</button>
+            </div>
+            <div id="liste-articles" class="liste"></div>
+            <button id="bouton-plus" class="bouton-plus" type="button" hidden>Afficher plus d'articles</button>
+        </section>
+
+    </main>
+
+    <footer class="pied">
+        <div class="conteneur">
+            Projet de veille technologique · BTS SIO option SLAM ·
+            <a href="methodologie.html">Comment ça marche ?</a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Méthodologie · Veille IA</title>
+    <meta name="description" content="Comment fonctionne la veille IA : sources, tri, IA, automatisation.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="entete">
+        <div class="conteneur entete-contenu">
+            <a href="index.html" class="logo">
+                <span class="logo-icone" aria-hidden="true">◆</span>
+                Veille IA
+            </a>
+            <nav class="menu">
+                <a href="index.html">Articles</a>
+                <a href="methodologie.html" aria-current="page">Méthodologie</a>
+                <a href="https://github.com/mohamed-ali-akir/veille-ia">Code source</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteneur page-texte">
+
+        <h1>Méthodologie</h1>
+        <p class="intro-texte">
+            Comment cette veille est construite, de la collecte des articles jusqu'à leur affichage.
+        </p>
+
+        <!-- ========== OBJECTIF ========== -->
+        <h2>Objectif</h2>
+        <p>
+            Suivre l'actualité de l'<strong>intelligence artificielle</strong> du point de vue
+            d'un <strong>développeur</strong> (BTS SIO option SLAM) : nouveaux modèles, outils
+            de programmation assistée, agents, open source, sécurité et régulation.
+        </p>
+        <p>
+            La veille doit permettre de <strong>retrouver n'importe quel article en moins de
+            30 secondes</strong>, grâce à une recherche instantanée et à des filtres.
+        </p>
+
+        <!-- ========== SCHÉMA ========== -->
+        <h2>Fonctionnement</h2>
+        <div class="schema-cadre">
+            <div class="schema-cadre-titre">GitHub Actions : lancé automatiquement deux fois par jour</div>
+            <div class="schema">
+                <div class="schema-etape">
+                    <strong>1. Récupérer</strong>
+                    <code>collecte.py</code>
+                    <small>Lit les flux RSS des sources (articles de moins de 30 jours).</small>
+                </div>
+                <div class="schema-fleche" aria-hidden="true">→</div>
+                <div class="schema-etape">
+                    <strong>2. Trier</strong>
+                    <code>tri.py</code>
+                    <small>Filtre par mots-clés, puis l'IA résume, classe et note.</small>
+                </div>
+                <div class="schema-fleche" aria-hidden="true">→</div>
+                <div class="schema-etape">
+                    <strong>3. Stocker</strong>
+                    <code>data/veille.db</code>
+                    <small>Base SQLite. L'URL unique empêche les doublons.</small>
+                </div>
+                <div class="schema-fleche" aria-hidden="true">→</div>
+                <div class="schema-etape">
+                    <strong>4. Publier</strong>
+                    <code>generer_site.py</code>
+                    <small>Exporte les articles en JSON pour ce site, alerte Discord pour les 4★ et 5★.</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== ENTONNOIR (rempli par le script en bas de page) ========== -->
+        <h2>Les chiffres de la veille</h2>
+        <p>Chaque étape élimine les articles hors sujet ou peu utiles :</p>
+        <div class="entonnoir">
+            <div><strong id="stat-collectes">–</strong><span>articles collectés</span></div>
+            <div><strong id="stat-gardes">–</strong><span>gardés par les mots-clés</span></div>
+            <div><strong id="stat-analyses">–</strong><span>analysés par l'IA</span></div>
+            <div><strong id="stat-affiches">–</strong><span>jugés pertinents et affichés</span></div>
+        </div>
+
+        <!-- ========== DÉTAIL DES ÉTAPES ========== -->
+        <h2>1. Les sources</h2>
+        <p>
+            Les articles viennent de <strong>flux RSS</strong> : un format standard que la
+            plupart des sites d'actualité proposent. Les sources mélangent actualité française
+            et anglaise, blogs officiels des éditeurs d'IA, sites pour développeurs et
+            communautés. La liste se modifie dans le fichier <code>sources.yml</code>, sans
+            toucher au code.
+        </p>
+        <div class="tableau-defilant">
+            <table>
+                <thead><tr><th>Source</th><th>Catégorie</th><th class="nombre">Articles affichés</th></tr></thead>
+                <tbody id="tableau-sources"></tbody>
+            </table>
+        </div>
+
+        <h2>2. Le tri en deux temps</h2>
+        <ol>
+            <li>
+                <strong>Filtre par mots-clés</strong> (<code>mots_cles.yml</code>) : rapide et
+                gratuit. Un article qui ne contient aucun mot lié à l'IA est écarté. Les sigles
+                comme « AI » sont cherchés en majuscules pour ne pas confondre avec « j'ai ».
+            </li>
+            <li>
+                <strong>Analyse par une IA</strong> (API Google Gemini, offre gratuite) : pour
+                chaque article gardé, l'IA écrit un résumé en français, choisit 1 à 3 tags dans
+                une liste fixe et donne une note de pertinence de 0 à 5. La réponse est
+                <strong>vérifiée</strong> par le programme avant d'être enregistrée : tags
+                inconnus supprimés, note ramenée entre 0 et 5.
+            </li>
+        </ol>
+
+        <h2>3. Le stockage</h2>
+        <p>
+            Les articles sont enregistrés dans une base <strong>SQLite</strong> (un simple
+            fichier). L'adresse de chaque article est déclarée <code>UNIQUE</code> : un article
+            déjà connu est ignoré, donc il n'y a jamais de doublon. Toutes les requêtes SQL sont
+            <strong>paramétrées</strong>, ce qui protège contre l'injection SQL.
+        </p>
+
+        <h2>4. La diffusion</h2>
+        <ul>
+            <li>
+                <strong>Ce site</strong> est statique (HTML, CSS et JavaScript sans framework),
+                hébergé gratuitement par GitHub Pages. Il lit le fichier
+                <code>articles.json</code> et filtre les articles directement dans le navigateur.
+            </li>
+            <li>
+                <strong>Discord</strong> : les articles notés 4 ou 5 sont envoyés
+                automatiquement dans un salon grâce à un webhook.
+            </li>
+        </ul>
+
+        <h2>Fréquence</h2>
+        <p>
+            Un <strong>workflow GitHub Actions</strong> lance toute la chaîne
+            <strong>deux fois par jour</strong> (matin et soir), puis enregistre la base et le
+            site mis à jour dans le dépôt. Il peut aussi être lancé à la main (bouton
+            « Run workflow »).
+        </p>
+
+        <h2>Limites et esprit critique</h2>
+        <ul>
+            <li>
+                Les résumés et les notes sont produits par une IA : ils peuvent contenir des
+                erreurs. Le lien vers l'article d'origine est toujours fourni pour vérifier.
+            </li>
+            <li>
+                L'offre gratuite de l'API limite le nombre d'analyses par jour : les articles en
+                trop sont analysés au lancement suivant.
+            </li>
+            <li>
+                La majorité des sources sont anglophones : c'est là que l'actualité de l'IA sort
+                en premier. Les résumés sont en français pour faciliter la lecture.
+            </li>
+            <li>
+                Les flux RSS ne donnent qu'un extrait de l'article : l'IA juge à partir du titre
+                et de cet extrait, pas du texte complet.
+            </li>
+        </ul>
+
+        <h2>Technologies</h2>
+        <p>
+            Python 3 (feedparser, PyYAML, sqlite3, urllib), SQLite, API Gemini, HTML / CSS /
+            JavaScript, GitHub Actions, GitHub Pages, webhook Discord. Tout est
+            <strong>gratuit</strong>.
+        </p>
+
+    </main>
+
+    <footer class="pied">
+        <div class="conteneur">
+            Projet de veille technologique · BTS SIO option SLAM ·
+            <a href="index.html">Retour aux articles</a>
+        </div>
+    </footer>
+
+    <script>
+        // Remplit les chiffres et le tableau des sources à partir de articles.json
+        fetch("articles.json")
+            .then(reponse => reponse.json())
+            .then(donnees => {
+                const stats = donnees.statistiques;
+                document.getElementById("stat-collectes").textContent = stats.collectes;
+                document.getElementById("stat-gardes").textContent = stats.gardes_mots_cles;
+                document.getElementById("stat-analyses").textContent = stats.analyses_ia;
+                document.getElementById("stat-affiches").textContent = stats.affiches;
+
+                // Compte les articles affichés de chaque source
+                const sources = {};
+                for (const article of donnees.articles) {
+                    if (!sources[article.source]) {
+                        sources[article.source] = { categorie: article.categorie, nombre: 0 };
+                    }
+                    sources[article.source].nombre++;
+                }
+
+                const tableau = document.getElementById("tableau-sources");
+                const noms = Object.keys(sources).sort((a, b) => sources[b].nombre - sources[a].nombre);
+                for (const nom of noms) {
+                    const ligne = document.createElement("tr");
+                    for (const [texte, classe] of [[nom, ""], [sources[nom].categorie, ""], [sources[nom].nombre, "nombre"]]) {
+                        const cellule = document.createElement("td");
+                        cellule.textContent = texte;
+                        cellule.className = classe;
+                        ligne.appendChild(cellule);
+                    }
+                    tableau.appendChild(ligne);
+                }
+            });
+    </script>
+</body>
+</html>
