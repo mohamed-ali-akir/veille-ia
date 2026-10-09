@@ -1,0 +1,73 @@
+# =============================================================
+#  ÉTAPE 4 : AUTOMATISATION AVEC GITHUB ACTIONS
+# =============================================================
+#  GitHub lance ce "workflow" sur ses propres serveurs (Linux),
+#  gratuitement, même quand mon ordinateur est éteint :
+#    tests -> collecte -> tri -> site -> Discord -> sauvegarde
+#
+#  Les clés secrètes viennent de :
+#  Settings > Secrets and variables > Actions
+# =============================================================
+
+name: Veille automatique
+
+on:
+  # Deux fois par jour. L'heure est en UTC (temps universel) :
+  # 5h UTC = 7h à Paris en été (6h en hiver), 17h UTC = 19h (18h en hiver)
+  schedule:
+    - cron: "0 5,17 * * *"
+  # Ajoute un bouton "Run workflow" pour lancer la veille à la main (démo)
+  workflow_dispatch:
+
+# Autorise le workflow à enregistrer (push) la base et le site dans le dépôt
+permissions:
+  contents: write
+
+# Empêche deux veilles de tourner en même temps
+concurrency:
+  group: veille
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v5
+
+      - name: Installer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les bibliothèques
+        run: pip install -r requirements.txt
+
+      - name: Lancer les tests
+        run: python -m unittest -v tests
+
+      - name: "Étape 1 : collecter les articles"
+        run: python collecte.py
+
+      - name: "Étape 2 : trier (mots-clés + IA)"
+        run: python tri.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+
+      - name: "Étape 3 : générer les données du site"
+        run: python generer_site.py
+
+      - name: "Bonus : alertes Discord"
+        run: python alerte_discord.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+      - name: Sauvegarder la base et le site dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/veille.db docs/articles.json
+          # On ne crée un commit que s'il y a du nouveau
+          git diff --staged --quiet || git commit -m "Veille automatique du $(date -u +'%d/%m/%Y %Hh%M') UTC"
+          git push
