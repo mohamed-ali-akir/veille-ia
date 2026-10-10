@@ -57,6 +57,8 @@ function creerElement(balise, classe, texte) {
 /** Ajoute le texte dans l'élément en surlignant (<mark>) les mots cherchés.
  *  La comparaison ignore les accents : "securite" surligne "sécurité". */
 function ajouterTexteSurligne(element, texte, mots) {
+    // On ne surligne pas les mots d'une seule lettre ("a", "l"...) : ils sont partout
+    mots = mots.filter(mot => mot.length > 1);
     if (mots.length === 0) {
         element.textContent = texte;
         return;
@@ -192,6 +194,14 @@ function creerCarte(article, mots) {
     const resume = creerElement("p", "article-resume");
     ajouterTexteSurligne(resume, article.resume || "", mots);
     carte.appendChild(resume);
+
+    // "Pourquoi cette note ?" : la balise <details> s'ouvre au clic, sans JavaScript
+    if (article.justification) {
+        const details = creerElement("details", "justification");
+        details.appendChild(creerElement("summary", "", `Pourquoi ${article.note}/5 ?`));
+        details.appendChild(creerElement("p", "", article.justification));
+        carte.appendChild(details);
+    }
 
     // Tags cliquables
     const tags = creerElement("div", "article-tags");

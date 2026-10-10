@@ -75,8 +75,19 @@ class TestValidationIA(unittest.TestCase):
     """Étape 2, phase 2 : on ne fait jamais confiance aveuglément à l'IA."""
 
     def test_reponse_correcte(self):
-        resultat = tri.valider_resultat({"resume": "Un résumé.", "tags": ["LLM"], "note": 4})
-        self.assertEqual(resultat, {"resume": "Un résumé.", "tags": ["LLM"], "note": 4})
+        resultat = tri.valider_resultat({"resume": "Un résumé.", "tags": ["LLM"], "note": 4,
+                                         "justification": "Nouveau modèle utile."})
+        self.assertEqual(resultat, {"resume": "Un résumé.", "tags": ["LLM"], "note": 4,
+                                    "justification": "Nouveau modèle utile."})
+
+    def test_justification_absente_remplacee_par_texte_vide(self):
+        resultat = tri.valider_resultat({"resume": "R", "tags": [], "note": 3})
+        self.assertEqual(resultat["justification"], "")
+
+    def test_justification_trop_longue_coupee(self):
+        resultat = tri.valider_resultat({"resume": "R", "tags": [], "note": 3,
+                                         "justification": "x" * 1000})
+        self.assertEqual(len(resultat["justification"]), 250)
 
     def test_tag_invente_supprime(self):
         resultat = tri.valider_resultat({"resume": "R", "tags": ["LLM", "Tag inventé"], "note": 3})

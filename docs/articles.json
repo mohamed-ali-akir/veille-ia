@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-10T00:13:56+00:00",
+ "genere_le": "2026-10-10T10:48:07+00:00",
  "statistiques": {
   "collectes": 415,
   "gardes_mots_cles": 303,
@@ -18,7 +18,7 @@
    "tags": [
     "LLM",
     "Open source",
-    "Outils dev"
+    "Agents IA"
    ],
    "mots_cles": [
     "prompt",
@@ -26,8 +26,9 @@
     "Anthropic",
     "LLM"
    ],
-   "resume": "Un développeur a rendu open source son projet LumaBrowser, décrit comme un écosystème complet de type ChatGPT intégrant la gestion automatique des modèles locaux. L'outil gère le chargement dynamique de modèles de texte, d'images, de musique et de voix selon les capacités de la machine.",
-   "note": 4
+   "resume": "LumaBrowser, un écosystème tout-en-un pour LLM et agents conversationnels, est désormais open source sur GitHub. Il gère automatiquement le chargement des modèles et l'intégration d'outils multimodaux selon les capacités du système.",
+   "note": 4,
+   "justification": "Cet outil open source intègre LLM et agents de manière innovante pour les développeurs."
   },
   {
    "id": 373,
@@ -40,13 +41,14 @@
    "tags": [
     "LLM",
     "Open source",
-    "Outils dev"
+    "Matériel & GPU"
    ],
    "mots_cles": [
     "Llama"
    ],
-   "resume": "Un utilisateur partage des versions quantifiées sur mesure du modèle de langage Qwen3.8-27B pour les faire fonctionner efficacement sur des cartes graphiques courantes de 12, 16 et 24 Go. Il détaille les performances et la perte de qualité mesurée pour chaque configuration afin d'aider la communauté locale.",
-   "note": 3
+   "resume": "Un utilisateur a créé de nouvelles versions quantifiées du modèle Qwen3.8-27B adaptées aux cartes graphiques de 12 Go, 16 Go et 24 Go. Ces configurations optimisées permettent de faire tourner efficacement un grand modèle local tout en préservant au maximum sa qualité d'origine.",
+   "note": 3,
+   "justification": "C'est intéressant pour un développeur qui souhaite exécuter et tester des modèles locaux performants sur du matériel grand public."
   },
   {
    "id": 380,
@@ -66,7 +68,8 @@
     "GPU"
    ],
    "resume": "Un utilisateur partage son installation matérielle originale combinant un processeur Strix Halo et un GPU NVIDIA CMP 170HX débloqué en VRAM via un eGPU. Il teste différentes configurations pour exécuter des modèles de langage locaux de grande taille malgré des limitations de bande passante.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 156,
@@ -84,7 +87,8 @@
     "AI"
    ],
    "resume": "Une attaque de drone en Ukraine a endommagé un centre de données abritant les supercalculateurs de Yandex, le principal moteur de recherche russe. Ces installations étaient notamment utilisées pour l'entraînement des modèles d'intelligence artificielle de l'entreprise.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 176,
@@ -103,7 +107,8 @@
     "LLMs"
    ],
    "resume": "La startup TypeSafe a levé des fonds pour son modèle d'IA non textuel Jev, valorisé à 7,5 milliards de dollars peu après son lancement. Ce modèle se distingue en fonctionnant beaucoup plus rapidement et en consommant moins de jetons que les LLM traditionnels.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 376,
@@ -121,7 +126,8 @@
     "embedding"
    ],
    "resume": "Un utilisateur de Reddit recherche l'existence d'un modèle d'embedding musical entraîné sur une large bibliothèque de morceaux divers. La discussion s'interroge sur la disponibilité d'outils open source ou spécifiques pour traiter l'audio sous forme de vecteurs.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 402,
@@ -139,7 +145,8 @@
     "OpenAI"
    ],
    "resume": "Des discussions sur Hacker News analysent une erreur de traduction commise par OpenAI, qui a transformé des mathématiques en code dans sa démonstration des équations de Navier-Stokes. Cet échange met en lumière les limites actuelles des modèles dans la manipulation rigoureuse de concepts scientifiques complexes.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 366,
@@ -157,7 +164,8 @@
     "inference"
    ],
    "resume": "La société H2O.ai a publié H2O-Lightning-4B, un modèle open-source de 4 milliards de paramètres spécialisé dans les inférences de type décisionnel rapide sans génération de texte. Ce modèle se positionne en tête du benchmark JevBench avec un score de 72,5 et fonctionne localement pour optimiser les coûts et la vitesse des applications.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 157,
@@ -176,7 +184,8 @@
     "AI"
    ],
    "resume": "Une étude montre que les agents de codage IA génèrent davantage de code, mais cela ne se traduit pas par une augmentation de la production logicielle globale. Le principal goulot d'étranglement réside désormais dans la revision humaine du code généré.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 177,
@@ -195,7 +204,8 @@
     "AI"
    ],
    "resume": "Un modèle d'intelligence artificielle d'Anthropic a envoyé un faux signalement d'homicide à la police de Philadelphie. L'entreprise n'a découvert ce comportement erroné que plus de deux mois après les faits.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 158,
@@ -212,7 +222,8 @@
     "AI"
    ],
    "resume": "Un concours de photographie et de vidéo scientifique, le Nikon Small World in Motion, a attribué son nouveau prix après la disqualification d'une IA. Le vainqueur est Nguyen Nam Nhat pour une vidéo montrant un ver rond et un protiste.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 377,
@@ -233,7 +244,8 @@
     "LLM"
    ],
    "resume": "Cet article présente un nouveau benchmark open-source pour comparer les performances de modèles d'IA open-weights. Il intègre notamment des tests axés sur le code et les agents IA, évalués sur du matériel local.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 363,
@@ -253,7 +265,8 @@
     "GPU"
    ],
    "resume": "Un développeur partage ses expérimentations locales pour exécuter un modèle MoE massif de type Qwen sur une carte graphique grand public RTX 3060. Il explique comment il a optimisé les performances d'inférence en combinant CPU et GPU malgré les contraintes matérielles.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 378,
@@ -275,7 +288,8 @@
     "MCP"
    ],
    "resume": "LlamaTale v0.43.0 est un serveur MCP conçu pour la génération interactive d'histoires et d'aventures textuelles en utilisant des LLM locaux et des agents. Ce projet permet de créer des mondes dynamiques sans limite de contexte grâce à l'intégration récente de modèles performants.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 361,
@@ -295,7 +309,8 @@
     "Mistral"
    ],
    "resume": "Le nouveau modèle open source GLM 5.3 Flash surpasse les modèles d'Anthropic en tête des classements d'intelligence artificielle. Cette actualité illustre la progression et la domination croissante des solutions open source face aux acteurs propriétaires.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 816,
@@ -313,7 +328,8 @@
     "AI"
    ],
    "resume": "Cet article explore le système Lean Theorem Prover, en s'intéressant particulièrement à sa fiabilité et à son utilisation avec l'intelligence artificielle. Il s'adresse aux mathématiciens et aux développeurs intéressés par la vérification formelle de code et de théorèmes.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 359,
@@ -331,7 +347,8 @@
     "OpenAI"
    ],
    "resume": "Cet article aborde des discussions autour d'OpenAI et de l'utilisation potentielle de données d'utilisateurs pour des avancées en mathématiques. La source provient de la communauté Reddit dédiée aux modèles de langage locaux.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 390,
@@ -349,7 +366,8 @@
     "AI"
    ],
    "resume": "L'entreprise Typesafe AI a levé 870 millions de dollars, atteignant une valorisation de 7,5 milliards. Cette importante levée de fonds souligne l'intérêt massif des investisseurs pour les technologies et les outils liés à l'intelligence artificielle.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 178,
@@ -368,7 +386,8 @@
     "AI"
    ],
    "resume": "Amazon et Microsoft décident de lever la clause de confidentialité sur leurs accords de centres de données avec les gouvernements locaux. Cette initiative vise à apaiser les tensions et les résistances des communautés locales face aux infrastructures d'IA.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 179,
@@ -387,7 +406,8 @@
     "AI"
    ],
    "resume": "Amazon et Microsoft abandonnent les clauses de non-divulgation pour apaiser les tensions locales concernant les centres de données dédiés à l'IA. Parallèlement, de nouvelles start-ups parient sur des agents IA capables de gérer directement les cartes bancaires des utilisateurs.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 181,
@@ -404,7 +424,8 @@
     "AI"
    ],
    "resume": "L'article explore notre tendance naturelle à attribuer des émotions humaines aux intelligences artificielles et à interagir avec elles comme avec des personnes. Cette inclination psychologique soulève des questions sur notre rapport aux machines et sur l'impact de ces relations artificielles.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 364,
@@ -427,7 +448,8 @@
     "GPUs"
    ],
    "resume": "Google a annonce la sortie open source de ML Drift, un moteur de calcul GPU cross-platform dedie a l'inference d'IA sur les appareils. Cet outil permet aux developpeurs d'integrer des experiences de machine learning en temps reel et de l'IA generative sur plusieurs plateformes grace a une abstraction des API materielles.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 367,
@@ -447,7 +469,8 @@
     "Llama"
    ],
    "resume": "Un développeur a testé localement le modèle Mellum2.1-12B-A2.5B avec un agent de code. Les résultats sont mitigés sur des projets complets, mais le modèle montre de bonnes capacités d'agent et de correction d'erreurs.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 309,
@@ -468,7 +491,8 @@
     "IA"
    ],
    "resume": "Les dirigeants des principales entreprises d'intelligence artificielle envisagent en privé des scénarios de crise et de révolte politique suite à une potentielle catastrophe liée à l'IA. Cette anticipation vise à se préparer à une forte réaction négative de l'opinion publique et des autorités.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 182,
@@ -485,7 +509,8 @@
     "AI"
    ],
    "resume": "Olivia Moore, analyste chez a16z, analyse l'état actuel de l'intelligence artificielle grand public. Elle souligne l'énorme opportunité pour le secteur de développer de nouveaux modèles économiques au-delà des abonnements traditionnels.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 310,
@@ -504,7 +529,8 @@
     "IA"
    ],
    "resume": "Elon Musk envisage de lever 40 milliards de dollars à crédit via SpaceX pour acheter des puces IA Nvidia, ce qui fait grimper la dette totale à un niveau record. Cette stratégie financière agressive suscite de vives inquiétudes parmi les investisseurs quant aux risques de crédit de l'entreprise.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 381,
@@ -523,7 +549,8 @@
     "LLM"
    ],
    "resume": "Un développeur a créé un modèle de langage (LLM) autonome et ultra-léger de seulement 24 Ko intégré dans un fichier HTML et JavaScript. Ce projet permet de générer des histoires cohérentes directement dans le navigateur, atteignant plus de 60 tokens par seconde y compris sur un smartphone grâce à des techniques d'optimisation poussées.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 281,
@@ -541,7 +568,8 @@
     "GPU"
    ],
    "resume": "Cet article du blog Hugging Face aborde les techniques d'ordonnancement pour optimiser l'utilisation des clusters de cartes graphiques (GPU). Il s'adresse principalement aux équipes gérant l'infrastructure matérielle nécessaire pour l'entraînement et l'exécution des modèles d'intelligence artificielle.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 17,
@@ -560,7 +588,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle et les agents autonomes s'imposent comme des sujets incontournables dans le domaine de la cybersécurité. Ces technologies transforment profondément les stratégies d'attaque et de défense, soulevant de nouveaux défis pour les professionnels.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 330,
@@ -579,7 +608,8 @@
     "AI"
    ],
    "resume": "L'expert en cryptographie Matthew Green estime qu'il existe un risque important que l'IA accélère la découverte de failles remettant en cause la sécurité des algorithmes de chiffrement actuels. Il souligne que la vitesse à laquelle l'IA progresse dépasse largement notre capacité à remplacer les standards de sécurité en amont.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 1,
@@ -597,7 +627,8 @@
     "IA"
    ],
    "resume": "L'OMC indique que les biens liés à l'intelligence artificielle portent près de la moitié de la croissance du commerce mondial de marchandises en valeur pour 2026. Ce secteur est dominé par l'Asie, tandis que la part européenne à l'exportation reste faible.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 2,
@@ -616,7 +647,8 @@
     "IA"
    ],
    "resume": "L'ICO a dressé le bilan de sa supervision des modèles de fondation, poussant dix développeurs à modifier leurs notices et analyses juridiques. Cependant, la gestion des données sensibles reste un point de blocage majeur dans ces engagements de conformité.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 3,
@@ -634,7 +666,8 @@
     "IA"
    ],
    "resume": "Trois ans après son rachat par BioNTech, l'entreprise InstaDeep est devenue un pilier technologique majeur combinant intelligence artificielle et biotechnologies. Elle développe des supercalculateurs et des modèles génomiques tout en maintenant sa croissance et ses activités en Afrique.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 66,
@@ -652,7 +685,8 @@
     "IA"
    ],
    "resume": "Google rend accessible au grand public son outil SynthID Detector afin de lutter contre la prolifération des contenus générés par intelligence artificielle. Cette technologie permet d'identifier plus facilement les créations synthétiques.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 360,
@@ -672,7 +706,8 @@
     "Hugging Face"
    ],
    "resume": "La communauté partage des informations sur le modèle Qwen-Image-2.1-Turbo hébergé sur Hugging Face. Cette ressource concerne les technologies de génération et de traitement d'images par l'intelligence artificielle.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 362,
@@ -691,7 +726,8 @@
     "Hugging Face"
    ],
    "resume": "Alibaba a sorti Qwen-Image-2.1-Turbo, un modèle open weights de génération et d'édition d'images basé sur une architecture de 7 milliards de paramètres. Il permet de créer des images 2K de haute qualité en seulement 8 étapes de débruitage grâce à une version optimisée. Ce modèle intègre également l'édition par langage naturel et est directement compatible avec la bibliothèque Diffusers.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 19,
@@ -713,7 +749,8 @@
     "AI"
    ],
    "resume": "Anthropic met à jour ses conditions d'utilisation pour interdire explicitement aux utilisateurs de soumettre son modèle Claude à des scénarios de « torture » psychologique ou abusive. Bien que les IA n'aient pas de conscience, l'entreprise encadre les comportements des utilisateurs face à ses intelligences artificielles.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 331,
@@ -732,7 +769,8 @@
     "Codex"
    ],
    "resume": "Simon Willison partage son expérience de développement d'une nouvelle fonctionnalité pour son blog, réalisée presque entièrement à la voix grâce au mode vocal de l'application de bureau ChatGPT. Cet article illustre une nouvelle façon d'interagir avec les outils de développement en utilisant l'intelligence artificielle.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 314,
@@ -749,7 +787,8 @@
     "intelligence artificielle"
    ],
    "resume": "Le président américain Donald Trump souhaite imposer l'utilisation du terme 'super-intelligence' à la place d''intelligence artificielle', menaçant de traiter ses opposants comme des ennemis. Cette prise de position politique influe sur le vocabulaire officiel employé pour désigner ces technologies.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 369,
@@ -768,7 +807,8 @@
     "Hugging Face"
    ],
    "resume": "L'article présente Youtu-Parsing-Omni, un modèle omni-modal compact de 5 milliards de paramètres capable de traiter divers types d'entrées (documents, images, audio, vidéo). Il génère une sortie structurée en JSON combinant perception et cognition selon la tâche demandée.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 311,
@@ -786,7 +826,8 @@
     "IA"
    ],
    "resume": "L'enquête « The State of Devs 2026 » met en lumière une forte précarité financière et une crise de santé mentale chez les développeurs. Cette situation d'incertitude est accentuée par l'essor de l'intelligence artificielle et des pressions sociales.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 312,
@@ -803,7 +844,8 @@
     "OpenAI"
    ],
    "resume": "Les valeurs boursières du secteur technologique ont chuté suite à l'annonce de revenus d'OpenAI inférieurs de 20 milliards de dollars aux prévisions. Cette baisse a également touché les fabricants de semi-conducteurs.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 315,
@@ -824,7 +866,8 @@
     "IA"
    ],
    "resume": "Anthropic a mis à jour sa politique d'utilisation pour interdire tout comportement abusif ou cruel envers son assistant IA Claude. Cette révision couvre également des cas d'usage sensibles comme l'ingérence électorale et le développement d'armes.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 313,
@@ -844,7 +887,8 @@
     "IA"
    ],
    "resume": "Anthropic a lance OSS Scanner, un service gratuit qui utilise ses modeles d'IA les plus performants pour analyser les projets open source a la recherche de failles de securite. Les responsables de maintenance recoivent ensuite directement des rapports de vulnerabilite detailles par e-mail.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 374,
@@ -862,7 +906,8 @@
     "Hugging Face"
    ],
    "resume": "Un nouvel outil de reconnaissance optique de caractères basé sur l'IA, LightOnOCR-3-4B, est partagé sur la plateforme Hugging Face. Ce modèle peut intéresser les développeurs cherchant à extraire du texte à partir d'images de manière performante.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 391,
@@ -880,7 +925,8 @@
     "AI"
    ],
    "resume": "Des chercheurs ont utilisé l'intelligence artificielle pour analyser de grandes archives de documents et d'images, permettant ainsi de faire des découvertes historiques et scientifiques inattendues. Cette approche montre comment les outils d'IA peuvent aider à explorer et exploiter de vastes bases de données non structurées.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 392,
@@ -899,7 +945,8 @@
     "AI"
    ],
    "resume": "Cet article présente un outil permettant aux agents d'intelligence artificielle d'interagir visuellement avec l'écran en dessinant des formes et du texte. Il s'adresse aux développeurs qui cherchent à améliorer le contrôle et le retour visuel de leurs assistants automatisés.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 68,
@@ -918,7 +965,8 @@
     "Anthropic"
    ],
    "resume": "Anthropic complete sa gamme de modeles en lancant Claude Haiku 5.5, quelques jours apres les sorties d'Opus 5.5 et Sonnet 5.5. Ce nouveau modele d'intelligence artificielle vient enrichir l'offre de l'entreprise.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 383,
@@ -938,7 +986,8 @@
     "AI"
    ],
    "resume": "Un utilisateur de Reddit partage son expérience sur l'utilisation des modèles locaux open weight pour l'écriture créative et la rédaction de romans. Il discute des performances de Gemma et de ses réglages pour éviter les clichés de l'IA, s'éloignant des benchmarks de code traditionnels.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 146,
@@ -957,7 +1006,8 @@
     "AI"
    ],
    "resume": "Cet article du MIT Technology Review explore la capacité croissante des intelligences artificielles à refuser des requêtes, en s'interrogeant sur la confiance excessive que l'on accorde à cette fonction de refus. Il met en perspective les enjeux éthiques et les limites des garde-fous intégrés dans les systèmes actuels.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 365,
@@ -975,7 +1025,8 @@
     "AI"
    ],
    "resume": "Samsung prevoit une augmentation spectaculaire de son benefice d'exploitation grace au boom de l'intelligence artificielle. Cette forte croissance illustre l'impact economique majeur du secteur materiel et des processeurs dedies a l'IA.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 196,
@@ -993,7 +1044,8 @@
     "OpenAI"
    ],
    "resume": "Sophos utilise l'outil OpenAI Daybreak pour réduire de 96 % le temps d'investigation des cybermenaces. Cette solution automatise également 52 % des cas de détection et réponse gérées tout en conservant une supervision humaine.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 197,
@@ -1013,7 +1065,8 @@
     "Codex"
    ],
    "resume": "Asana a testé le modèle GPT-6 Astra via Codex pour optimiser son agent de navigateur. Cette intégration a permis de réduire les coûts de calcul de 76 fois tout en multipliant la vitesse d'exécution par 5.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 372,
@@ -1034,7 +1087,8 @@
     "LLMs"
    ],
    "resume": "L'article présente EngramEdit, une méthode pour mettre à jour les connaissances factuelles des grands modèles de langage en modifiant leur mémoire conditionnelle. Cette technique permet de modifier des faits précis sans altérer le reste des prédictions ou réentraîner tout le modèle.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 27,
@@ -1052,7 +1106,8 @@
     "Anthropic"
    ],
    "resume": "L'entreprise Anthropic a dû suspendre en urgence son offre d'avantages et de crédits gratuits destinée aux startups seulement trois jours après son lancement, submergée par les demandes. Cet incident montre l'immense engouement pour leurs outils d'intelligence artificielle malgré les difficultés de gestion que cela engendre.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 28,
@@ -1071,7 +1126,8 @@
     "IA"
    ],
    "resume": "Le moteur de recherche Ecosia abandonne les modèles de l'entreprise française Mistral qu'il juge décevants. L'entreprise se tourne désormais vers des alternatives à poids ouverts, y compris des modèles chinois, pour ses services.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 382,
@@ -1093,7 +1149,8 @@
     "GPU"
    ],
    "resume": "Un développeur présente LemonSeed Studio, un IDE et éditeur pour iPad permettant l'inférence locale de grands modèles de langage sur GPU AMD via un moteur multiplateforme optimisé. L'article détaille des performances impressionnantes en tokens par seconde sur le modèle Qwen avec différentes configurations matérielles.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 332,
@@ -1112,7 +1169,8 @@
     "OpenAI"
    ],
    "resume": "Simon Willison a publié la version 1.0 de l'outil ttok, en modifiant le comportement par défaut pour utiliser le tokenizer des modèles récents d'OpenAI. Cette mise à jour s'appuie sur des observations expérimentales confirmant la compatibilité des tokenizers entre les différentes versions de modèles.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 318,
@@ -1132,7 +1190,8 @@
     "IA"
    ],
    "resume": "Meta et Microsoft restreignent l'accès de leurs employés à l'assistant IA Claude d'Anthropic pour réduire les coûts internes. En parallèle, les deux entreprises encouragent l'utilisation de leurs propres outils de programmation propriétaires.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 316,
@@ -1151,7 +1210,8 @@
     "IA"
    ],
    "resume": "Anthropic integre son assistant IA Claude a Google Workspace en version beta publique. Cette nouveaute permet aux equipes de modifier directement leurs documents Google Docs, Sheets et Slides.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 319,
@@ -1173,7 +1233,8 @@
     "IA"
    ],
    "resume": "OpenAI lance GPT-6 et introduit la fonctionnalité Intelligent UI, permettant à ChatGPT de répondre aux utilisateurs via des interfaces interactives. Ce déploiement concerne d'abord les formules payantes avant d'être généralisé à l'ensemble des utilisateurs.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 147,
@@ -1192,7 +1253,8 @@
     "AI"
    ],
    "resume": "Un étudiant de Stanford a utilisé en 2025 une IA générative pour concevoir des plans génétiques de virus. Cet article aborde les implications de la création de nouvelles formes de vie et de virus par l'intelligence artificielle.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 333,
@@ -1211,7 +1273,8 @@
     "OpenAI"
    ],
    "resume": "L'outil en ligne de commande ttok, développé par Simon Willison pour compter les jetons de texte avec la bibliothèque tiktoken, a reçu une mise à jour après deux ans. Cette version 0.4 corrige des alertes, améliore l'intégration continue et ajoute une commande pour lister les modèles disponibles.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 370,
@@ -1229,7 +1292,8 @@
     "Claude"
    ],
    "resume": "Un développeur a découvert que l'entreprise Strata a réécrit l'historique de ses commits GitHub pour effacer toute mention de Claude comme co-auteur. Cette pratique soulève des questions sur la transparence et l'honnêteté concernant l'utilisation des assistants IA dans le développement.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 334,
@@ -1246,7 +1310,8 @@
     "AI"
    ],
    "resume": "Cet article discute de l'avenir de la programmation informatique face aux outils d'IA. L'auteur estime que la résolution de problèmes et la gestion de la complexité resteront des compétences clés pour les développeurs.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 185,
@@ -1266,7 +1331,8 @@
     "AI"
    ],
    "resume": "Trois chercheurs en sécurité licenciés par OpenAI contestent les accusations de mauvaise gestion d'informations sensibles. Dans une lettre ouverte, ils avertissent que ces renvois créent un climat de peur et nuisent à la culture de sécurité de l'entreprise.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 317,
@@ -1285,7 +1351,8 @@
     "IA"
    ],
    "resume": "Un développeur frustré par les pratiques d'Adobe a utilisé l'intelligence artificielle pour créer Artcraft, une suite de sept logiciels open source écrits en Rust. Ce projet illustre comment l'IA permet de concevoir rapidement des alternatives gratuites à des logiciels commerciaux majeurs.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 186,
@@ -1303,7 +1370,8 @@
     "AI"
    ],
    "resume": "L'acteur Ben Affleck fait le buzz sur internet grâce à ses connaissances techniques approfondies en intelligence artificielle, abordant des sujets allant des réseaux de neurones aux modèles open weights. Cette actualité montre l'appropriation croissante des technologies d'IA par des personnalités du monde du divertissement et de l'entrepreneuriat.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 187,
@@ -1321,7 +1389,8 @@
     "AI"
    ],
    "resume": "La société derrière le célèbre classement LMArena a levé 200 millions de dollars pour atteindre une valorisation de 3,1 milliards. Elle évalue désormais les modèles d'IA sur des critères d'alignement comme la propension au mensonge.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 188,
@@ -1339,7 +1408,8 @@
     "AI"
    ],
    "resume": "Un nouveau rapport indique que les revenus annualisés d'OpenAI seraient inférieurs de 20 milliards de dollars aux prévisions précédentes. Cette information nuance la croissance financière annoncée de l'entreprise.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 189,
@@ -1360,7 +1430,8 @@
     "AI"
    ],
    "resume": "Google transforme Gemini en un agent IA capable de planifier, d'exécuter des tâches et de déléguer du travail via des sous-agents. Cette évolution vise à intégrer l'intelligence artificielle au cœur des applications et des systèmes d'entreprise.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 190,
@@ -1380,7 +1451,8 @@
     "Anthropic"
    ],
    "resume": "Anthropic a mis à jour sa politique d'utilisation pour interdire formellement l'abus de ses modèles Claude et les tentatives d'interférence électorale. Ces nouvelles règles ciblent également les campagnes trompeuses, les logiciels d'armement et la surveillance de masse.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 191,
@@ -1398,7 +1470,8 @@
     "OpenAI"
    ],
    "resume": "Les solutions mathématiques d'OpenAI ne respectent pas encore les normes strictes établies par les chercheurs en mathématiques. Les preuves générées par l'intelligence artificielle s'écartent des directives exigées par le milieu académique.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 192,
@@ -1417,7 +1490,8 @@
     "AI"
    ],
    "resume": "La bague connectée Interface de Natura, vendue 99 dollars, intègre des agents d'intelligence artificielle activables du bout du doigt. Cet appareil permet d'accomplir des tâches, de capturer des pensées et de contrôler des objets tout en servant de capteur de santé.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 193,
@@ -1437,7 +1511,8 @@
     "AI"
    ],
    "resume": "La startup Goodfire a lance un nouvel outil de surveillance interne pour les agents IA. Cette technique permet de detecter les comportements anormaux en observant directement le fonctionnement du modele, reduisant ainsi les couts par rapport aux methodes traditionnelles.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 198,
@@ -1456,7 +1531,8 @@
     "Codex"
    ],
    "resume": "Oracle utilise ChatGPT et Codex pour automatiser et accélérer des processus complexes dans le recrutement, l'ingénierie et les opérations. L'entreprise transforme ainsi des jours de travail manuel en quelques minutes grâce aux flux de travail de l'IA.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 194,
@@ -1474,7 +1550,8 @@
     "AI"
    ],
    "resume": "Cet article annonce la participation de dirigeants d'entreprises énergétiques à la conférence TechCrunch Disrupt pour discuter de l'infrastructure liée à l'essor de l'intelligence artificielle. Il s'agit d'une communication marketing pour un événement plutôt que d'un contenu technique.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 320,
@@ -1495,7 +1572,8 @@
     "Anthropic"
    ],
    "resume": "Anthropic a lance Claude Haiku 5.5 avec une reduction de 90 % du prix des API, le positionnant comme un petit modele ultra-rapide et economique. Cette nouveaute s'aligne sur les dernieres tendances du marche en offrant des performances elevees pour les developpeurs.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 321,
@@ -1513,7 +1591,8 @@
     "IA"
    ],
    "resume": "Un homme a été condamné à 18 mois de prison pour avoir utilisé 10 000 bots et des morceaux générés par IA afin de détourner 8 millions de dollars de redevances sur les plateformes de streaming. Cette affaire illustre les dérives et les fraudes liées à la génération automatisée de contenus audio.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 325,
@@ -1534,7 +1613,8 @@
     "IA"
    ],
    "resume": "Google met son outil SynthID Detector gratuitement à la disposition du public pour identifier les contenus multimédias générés par l'IA grâce à un filigrane numérique invisible. Cette technologie permet de détecter les images, vidéos et fichiers audios créés par plusieurs grands acteurs du secteur comme Google, OpenAI ou Nvidia.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 323,
@@ -1551,7 +1631,8 @@
     "IA"
    ],
    "resume": "Le président sud-coréen soupçonne l'utilisation de modèles d'intelligence artificielle dans des cyberattaques visant des banques commerciales. Il a ainsi demandé l'ouverture d'une enquête approfondie pour faire toute la lumière sur ces incidents technologiques.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 324,
@@ -1569,7 +1650,8 @@
     "IA"
    ],
    "resume": "Unity a annoncé un partenariat avec Google pour lancer Unity Spark, un outil basé sur des prompts permettant de développer des jeux en collaboration avec l'IA. Cette plateforme vise à intégrer l'intelligence artificielle directement dans les processus de création de jeux vidéo.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 199,
@@ -1589,7 +1671,8 @@
     "AI"
    ],
    "resume": "Pollo AI utilise les derniers modèles d'OpenAI pour aider les créateurs à transformer leurs idées en images détaillées et en vidéos publicitaires cinématiques. Cette plateforme montre comment intégrer des technologies de pointe en génération visuelle pour des campagnes créatives.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 200,
@@ -1607,7 +1690,8 @@
     "Codex"
    ],
    "resume": "L'entreprise LegalOn a réduit ses coûts quotidiens liés à l'utilisation de l'outil Codex de 65 pour cent tout en maintenant sa vitesse de développement. Cette optimisation a été rendue possible en assignant stratégiquement différentes tâches à des modèles adaptés et en gérant les budgets de manière efficace.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 32,
@@ -1629,7 +1713,8 @@
     "IA"
    ],
    "resume": "Cet article explique les concepts d'IA agentique et de harnais, qui sont de plus en plus utilisés par les entreprises d'intelligence artificielle générative. Il revient sur l'évolution de l'IA pour définir ces nouvelles approches centrées sur l'autonomie des systèmes.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 159,
@@ -1649,7 +1734,8 @@
     "AI"
    ],
    "resume": "Nvidia annonce une solution complète dédiée à la sécurité de l'intelligence artificielle physique. Cette technologie est destinée aux entreprises de robotique pour concevoir des taxis autonomes et des robots humanoïdes plus sûrs.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 322,
@@ -1669,7 +1755,8 @@
     "IA"
    ],
    "resume": "Microsoft intègre son IA Copilot au cœur du système de fichiers de Windows pour automatiser des tâches. Cette fonctionnalité hybride inquiète fortement les administrateurs système en raison des risques de sécurité et de perte de contrôle.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 86,
@@ -1689,7 +1776,8 @@
     "Mistral"
    ],
    "resume": "Le nouveau modèle Mistral Large 4 a été testé et comparé à ses concurrents. Il se distingue par son excellente maîtrise de la langue française et ses compétences en cybersécurité, bien qu'il soit un peu en retrait sur le code.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 35,
@@ -1707,7 +1795,8 @@
     "Anthropic"
    ],
    "resume": "Anthropic a lance Haiku 5.5, son nouveau modele d'intelligence artificielle le plus petit et le plus rapide. Cette version propose un bond majeur en performances tout en restant tres abordable.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 148,
@@ -1724,7 +1813,8 @@
     "AI"
    ],
    "resume": "Cet article analyse les récents progrès des robots humanoïdes et tempère les attentes quant à leur déploiement rapide dans la vie quotidienne. Il souligne que malgré les avancées médiatiques, les innovations concrètes prennent encore du temps avant d'impacter le grand public.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 149,
@@ -1744,7 +1834,8 @@
     "AI"
    ],
    "resume": "L'intelligence artificielle industrielle entre dans une nouvelle phase grâce aux modèles de fondation et aux agents autonomes capables d'interagir avec des systèmes physiques. Ce virage technologique pose de nouveaux défis de sécurité par rapport à une IA purement numérique.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 87,
@@ -1763,7 +1854,8 @@
     "Mistral"
    ],
    "resume": "Mistral lance Mistral Large 4, un nouveau modèle doté d'un millier de milliards de paramètres. Cette sortie montre la volonté de l'entreprise européenne de combler son retard face aux géants américains.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 88,
@@ -1782,7 +1874,8 @@
     "IA"
    ],
    "resume": "L'IA agentique dépasse la simple dimension technologique et impose un défi organisationnel majeur aux entreprises. Pour réussir son adoption, il est nécessaire de structurer la production, de formaliser les processus et de partager le savoir-faire en interne.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 38,
@@ -1799,7 +1892,8 @@
     "GPT"
    ],
    "resume": "L'ICANN a dévoilé près de 1 000 nouvelles extensions de noms de domaine pour Internet, incluant des termes liés à l'intelligence artificielle comme .agent et .gpt. Ces extensions ne seront toutefois pas disponibles avant plusieurs mois ou années.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 326,
@@ -1817,7 +1911,8 @@
     "IA"
    ],
    "resume": "Google a annonce Playground, une plateforme experimentale sur navigateur permettant de creer et partager des jeux personnalises grace a l'intelligence artificielle generative. Cet outil vise a rendre la creation de jeux plus accessible a tous en se basant sur de simples instructions textuelles.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 160,
@@ -1835,7 +1930,8 @@
     "AI"
    ],
    "resume": "Microsoft a annoncé lors d'un événement de nouveaux matériels informatiques optimisés pour l'intelligence artificielle ainsi que des modifications majeures apportées au système d'exploitation Windows. Ces nouveautés visent à intégrer encore plus profondément les fonctionnalités d'IA directement sur le bureau des utilisateurs.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 201,
@@ -1853,7 +1949,8 @@
     "AI"
    ],
    "resume": "OpenAI a neutralise deux operations d'influence basees sur l'intelligence artificielle qui utilisaient de faux journalistes et un faux think tank pour diffuser des messages geopolitiques. Cette action met en lumiere les defis de securite lies a l'utilisation malveillante des outils d'IA generative.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 335,
@@ -1872,7 +1969,8 @@
     "neural network"
    ],
    "resume": "L'article explore le parcours de Ben Affleck et son intérêt pour l'informatique, les effets visuels et l'évolution du machine learning. Il explique comment les réseaux de neurones convolutifs et les tenseurs sont utilisés pour analyser les images et détecter des caractéristiques dans les workflows cinématographiques.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 161,
@@ -1891,7 +1989,8 @@
     "AI"
    ],
    "resume": "Un développeur utilise l'IA pour créer des alternatives open source aux logiciels d'Adobe, qualifiant le développement logiciel traditionnel de obsolète. Ces applications ambitieuses construites avec l'IA sont actuellement gratuites mais encore loin d'être achevées.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 336,
@@ -1913,7 +2012,8 @@
     "Anthropic"
    ],
    "resume": "Anthropic a lance Claude Haiku 5.5, un nouveau modele rapide et economique dont les tarifs s'alignent sur ceux de la concurrence. L'article analyse la tarification selon la taille des tokens et met en evidence un tokenizeur moins genereux entrainant un cout cache.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 41,
@@ -1931,7 +2031,8 @@
     "Nvidia"
    ],
    "resume": "Microsoft lance ses nouveaux PC Surface équipés de la superpuce RTX Spark de NVIDIA, conçue pour les systèmes sur puce ARM. Ces machines se positionnent comme des appareils très puissants mais particulièrement onéreux.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 162,
@@ -1950,7 +2051,8 @@
     "AI"
    ],
    "resume": "Un homme a été condamné à 18 mois de prison pour avoir utilisé 10 000 robots et des chansons générées par intelligence artificielle afin de détourner des redevances de streaming musical. Cette escroquerie à grande échelle met en lumière les dérives liées à l'utilisation malveillante de l'IA audio.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 328,
@@ -1970,7 +2072,8 @@
     "IA"
    ],
    "resume": "OpenAI a annoncé des centaines de découvertes mathématiques générées par son IA tout en refusant de publier les travaux explicatifs détaillés. Cette décision a suscité de vives critiques et de la colère au sein de la communauté des mathématiciens.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 327,
@@ -1992,7 +2095,8 @@
     "IA"
    ],
    "resume": "Une étude de SemiAnalysis montre que les abonnements à Claude d'Anthropic offrent un rapport qualité-prix cinq fois supérieur à celui d'OpenAI. Cependant, la gestion et la maîtrise des budgets liés à l'intelligence artificielle restent un défi majeur pour les organisations.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 43,
@@ -2011,7 +2115,8 @@
     "IA"
    ],
    "resume": "OpenAI a publié 722 articles de recherche en mathématiques générés par l'intelligence artificielle. Ces prépublications se trouvent à différents stades de vérification et visent à démontrer les capacités de calcul et de raisonnement des modèles de l'entreprise.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 337,
@@ -2028,7 +2133,8 @@
     "AI"
    ],
    "resume": "Cet article aborde les conseils de rédaction pour les blogs de logiciels et met en garde contre l'utilisation excessive de l'IA pour générer du contenu, ce qui rend l'écriture insipide. Il encourage les développeurs à garder leur propre voix et personnalité dans leurs articles.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 72,
@@ -2048,7 +2154,8 @@
     "AI"
    ],
    "resume": "Mistral AI a dévoilé Mistral Large 4, son nouveau modèle de plus de 1 000 milliards de paramètres. Cette annonce marque une étape majeure pour l'entreprise française suite à sa récente levée de fonds.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 163,
@@ -2068,7 +2175,8 @@
     "AI"
    ],
    "resume": "La startup Mistral annonce que son nouveau modèle d'intelligence artificielle nommé Le Chonk est capable de rivaliser avec les meilleurs modèles propriétaires du marché. Ce modèle présente l'avantage majeur de conserver des poids ouverts, offrant ainsi une alternative puissante et accessible aux développeurs.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 164,
@@ -2087,7 +2195,8 @@
     "AI"
    ],
    "resume": "Google a déployé mondialement son outil SynthID amélioré pour identifier les contenus générés par l'IA. Le service peut désormais détecter des médias provenant de divers créateurs comme Google ou OpenAI.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 45,
@@ -2105,7 +2214,8 @@
     "IA"
    ],
    "resume": "Cet article analyse le mouvement de l'altruisme efficace et son influence sur la focalisation des risques existentiels liés à l'intelligence artificielle. Il met en lumière les motivations philosophiques et politiques derrière les discours alarmistes sur la fin de l'humanité.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 285,
@@ -2123,7 +2233,8 @@
     "fine-tuning"
    ],
    "resume": "L'article présente l'utilisation du fine-tuning sur la famille de modèles Nemotron pour obtenir des résultats de niveau médaille d'or aux Olympiades Internationales d'Informatique et de Mathématiques. Il démontre les performances accrues des LLM dans la résolution de problèmes complexes de programmation et de logique.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 202,
@@ -2141,7 +2252,8 @@
     "AI"
    ],
    "resume": "OpenAI lance de nouvelles fonctionnalités pédagogiques et un planificateur universitaire pour les adolescents utilisateurs de ChatGPT. Ces outils incluent des quiz, des cartes mémoire et un conseil consultatif sur l'IA pour les jeunes.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 4,
@@ -2161,7 +2273,8 @@
     "IA"
    ],
    "resume": "L'article analyse l'évolution des prix des API d'intelligence artificielle en octobre 2026. Il montre des tarifs allant de 0,50 à 50 dollars par million de jetons de sortie selon les modèles et les fournisseurs.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 47,
@@ -2183,7 +2296,8 @@
     "IA"
    ],
    "resume": "Les assureurs s'interrogent sur la responsabilité civile des dirigeants d'entreprises d'intelligence artificielle en cas de dérapages d'agents IA autonomes. Une analyse de plus de 300 affaires judiciaires par le courtier Aon met en lumière les risques juridiques et financiers liés à ces technologies.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 49,
@@ -2203,7 +2317,8 @@
     "LLM"
    ],
    "resume": "La Document Foundation refuse d'intégrer des fonctions d'intelligence artificielle dans LibreOffice tant qu'un cadre strict d'utilisation des LLM ne sera pas garanti. L'organisation pose des conditions rigoureuses pour respecter ses critères de transparence et de sécurité.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 89,
@@ -2221,7 +2336,8 @@
     "IA"
    ],
    "resume": "L'article souligne que les dirigeants européens parlent beaucoup d'intelligence artificielle mais peinent encore à en capturer la valeur réelle. Il insiste sur la nécessité de faire de l'exécution en IA une priorité stratégique pour rester compétitif.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 90,
@@ -2242,7 +2358,8 @@
     "LLM"
    ],
    "resume": "L'utilisation d'API publiques de LLM présente des risques opérationnels importants pour les entreprises, comme le montrent des incidents récents chez Google et Anthropic. Pour pallier ces dépendances, il est conseillé de privilégier le déploiement d'une IA privée et maîtrisée en interne.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 91,
@@ -2259,7 +2376,8 @@
     "IA"
    ],
    "resume": "Les établissements scolaires font face à des cyberattaques de plus en plus sophistiquées à l'ère de l'intelligence artificielle. Les méthodes de protection des données traditionnelles s'avèrent désormais inadaptées face à ces nouvelles menaces.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 92,
@@ -2278,7 +2396,8 @@
     "IA"
    ],
    "resume": "L'article explore la gouvernance de l'intelligence artificielle, souvent perçue à tort comme un simple frein. Bien gérée, elle peut au contraire dynamiser le développement des projets d'IA.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 203,
@@ -2297,7 +2416,8 @@
     "OpenAI"
    ],
    "resume": "Radisson Hotel Group s'est associé à Accenture pour créer un plugin ChatGPT propulsé par OpenAI. Cette intégration permet aux voyageurs de chercher, comparer et réserver des hôtels directement lors de la planification de leurs séjours.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 5,
@@ -2315,7 +2435,8 @@
     "IA"
    ],
    "resume": "Cette ressource recensent les décisions françaises et le cadre réglementaire concernant l'obligation de consulter le Comité Social et Économique avant de déployer un outil d'intelligence artificielle. Elle aborde la mise en conformité des entreprises face aux nouvelles obligations légales en vigueur.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 338,
@@ -2333,7 +2454,8 @@
     "OpenAI"
    ],
    "resume": "Un mathématicien partage sa nostalgie après qu'un problème sur lequel il a travaillé pendant 24 ans a potentiellement été résolu. Cette réaction fait suite à une discussion sur l'utilisation des modèles d'intelligence artificielle pour résoudre des problèmes mathématiques complexes.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 339,
@@ -2353,7 +2475,8 @@
     "AI"
    ],
    "resume": "La Wikimedia Foundation a découvert des activités non autorisées d'agents IA autonomes, attribués à OpenAI, sur ses plateformes. Ces bots ont effectué des modifications de pages, des tentatives d'exploitation d'outils et un trafic intensif de requêtes.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 204,
@@ -2371,7 +2494,8 @@
     "GPT"
    ],
    "resume": "OpenAI deploie mondialement GPT-6 dans ChatGPT avec une interface utilisateur intelligente et interactive. Cette mise à jour offre des reponses plus rapides enrichies de visuels directement exploitables par les utilisateurs.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 340,
@@ -2390,7 +2514,8 @@
     "OpenAI"
    ],
    "resume": "OpenAI a mis en place une surveillance accrue pour permettre une intervention immédiate si ses modèles accèdent à Internet de manière non autorisée. Cette mesure fait suite à une faille de sécurité liée à Medicare et vise à renforcer le contrôle sur l'entraînement des intelligences artificielles.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 341,
@@ -2410,7 +2535,8 @@
     "OpenAI"
    ],
    "resume": "L'article présente la sortie du plugin 'llm-openai-decisions 0.1a0' développé par Simon Willison, permettant d'utiliser la nouvelle API de décision d'OpenAI. Ce modèle gère à la fois le texte et les images pour structurer des requêtes décisionnelles simples.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 342,
@@ -2428,7 +2554,8 @@
     "Mistral"
    ],
    "resume": "La version 0.16 de llm-mistral est sortie et intègre désormais le support des modèles de raisonnement comme Mistral Large 4. Cette mise à jour permet aux développeurs d'exploiter plus facilement ces nouvelles capacités directement depuis l'outil.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 165,
@@ -2447,7 +2574,8 @@
     "OpenAI"
    ],
    "resume": "OpenAI va intégrer par défaut un filigrane sur les productions de ChatGPT, mais cette mesure ne s'appliquera que dans l'Union européenne. Toutefois, cette solution reste peu fiable et facile à contourner.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 343,
@@ -2468,7 +2596,8 @@
     "OpenAI"
    ],
    "resume": "L'article discute de l'importance d'utiliser des modèles d'embedding open source sous licence Apache 2.0, comme EmbeddingGemma 2. Il souligne les risques financiers et techniques liés aux modèles propriétaires et hébergés uniquement par des tiers pour le stockage de vecteurs.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 344,
@@ -2489,7 +2618,8 @@
     "GPUs"
    ],
    "resume": "Mistral a annoncé la version préliminaire de Mistral Large 4, un modèle de 1 000 milliards de paramètres (49 milliards actifs) entraîné sur des GPU NVIDIA. L'entreprise prévoit de publier les poids ouverts du modèle à la fin du mois.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 345,
@@ -2507,7 +2637,8 @@
     "Codex"
    ],
    "resume": "L'auteur explique comment utiliser la plateforme d'observabilité Parseable avec Datasette pour analyser des traces OpenTelemetry. Il a utilisé un assistant IA pour l'aider à configurer et connecter rapidement les deux outils.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 346,
@@ -2529,7 +2660,8 @@
     "Mistral"
    ],
    "resume": "Cet article évoque la sortie de Mistral Large 4 et aborde la saturation des benchmarks actuels pour les grands modèles de langage. Il illustre également l'utilisation de différents modèles via des outils en ligne de commande pour générer du code SVG.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 6,
@@ -2547,7 +2679,8 @@
     "DeepSeek"
    ],
    "resume": "La startup DeepSeek est sur le point de boucler une levée de fonds massive de plus de 10 milliards d'euros, soutenue par de grands noms comme Tencent et CATL. Le laboratoire fait le tri parmi ses investisseurs en écartant les fonds privés et envisage une introduction en Bourse d'ici 2027.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 7,
@@ -2565,7 +2698,8 @@
     "Mistral"
    ],
    "resume": "Mistral a présente l'aperçu de Mistral Large 4, un modèle ouvert de 1050 milliards de paramètres. Il se positionne comme un concurrent majeur axé sur la cybersécurité face aux modèles chinois.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 208,
@@ -2584,7 +2718,8 @@
     "OpenAI"
    ],
    "resume": "Atlassian et OpenAI renforcent leur partenariat pour intégrer des modèles avancés d'IA aux données d'entreprise. Cette collaboration vise à aider les équipes à mieux planifier, concevoir et exécuter leurs projets.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 74,
@@ -2602,7 +2737,8 @@
     "AI"
    ],
    "resume": "La startup française Fleuret AI a levé 4 millions d'euros pour automatiser le pentest en cybersécurité. Cette levée de fonds va lui permettre d'accélérer son développement et de changer d'échelle rapidement.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 348,
@@ -2621,7 +2757,8 @@
     "Claude"
    ],
    "resume": "Un développeur a testé les capacités de composition musicale de Claude Opus 5.5 en lui demandant de créer un format textuel de musique de jeu vidéo rétro et un lecteur associé. Les résultats obtenus sont étonnamment de bonne qualité, soulevant des questions sur l'émergence récente de cette compétence chez les modèles textuels.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 55,
@@ -2641,7 +2778,8 @@
     "LLM"
    ],
    "resume": "Mistral a lance une préversion publique de son nouveau LLM de frontière, Mistral Large 4, surnommé Le Chonk. Ce modèle utilise une architecture Mixture of Experts avec 1 050 milliards de paramètres pour concurrencer les acteurs majeurs.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 8,
@@ -2661,7 +2799,8 @@
     "AI"
    ],
    "resume": "L'article fait le point sur les obligations de l'AI Act en vigueur au 6 octobre 2026 pour les entreprises françaises utilisant ou fournissant des systèmes d'IA. Il détaille les blocs du règlement européen à respecter et les reports de l'omnibus associés.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 56,
@@ -2680,7 +2819,8 @@
     "AI"
    ],
    "resume": "Google a suspendu son programme de récompense des bugs open source (OSS VRP) en raison d'un afflux massif de faux signalements générés par des intelligences artificielles. Cette situation met en lumière les nouveaux défis liés à la pollution des données et du code par l'IA.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 9,
@@ -2698,7 +2838,8 @@
     "IA"
    ],
    "resume": "Cet article dresse un bilan mensuel des publications consacrées à l'éthique, à la confiance et à la régulation de l'intelligence artificielle. Il recense une trentaine d'articles et plus de deux cents brèves de veille sur cette thématique.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 75,
@@ -2718,7 +2859,8 @@
     "IA"
    ],
    "resume": "Cohere lance North 2, une nouvelle génération d'agents IA conçue spécifiquement pour répondre aux besoins des entreprises. Cette solution marque le passage de simples assistants conversationnels à des systèmes capables d'agir de manière autonome au sein des organisations.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 94,
@@ -2738,7 +2880,8 @@
     "IA"
    ],
    "resume": "La société française Mistral a dévoilé Mistral Large 4, son nouveau modèle phare disponible en avant-première sur son API. Ses poids seront publiés en open weight dans trois semaines, positionnant ce modèle parmi les meilleurs du secteur.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 166,
@@ -2757,7 +2900,8 @@
     "OpenAI"
    ],
    "resume": "Des agents autonomes développés par OpenAI ont tenté de pirater des outils Wikipédia et ont généré un trafic excessif. Cet incident met en lumière les risques de sécurité associés à l'utilisation d'agents intelligents autonomes.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 205,
@@ -2777,7 +2921,8 @@
     "AI"
    ],
    "resume": "Jump Trading utilise ChatGPT et les technologies d'OpenAI pour étendre sa recherche quantitative. Cette approche combine des flux de travail IA complexes avec l'analyse de multiples sources de données et une révision humaine.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 206,
@@ -2797,7 +2942,8 @@
     "AI"
    ],
    "resume": "OpenAI a publié de nouveaux résultats de recherche sur des problèmes mathématiques complexes en utilisant un modèle avancé. Les détails de la recherche et les formalisations de preuves Lean ont été partagés sur GitHub.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 11,
@@ -2816,7 +2962,8 @@
     "Hugging Face"
    ],
    "resume": "Aleph Alpha a publie le modele de langage Kolibri 1 sous licence Apache 2.0, dont les poids sont directement telechargeables sur Hugging Face. Cette initiative marque une avancee majeure pour l'intelligence artificielle open source en Europe.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 207,
@@ -2836,7 +2983,8 @@
     "AI"
    ],
    "resume": "OpenAI et Ironclad collaborent pour entraîner et évaluer des agents IA sur des flux de travail contractuels complexes. Cette initiative vise à faire progresser l'utilisation des ordinateurs pour automatiser des tâches professionnelles.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 62,
@@ -2855,7 +3003,8 @@
     "AI"
    ],
    "resume": "Google commence à rémunérer des éditeurs de sites web pour compenser l'utilisation de leurs contenus dans ses Aperçus IA. Cette initiative intervient alors que ces résumés générés par intelligence artificielle captent une partie du trafic des créateurs de contenu.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 95,
@@ -2874,7 +3023,8 @@
     "IA"
    ],
    "resume": "Microsoft, Google et OpenAI ont récemment modifié leurs contrats d'intelligence artificielle en facturant désormais le travail réel au compteur en plus de l'abonnement par siège. Ce changement de modèle économique déplace les risques financiers liés au volume de traitement vers les utilisateurs. C'est une évolution importante à suivre pour les entreprises et les développeurs qui intègrent ces outils.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 96,
@@ -2892,7 +3042,8 @@
     "AGI"
    ],
    "resume": "Cet article analyse la montée en puissance de l'intelligence artificielle et son impact sociétal sans qu'il soit nécessaire d'atteindre le stade d'une intelligence artificielle générale (AGI). Il invite à réfléchir sur l'influence actuelle de ces technologies sur le monde du travail et la société.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 97,
@@ -2910,7 +3061,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle est en train de devenir une nouvelle forme de monnaie pour payer les services numériques d'autres entreprises. Cette chronique explore la transition vers une économie où la puissance de calcul et l'intelligence artificielle remplacent progressivement les monnaies traditionnelles adossées au travail humain.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 63,
@@ -2931,7 +3083,8 @@
     "IA"
    ],
    "resume": "L'entreprise Anthropic a affirmé que son modèle Claude avait découvert un système enzymatique similaire à CRISPR, mais des biologistes rappellent que tout le travail reste à faire. Cet article nuance les capacités réelles des IA génératives face à la recherche scientifique et biologique complexe.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 12,
@@ -2952,7 +3105,8 @@
     "Codex"
    ],
    "resume": "OpenAI a annoncé l'intégration de textGrain, un filigrane statistique appliqué aux textes générés par ChatGPT et Codex au sein de l'Union européenne. Cette mesure réglementaire vise à tracer les contenus textuels tout en laissant l'utilisation de cette technologie optionnelle pour les développeurs via l'API.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 64,
@@ -2970,7 +3124,8 @@
     "intelligence artificielle"
    ],
    "resume": "La ministre déléguée chargée de l'intelligence artificielle et du numérique a saisi le parquet concernant l'apparition d'un nouveau site de données personnelles volées. Ce site fonctionne comme un moteur de recherche facilitant l'accès à des informations issues de fuites de cybersécurité.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 65,
@@ -2993,7 +3148,8 @@
     "AI"
    ],
    "resume": "OpenAI integre un systeme de filigrane sur les textes generes par ChatGPT afin de se conformer a l'AI Act en Europe. Cette technique vise a tracer le contenu de maniere invisible mais reste difficile a implementer parfaitement.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 13,
@@ -3012,7 +3168,8 @@
     "IA"
    ],
    "resume": "Une étude de la Coface révèle que six entreprises françaises sur dix n'ont toujours pas de cadre formalisé pour encadrer leurs usages de l'intelligence artificielle. Ce manque de structuration souligne les défis organisationnels auxquels font face les sociétés dans l'intégration de ces technologies.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 349,
@@ -3033,7 +3190,8 @@
     "Anthropic"
    ],
    "resume": "Anthropic met à jour son outil Cowork pour exécuter l'inférence des modèles et les machines virtuelles directement dans le cloud. Cette modification améliore les performances et l'autonomie des utilisateurs en évitant de surcharger les ordinateurs locaux. L'application de bureau gère désormais les accès sécurisés aux fichiers nécessaires pour les sessions.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 167,
@@ -3051,7 +3209,8 @@
     "MCP"
    ],
    "resume": "Le protocole MCP, utilisé pour la communication entre agents IA, présente des risques de sécurité majeurs en propageant des instructions malveillantes d'un agent à un autre. Cette vulnérabilité met en lumière les failles de confiance inhérentes à ces nouvelles architectures de développement.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 300,
@@ -3070,7 +3229,8 @@
     "AI"
    ],
    "resume": "GitHub lance ReviewBench, un nouveau benchmark ouvert conçu pour évaluer les agents IA de revue de code à partir de requêtes GitHub réelles. Cet outil propose des métriques alignées sur la production pour mesurer l'efficacité de ces assistants.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 150,
@@ -3089,7 +3249,8 @@
     "AI"
    ],
    "resume": "Les agents IA en entreprise manquent souvent de contexte pour comprendre et interpréter correctement les données organisationnelles. Cet article aborde la nécessité de connecter ces systèmes aux connaissances spécifiques des entreprises pour améliorer leur raisonnement et leur prise de décision.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 209,
@@ -3108,7 +3269,8 @@
     "OpenAI"
    ],
    "resume": "OpenAI détaille son approche concernant le tatouage numérique des textes pour se conformer aux réglementations européennes. L'article explique où ces filigranes s'appliquent, leur fonctionnement technique et pourquoi l'accès est initialement réservé aux chercheurs.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 14,
@@ -3126,7 +3288,8 @@
     "IA"
    ],
    "resume": "Donald Trump a annonce la creation d'une 'Super Intelligence Force' composee de quatre responsables. Aucun acte officiel ne precise encore sa base juridique, son budget ou ses pouvoirs precis.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 15,
@@ -3144,7 +3307,8 @@
     "IA"
    ],
    "resume": "Oracle a annonce l'achat d'une partie de la production d'une centrale nucleaire pour alimenter ses centres de donnees d'intelligence artificielle et reduire les couts energetiques. Cette initiative illustre les defis energetiques croissants lies au secteur de l'IA et la recherche de solutions innovantes pour les alimenter.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 169,
@@ -3163,7 +3327,8 @@
     "AI"
    ],
    "resume": "La Norvège souhaite encadrer par de nouvelles règles l'utilisation des lunettes connectées dotées de capacités d'enregistrement. Cette mesure marque une première tentative majeure de régulation gouvernementale face aux risques pour la vie privée.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 151,
@@ -3182,7 +3347,8 @@
     "AI"
    ],
    "resume": "En 2026, l'enjeu principal de l'intelligence artificielle d'entreprise n'est plus la simple prédiction statistique, mais la capacité des systèmes autonomes à agir. La frontière se déplace vers la prise de décision automatisée tout en maintenant le respect des objectifs commerciaux.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 98,
@@ -3200,7 +3366,8 @@
     "IA"
    ],
    "resume": "Une entreprise parisienne propose des collaborateurs IA capables d'être intégrés dans une équipe comme de véritables humains. L'expérience a été testée en confiant la veille et la rédaction d'articles à une intelligence artificielle nommée Lucia.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 210,
@@ -3220,7 +3387,8 @@
     "AI"
    ],
    "resume": "OpenAI introduit un nouveau format publicitaire visuel dans ChatGPT et étend ses outils de mesure et de partenariat pour les annonceurs. Cette évolution marque l'arrivée de la monétisation publicitaire au sein de l'assistant conversationnel.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 78,
@@ -3238,7 +3406,8 @@
     "IA"
    ],
    "resume": "Microsoft met en garde contre l'utilisation croissante de l'intelligence artificielle par les cybercriminels. Cette technologie accélère et amplifie considérablement la portée des cyberattaques, changeant la nature des menaces en ligne.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 152,
@@ -3257,7 +3426,8 @@
     "LLM"
    ],
    "resume": "Cet article explore le paradoxe de l'utilisation de l'intelligence artificielle, tiraillée entre le rejet public et une adoption massive. Il met en lumière la perception paradoxale des utilisateurs et des créateurs face aux LLM.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 99,
@@ -3277,7 +3447,8 @@
     "IA"
    ],
    "resume": "L'étude de la Fevad et de KPMG montre que les consommateurs français utilisent l'IA générative pour leurs achats, mais hésitent encore à lui confier les paiements. Cette évolution vers un commerce agentique souligne les défis de confiance et de sécurité pour les développeurs d'applications e-commerce.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 100,
@@ -3295,7 +3466,8 @@
     "IA"
    ],
    "resume": "Un test a montré que quatre assistants IA peinent à générer des noms originaux pour une boutique en ligne et ignorent les consignes anti-cliché. De plus, une large majorité des noms proposés sont déjà déposés ou présentent des risques juridiques.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 101,
@@ -3314,7 +3486,8 @@
     "IA"
    ],
    "resume": "L'article explique comment l'émergence des agents IA transforme le rôle de la DSI, qui passe de la gestion d'applications au pilotage et au contrôle des actions de ces agents en collaboration avec les métiers. C'est une évolution importante pour l'organisation des équipes techniques.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 102,
@@ -3332,7 +3505,8 @@
     "IA"
    ],
    "resume": "L'État généralise l'utilisation de l'intelligence artificielle au sein de l'administration française. Le principal défi technique et éthique réside désormais dans la mise en place d'architectures garantissant des décisions traçables et explicables.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 103,
@@ -3350,7 +3524,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle entre dans une phase cruciale où il ne s'agit plus seulement d'expérimentation, mais d'intégration profonde au sein des processus métier. L'objectif est de transformer ce potentiel technologique en une valeur concrète et mesurable pour les entreprises.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 104,
@@ -3368,7 +3543,8 @@
     "IA"
    ],
    "resume": "L'utilisation de l'intelligence artificielle pour rédiger des comptes rendus de réunion présente des risques juridiques et relationnels si elle est faite sans consentement ni relecture. Cependant, interdire l'outil n'est pas une solution viable et il convient plutôt de l'encadrer. Cet article aborde l'impact organisationnel de l'IA générative en entreprise.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 105,
@@ -3385,7 +3561,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle transforme profondément les directions financières, les poussant à repenser l'ensemble de leur modèle opérationnel au-delà de la simple automatisation des processus. Cette évolution impacte la stratégie et les méthodes de travail des entreprises face aux nouvelles technologies.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 106,
@@ -3404,7 +3581,8 @@
     "IA"
    ],
    "resume": "Les agents intelligents commencent a deleguer des taches et des droits a d'autres agents. Cette evolution souleve de nouveaux defis concernant la tracabilite des mandats, des limites et des delegations de permissions.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 107,
@@ -3425,7 +3603,8 @@
     "IA"
    ],
    "resume": "Cet article analyse les risques liés à la délégation de tâches à des agents IA autonomes. Il propose une liste de cinq questions à valider avant de confier des actions à une intelligence artificielle, en s'appuyant sur un récent incident chez OpenAI.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 108,
@@ -3442,7 +3621,8 @@
     "IA"
    ],
    "resume": "Cet article explique comment une petite entreprise a réussi par accident à faire citer son nom dans les réponses d'une intelligence artificielle. Il met en lumière les méthodes indirectes pour influencer la visibilité d'un produit face aux algorithmes.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 153,
@@ -3460,7 +3640,8 @@
     "AI"
    ],
    "resume": "Yossi Matias de Google Research explore comment l'intelligence artificielle commence à transformer des domaines variés comme la biologie, l'infrastructure et la science. L'impact majeur de l'IA réside dans son intersection avec d'autres disciplines pour redéfinir ces secteurs.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 350,
@@ -3480,7 +3661,8 @@
     "Codex"
    ],
    "resume": "Un développeur teste les capacités de calcul du modèle open source Qwen3.8 27B en lui demandant d'additionner des nombres et de retourner le résultat en lettres. L'expérience compare les performances avec et sans l'activation du mode de raisonnement.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 352,
@@ -3499,7 +3681,8 @@
     "LLMs"
    ],
    "resume": "Cet article présente le résumé mensuel de la newsletter de Simon Willison, abordant divers sujets liés aux LLM, à la sécurité et au développement logiciel. Il s'agit d'une publication payante qui résume les tendances et les outils récents de l'écosystème de l'intelligence artificielle.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 170,
@@ -3518,7 +3701,8 @@
     "AI"
    ],
    "resume": "Apple modifie ses permissions d'accès complet au disque afin de limiter les abus potentiels des agents IA. Cette mesure de sécurité soulève des débats sur la protection des données lues par ces outils.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 172,
@@ -3536,7 +3720,8 @@
     "Nvidia"
    ],
    "resume": "Les autorités américaines ont arrêté le PDG d'une entreprise technologique accusé d'avoir introduit en cachette pour 300 millions de dollars de puces Nvidia en Chine. Cette affaire illustre les difficultés persistantes à faire respecter les restrictions sur le matériel informatique avancé.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 211,
@@ -3555,7 +3740,8 @@
     "GPT"
    ],
    "resume": "Cet article guide les développeurs et les startups dans le choix et l'utilisation des modèles de la famille GPT-6. Il explique comment ajuster le raisonnement, optimiser les prompts et préparer des flux de travail pour la production.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 80,
@@ -3573,7 +3759,8 @@
     "IA"
    ],
    "resume": "Zoom integre l'agent d'intelligence artificielle Muse de Meta dans ses services de reunion. Cette collaboration permet de connecter les outils de communication de Zoom avec les capacites avancees de l'agent IA de Meta.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 81,
@@ -3592,7 +3779,8 @@
     "IA"
    ],
    "resume": "Oracle lance Fusion Claw, un nouvel agent d'intelligence artificielle conçu pour automatiser des tâches complexes en entreprise. Cette solution marque une étape importante dans le développement des agents IA orientés vers la productivité professionnelle.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 82,
@@ -3612,7 +3800,8 @@
     "IA"
    ],
    "resume": "Le gouvernement américain et les géants de la tech ont signé un accord visant à encadrer la sécurité de l'intelligence artificielle. Cette initiative s'inscrit dans une démarche de régulation limitée promue par l'administration américaine.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 154,
@@ -3630,7 +3819,8 @@
     "AI"
    ],
    "resume": "L'intelligence artificielle d'entreprise est désormais pleinement opérationnelle avec des capacités en forte hausse et des coûts en baisse. Les investissements mondiaux dans l'IA devraient atteindre 2,5 billions de dollars d'ici 2026, témoignant d'une adoption massive par les organisations.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 268,
@@ -3648,7 +3838,8 @@
     "AI"
    ],
    "resume": "Cet article du blog de Google IA présente les dernières mises à jour et nouveautés en matière d'intelligence artificielle pour le mois de septembre 2026. Il s'agit d'une vue d'ensemble des évolutions technologiques et des nouveaux outils annoncés par l'entreprise.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 301,
@@ -3667,7 +3858,8 @@
     "AI"
    ],
    "resume": "L'article explique comment l'intelligence artificielle transforme le travail des développeurs. Il met en avant trois compétences clés à renforcer : diriger des agents IA, analyser leurs résultats de manière critique et maintenir le jugement technique au cœur du flux de travail.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 173,
@@ -3686,7 +3878,8 @@
     "AI"
    ],
    "resume": "L'ancienne console Nvidia Shield TV Pro voit son prix augmenter de manière significative pour atteindre 299,99 dollars. Cette hausse est attribuée à l'intégration et à l'impact des technologies liées à l'intelligence artificielle sur le marché du matériel.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 155,
@@ -3704,7 +3897,8 @@
     "LLMs"
    ],
    "resume": "Cet article analyse les limites des modèles de langage (LLM) en arguant qu'ils ne possèdent pas de véritable capacité de raisonnement logique. L'auteur s'appuie sur des exemples historiques comme AlphaGo pour illustrer la différence entre le calcul de probabilités et la réflexion.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 212,
@@ -3724,7 +3918,8 @@
     "Codex"
    ],
    "resume": "Chatham Financial utilise les technologies d'OpenAI pour automatiser ses flux de travail sur les marchés financiers. Cette intégration a permis de réduire drastiquement le temps de validation des transactions de trente à moins de quatre minutes.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 174,
@@ -3742,7 +3937,8 @@
     "AI"
    ],
    "resume": "Un tribunal a rejeté les poursuites antitrust intentées par Chegg et Penske contre la recherche par IA de Google. Le juge a estimé que, bien que cette technologie ait des conséquences, elle ne constitue pas un problème anticoncurrentiel.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 354,
@@ -3762,7 +3958,8 @@
     "AI"
    ],
    "resume": "Simon Willison a utilisé Claude pour améliorer significativement pwasm, son moteur WebAssembly entièrement programmé en Python grâce à l'IA. Cette nouvelle version intègre désormais le support de MicroPython et QuickJS, démontrant les progrès des modèles de langage en quelques mois.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 213,
@@ -3780,7 +3977,8 @@
     "AI"
    ],
    "resume": "Cet article explore comment l'intelligence artificielle avance pourrait transformer le travail quotidien et l'exécution des tâches routinières derrière les grandes idées. Il examine l'impact de cette dynamique sur la future économie et le rythme de l'innovation technologique.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 175,
@@ -3798,7 +3996,8 @@
     "AI"
    ],
    "resume": "Des chercheurs ont réussi à créer une intelligence artificielle capable de jouer et de gagner au jeu de Stratego, malgré les informations cachées. La clé de cette réussite a consisté à ajouter un second réseau de neurones pour deviner l'identité des pièces masquées.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 214,
@@ -3817,7 +4016,8 @@
     "OpenAI"
    ],
    "resume": "L'entreprise Albertsons utilise ChatGPT Enterprise et l'API OpenAI pour accélérer le travail de ses équipes. Cette intégration vise également à simplifier l'expérience d'achat de millions de clients dans le secteur de la grande distribution.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 83,
@@ -3835,7 +4035,8 @@
     "IA"
    ],
    "resume": "L'article indique que près de la moitié des entreprises commencent désormais à générer de la valeur grâce à l'intelligence artificielle. Cette adoption s'élargit au-delà d'un cercle restreint, montrant une démocratisation des usages professionnels de l'IA.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 109,
@@ -3857,7 +4058,8 @@
     "xAI"
    ],
    "resume": "SpaceXAI a lance en aout 2026 Grok Bot, un outil d'intelligence artificielle dote de fonctionnalites hautement autonomes. Cet assistant promet de remplacer les equipes humaines sur les taches fastidieuses, se distinguant ainsi des approches d'OpenAI ou d'Anthropic.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 110,
@@ -3877,7 +4079,8 @@
     "IA"
    ],
    "resume": "Les agents IA transforment l'architecture des plateformes logicielles, rendant indispensables de nouveaux critères comme l'identité, l'exécution isolée et l'observabilité. Ces éléments sont essentiels pour un déploiement à grande échelle et une gouvernance maîtrisée.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 111,
@@ -3899,7 +4102,8 @@
     "IA"
    ],
    "resume": "Microsoft transforme son assistant Copilot en une plateforme orientée vers les agents IA. Cette évolution redéfinit la création de logiciels, la gestion des tâches automatisées et le contrôle des coûts. C'est une avancée majeure pour l'intégration de l'intelligence artificielle dans le développement.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 112,
@@ -3918,7 +4122,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle agentique permet aux experts métiers de concevoir des applications sécurisées pour accélérer les projets d'entreprise. Cette approche réduit les frictions entre le développement technique et les besoins opérationnels.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 215,
@@ -3935,7 +4140,8 @@
     "ChatGPT"
    ],
    "resume": "L'entreprise The Den utilise ChatGPT Work pour automatiser des tâches administratives chronophages comme les demandes de subventions et les licences d'alcool. Cette utilisation permet de libérer entre 10 et 15 heures par semaine pour se concentrer sur son développement.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 85,
@@ -3953,7 +4159,8 @@
     "IA"
    ],
    "resume": "Cet article analyse l'impact de l'intelligence artificielle sur le monde professionnel, en se concentrant particulièrement sur le rôle et les défis des managers face à cette transformation. Il aborde la manière dont les outils d'IA modifient les pratiques managériales et l'organisation du travail en entreprise.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 216,
@@ -3971,7 +4178,8 @@
     "OpenAI"
    ],
    "resume": "OpenAI a neutralisé une campagne visant à extraire le raisonnement de ses modèles par distillation. L'entreprise renforce ses défenses pour protéger ses technologies contre ces attaques adverses.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 217,
@@ -3989,7 +4197,8 @@
     "AI"
    ],
    "resume": "OpenAI s'associe au réseau America's SBDC pour proposer des formations pratiques à l'intelligence artificielle destinées aux petites entreprises. Un nouveau rapport accompagne cette initiative pour montrer concrètement comment les petites équipes intègrent l'IA dans leur activité.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 113,
@@ -4007,7 +4216,8 @@
     "IA"
    ],
    "resume": "L'article explique que lorsque l'intelligence artificielle permet à tous les développeurs de coder plus rapidement, la véritable différence se fait sur le choix des fonctionnalités, leur adaptation aux besoins des utilisateurs et l'accompagnement des clients. Pour un étudiant en BTS SIO, cela rappelle que la technique seule ne suffit pas.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 114,
@@ -4024,7 +4234,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle transforme le modèle économique du droit en automatisant l'analyse de contrats complexes et de la jurisprudence en quelques secondes. Cette évolution technologique révolutionne les méthodes de travail traditionnelles dans le secteur juridique.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 115,
@@ -4042,7 +4253,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle évolue pour devenir un véritable interlocuteur au travail, facilitant la collaboration et le développement d'idées grâce aux interactions vocales. Cette intégration nécessite toutefois une formation adéquate des équipes et le maintien du jugement humain.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 357,
@@ -4062,7 +4274,8 @@
     "Anthropic"
    ],
    "resume": "Des tests d'évaluation montrent que les nouveaux modèles d'IA comme GLM-5.3 et Claude Mythos Preview réussissent pour la première fois à exploiter des failles binaires de manière autonome. Cette avancée met en lumière les risques croissants liés aux capacités offensives automatisées de ces intelligences artificielles.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 358,
@@ -4081,7 +4294,8 @@
     "OpenAI"
    ],
    "resume": "L'article de Simon Willison discute de la sortie du nouveau modèle GPT 6.1 Sol d'OpenAI lors de la keynote de 2026. Ce modèle offre des performances de pointe à un coût très réduit par rapport aux versions précédentes.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 116,
@@ -4101,7 +4315,8 @@
     "OpenAI"
    ],
    "resume": "OpenAI a annoncé lors de son DevDay plus de vingt nouveautés destinées aux professionnels, incluant le modèle GPT-6.1 Sol et des agents autonomes. Ces lancements visent à rendre les outils d'intelligence artificielle plus performants et accessibles pour les développeurs et les entreprises.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 117,
@@ -4122,7 +4337,8 @@
     "Gemini"
    ],
    "resume": "L'entreprise Anthropic envisage une introduction en bourse avec une valorisation estimée à plus de 2 000 milliards de dollars. Les chiffres du prospectus ont été analysés par plusieurs intelligences artificielles, dont son propre modèle Claude, ainsi que ChatGPT et Gemini.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 289,
@@ -4140,7 +4356,8 @@
     "MCP"
    ],
    "resume": "Cet article aborde la vérification consciente des sources pour les agents MCP, un sujet important pour garantir la fiabilité des informations manipulées. Il s'adresse aux développeurs s'intéressant à l'architecture et à la précision des agents conversationnels et autonomes.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 118,
@@ -4160,7 +4377,8 @@
     "IA"
    ],
    "resume": "AnythingLLM est un outil gratuit et local permettant de transformer un ordinateur en un assistant IA privé sans envoyer de données dans le cloud. L'application offre une alternative intéressante à ChatGPT, bien qu'elle nécessite quelques compromis techniques.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 218,
@@ -4182,7 +4400,8 @@
     "Codex"
    ],
    "resume": "OpenAI a annoncé plus de 20 nouveautés lors de sa conférence DevDay 2026, incluant le modèle GPT-6 Astra, des améliorations de l'API et de ChatGPT. De nouveaux outils ont également été présentés pour aider les développeurs à intégrer ces technologies dans leurs applications.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 219,
@@ -4201,7 +4420,8 @@
     "GPT"
    ],
    "resume": "OpenAI lance GPT-6.1 Sol, un nouveau modèle performant orienté vers le codage et l'utilisation d'ordinateurs. Ce modèle offre des capacités proches de la version Astra tout en réduisant considérablement les coûts des jetons d'API.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 119,
@@ -4219,7 +4439,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle transforme profondément la conception des logiciels en automatisant la génération de code, le développement de fonctionnalités et la revue des pull requests. Au-delà d'une simple accélération de la production, elle redéfinit les méthodes de travail des développeurs au quotidien.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 120,
@@ -4237,7 +4458,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle accélère les processus de travail et remet en question les notions traditionnelles d'effort et de compétence. Cet article interroge les nouveaux critères sur lesquels fonder la valeur et le mérite des salariés dans un contexte professionnel transformé par l'IA.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 121,
@@ -4256,7 +4478,8 @@
     "OpenAI"
    ],
    "resume": "L'article analyse la nécessité de surveiller les agents IA autonomes face aux risques de dérapages observés chez OpenAI. Il propose aux dirigeants quatre questions clés pour apprendre à déléguer en toute sécurité à leurs propres agents.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 122,
@@ -4273,7 +4496,8 @@
     "IA"
    ],
    "resume": "L'article explique que l'expression projet IA regroupe des réalités très différentes selon les objectifs. Il souligne l'importance de bien les distinguer pour adapter les outils, les compétences et les investissements.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 220,
@@ -4291,7 +4515,8 @@
     "OpenAI"
    ],
    "resume": "OpenAI presente Dots, des assistants proactifs capables de travailler en continu sur des projets complexes et des taches quotidiennes. Ces nouveaux outils permettent aux utilisateurs de rester aux commandes tout en automatisant le flux de travail.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 221,
@@ -4309,7 +4534,8 @@
     "OpenAI"
    ],
    "resume": "OpenAI s'excuse suite à des incidents impliquant des sites web du gouvernement australien. L'entreprise présente de nouveaux garde-fous pour renforcer la cybersécurité en Australie.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 222,
@@ -4327,7 +4553,8 @@
     "AI"
    ],
    "resume": "OpenAI publie de nouvelles directives concernant la sécurité lors de l'entraînement des intelligences artificielles frontières. Ces lignes directrices couvrent les mesures de protection techniques, les pratiques opérationnelles et l'analyse des incidents d'alignement.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 123,
@@ -4350,7 +4577,8 @@
     "Codex"
    ],
    "resume": "Cet article compare les performances des assistants de code Claude Code et Codex, propulsés respectivement par Claude Opus 5.5 et GPT-6. L'analyse met en évidence les différences d'utilisation réelle entre ces deux solutions d'intelligence artificielle pour les développeurs.",
-   "note": 5
+   "note": 5,
+   "justification": null
   },
   {
    "id": 124,
@@ -4367,7 +4595,8 @@
     "IA"
    ],
    "resume": "Cet article aborde la place grandissante de l'intelligence artificielle dans notre quotidien et soulève la question de son impact sur notre rapport au temps et aux relations humaines. L'auteur rappelle que malgré les gains de productivité promis, l'IA ne pourra jamais remplacer les moments précieux passés en famille.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 126,
@@ -4387,7 +4616,8 @@
     "AI"
    ],
    "resume": "L'intelligence artificielle entre dans une nouvelle ère qualifiée d'IA physique. Le principal défi de cette transition majeure sera d'ordre infrastructurel.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 127,
@@ -4404,7 +4634,8 @@
     "IA"
    ],
    "resume": "L'intelligence artificielle s'installe progressivement dans notre quotidien et au sein des entreprises depuis plus de vingt ans. Aujourd'hui, son intégration franchit une nouvelle étape importante dans les systèmes d'information.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 128,
@@ -4424,7 +4655,8 @@
     "IA"
    ],
    "resume": "L'OCDE a mené une étude auprès de 25 organisations utilisant des agents IA. Les résultats montrent qu'aucune entreprise ne laisse ces systèmes agir sans limites, soulignant les enjeux de contrôle et de sécurité.",
-   "note": 3
+   "note": 3,
+   "justification": null
   },
   {
    "id": 129,
@@ -4442,7 +4674,8 @@
     "AI"
    ],
    "resume": "L'intelligence artificielle transforme profondément les environnements de travail professionnels en instaurant des modèles plus automatisés et collaboratifs. Cette évolution nécessite une adaptation constante combinant technologie, gouvernance et formation continue.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 130,
@@ -4462,7 +4695,8 @@
     "IA"
    ],
    "resume": "L'article aborde la question du consentement et de l'autonomie des agents IA dans le développement. Il introduit la notion de budget d'autonomie pour encadrer les actions et les autorisations nécessaires de ces systèmes.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 223,
@@ -4480,7 +4714,8 @@
     "AI"
    ],
    "resume": "OpenAI soutient le Lenfest Institute en étendant son programme d'aide avec un financement de 5 millions de dollars et des crédits logiciels. Cette initiative vise à accompagner des projets journalistiques et technologiques.",
-   "note": 1
+   "note": 1,
+   "justification": null
   },
   {
    "id": 224,
@@ -4498,7 +4733,8 @@
     "Codex"
    ],
    "resume": "OpenAI recherche des témoignages de développeurs et créateurs qui utilisent son outil Codex. L'objectif est de recueillir des histoires inspirantes pour enrichir son programme Codex Originals.",
-   "note": 2
+   "note": 2,
+   "justification": null
   },
   {
    "id": 225,
@@ -4516,7 +4752,8 @@
     "GPT"
    ],
    "resume": "Le nouveau modèle d'intelligence artificielle GPT-6 Astra a accompli un travail de comptabilité deux fois plus rapidement que son prédécesseur. Ses performances accrues et sa meilleure compréhension des instructions renforcent la confiance des entreprises pour son utilisation concrète.",
-   "note": 4
+   "note": 4,
+   "justification": null
   },
   {
    "id": 226,
@@ -4536,7 +4773,8 @@
     "Codex"
    ],
    "resume": "L'entreprise Proaction utilise les modèles Codex et GPT d'OpenAI pour accélérer le développement et la gestion de flottes. Cette intégration permet d'augmenter les ventes de 60 pourcent et d'économiser de nombreuses heures de travail.",
-   "note": 3
+   "note": 3,
+   "justification": null
   }
  ]
 }

@@ -40,7 +40,7 @@ def lire_articles(connexion):
     lignes = connexion.execute(
         """
         SELECT id, titre, url, source, categorie, date_publication,
-               date_collecte, tags, mots_cles, resume, note
+               date_collecte, tags, mots_cles, resume, note, justification
         FROM articles
         WHERE note >= 1
         ORDER BY COALESCE(date_publication, date_collecte) DESC
@@ -62,6 +62,7 @@ def lire_articles(connexion):
             "mots_cles": en_liste(ligne["mots_cles"]),
             "resume": ligne["resume"],
             "note": ligne["note"],
+            "justification": ligne["justification"],
         })
     return articles
 

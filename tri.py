@@ -8,33 +8,30 @@ Ce script travaille en deux phases :
     Cherche les mots de mots_cles.yml dans le titre et l'extrait
     de chaque nouvel article. Aucun mot trouvé = hors sujet (note 0).
 
-  PHASE 2 - Analyse par une IA (Gemini ou Mistral)
+  PHASE 2 - Analyse par une IA (Gemini ou Mistral, voir ia.py)
     Pour chaque article gardé, l'IA écrit :
       - un résumé en français,
       - 1 à 3 tags (pris dans une liste fixe),
-      - une note de pertinence de 0 à 5.
+      - une note de pertinence de 0 à 5,
+      - une phrase qui justifie cette note.
     La réponse de l'IA est VÉRIFIÉE avant d'être enregistrée.
 
-La clé de l'API est lue dans une variable d'environnement
-(jamais écrite dans le code, car le dépôt est public) :
-  - GEMINI_API_KEY  -> Google Gemini   (utilisée en priorité)
-  - MISTRAL_API_KEY -> Mistral AI      (si pas de clé Gemini)
+La clé de l'API est lue dans GEMINI_API_KEY (ou MISTRAL_API_KEY).
 
 Pour le lancer :  py tri.py
 =============================================================
 """
 
 import json
-import os
 import re
 import time
 import urllib.error
-import urllib.request
 from pathlib import Path
 
 import yaml
 
 from base import ouvrir_base
+from ia import choisir_ia
 
 
 # ---------- Réglages ----------
@@ -48,10 +45,6 @@ MAX_ARTICLES_IA = 50
 # Pause (en secondes) entre deux appels à l'IA
 # (l'offre gratuite limite aussi le nombre de requêtes par minute)
 PAUSE_ENTRE_APPELS = 5
-
-# Modèles utilisés
-MODELE_GEMINI = "gemini-flash-lite-latest"
-MODELE_MISTRAL = "mistral-small-latest"
 
 # Liste FIXE des tags : l'IA doit choisir dedans.
 # Une liste fixe permet de filtrer les articles par tag sur le site
@@ -153,65 +146,25 @@ Analyse l'article ci-dessous et réponds UNIQUEMENT avec un objet JSON contenant
 - "note" : la pertinence pour un développeur qui suit l'actualité de l'IA, nombre entier de 0 à 5 :
     0 = l'article ne parle pas vraiment d'intelligence artificielle
     1 = anecdotique, 2 = peu utile, 3 = intéressant, 4 = important,
-    5 = incontournable (nouveau modèle, outil ou technique qui change la façon de développer).
+    5 = incontournable (nouveau modèle, outil ou technique qui change la façon de développer) ;
+- "justification" : UNE phrase courte en français (moins de 25 mots) qui explique cette note.
 
 Titre : {article["titre"]}
 Source : {article["source"]}
 Extrait : {article["description"] or "(pas d'extrait)"}"""
 
 
-def envoyer_requete(url, corps, entetes):
-    """Envoie une requête POST en JSON et renvoie la réponse décodée."""
-    requete = urllib.request.Request(
-        url,
-        data=json.dumps(corps).encode("utf-8"),
-        headers={"Content-Type": "application/json", **entetes},
-        method="POST",
-    )
-    with urllib.request.urlopen(requete, timeout=60) as reponse:
-        return json.load(reponse)
-
-
-def appeler_gemini(consigne, cle):
-    """Demande l'analyse à Google Gemini. Renvoie un dictionnaire."""
-    url = ("https://generativelanguage.googleapis.com/v1beta/models/"
-           f"{MODELE_GEMINI}:generateContent")
-    corps = {
-        "contents": [{"parts": [{"text": consigne}]}],
-        "generationConfig": {
-            "temperature": 0.2,  # réponses plus stables, moins "créatives"
-            # On IMPOSE le format de la réponse (un JSON avec ces 3 champs)
-            "responseMimeType": "application/json",
-            "responseSchema": {
-                "type": "OBJECT",
-                "properties": {
-                    "resume": {"type": "STRING"},
-                    "tags": {"type": "ARRAY",
-                             "items": {"type": "STRING", "enum": TAGS_AUTORISES}},
-                    "note": {"type": "INTEGER"},
-                },
-                "required": ["resume", "tags", "note"],
-            },
-        },
-    }
-    # La clé passe dans un en-tête, pas dans l'URL (elle n'apparaît pas dans les logs)
-    donnees = envoyer_requete(url, corps, {"x-goog-api-key": cle})
-    texte = donnees["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(texte)
-
-
-def appeler_mistral(consigne, cle):
-    """Demande l'analyse à Mistral AI. Renvoie un dictionnaire."""
-    url = "https://api.mistral.ai/v1/chat/completions"
-    corps = {
-        "model": MODELE_MISTRAL,
-        "temperature": 0.2,
-        "messages": [{"role": "user", "content": consigne}],
-        "response_format": {"type": "json_object"},  # réponse en JSON obligatoire
-    }
-    donnees = envoyer_requete(url, corps, {"Authorization": f"Bearer {cle}"})
-    texte = donnees["choices"][0]["message"]["content"]
-    return json.loads(texte)
+# Format de réponse IMPOSÉ à l'IA (utilisé par Gemini)
+SCHEMA_ANALYSE = {
+    "type": "OBJECT",
+    "properties": {
+        "resume": {"type": "STRING"},
+        "tags": {"type": "ARRAY", "items": {"type": "STRING", "enum": TAGS_AUTORISES}},
+        "note": {"type": "INTEGER"},
+        "justification": {"type": "STRING"},
+    },
+    "required": ["resume", "tags", "note", "justification"],
+}
 
 
 def valider_resultat(resultat):
@@ -240,20 +193,20 @@ def valider_resultat(resultat):
         if tag in TAGS_AUTORISES and tag not in tags:
             tags.append(tag)
 
-    return {"resume": resume.strip()[:800], "tags": tags[:3], "note": note}
+    # La justification : un texte court ; si elle manque, on met un texte vide
+    justification = resultat.get("justification")
+    if not isinstance(justification, str):
+        justification = ""
 
-
-def choisir_ia():
-    """Choisit l'IA selon la clé disponible. Renvoie (nom, fonction, clé)."""
-    if os.environ.get("GEMINI_API_KEY"):
-        return "Gemini", appeler_gemini, os.environ["GEMINI_API_KEY"]
-    if os.environ.get("MISTRAL_API_KEY"):
-        return "Mistral", appeler_mistral, os.environ["MISTRAL_API_KEY"]
-    return None, None, None
+    return {"resume": resume.strip()[:800], "tags": tags[:3], "note": note,
+            "justification": justification.strip()[:250]}
 
 
 def phase_2_ia(connexion):
-    """Fait analyser par l'IA les articles gardés qui n'ont pas de résumé."""
+    """
+    Fait analyser par l'IA les articles gardés qui n'ont pas encore de justification :
+    les nouveaux articles, mais aussi les anciens analysés avant l'ajout de cette colonne.
+    """
     nom_ia, appeler_ia, cle = choisir_ia()
     if appeler_ia is None:
         print("Phase 2 : aucune clé d'API trouvée "
@@ -264,7 +217,7 @@ def phase_2_ia(connexion):
     articles = connexion.execute(
         """
         SELECT id, titre, source, description FROM articles
-        WHERE mots_cles != '' AND resume IS NULL
+        WHERE mots_cles != '' AND justification IS NULL
         ORDER BY date_publication DESC
         LIMIT ?
         """,
@@ -278,7 +231,7 @@ def phase_2_ia(connexion):
             time.sleep(PAUSE_ENTRE_APPELS)
 
         try:
-            resultat = appeler_ia(construire_consigne(article), cle)
+            resultat = appeler_ia(construire_consigne(article), cle, SCHEMA_ANALYSE)
         except urllib.error.HTTPError as erreur:
             if erreur.code == 429:
                 # 429 = "Too Many Requests" : quota de l'offre gratuite atteint.
@@ -300,15 +253,16 @@ def phase_2_ia(connexion):
             continue
 
         connexion.execute(
-            "UPDATE articles SET resume = ?, tags = ?, note = ? WHERE id = ?",
-            (propre["resume"], ", ".join(propre["tags"]), propre["note"], article["id"]),
+            "UPDATE articles SET resume = ?, tags = ?, note = ?, justification = ? WHERE id = ?",
+            (propre["resume"], ", ".join(propre["tags"]), propre["note"],
+             propre["justification"], article["id"]),
         )
         connexion.commit()  # on enregistre après chaque article : rien n'est perdu si ça plante
         analyses += 1
         print(f"  [{propre['note']}/5] {article['titre'][:70]}")
 
     restants = connexion.execute(
-        "SELECT COUNT(*) FROM articles WHERE mots_cles != '' AND resume IS NULL"
+        "SELECT COUNT(*) FROM articles WHERE mots_cles != '' AND justification IS NULL"
     ).fetchone()[0]
     print(f"Phase 2 : {analyses} article(s) analysé(s), {restants} en attente.")
 

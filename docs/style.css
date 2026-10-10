@@ -36,6 +36,9 @@
 
 * { box-sizing: border-box; }
 
+/* Un élément avec l'attribut "hidden" reste caché, même si une règle CSS lui donne un display */
+[hidden] { display: none !important; }
+
 body {
     margin: 0;
     background: var(--fond);
@@ -296,6 +299,11 @@ a { color: var(--accent); }
 .article-resume { margin: 0 0 10px; color: var(--texte); }
 
 .article-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* "Pourquoi cette note ?" */
+.justification { margin: -4px 0 10px; font-size: 0.88rem; color: var(--texte-doux); }
+.justification summary { cursor: pointer; width: fit-content; color: var(--accent); }
+.justification p { margin: 4px 0 0; padding-left: 10px; border-left: 2px solid var(--bordure); }
 .article-tags .tag { font-size: 0.76rem; padding: 1px 9px; }
 
 mark { background: var(--marque); color: inherit; border-radius: 2px; padding: 0 1px; }

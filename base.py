@@ -45,10 +45,26 @@ def ouvrir_base():
             tags             TEXT,     -- tags choisis par l'IA, séparés par ", "
             resume           TEXT,     -- résumé en français écrit par l'IA
             note             INTEGER,  -- 0 = hors sujet, 1 à 5 = pertinence
+            justification    TEXT,     -- une phrase de l'IA : "pourquoi cette note ?"
 
             -- Colonne remplie par alerte_discord.py
             alerte_envoyee   INTEGER NOT NULL DEFAULT 0  -- 1 = déjà envoyé sur Discord
         )
     """)
+
+    # MIGRATION : "CREATE TABLE IF NOT EXISTS" ne modifie pas une table qui
+    # existe déjà. Les colonnes ajoutées après coup doivent donc être
+    # ajoutées à la main dans les bases existantes, avec ALTER TABLE.
+    ajouter_colonne_si_absente(connexion, "articles", "justification", "TEXT")
+
     connexion.commit()
     return connexion
+
+
+def ajouter_colonne_si_absente(connexion, table, colonne, type_sql):
+    """Ajoute une colonne à une table, seulement si elle n'existe pas encore."""
+    # PRAGMA table_info renvoie une ligne par colonne de la table
+    colonnes = [ligne["name"] for ligne in connexion.execute(f"PRAGMA table_info({table})")]
+    if colonne not in colonnes:
+        connexion.execute(f"ALTER TABLE {table} ADD COLUMN {colonne} {type_sql}")
+        print(f"Base mise à jour : colonne '{colonne}' ajoutée à la table '{table}'.")
