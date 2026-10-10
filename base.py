@@ -52,6 +52,18 @@ def ouvrir_base():
         )
     """)
 
+    # Synthèses "L'essentiel de la semaine" (remplie par essentiel.py)
+    connexion.execute("""
+        CREATE TABLE IF NOT EXISTS essentiels (
+            id            INTEGER PRIMARY KEY AUTOINCREMENT,
+            date_creation TEXT NOT NULL,
+            debut         TEXT NOT NULL,  -- début de la période résumée
+            fin           TEXT NOT NULL,  -- fin de la période résumée
+            introduction  TEXT NOT NULL,  -- la grande tendance de la semaine
+            points        TEXT NOT NULL   -- les points clés, au format JSON
+        )
+    """)
+
     # MIGRATION : "CREATE TABLE IF NOT EXISTS" ne modifie pas une table qui
     # existe déjà. Les colonnes ajoutées après coup doivent donc être
     # ajoutées à la main dans les bases existantes, avec ALTER TABLE.

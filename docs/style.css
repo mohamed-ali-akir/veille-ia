@@ -239,6 +239,24 @@ a { color: var(--accent); }
     padding: 0;
 }
 
+/* ---------- L'essentiel de la semaine ---------- */
+
+.essentiel {
+    margin-top: 28px;
+    background: var(--accent-doux);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--rayon);
+    padding: 16px 20px;
+}
+
+.essentiel-entete { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.essentiel-periode { font-size: 0.85rem; color: var(--texte-doux); }
+.essentiel-intro { font-weight: 600; margin: 10px 0 8px; }
+.essentiel-points { margin: 0; padding-left: 22px; }
+.essentiel-points li { margin-bottom: 8px; }
+.essentiel-source { font-size: 0.85rem; white-space: nowrap; }
+.essentiel-avertissement { font-size: 0.8rem; color: var(--texte-doux); margin: 8px 0 0; }
+
 /* ---------- À la une ---------- */
 
 .a-la-une { margin-top: 28px; }

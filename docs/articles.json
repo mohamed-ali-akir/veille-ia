@@ -1,10 +1,52 @@
 {
- "genere_le": "2026-10-10T10:49:32+00:00",
+ "genere_le": "2026-10-10T10:52:05+00:00",
  "statistiques": {
   "collectes": 415,
   "gardes_mots_cles": 303,
   "analyses_ia": 238,
   "affiches": 238
+ },
+ "essentiel": {
+  "debut": "2026-10-03T10:51:44.668395+00:00",
+  "fin": "2026-10-10T10:51:44.668395+00:00",
+  "introduction": "Cette semaine est marquée par des avancées majeures dans les grands modèles de langage, avec notamment le lancement de Mistral Large 4 et l'évolution des interfaces interactives de GPT-6.",
+  "points": [
+   {
+    "texte": "Mistral AI a dévoilé Mistral Large 4, surnommé « Le Chonk », un modèle de plus de 1 000 milliards de paramètres dont les poids ouverts seront bientôt publiés, offrant aux développeurs une alternative puissante.",
+    "id": 72,
+    "titre": "Mistral dévoile Large 4, un modèle à plus de 1 000 milliards de paramètres",
+    "url": "https://www.lemondeinformatique.fr/actualites/lire-mistral-devoile-large-4-un-modele-a-plus-de-1-000-milliards-de-parametres-100838.html",
+    "source": "Le Monde Informatique (IA)"
+   },
+   {
+    "texte": "OpenAI déploie mondialement GPT-6 avec une interface utilisateur interactive et intelligente, permettant des réponses enrichies de visuels et des interactions modernisées pour les utilisateurs.",
+    "id": 204,
+    "titre": "GPT-6 and Intelligent UI for everyone",
+    "url": "https://openai.com/index/gpt-6-for-everyone",
+    "source": "OpenAI News"
+   },
+   {
+    "texte": "Anthropic a lancé Claude Haiku 5.5 avec une réduction drastique de 90 % sur les prix des API, positionnant ce petit modèle comme une solution ultra-rapide et économique pour les développeurs.",
+    "id": 320,
+    "titre": "Anthropic lance Claude Haiku 5.5 avec une réduction de 90 % du prix des API, s'alignant ainsi sur GPT-6 Luna, présenté comme « le petit modèle le moins cher, le plus rapide et le plus performant »",
+    "url": "https://intelligence-artificielle.developpez.com/actu/387942/Anthropic-lance-Claude-Haiku-5-5-avec-une-reduction-de-90-pourcent-du-prix-des-API-s-alignant-ainsi-sur-GPT-6-Luna-presente-comme-le-petit-modele-le-moins-cher-le-plus-rapide-et-le-plus-performant/",
+    "source": "Developpez.com (IA)"
+   },
+   {
+    "texte": "Une étude récente montre que si les agents de codage IA génèrent davantage de code, la production logicielle globale ne progresse pas forcément en raison du goulot d'étranglement de la révision humaine.",
+    "id": 157,
+    "titre": "AI coding agents generate more code, but not more software",
+    "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+    "source": "Ars Technica (IA)"
+   },
+   {
+    "texte": "Google a annoncé la mise en open source de ML Drift, un moteur GPU cross-platform qui simplifie l'inférence locale d'IA et le machine learning en temps réel sur les appareils pour les développeurs.",
+    "id": 364,
+    "titre": "GitHub - google-ai-edge/ml-drift: GPU-Accelerated AI/ML Inference",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/",
+    "source": "Reddit r/LocalLLaMA"
+   }
+  ]
  },
  "articles": [
   {

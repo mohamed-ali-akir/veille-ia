@@ -95,6 +95,22 @@ def lire_statistiques(connexion):
     }
 
 
+def lire_essentiel(connexion):
+    """Renvoie la dernière synthèse "L'essentiel de la semaine", ou None."""
+    ligne = connexion.execute(
+        "SELECT debut, fin, introduction, points FROM essentiels "
+        "ORDER BY date_creation DESC LIMIT 1"
+    ).fetchone()
+    if ligne is None:
+        return None
+    return {
+        "debut": ligne["debut"],
+        "fin": ligne["fin"],
+        "introduction": ligne["introduction"],
+        "points": json.loads(ligne["points"]),  # texte JSON -> liste Python
+    }
+
+
 def creer_flux_rss(articles):
     """
     Fabrique le flux RSS (format XML) des articles importants.
@@ -136,11 +152,13 @@ def main():
     connexion = ouvrir_base()
     articles = lire_articles(connexion)
     statistiques = lire_statistiques(connexion)
+    essentiel = lire_essentiel(connexion)
     connexion.close()
 
     donnees = {
         "genere_le": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "statistiques": statistiques,
+        "essentiel": essentiel,
         "articles": articles,
     }
 

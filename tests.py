@@ -16,6 +16,7 @@ import unittest
 import feedparser
 
 import collecte
+import essentiel
 import generer_site
 import tri
 
@@ -124,6 +125,40 @@ class TestExport(unittest.TestCase):
 
     def test_en_liste_vide(self):
         self.assertEqual(generer_site.en_liste(None), [])
+
+
+class TestEssentiel(unittest.TestCase):
+    """Bonus : vérification de la synthèse de la semaine écrite par l'IA."""
+
+    # Les articles qu'on a VRAIMENT donnés à l'IA (numéros 1 à 4)
+    ARTICLES = {numero: {"titre": f"Titre {numero}", "url": f"https://exemple.fr/{numero}",
+                         "source": "Test"} for numero in [1, 2, 3, 4]}
+
+    def reponse(self, ids):
+        return {"introduction": "Semaine chargée.",
+                "points": [{"texte": f"Point {numero}", "id": numero} for numero in ids]}
+
+    def test_reponse_correcte(self):
+        resultat = essentiel.valider_essentiel(self.reponse([1, 2, 3]), self.ARTICLES)
+        self.assertEqual(len(resultat["points"]), 3)
+        self.assertEqual(resultat["points"][0]["url"], "https://exemple.fr/1")
+
+    def test_numero_invente_supprime(self):
+        # L'IA cite l'article 99 qui n'existe pas : ce point est supprimé
+        resultat = essentiel.valider_essentiel(self.reponse([1, 99, 2, 3]), self.ARTICLES)
+        self.assertEqual([point["id"] for point in resultat["points"]], [1, 2, 3])
+
+    def test_meme_article_pas_deux_fois(self):
+        resultat = essentiel.valider_essentiel(self.reponse([1, 1, 2, 3]), self.ARTICLES)
+        self.assertEqual([point["id"] for point in resultat["points"]], [1, 2, 3])
+
+    def test_pas_assez_de_points(self):
+        self.assertIsNone(essentiel.valider_essentiel(self.reponse([1, 2]), self.ARTICLES))
+
+    def test_introduction_vide(self):
+        reponse = self.reponse([1, 2, 3])
+        reponse["introduction"] = ""
+        self.assertIsNone(essentiel.valider_essentiel(reponse, self.ARTICLES))
 
 
 class TestFluxRSS(unittest.TestCase):

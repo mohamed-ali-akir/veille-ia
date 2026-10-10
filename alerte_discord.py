@@ -86,6 +86,14 @@ def envoyer_message(url_webhook, articles):
         "content": f"**{len(articles)} article(s) important(s) dans la veille IA** · {URL_SITE}",
         "embeds": [creer_carte(article) for article in articles],
     }
+    return envoyer_sur_discord(url_webhook, message)
+
+
+def envoyer_sur_discord(url_webhook, message):
+    """
+    Envoie un message (dictionnaire) sur le webhook Discord.
+    Renvoie True si ça a marché. Aussi utilisée par essentiel.py.
+    """
     requete = urllib.request.Request(
         url_webhook,
         data=json.dumps(message).encode("utf-8"),

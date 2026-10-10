@@ -79,6 +79,20 @@
             <div id="liste-tags" class="tags-filtre" aria-label="Filtrer par tag"></div>
         </section>
 
+        <!-- ========== L'ESSENTIEL DE LA SEMAINE (synthèse IA, cachée pendant une recherche) ========== -->
+        <section id="essentiel" class="essentiel" hidden>
+            <div class="essentiel-entete">
+                <h2 class="titre-section">L'essentiel de la semaine</h2>
+                <span id="essentiel-periode" class="essentiel-periode"></span>
+            </div>
+            <p id="essentiel-intro" class="essentiel-intro"></p>
+            <ol id="essentiel-points" class="essentiel-points"></ol>
+            <p class="essentiel-avertissement">
+                Synthèse écrite par une IA à partir des articles les mieux notés.
+                Chaque point renvoie vers sa source pour vérifier.
+            </p>
+        </section>
+
         <!-- ========== À LA UNE (articles notés 5, cachés pendant une recherche) ========== -->
         <section id="a-la-une" class="a-la-une" hidden>
             <h2 class="titre-section">À la une</h2>

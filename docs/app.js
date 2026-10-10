@@ -26,6 +26,7 @@ const compteur = document.getElementById("compteur");
 const boutonPlus = document.getElementById("bouton-plus");
 const boutonEffacer = document.getElementById("bouton-effacer");
 const sectionUne = document.getElementById("a-la-une");
+const sectionEssentiel = document.getElementById("essentiel");
 const listeUne = document.getElementById("liste-une");
 
 // ---------- État de l'application ----------
@@ -33,6 +34,7 @@ const listeUne = document.getElementById("liste-une");
 let tousLesArticles = [];          // tous les articles du fichier JSON
 let tagActif = "";                 // tag cliqué ("" = aucun)
 let nombreAffiches = NOMBRE_PAR_PAGE;
+let essentielSemaine = null;        // synthèse de la semaine (null = aucune)
 
 
 // =============================================================
@@ -228,7 +230,8 @@ function afficher() {
     compteur.textContent = texteCompteur;
     boutonEffacer.hidden = !filtresActifs();
 
-    // Section "À la une" : seulement quand on ne cherche rien
+    // Sections "L'essentiel de la semaine" et "À la une" : seulement quand on ne cherche rien
+    sectionEssentiel.hidden = filtresActifs() || essentielSemaine === null;
     afficherALaUne();
 
     // Liste des articles (seulement les N premiers)
@@ -263,6 +266,30 @@ function afficherALaUne() {
 
     sectionUne.hidden = filtresActifs() || une.length === 0;
     listeUne.replaceChildren(...une.map(article => creerCarte(article, [])));
+}
+
+/** Remplit la section "L'essentiel de la semaine" (synthèse écrite par l'IA). */
+function remplirEssentiel() {
+    if (essentielSemaine === null) return;
+
+    const options = { day: "numeric", month: "long" };
+    document.getElementById("essentiel-periode").textContent =
+        `du ${new Date(essentielSemaine.debut).toLocaleDateString("fr-FR", options)} ` +
+        `au ${new Date(essentielSemaine.fin).toLocaleDateString("fr-FR", options)}`;
+    document.getElementById("essentiel-intro").textContent = essentielSemaine.introduction;
+
+    const liste = document.getElementById("essentiel-points");
+    for (const point of essentielSemaine.points) {
+        const element = creerElement("li", "", point.texte + " ");
+        // Lien vers l'article d'origine : on peut vérifier ce que dit l'IA
+        const lien = creerElement("a", "essentiel-source", `→ ${point.source}`);
+        lien.href = point.url;
+        lien.target = "_blank";
+        lien.rel = "noopener";
+        lien.title = point.titre;
+        element.appendChild(lien);
+        liste.appendChild(element);
+    }
 }
 
 /** Crée les boutons de tags, avec le nombre d'articles de chaque tag. */
@@ -325,6 +352,7 @@ async function demarrer() {
         const reponse = await fetch("articles.json", { cache: "no-cache" });
         const donnees = await reponse.json();
         tousLesArticles = donnees.articles;
+        essentielSemaine = donnees.essentiel || null;
 
         // Texte de recherche préparé une seule fois par article (plus rapide)
         for (const article of tousLesArticles) {
@@ -350,6 +378,7 @@ async function demarrer() {
 
     remplirSources();
     creerBoutonsTags();
+    remplirEssentiel();
 
     // Reprend la recherche contenue dans l'adresse (ex : ?q=agent)
     const parametres = new URLSearchParams(location.search);
