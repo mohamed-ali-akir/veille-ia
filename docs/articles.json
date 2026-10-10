@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-10-10T00:03:45+00:00",
+ "genere_le": "2026-10-10T00:13:56+00:00",
  "statistiques": {
-  "collectes": 412,
-  "gardes_mots_cles": 302,
-  "analyses_ia": 188,
-  "affiches": 188
+  "collectes": 415,
+  "gardes_mots_cles": 303,
+  "analyses_ia": 238,
+  "affiches": 238
  },
  "articles": [
   {
@@ -295,6 +295,24 @@
     "Mistral"
    ],
    "resume": "Le nouveau modèle open source GLM 5.3 Flash surpasse les modèles d'Anthropic en tête des classements d'intelligence artificielle. Cette actualité illustre la progression et la domination croissante des solutions open source face aux acteurs propriétaires.",
+   "note": 3
+  },
+  {
+   "id": 816,
+   "titre": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+   "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-09T17:42:12+00:00",
+   "collecte": "2026-10-10T00:09:06.197986+00:00",
+   "tags": [
+    "Outils dev",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article explore le système Lean Theorem Prover, en s'intéressant particulièrement à sa fiabilité et à son utilisation avec l'intelligence artificielle. Il s'adresse aux mathématiciens et aux développeurs intéressés par la vérification formelle de code et de théorèmes.",
    "note": 3
   },
   {
@@ -3595,6 +3613,930 @@
    ],
    "resume": "Le gouvernement américain et les géants de la tech ont signé un accord visant à encadrer la sécurité de l'intelligence artificielle. Cette initiative s'inscrit dans une démarche de régulation limitée promue par l'administration américaine.",
    "note": 2
+  },
+  {
+   "id": 154,
+   "titre": "Redefining enterprise intelligence with autonomous AI",
+   "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+   "source": "MIT Technology Review (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-02T15:49:04+00:00",
+   "collecte": "2026-10-09T23:22:17.463402+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "L'intelligence artificielle d'entreprise est désormais pleinement opérationnelle avec des capacités en forte hausse et des coûts en baisse. Les investissements mondiaux dans l'IA devraient atteindre 2,5 billions de dollars d'ici 2026, témoignant d'une adoption massive par les organisations.",
+   "note": 3
+  },
+  {
+   "id": 268,
+   "titre": "The latest AI news we announced in September 2026",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-10-02T15:00:00+00:00",
+   "collecte": "2026-10-09T23:22:23.277548+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article du blog de Google IA présente les dernières mises à jour et nouveautés en matière d'intelligence artificielle pour le mois de septembre 2026. Il s'agit d'une vue d'ensemble des évolutions technologiques et des nouveaux outils annoncés par l'entreprise.",
+   "note": 2
+  },
+  {
+   "id": 301,
+   "titre": "AI is changing developer work. Here are three skills to strengthen.",
+   "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+   "source": "GitHub Blog (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-02T15:00:00+00:00",
+   "collecte": "2026-10-09T23:22:25.871273+00:00",
+   "tags": [
+    "Outils dev",
+    "Agents IA"
+   ],
+   "mots_cles": [
+    "AI agents",
+    "AI"
+   ],
+   "resume": "L'article explique comment l'intelligence artificielle transforme le travail des développeurs. Il met en avant trois compétences clés à renforcer : diriger des agents IA, analyser leurs résultats de manière critique et maintenir le jugement technique au cœur du flux de travail.",
+   "note": 4
+  },
+  {
+   "id": 173,
+   "titre": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+   "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-02T14:52:16+00:00",
+   "collecte": "2026-10-09T23:22:19.161605+00:00",
+   "tags": [
+    "Matériel & GPU",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Nvidia",
+    "AI"
+   ],
+   "resume": "L'ancienne console Nvidia Shield TV Pro voit son prix augmenter de manière significative pour atteindre 299,99 dollars. Cette hausse est attribuée à l'intégration et à l'impact des technologies liées à l'intelligence artificielle sur le marché du matériel.",
+   "note": 1
+  },
+  {
+   "id": 155,
+   "titre": "Don’t be fooled—LLMs don’t reason",
+   "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "source": "MIT Technology Review (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-02T08:00:00+00:00",
+   "collecte": "2026-10-09T23:22:17.463402+00:00",
+   "tags": [
+    "LLM",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "LLMs"
+   ],
+   "resume": "Cet article analyse les limites des modèles de langage (LLM) en arguant qu'ils ne possèdent pas de véritable capacité de raisonnement logique. L'auteur s'appuie sur des exemples historiques comme AlphaGo pour illustrer la différence entre le calcul de probabilités et la réflexion.",
+   "note": 3
+  },
+  {
+   "id": 212,
+   "titre": "Chatham scales its capital markets expertise with OpenAI",
+   "url": "https://openai.com/index/chatham-financial",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-02T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT",
+    "OpenAI",
+    "Codex"
+   ],
+   "resume": "Chatham Financial utilise les technologies d'OpenAI pour automatiser ses flux de travail sur les marchés financiers. Cette intégration a permis de réduire drastiquement le temps de validation des transactions de trente à moins de quatre minutes.",
+   "note": 3
+  },
+  {
+   "id": 174,
+   "titre": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+   "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-01T20:11:55+00:00",
+   "collecte": "2026-10-09T23:22:19.161605+00:00",
+   "tags": [
+    "Régulation",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Un tribunal a rejeté les poursuites antitrust intentées par Chegg et Penske contre la recherche par IA de Google. Le juge a estimé que, bien que cette technologie ait des conséquences, elle ne constitue pas un problème anticoncurrentiel.",
+   "note": 2
+  },
+  {
+   "id": 354,
+   "titre": "pwasm 0.2a0",
+   "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
+   "source": "Simon Willison",
+   "categorie": "Développement",
+   "date": "2026-10-01T17:10:31+00:00",
+   "collecte": "2026-10-09T23:22:28.321699+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Claude",
+    "AI"
+   ],
+   "resume": "Simon Willison a utilisé Claude pour améliorer significativement pwasm, son moteur WebAssembly entièrement programmé en Python grâce à l'IA. Cette nouvelle version intègre désormais le support de MicroPython et QuickJS, démontrant les progrès des modèles de langage en quelques mois.",
+   "note": 3
+  },
+  {
+   "id": 213,
+   "titre": "The eternal complement",
+   "url": "https://openai.com/index/the-eternal-complement",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-01T17:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article explore comment l'intelligence artificielle avance pourrait transformer le travail quotidien et l'exécution des tâches routinières derrière les grandes idées. Il examine l'impact de cette dynamique sur la future économie et le rythme de l'innovation technologique.",
+   "note": 3
+  },
+  {
+   "id": 175,
+   "titre": "With most information hidden, the game Stratego had stumped AI—until now",
+   "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-01T16:28:04+00:00",
+   "collecte": "2026-10-09T23:22:19.161605+00:00",
+   "tags": [
+    "Recherche"
+   ],
+   "mots_cles": [
+    "neural network",
+    "AI"
+   ],
+   "resume": "Des chercheurs ont réussi à créer une intelligence artificielle capable de jouer et de gagner au jeu de Stratego, malgré les informations cachées. La clé de cette réussite a consisté à ajouter un second réseau de neurones pour deviner l'identité des pièces masquées.",
+   "note": 3
+  },
+  {
+   "id": 214,
+   "titre": "How Albertsons Companies is reimagining retail from the inside out",
+   "url": "https://openai.com/index/albertsons-reimagining-retail",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-01T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "OpenAI"
+   ],
+   "resume": "L'entreprise Albertsons utilise ChatGPT Enterprise et l'API OpenAI pour accélérer le travail de ses équipes. Cette intégration vise également à simplifier l'expérience d'achat de millions de clients dans le secteur de la grande distribution.",
+   "note": 3
+  },
+  {
+   "id": 83,
+   "titre": "IA : près de la moitié des entreprises commencent à générer de la valeur",
+   "url": "https://www.lemondeinformatique.fr/actualites/lire-ia-pres-de-la-moitie-des-entreprises-commencent-a-generer-de-la-valeur-100823.html",
+   "source": "Le Monde Informatique (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-10-01T12:35:51+00:00",
+   "collecte": "2026-10-09T23:22:14.940977+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'article indique que près de la moitié des entreprises commencent désormais à générer de la valeur grâce à l'intelligence artificielle. Cette adoption s'élargit au-delà d'un cercle restreint, montrant une démocratisation des usages professionnels de l'IA.",
+   "note": 3
+  },
+  {
+   "id": 109,
+   "titre": "Grok Bot promet de remplacer les équipes humaines… et il y arrive",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555683-grok-bot-promet-de-remplacer-les-equipes-humaines-et-il-y-arrive/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-10-01T10:14:34+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "Anthropic",
+    "Grok",
+    "xAI"
+   ],
+   "resume": "SpaceXAI a lance en aout 2026 Grok Bot, un outil d'intelligence artificielle dote de fonctionnalites hautement autonomes. Cet assistant promet de remplacer les equipes humaines sur les taches fastidieuses, se distinguant ainsi des approches d'OpenAI ou d'Anthropic.",
+   "note": 4
+  },
+  {
+   "id": 110,
+   "titre": "Agents IA : la plateforme devient le vrai sujet d'architecture",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555615-agents-ia-la-plateforme-devient-le-vrai-sujet-d-architecture/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-10-01T09:17:11+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "agents IA",
+    "IA"
+   ],
+   "resume": "Les agents IA transforment l'architecture des plateformes logicielles, rendant indispensables de nouveaux critères comme l'identité, l'exécution isolée et l'observabilité. Ces éléments sont essentiels pour un déploiement à grande échelle et une gouvernance maîtrisée.",
+   "note": 4
+  },
+  {
+   "id": 111,
+   "titre": "Copilot et la transformation du travail par les agents IA",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555651-copilot-et-la-transformation-du-travail-par-les-agents-ia/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-10-01T09:16:49+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "agentique",
+    "agents IA",
+    "Copilot",
+    "IA"
+   ],
+   "resume": "Microsoft transforme son assistant Copilot en une plateforme orientée vers les agents IA. Cette évolution redéfinit la création de logiciels, la gestion des tâches automatisées et le contrôle des coûts. C'est une avancée majeure pour l'intégration de l'intelligence artificielle dans le développement.",
+   "note": 4
+  },
+  {
+   "id": 112,
+   "titre": "IA : vos meilleurs développeurs sont déjà dans l'entreprise",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555511-ia-vos-meilleurs-developpeurs-sont-deja-dans-l-entreprise/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-10-01T09:16:47+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "agentique",
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle agentique permet aux experts métiers de concevoir des applications sécurisées pour accélérer les projets d'entreprise. Cette approche réduit les frictions entre le développement technique et les besoins opérationnels.",
+   "note": 4
+  },
+  {
+   "id": 215,
+   "titre": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+   "url": "https://openai.com/index/the-den-family-social",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-01T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT"
+   ],
+   "resume": "L'entreprise The Den utilise ChatGPT Work pour automatiser des tâches administratives chronophages comme les demandes de subventions et les licences d'alcool. Cette utilisation permet de libérer entre 10 et 15 heures par semaine pour se concentrer sur son développement.",
+   "note": 2
+  },
+  {
+   "id": 85,
+   "titre": "IA au travail : les managers en première ligne",
+   "url": "https://www.lemondeinformatique.fr/actualites/lire-ia-au-travail-les-managers-en-premiere-ligne-100824.html",
+   "source": "Le Monde Informatique (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-30T17:21:46+00:00",
+   "collecte": "2026-10-09T23:22:14.940977+00:00",
+   "tags": [
+    "Entreprises",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Cet article analyse l'impact de l'intelligence artificielle sur le monde professionnel, en se concentrant particulièrement sur le rôle et les défis des managers face à cette transformation. Il aborde la manière dont les outils d'IA modifient les pratiques managériales et l'organisation du travail en entreprise.",
+   "note": 2
+  },
+  {
+   "id": 216,
+   "titre": "Disrupting a coordinated model-distillation campaign",
+   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-30T10:30:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "LLM"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "OpenAI a neutralisé une campagne visant à extraire le raisonnement de ses modèles par distillation. L'entreprise renforce ses défenses pour protéger ses technologies contre ces attaques adverses.",
+   "note": 3
+  },
+  {
+   "id": 217,
+   "titre": "Helping small businesses put AI to work",
+   "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-30T10:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI s'associe au réseau America's SBDC pour proposer des formations pratiques à l'intelligence artificielle destinées aux petites entreprises. Un nouveau rapport accompagne cette initiative pour montrer concrètement comment les petites équipes intègrent l'IA dans leur activité.",
+   "note": 2
+  },
+  {
+   "id": 113,
+   "titre": "Si l'IA permet à tous les éditeurs de coder plus vite, qu'est-ce qui fait encore la différence ?",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555555-si-l-ia-permet-a-tous-les-editeurs-de-coder-plus-vite-qu-est-ce-qui-fait-encore-la-difference/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-30T07:58:43+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'article explique que lorsque l'intelligence artificielle permet à tous les développeurs de coder plus rapidement, la véritable différence se fait sur le choix des fonctionnalités, leur adaptation aux besoins des utilisateurs et l'accompagnement des clients. Pour un étudiant en BTS SIO, cela rappelle que la technique seule ne suffit pas.",
+   "note": 3
+  },
+  {
+   "id": 114,
+   "titre": "La fin de la facturation à l'heure : comment l'IA transforme le modèle économique du droit",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555559-la-fin-de-la-facturation-a-l-heure-comment-l-ia-transforme-le-modele-economique-du-droit/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-30T07:58:25+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle transforme le modèle économique du droit en automatisant l'analyse de contrats complexes et de la jurisprudence en quelques secondes. Cette évolution technologique révolutionne les méthodes de travail traditionnelles dans le secteur juridique.",
+   "note": 2
+  },
+  {
+   "id": 115,
+   "titre": "D'assistant à interlocuteur : l'intelligence artificielle se fait une place au sein des équipes de bureau",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555565-d-assistant-a-interlocuteur-l-intelligence-artificielle-se-fait-une-place-au-sein-des-equipes-de-bureau/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-30T07:58:10+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "intelligence artificielle",
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle évolue pour devenir un véritable interlocuteur au travail, facilitant la collaboration et le développement d'idées grâce aux interactions vocales. Cette intégration nécessite toutefois une formation adéquate des équipes et le maintien du jugement humain.",
+   "note": 2
+  },
+  {
+   "id": 357,
+   "titre": "Quoting Anthropic Frontier Red Team",
+   "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+   "source": "Simon Willison",
+   "categorie": "Développement",
+   "date": "2026-09-29T22:20:28+00:00",
+   "collecte": "2026-10-09T23:22:28.321699+00:00",
+   "tags": [
+    "LLM",
+    "Sécurité",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "Claude",
+    "Anthropic"
+   ],
+   "resume": "Des tests d'évaluation montrent que les nouveaux modèles d'IA comme GLM-5.3 et Claude Mythos Preview réussissent pour la première fois à exploiter des failles binaires de manière autonome. Cette avancée met en lumière les risques croissants liés aux capacités offensives automatisées de ces intelligences artificielles.",
+   "note": 4
+  },
+  {
+   "id": 358,
+   "titre": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+   "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+   "source": "Simon Willison",
+   "categorie": "Développement",
+   "date": "2026-09-29T18:27:48+00:00",
+   "collecte": "2026-10-09T23:22:28.321699+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT",
+    "OpenAI"
+   ],
+   "resume": "L'article de Simon Willison discute de la sortie du nouveau modèle GPT 6.1 Sol d'OpenAI lors de la keynote de 2026. Ce modèle offre des performances de pointe à un coût très réduit par rapport aux versions précédentes.",
+   "note": 4
+  },
+  {
+   "id": 116,
+   "titre": "GPT-6.1 Sol, les agents Dots, un abonnement à 500 dollars… Toutes les annonces du DevDay d'OpenAI",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555585-gpt-6-1-sol-les-agents-dots-un-abonnement-a-500-dollars-toutes-les-annonces-du-devday-d-openai/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-29T17:15:01+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT",
+    "OpenAI"
+   ],
+   "resume": "OpenAI a annoncé lors de son DevDay plus de vingt nouveautés destinées aux professionnels, incluant le modèle GPT-6.1 Sol et des agents autonomes. Ces lancements visent à rendre les outils d'intelligence artificielle plus performants et accessibles pour les développeurs et les entreprises.",
+   "note": 5
+  },
+  {
+   "id": 117,
+   "titre": "IPO d'Anthropic : on a demandé à Claude s'il investirait dans sa propre maison",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555577-ipo-d-anthropic-on-a-demande-a-claude-s-il-investirait-dans-sa-propre-maison/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-29T14:13:22+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "Claude",
+    "Anthropic",
+    "Gemini"
+   ],
+   "resume": "L'entreprise Anthropic envisage une introduction en bourse avec une valorisation estimée à plus de 2 000 milliards de dollars. Les chiffres du prospectus ont été analysés par plusieurs intelligences artificielles, dont son propre modèle Claude, ainsi que ChatGPT et Gemini.",
+   "note": 2
+  },
+  {
+   "id": 289,
+   "titre": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+   "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "source": "Hugging Face Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-29T13:07:00+00:00",
+   "collecte": "2026-10-09T23:22:24.626433+00:00",
+   "tags": [
+    "Agents IA",
+    "Open source"
+   ],
+   "mots_cles": [
+    "MCP"
+   ],
+   "resume": "Cet article aborde la vérification consciente des sources pour les agents MCP, un sujet important pour garantir la fiabilité des informations manipulées. Il s'adresse aux développeurs s'intéressant à l'architecture et à la précision des agents conversationnels et autonomes.",
+   "note": 3
+  },
+  {
+   "id": 118,
+   "titre": "Gratuite, locale, complète : on a testé AnythingLLM, l'IA presque parfaite",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1552505-anythingllm-le-couteau-suisse-de-l-ia-locale-qui-veut-tout-faire-et-y-arrive-presque/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-29T12:06:31+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "IA"
+   ],
+   "resume": "AnythingLLM est un outil gratuit et local permettant de transformer un ordinateur en un assistant IA privé sans envoyer de données dans le cloud. L'application offre une alternative intéressante à ChatGPT, bien qu'elle nécessite quelques compromis techniques.",
+   "note": 4
+  },
+  {
+   "id": 218,
+   "titre": "DevDay 2026 Recap",
+   "url": "https://openai.com/index/devday-2026-recap",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-29T10:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "GPT",
+    "OpenAI",
+    "Codex"
+   ],
+   "resume": "OpenAI a annoncé plus de 20 nouveautés lors de sa conférence DevDay 2026, incluant le modèle GPT-6 Astra, des améliorations de l'API et de ChatGPT. De nouveaux outils ont également été présentés pour aider les développeurs à intégrer ces technologies dans leurs applications.",
+   "note": 5
+  },
+  {
+   "id": 219,
+   "titre": "Introducing GPT-6.1 Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-29T10:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "OpenAI lance GPT-6.1 Sol, un nouveau modèle performant orienté vers le codage et l'utilisation d'ordinateurs. Ce modèle offre des capacités proches de la version Astra tout en réduisant considérablement les coûts des jetons d'API.",
+   "note": 5
+  },
+  {
+   "id": 119,
+   "titre": "Pourquoi l'IA ne doit pas seulement nous apprendre à coder plus vite",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555373-pourquoi-l-ia-ne-doit-pas-seulement-nous-apprendre-a-coder-plus-vite/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-29T08:10:30+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle transforme profondément la conception des logiciels en automatisant la génération de code, le développement de fonctionnalités et la revue des pull requests. Au-delà d'une simple accélération de la production, elle redéfinit les méthodes de travail des développeurs au quotidien.",
+   "note": 4
+  },
+  {
+   "id": 120,
+   "titre": "Avec l'IA, faudra-t-il redéfinir le mérite au travail ?",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555501-avec-l-ia-faudra-t-il-redefinir-le-merite-au-travail/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-29T08:10:19+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Éthique & société",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle accélère les processus de travail et remet en question les notions traditionnelles d'effort et de compétence. Cet article interroge les nouveaux critères sur lesquels fonder la valeur et le mérite des salariés dans un contexte professionnel transformé par l'IA.",
+   "note": 2
+  },
+  {
+   "id": 121,
+   "titre": "OpenAI a découvert les dérapages de ses agents par les autres. Et vous, qui surveille les vôtres ?",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555505-openai-a-decouvert-les-derapages-de-ses-agents-par-les-autres-et-vous-qui-surveille-les-votres/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-29T08:10:06+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "L'article analyse la nécessité de surveiller les agents IA autonomes face aux risques de dérapages observés chez OpenAI. Il propose aux dirigeants quatre questions clés pour apprendre à déléguer en toute sécurité à leurs propres agents.",
+   "note": 3
+  },
+  {
+   "id": 122,
+   "titre": "Il n'existe pas un seul type de projet IA",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555521-il-n-existe-pas-un-seul-type-de-projet-ia/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-29T08:08:53+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'article explique que l'expression projet IA regroupe des réalités très différentes selon les objectifs. Il souligne l'importance de bien les distinguer pour adapter les outils, les compétences et les investissements.",
+   "note": 2
+  },
+  {
+   "id": 220,
+   "titre": "Introducing dots",
+   "url": "https://openai.com/index/introducing-dots",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-29T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "OpenAI presente Dots, des assistants proactifs capables de travailler en continu sur des projets complexes et des taches quotidiennes. Ces nouveaux outils permettent aux utilisateurs de rester aux commandes tout en automatisant le flux de travail.",
+   "note": 4
+  },
+  {
+   "id": 221,
+   "titre": "How we will do better for Australia",
+   "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-28T19:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "OpenAI s'excuse suite à des incidents impliquant des sites web du gouvernement australien. L'entreprise présente de nouveaux garde-fous pour renforcer la cybersécurité en Australie.",
+   "note": 2
+  },
+  {
+   "id": 222,
+   "titre": "Towards safety cases for frontier AI training",
+   "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-28T19:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "OpenAI publie de nouvelles directives concernant la sécurité lors de l'entraînement des intelligences artificielles frontières. Ces lignes directrices couvrent les mesures de protection techniques, les pratiques opérationnelles et l'analyse des incidents d'alignement.",
+   "note": 3
+  },
+  {
+   "id": 123,
+   "titre": "Claude Code vs Codex : le comparatif complet en septembre 2026",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555487-claude-code-vs-codex-le-comparatif-complet-en-septembre-2026/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-28T09:54:54+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "GPT",
+    "OpenAI",
+    "Claude",
+    "Anthropic",
+    "Codex"
+   ],
+   "resume": "Cet article compare les performances des assistants de code Claude Code et Codex, propulsés respectivement par Claude Opus 5.5 et GPT-6. L'analyse met en évidence les différences d'utilisation réelle entre ces deux solutions d'intelligence artificielle pour les développeurs.",
+   "note": 5
+  },
+  {
+   "id": 124,
+   "titre": "L'IA promet de vous faire gagner du temps, c'est la seule chose qu'elle ne peut pas produire",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555447-l-ia-promet-de-vous-faire-gagner-du-temps-c-est-la-seule-chose-qu-elle-ne-peut-pas-produire/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-28T09:03:26+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Cet article aborde la place grandissante de l'intelligence artificielle dans notre quotidien et soulève la question de son impact sur notre rapport au temps et aux relations humaines. L'auteur rappelle que malgré les gains de productivité promis, l'IA ne pourra jamais remplacer les moments précieux passés en famille.",
+   "note": 1
+  },
+  {
+   "id": 126,
+   "titre": "Physical AI : le prochain défi sera infrastructurel",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555403-physical-ai-le-prochain-defi-sera-infrastructurel/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-28T08:56:31+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Robotique",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "intelligence artificielle",
+    "IA",
+    "AI"
+   ],
+   "resume": "L'intelligence artificielle entre dans une nouvelle ère qualifiée d'IA physique. Le principal défi de cette transition majeure sera d'ordre infrastructurel.",
+   "note": 3
+  },
+  {
+   "id": 127,
+   "titre": "IA : la fracture décisionnelle",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555427-ia-la-fracture-decisionnelle/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-28T08:56:13+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle s'installe progressivement dans notre quotidien et au sein des entreprises depuis plus de vingt ans. Aujourd'hui, son intégration franchit une nouvelle étape importante dans les systèmes d'information.",
+   "note": 2
+  },
+  {
+   "id": 128,
+   "titre": "L'OCDE a interrogé 25 pros des agents IA : la bride reste courte",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555433-l-ocde-a-interroge-25-pros-des-agents-ia-la-bride-reste-courte/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-28T08:55:57+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "agents IA",
+    "IA"
+   ],
+   "resume": "L'OCDE a mené une étude auprès de 25 organisations utilisant des agents IA. Les résultats montrent qu'aucune entreprise ne laisse ces systèmes agir sans limites, soulignant les enjeux de contrôle et de sécurité.",
+   "note": 3
+  },
+  {
+   "id": 129,
+   "titre": "Des environnements de travail \" AI-first \" au service d'une transformation continue",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555437-des-environnements-de-travail-ai-first-au-service-d-une-transformation-continue/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-28T08:55:33+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA",
+    "AI"
+   ],
+   "resume": "L'intelligence artificielle transforme profondément les environnements de travail professionnels en instaurant des modèles plus automatisés et collaboratifs. Cette évolution nécessite une adaptation constante combinant technologie, gouvernance et formation continue.",
+   "note": 2
+  },
+  {
+   "id": 130,
+   "titre": "Agents IA : après le plafond des tokens, le plafond du consentement",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555453-agents-ia-apres-le-plafond-des-tokens-le-plafond-du-consentement/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-28T08:55:04+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "agents IA",
+    "IA"
+   ],
+   "resume": "L'article aborde la question du consentement et de l'autonomie des agents IA dans le développement. Il introduit la notion de budget d'autonomie pour encadrer les actions et les autorisations nécessaires de ces systèmes.",
+   "note": 4
+  },
+  {
+   "id": 223,
+   "titre": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+   "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-28T07:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI soutient le Lenfest Institute en étendant son programme d'aide avec un financement de 5 millions de dollars et des crédits logiciels. Cette initiative vise à accompagner des projets journalistiques et technologiques.",
+   "note": 1
+  },
+  {
+   "id": 224,
+   "titre": "Are you a Codex Original?",
+   "url": "https://openai.com/form/codex-originals",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-28T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Codex"
+   ],
+   "resume": "OpenAI recherche des témoignages de développeurs et créateurs qui utilisent son outil Codex. L'objectif est de recueillir des histoires inspirantes pour enrichir son programme Codex Originals.",
+   "note": 2
+  },
+  {
+   "id": 225,
+   "titre": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+   "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-28T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "Le nouveau modèle d'intelligence artificielle GPT-6 Astra a accompli un travail de comptabilité deux fois plus rapidement que son prédécesseur. Ses performances accrues et sa meilleure compréhension des instructions renforcent la confiance des entreprises pour son utilisation concrète.",
+   "note": 4
+  },
+  {
+   "id": 226,
+   "titre": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+   "url": "https://openai.com/index/proaction",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-25T19:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "GPT",
+    "Codex"
+   ],
+   "resume": "L'entreprise Proaction utilise les modèles Codex et GPT d'OpenAI pour accélérer le développement et la gestion de flottes. Cette intégration permet d'augmenter les ventes de 60 pourcent et d'économiser de nombreuses heures de travail.",
+   "note": 3
   }
  ]
 }
