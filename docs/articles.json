@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-10T12:00:10+00:00",
+ "genere_le": "2026-10-10T12:04:52+00:00",
  "statistiques": {
   "collectes": 448,
   "gardes_mots_cles": 313,
@@ -1978,7 +1978,7 @@
    "resume": "Unity a annoncé un partenariat avec Google pour lancer Unity Spark, un outil basé sur des prompts permettant de développer des jeux en collaboration avec l'IA. Cette plateforme vise à intégrer l'intelligence artificielle directement dans les processus de création de jeux vidéo.",
    "note": 4,
    "justification": null,
-   "favori": true
+   "favori": false
   },
   {
    "id": 199,
