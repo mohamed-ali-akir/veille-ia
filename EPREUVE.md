@@ -63,6 +63,7 @@ ou `py chercher.py mot` (recherche en ligne de commande).
 | **Produire un flux RSS** | `generer_site.py` | `xml.etree.ElementTree` construit le XML et échappe `<` et `&` tout seul ; testé en relisant le flux avec `feedparser`. |
 | **Webhook vs bot** | `favoris.py` | Un webhook sait seulement écrire ; pour LIRE les réactions ⭐, il faut un bot avec un jeton secret. Le bot n'a que 2 droits (voir le salon, lire l'historique) : principe du **moindre privilège**. |
 | **Compromis temps réel / coût** | `favoris.yml` | Un bot en temps réel devrait rester connecté 24h/24 sur un serveur payant. À la place : un workflow léger toutes les 5 min, sans IA, qui ne commit que si les favoris ont changé. Les deux workflows partagent un groupe de **concurrence** pour ne jamais modifier la base en même temps. |
+| **Méthodes HTTP** | `alerte_discord.py` | `GET` pour lire, `POST` pour créer un message, `DELETE` pour supprimer la copie d'un favori retiré : un webhook a le droit de supprimer ses propres messages. |
 | **API REST paginée** | `favoris.py` | Discord renvoie 100 messages par page ; on demande la page suivante avec `before=<id>` jusqu'à 30 jours. |
 | **Cache HTTP** | `app.js` | GitHub Pages fait garder les fichiers 10 min par le navigateur : `fetch(..., { cache: "no-cache" })` force la vérification de la dernière version. |
 | **Webhook** | `alerte_discord.py` | URL secrète ; un POST JSON = un message dans le salon. Colonne `alerte_envoyee` pour ne jamais envoyer deux fois. |

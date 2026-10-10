@@ -113,6 +113,29 @@ def envoyer_sur_discord(url_webhook, message):
     return None
 
 
+def supprimer_sur_discord(url_webhook, message_id):
+    """
+    Supprime un message envoyé par ce webhook (un webhook a le droit de
+    supprimer ses propres messages). Renvoie True si le message n'existe plus.
+    Utilisée par favoris.py quand une étoile est retirée.
+    """
+    requete = urllib.request.Request(
+        f"{url_webhook}/messages/{message_id}",
+        headers={"User-Agent": "VeilleIA/1.0 (projet etudiant BTS SIO)"},
+        method="DELETE",
+    )
+    try:
+        with urllib.request.urlopen(requete, timeout=30):
+            return True
+    except urllib.error.HTTPError as erreur:
+        if erreur.code == 404:
+            return True  # déjà supprimé (par exemple à la main) : c'est bon aussi
+        print(f"Erreur Discord {erreur.code} : {erreur.read().decode()[:200]}")
+    except urllib.error.URLError as erreur:
+        print(f"Discord injoignable : {erreur}")
+    return False
+
+
 # ---------- Programme principal ----------
 
 def main():

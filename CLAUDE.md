@@ -108,6 +108,7 @@ La recherche se fait dans le navigateur (JavaScript), sans serveur.
 | alerte_envoyee | 0/1 : déjà envoyé sur Discord |
 | discord_message_id, discord_canal_id | message Discord de l'alerte (renvoyé par le webhook avec `?wait=true`) |
 | favori | 0/1 : réaction ⭐ sous l'alerte (lu par `favoris.py` via le bot, ajout ET retrait) |
+| discord_favori_message_id | copie de l'article dans #favoris ; supprimée par le webhook quand l'étoile est retirée |
 
 ### Table `essentiels` (SQLite)
 Une ligne par synthèse « L'essentiel de la semaine » : `date_creation`, `debut`, `fin`,
@@ -191,5 +192,7 @@ git add . && git commit -m "message" && git push
     groupées) ne peuvent pas devenir favorites. 34 tests.
   - Favoris pas en temps réel (bot non connecté en permanence) → workflow léger `favoris.yml`
     toutes les 5 min, sans IA ; testé : sans changement, veille.db reste identique (pas de commit).
+  - Bug signalé : retirer une ⭐ ne supprimait pas la copie dans #favoris. Corrigé : l'id de la copie
+    est gardé et le webhook la supprime (`supprimer_sur_discord`, DELETE). Nettoyage des anciennes copies.
   - **Reste à faire** : relire EPREUVE.md, écrire les synthèses mensuelles (`py synthese.py`),
     répéter la démo.

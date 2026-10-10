@@ -52,8 +52,9 @@ def ouvrir_base():
             discord_message_id TEXT,   -- identifiant du message Discord de l'alerte
             discord_canal_id   TEXT,   -- identifiant du salon où il a été envoyé
 
-            -- Colonne remplie par favoris.py
-            favori           INTEGER NOT NULL DEFAULT 0  -- 1 = réaction ⭐ sur Discord
+            -- Colonnes remplies par favoris.py
+            favori           INTEGER NOT NULL DEFAULT 0,  -- 1 = réaction ⭐ sur Discord
+            discord_favori_message_id TEXT  -- copie de l'article dans le salon #favoris
         )
     """)
 
@@ -76,6 +77,7 @@ def ouvrir_base():
     ajouter_colonne_si_absente(connexion, "articles", "discord_message_id", "TEXT")
     ajouter_colonne_si_absente(connexion, "articles", "discord_canal_id", "TEXT")
     ajouter_colonne_si_absente(connexion, "articles", "favori", "INTEGER NOT NULL DEFAULT 0")
+    ajouter_colonne_si_absente(connexion, "articles", "discord_favori_message_id", "TEXT")
 
     connexion.commit()
     return connexion

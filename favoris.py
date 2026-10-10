@@ -10,7 +10,8 @@ Ce script :
   2. repère ceux qui ont une réaction ⭐,
   3. met à jour la colonne "favori" de la base
      (ajout si j'ai mis ⭐, retrait si je l'ai enlevée),
-  4. recopie les nouveaux favoris dans le salon #favoris.
+  4. recopie les nouveaux favoris dans le salon #favoris,
+     et y supprime la copie quand l'étoile est retirée.
 Le site affiche ensuite l'onglet "Favoris" (via generer_site.py).
 
 Pourquoi un BOT ? Un webhook sait seulement ÉCRIRE dans un salon.
@@ -29,7 +30,8 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-from alerte_discord import PAUSE_ENTRE_MESSAGES, creer_carte, envoyer_sur_discord
+from alerte_discord import (PAUSE_ENTRE_MESSAGES, creer_carte, envoyer_sur_discord,
+                            supprimer_sur_discord)
 from base import ouvrir_base
 
 
@@ -147,26 +149,41 @@ def main():
         ajouts += nouveaux
         retraits += enleves
 
+    # Salon #favoris : on y recopie les nouveaux favoris et on y supprime les anciens
+    url_favoris = os.environ.get("DISCORD_WEBHOOK_FAVORIS")
+
     for message_id in ajouts:
         connexion.execute("UPDATE articles SET favori = 1 WHERE discord_message_id = ?", (message_id,))
-    for message_id in retraits:
-        connexion.execute("UPDATE articles SET favori = 0 WHERE discord_message_id = ?", (message_id,))
-    connexion.commit()
-
-    total = connexion.execute("SELECT COUNT(*) FROM articles WHERE favori = 1").fetchone()[0]
-    print(f"Favoris : {len(ajouts)} ajouté(s), {len(retraits)} retiré(s), {total} au total.")
-
-    # Recopie les nouveaux favoris dans le salon #favoris
-    url_favoris = os.environ.get("DISCORD_WEBHOOK_FAVORIS")
-    if url_favoris:
-        for message_id in ajouts:
+        if url_favoris:
             article = connexion.execute(
                 "SELECT titre, url, source, tags, resume, note FROM articles "
                 "WHERE discord_message_id = ?", (message_id,)
             ).fetchone()
-            envoyer_sur_discord(url_favoris, {"username": "Veille IA", "embeds": [creer_carte(article)]})
+            copie = envoyer_sur_discord(url_favoris, {"username": "Veille IA", "embeds": [creer_carte(article)]})
+            if copie:
+                # On garde l'identifiant de la copie, pour pouvoir la supprimer plus tard
+                connexion.execute(
+                    "UPDATE articles SET discord_favori_message_id = ? WHERE discord_message_id = ?",
+                    (copie["id"], message_id),
+                )
             time.sleep(PAUSE_ENTRE_MESSAGES)
 
+    for message_id in retraits:
+        connexion.execute("UPDATE articles SET favori = 0 WHERE discord_message_id = ?", (message_id,))
+        copie_id = connexion.execute(
+            "SELECT discord_favori_message_id FROM articles WHERE discord_message_id = ?", (message_id,)
+        ).fetchone()[0]
+        # Étoile retirée : on supprime aussi sa copie dans #favoris
+        if url_favoris and copie_id and supprimer_sur_discord(url_favoris, copie_id):
+            connexion.execute(
+                "UPDATE articles SET discord_favori_message_id = NULL WHERE discord_message_id = ?",
+                (message_id,),
+            )
+            time.sleep(PAUSE_ENTRE_MESSAGES)
+
+    connexion.commit()
+    total = connexion.execute("SELECT COUNT(*) FROM articles WHERE favori = 1").fetchone()[0]
+    print(f"Favoris : {len(ajouts)} ajouté(s), {len(retraits)} retiré(s), {total} au total.")
     connexion.close()
 
 
