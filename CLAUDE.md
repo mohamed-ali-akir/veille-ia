@@ -118,9 +118,9 @@ La recherche se fait dans le navigateur (JavaScript), sans serveur.
 ## 5. Feuille de route
 
 - ✅ Étape 1 — Récupérer + stocker (`collecte.py`, `base.py`)
-- ✅ Étape 2 — Trier (`tri.py`) — testé hors ligne ; **à tester avec la vraie clé Gemini**
-- ✅ Étape 3 — Site (`generer_site.py`, `docs/`) — testé en local avec des données simulées
-- ✅ Étape 4 — GitHub Actions + Discord — écrits ; **à activer** (secrets + GitHub Pages)
+- ✅ Étape 2 — Trier (`tri.py`) — testé avec la vraie clé Gemini (188 articles analysés)
+- ✅ Étape 3 — Site (`generer_site.py`, `docs/`) — en ligne sur GitHub Pages
+- ✅ Étape 4 — GitHub Actions écrit et secret Gemini en place ; **Discord à configurer**
 - ⬜ Étape 5 — Préparer l'épreuve : relire `EPREUVE.md`, synthèses mensuelles, répétition de la démo
 
 ## 6. Commandes utiles (PC Windows)
@@ -151,7 +151,13 @@ git add . && git commit -m "message" && git push
     filtres, tags cliquables, « À la une », mode sombre, mobile, page Méthodologie).
   - `alerte_discord.py`, `tests.py` (21 tests), workflow GitHub Actions, README, EPREUVE.md,
     `synthese.py` (brouillon de synthèse mensuelle, partie « Mon analyse » à écrire soi-même).
-  - Problème : compte Google bloqué pour AI Studio (vérification d'âge) → clé Gemini
-    pas encore créée. `GEMINI_API_KEY` contenait le texte d'exemple au lieu de la clé.
-  - **Reste à faire** : vraie clé Gemini (PC + secret GitHub), webhook Discord,
-    dépôt en public + GitHub Pages (main /docs), premier « Run workflow ».
+  - Problème : compte Google bloqué pour AI Studio (vérification d'âge), résolu dans la
+    soirée. Les nouvelles clés Gemini commencent par `AQ.` (et non plus `AIza`) : ça marche.
+  - Clé Gemini configurée (PC + secret GitHub). 4 lots d'analyse lancés : **188 articles**
+    résumés et notés (8 à 5★, 37 à 4★), 114 en attente (traités par GitHub Actions).
+    Quelques erreurs 403 passagères de Gemini : les articles sont retentés au lancement suivant.
+  - Dépôt passé en **public**, **GitHub Pages activé** : https://mohamed-ali-akir.github.io/veille-ia/
+  - Correctif : `fetch(..., { cache: "no-cache" })`, car GitHub Pages fait garder
+    `articles.json` 10 minutes en cache par le navigateur.
+  - **Reste à faire** : webhook Discord (`setx DISCORD_WEBHOOK_URL` + secret GitHub),
+    vérifier le premier lancement automatique de GitHub Actions, relire EPREUVE.md.
