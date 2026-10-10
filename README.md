@@ -76,7 +76,7 @@ veille-ia/
 │   └── flux.xml           flux RSS des articles 4-5★ (fichier généré)
 └── .github/workflows/
     ├── veille.yml         la veille complète, 2 fois par jour
-    └── favoris.yml        synchronisation des favoris ⭐, toutes les 15 minutes
+    └── favoris.yml        synchronisation des favoris ⭐, toutes les 5 minutes
 ```
 
 ## Utilisation sur mon PC (Windows)

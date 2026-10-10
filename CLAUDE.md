@@ -81,7 +81,7 @@ veille-ia/
 │   ├── index.html, methodologie.html, style.css, app.js  (écrits à la main)
 │   └── articles.json, flux.xml  (SEULS fichiers générés)
 └── .github/workflows/veille.yml   tests → collecte → tri → essentiel → favoris → site → Discord → commit/push
-    .github/workflows/favoris.yml  toutes les 15 min : favoris.py ; commit SEULEMENT si veille.db a changé
+    .github/workflows/favoris.yml  toutes les 5 min : favoris.py ; commit SEULEMENT si veille.db a changé
                                    (même groupe de concurrence « veille » : jamais en même temps)
 ```
 
@@ -190,6 +190,6 @@ git add . && git commit -m "message" && git push
     Les alertes sont maintenant envoyées une par message. Les 10 premières alertes (envoyées
     groupées) ne peuvent pas devenir favorites. 34 tests.
   - Favoris pas en temps réel (bot non connecté en permanence) → workflow léger `favoris.yml`
-    toutes les 15 min, sans IA ; testé : sans changement, veille.db reste identique (pas de commit).
+    toutes les 5 min, sans IA ; testé : sans changement, veille.db reste identique (pas de commit).
   - **Reste à faire** : relire EPREUVE.md, écrire les synthèses mensuelles (`py synthese.py`),
     répéter la démo.

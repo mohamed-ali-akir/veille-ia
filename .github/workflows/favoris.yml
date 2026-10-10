@@ -3,20 +3,20 @@
 # =============================================================
 #  Workflow léger, séparé de la veille principale :
 #  il lit seulement les réactions ⭐ (pas d'IA, pas de quota),
-#  toutes les 15 minutes, et ne crée un commit QUE si mes
+#  toutes les 5 minutes, et ne crée un commit QUE si mes
 #  favoris ont changé.
 #
 #  Pourquoi pas en temps réel ? Il faudrait un bot connecté
 #  en permanence sur un serveur allumé 24h/24 (payant).
-#  15 minutes est un bon compromis, gratuit.
+#  5 minutes (le minimum autorisé par GitHub) est un bon compromis, gratuit.
 # =============================================================
 
 name: Favoris Discord
 
 on:
-  # Toutes les 15 minutes (GitHub peut prendre quelques minutes de retard)
+  # Toutes les 5 minutes, le minimum de GitHub (qui peut prendre quelques minutes de retard)
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   # Bouton "Run workflow" pour une mise à jour immédiate (démo)
   workflow_dispatch:
 
