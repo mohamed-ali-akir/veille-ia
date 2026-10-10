@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-10T11:39:10+00:00",
+ "genere_le": "2026-10-10T12:00:10+00:00",
  "statistiques": {
   "collectes": 448,
   "gardes_mots_cles": 313,
@@ -1452,7 +1452,7 @@
    "resume": "Un développeur présente LemonSeed Studio, un IDE et éditeur pour iPad permettant l'inférence locale de grands modèles de langage sur GPU AMD via un moteur multiplateforme optimisé. L'article détaille des performances impressionnantes en tokens par seconde sur le modèle Qwen avec différentes configurations matérielles.",
    "note": 4,
    "justification": null,
-   "favori": true
+   "favori": false
   },
   {
    "id": 332,
@@ -1664,7 +1664,7 @@
    "resume": "Un développeur frustré par les pratiques d'Adobe a utilisé l'intelligence artificielle pour créer Artcraft, une suite de sept logiciels open source écrits en Rust. Ce projet illustre comment l'IA permet de concevoir rapidement des alternatives gratuites à des logiciels commerciaux majeurs.",
    "note": 4,
    "justification": null,
-   "favori": false
+   "favori": true
   },
   {
    "id": 186,
@@ -1978,7 +1978,7 @@
    "resume": "Unity a annoncé un partenariat avec Google pour lancer Unity Spark, un outil basé sur des prompts permettant de développer des jeux en collaboration avec l'IA. Cette plateforme vise à intégrer l'intelligence artificielle directement dans les processus de création de jeux vidéo.",
    "note": 4,
    "justification": null,
-   "favori": false
+   "favori": true
   },
   {
    "id": 199,
