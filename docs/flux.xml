@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille IA : les articles importants</title>
+    <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
+    <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
+    <language>fr</language>
+    <lastBuildDate>Sat, 10 Oct 2026 10:49:32 +0000</lastBuildDate>
+    <item>
+      <title>My "Anthropic/ChatGPT in a box" is... now open source and publicly hosted on Github.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/</guid>
+      <pubDate>Fri, 09 Oct 2026 23:00:01 +0000</pubDate>
+      <description>LumaBrowser, un écosystème tout-en-un pour LLM et agents conversationnels, est désormais open source sur GitHub. Il gère automatiquement le chargement des modèles et l'intégration d'outils multimodaux selon les capacités du système.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Agents IA</category>
+    </item>
+    <item>
+      <title>H2O-Lightning-4B: Apache-2.0 4B Decision model, official #1 open model on JevBench (above Jev)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1w1nv/h2olightning4b_apache20_4b_decision_model/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1w1nv/h2olightning4b_apache20_4b_decision_model/</guid>
+      <pubDate>Fri, 09 Oct 2026 20:26:12 +0000</pubDate>
+      <description>La société H2O.ai a publié H2O-Lightning-4B, un modèle open-source de 4 milliards de paramètres spécialisé dans les inférences de type décisionnel rapide sans génération de texte. Ce modèle se positionne en tête du benchmark JevBench avec un score de 72,5 et fonctionne localement pour optimiser les coûts et la vitesse des applications.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>AI coding agents generate more code, but not more software</title>
+      <link>https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/</link>
+      <guid>https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/</guid>
+      <pubDate>Fri, 09 Oct 2026 19:43:50 +0000</pubDate>
+      <description>Une étude montre que les agents de codage IA génèrent davantage de code, mais cela ne se traduit pas par une augmentation de la production logicielle globale. Le principal goulot d'étranglement réside désormais dans la revision humaine du code généré.
+
+★★★★☆ · Ars Technica (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Just another purely open-weight models benchmark</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1tf1t/just_another_purely_openweight_models_benchmark/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1tf1t/just_another_purely_openweight_models_benchmark/</guid>
+      <pubDate>Fri, 09 Oct 2026 18:43:54 +0000</pubDate>
+      <description>Cet article présente un nouveau benchmark open-source pour comparer les performances de modèles d'IA open-weights. Il intègre notamment des tests axés sur le code et les agents IA, évalués sur du matériel local.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Agents IA</category>
+    </item>
+    <item>
+      <title>GitHub - google-ai-edge/ml-drift: GPU-Accelerated AI/ML Inference</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:50:37 +0000</pubDate>
+      <description>Google a annonce la sortie open source de ML Drift, un moteur de calcul GPU cross-platform dedie a l'inference d'IA sur les appareils. Cet outil permet aux developpeurs d'integrer des experiences de machine learning en temps reel et de l'IA generative sur plusieurs plateformes grace a une abstraction des API materielles.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Qwen-Image-2.1-Turbo released!</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1lclx/qwenimage21turbo_released/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1lclx/qwenimage21turbo_released/</guid>
+      <pubDate>Fri, 09 Oct 2026 13:27:18 +0000</pubDate>
+      <description>Alibaba a sorti Qwen-Image-2.1-Turbo, un modèle open weights de génération et d'édition d'images basé sur une architecture de 7 milliards de paramètres. Il permet de créer des images 2K de haute qualité en seulement 8 étapes de débruitage grâce à une version optimisée. Ce modèle intègre également l'édition par langage naturel et est directement compatible avec la bibliothèque Diffusers.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Image &amp; vidéo</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>A new feature for my blog, built using my voice</title>
+      <link>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</link>
+      <guid>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</guid>
+      <pubDate>Fri, 09 Oct 2026 12:54:06 +0000</pubDate>
+      <description>Simon Willison partage son expérience de développement d'une nouvelle fonctionnalité pour son blog, réalisée presque entièrement à la voix grâce au mode vocal de l'application de bureau ChatGPT. Cet article illustre une nouvelle façon d'interagir avec les outils de développement en utilisant l'intelligence artificielle.
+
+★★★★☆ · Simon Willison</description>
+      <category>Outils dev</category>
+      <category>Agents IA</category>
+    </item>
+    <item>
+      <title>tencent/Youtu-Parsing-Omni · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/</guid>
+      <pubDate>Fri, 09 Oct 2026 12:03:32 +0000</pubDate>
+      <description>L'article présente Youtu-Parsing-Omni, un modèle omni-modal compact de 5 milliards de paramètres capable de traiter divers types d'entrées (documents, images, audio, vidéo). Il génère une sortie structurée en JSON combinant perception et cognition selon la tâche demandée.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Anthropic lance des analyses de sécurité gratuites par IA pour les projets open source, OSS Scanner propose des rapports de vulnérabilité générés par ses modèles les plus performants, dont Mythos</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/387962/Anthropic-lance-des-analyses-de-securite-gratuites-par-IA-pour-les-projets-open-source-OSS-Scanner-propose-des-rapports-de-vulnerabilite-generes-par-ses-modeles-les-plus-performants-dont-Mythos/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/387962/Anthropic-lance-des-analyses-de-securite-gratuites-par-IA-pour-les-projets-open-source-OSS-Scanner-propose-des-rapports-de-vulnerabilite-generes-par-ses-modeles-les-plus-performants-dont-Mythos/</guid>
+      <pubDate>Fri, 09 Oct 2026 11:58:00 +0000</pubDate>
+      <description>Anthropic a lance OSS Scanner, un service gratuit qui utilise ses modeles d'IA les plus performants pour analyser les projets open source a la recherche de failles de securite. Les responsables de maintenance recoivent ensuite directement des rapports de vulnerabilite detailles par e-mail.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Sécurité</category>
+      <category>Open source</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Anthropic lance Claude Haiku 5.5</title>
+      <link>https://www.lemondeinformatique.fr/actualites/lire-anthropic-lance-claude-haiku-55-100843.html</link>
+      <guid>https://www.lemondeinformatique.fr/actualites/lire-anthropic-lance-claude-haiku-55-100843.html</guid>
+      <pubDate>Fri, 09 Oct 2026 09:55:09 +0000</pubDate>
+      <description>Anthropic complete sa gamme de modeles en lancant Claude Haiku 5.5, quelques jours apres les sorties d'Opus 5.5 et Sonnet 5.5. Ce nouveau modele d'intelligence artificielle vient enrichir l'offre de l'entreprise.
+
+★★★★☆ · Le Monde Informatique (IA)</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
+      <link>https://openai.com/index/sophos</link>
+      <guid>https://openai.com/index/sophos</guid>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Sophos utilise l'outil OpenAI Daybreak pour réduire de 96 % le temps d'investigation des cybermenaces. Cette solution automatise également 52 % des cas de détection et réponse gérées tout en conservant une supervision humaine.
+
+★★★★☆ · OpenAI News</description>
+      <category>Sécurité</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
+      <link>https://openai.com/index/asana-browser-agent</link>
+      <guid>https://openai.com/index/asana-browser-agent</guid>
+      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
+      <description>Asana a testé le modèle GPT-6 Astra via Codex pour optimiser son agent de navigateur. Cette intégration a permis de réduire les coûts de calcul de 76 fois tout en multipliant la vitesse d'exécution par 5.
+
+★★★★☆ · OpenAI News</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Qwen3.8-27B: 159 tok/s on R9700, 64 tok/s on Strix Halo</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/</guid>
+      <pubDate>Fri, 09 Oct 2026 01:20:39 +0000</pubDate>
+      <description>Un développeur présente LemonSeed Studio, un IDE et éditeur pour iPad permettant l'inférence locale de grands modèles de langage sur GPU AMD via un moteur multiplateforme optimisé. L'article détaille des performances impressionnantes en tokens par seconde sur le modèle Qwen avec différentes configurations matérielles.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>OpenAI met GPT-6 à la disposition des 1,2 milliard d'utilisateurs de ChatGPT avec « Intelligent UI », qui permet au chatbot IA de répondre aux questions via des interfaces interactives</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/387950/OpenAI-met-GPT-6-a-la-disposition-des-1-2-milliard-d-utilisateurs-de-ChatGPT-avec-Intelligent-UI-qui-permet-au-chatbot-IA-de-repondre-aux-questions-via-des-interfaces-interactives/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/387950/OpenAI-met-GPT-6-a-la-disposition-des-1-2-milliard-d-utilisateurs-de-ChatGPT-avec-Intelligent-UI-qui-permet-au-chatbot-IA-de-repondre-aux-questions-via-des-interfaces-interactives/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:25:00 +0000</pubDate>
+      <description>OpenAI lance GPT-6 et introduit la fonctionnalité Intelligent UI, permettant à ChatGPT de répondre aux utilisateurs via des interfaces interactives. Ce déploiement concerne d'abord les formules payantes avant d'être généralisé à l'ensemble des utilisateurs.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>« C'en est fini des logiciels » : Porté par la frustration liée aux frais et pratiques de résiliation d'Adobe, un développeur utilise l'IA pour créer des clones gratuits et open source d'Adobe</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/387952/-C-en-est-fini-des-logiciels-Porte-par-la-frustration-liee-aux-frais-et-pratiques-de-resiliation-d-Adobe-un-developpeur-utilise-l-IA-pour-creer-des-clones-gratuits-et-open-source-d-Adobe/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/387952/-C-en-est-fini-des-logiciels-Porte-par-la-frustration-liee-aux-frais-et-pratiques-de-resiliation-d-Adobe-un-developpeur-utilise-l-IA-pour-creer-des-clones-gratuits-et-open-source-d-Adobe/</guid>
+      <pubDate>Thu, 08 Oct 2026 18:41:00 +0000</pubDate>
+      <description>Un développeur frustré par les pratiques d'Adobe a utilisé l'intelligence artificielle pour créer Artcraft, une suite de sept logiciels open source écrits en Rust. Ce projet illustre comment l'IA permet de concevoir rapidement des alternatives gratuites à des logiciels commerciaux majeurs.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Google brings agentic AI to Gemini, starting with businesses</title>
+      <link>https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/</link>
+      <guid>https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/</guid>
+      <pubDate>Thu, 08 Oct 2026 18:18:00 +0000</pubDate>
+      <description>Google transforme Gemini en un agent IA capable de planifier, d'exécuter des tâches et de déléguer du travail via des sous-agents. Cette évolution vise à intégrer l'intelligence artificielle au cœur des applications et des systèmes d'entreprise.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>Agents IA</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Anthropic lance Claude Haiku 5.5 avec une réduction de 90 % du prix des API, s'alignant ainsi sur GPT-6 Luna, présenté comme « le petit modèle le moins cher, le plus rapide et le plus performant »</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/387942/Anthropic-lance-Claude-Haiku-5-5-avec-une-reduction-de-90-pourcent-du-prix-des-API-s-alignant-ainsi-sur-GPT-6-Luna-presente-comme-le-petit-modele-le-moins-cher-le-plus-rapide-et-le-plus-performant/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/387942/Anthropic-lance-Claude-Haiku-5-5-avec-une-reduction-de-90-pourcent-du-prix-des-API-s-alignant-ainsi-sur-GPT-6-Luna-presente-comme-le-petit-modele-le-moins-cher-le-plus-rapide-et-le-plus-performant/</guid>
+      <pubDate>Thu, 08 Oct 2026 13:42:00 +0000</pubDate>
+      <description>Anthropic a lance Claude Haiku 5.5 avec une reduction de 90 % du prix des API, le positionnant comme un petit modele ultra-rapide et economique. Cette nouveaute s'aligne sur les dernieres tendances du marche en offrant des performances elevees pour les developpeurs.
+
+★★★★★ · Developpez.com (IA)</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Unity dévoile Unity Spark, un outil basé sur des prompts pour la plateforme de jeux IA de Google, permettant de développer des jeux en collaboration avec l'IA de Google</title>
+      <link>https://jeux.developpez.com/actu/387926/Unity-devoile-Unity-Spark-un-outil-base-sur-des-prompts-pour-la-plateforme-de-jeux-IA-de-Google-permettant-de-developper-des-jeux-en-collaboration-avec-l-IA-de-Google/</link>
+      <guid>https://jeux.developpez.com/actu/387926/Unity-devoile-Unity-Spark-un-outil-base-sur-des-prompts-pour-la-plateforme-de-jeux-IA-de-Google-permettant-de-developper-des-jeux-en-collaboration-avec-l-IA-de-Google/</guid>
+      <pubDate>Thu, 08 Oct 2026 12:06:00 +0000</pubDate>
+      <description>Unity a annoncé un partenariat avec Google pour lancer Unity Spark, un outil basé sur des prompts permettant de développer des jeux en collaboration avec l'IA. Cette plateforme vise à intégrer l'intelligence artificielle directement dans les processus de création de jeux vidéo.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Microsoft insiste avec Copilot : l'entreprise va laisser l'IA Copilot intervenir librement dans votre système de fichiers et prendre le contrôle de Windows. Les administrateurs système voient rouge</title>
+      <link>https://microsoft.developpez.com/actu/387928/Microsoft-insiste-avec-Copilot-l-entreprise-va-laisser-l-IA-Copilot-intervenir-librement-dans-votre-systeme-de-fichiers-et-prendre-le-controle-de-Windows-Les-administrateurs-systeme-voient-rouge/</link>
+      <guid>https://microsoft.developpez.com/actu/387928/Microsoft-insiste-avec-Copilot-l-entreprise-va-laisser-l-IA-Copilot-intervenir-librement-dans-votre-systeme-de-fichiers-et-prendre-le-controle-de-Windows-Les-administrateurs-systeme-voient-rouge/</guid>
+      <pubDate>Thu, 08 Oct 2026 10:52:00 +0000</pubDate>
+      <description>Microsoft intègre son IA Copilot au cœur du système de fichiers de Windows pour automatiser des tâches. Cette fonctionnalité hybride inquiète fortement les administrateurs système en raison des risques de sécurité et de perte de contrôle.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Outils dev</category>
+      <category>Sécurité</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Code, finance, français, cybersécurité... On a testé Mistral Large 4</title>
+      <link>https://www.journaldunet.com/intelligence-artificielle/1556073-code-finance-francais-cybersecurite-on-a-teste-mistral-large-4/</link>
+      <guid>https://www.journaldunet.com/intelligence-artificielle/1556073-code-finance-francais-cybersecurite-on-a-teste-mistral-large-4/</guid>
+      <pubDate>Thu, 08 Oct 2026 09:44:15 +0000</pubDate>
+      <description>Le nouveau modèle Mistral Large 4 a été testé et comparé à ses concurrents. Il se distingue par son excellente maîtrise de la langue française et ses compétences en cybersécurité, bien qu'il soit un peu en retrait sur le code.
+
+★★★★☆ · Journal du Net (IA)</description>
+      <category>LLM</category>
+      <category>Sécurité</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Chez Anthropic, Haiku 5.5 prend la relève des petits modèles rapides</title>
+      <link>https://next.ink/260659/chez-anthropic-haiku-5-5-prend-la-releve-des-petits-modeles-rapides/</link>
+      <guid>https://next.ink/260659/chez-anthropic-haiku-5-5-prend-la-releve-des-petits-modeles-rapides/</guid>
+      <pubDate>Thu, 08 Oct 2026 09:10:45 +0000</pubDate>
+      <description>Anthropic a lance Haiku 5.5, son nouveau modele d'intelligence artificielle le plus petit et le plus rapide. Cette version propose un bond majeur en performances tout en restant tres abordable.
+
+★★★★☆ · Next</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Le Chonk de Mistral : le géant européen qui court après son retard</title>
+      <link>https://www.journaldunet.com/intelligence-artificielle/1555965-le-chonk-de-mistral-le-geant-europeen-qui-court-apres-son-retard/</link>
+      <guid>https://www.journaldunet.com/intelligence-artificielle/1555965-le-chonk-de-mistral-le-geant-europeen-qui-court-apres-son-retard/</guid>
+      <pubDate>Thu, 08 Oct 2026 08:05:49 +0000</pubDate>
+      <description>Mistral lance Mistral Large 4, un nouveau modèle doté d'un millier de milliards de paramètres. Cette sortie montre la volonté de l'entreprise européenne de combler son retard face aux géants américains.
+
+★★★★☆ · Journal du Net (IA)</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>“Software is over”: Bold AI developer takes aim at Adobe with open source clones</title>
+      <link>https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/</link>
+      <guid>https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/</guid>
+      <pubDate>Wed, 07 Oct 2026 21:56:42 +0000</pubDate>
+      <description>Un développeur utilise l'IA pour créer des alternatives open source aux logiciels d'Adobe, qualifiant le développement logiciel traditionnel de obsolète. Ces applications ambitieuses construites avec l'IA sont actuellement gratuites mais encore loin d'être achevées.
+
+★★★★☆ · Ars Technica (IA)</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Claude Haiku 5.5</title>
+      <link>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</link>
+      <guid>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</guid>
+      <pubDate>Wed, 07 Oct 2026 20:56:21 +0000</pubDate>
+      <description>Anthropic a lance Claude Haiku 5.5, un nouveau modele rapide et economique dont les tarifs s'alignent sur ceux de la concurrence. L'article analyse la tarification selon la taille des tokens et met en evidence un tokenizeur moins genereux entrainant un cout cache.
+
+★★★★☆ · Simon Willison</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Mistral dévoile Large 4, un modèle à plus de 1 000 milliards de paramètres</title>
+      <link>https://www.lemondeinformatique.fr/actualites/lire-mistral-devoile-large-4-un-modele-a-plus-de-1-000-milliards-de-parametres-100838.html</link>
+      <guid>https://www.lemondeinformatique.fr/actualites/lire-mistral-devoile-large-4-un-modele-a-plus-de-1-000-milliards-de-parametres-100838.html</guid>
+      <pubDate>Wed, 07 Oct 2026 14:42:23 +0000</pubDate>
+      <description>Mistral AI a dévoilé Mistral Large 4, son nouveau modèle de plus de 1 000 milliards de paramètres. Cette annonce marque une étape majeure pour l'entreprise française suite à sa récente levée de fonds.
+
+★★★★★ · Le Monde Informatique (IA)</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Mistral says "Le Chonk" can challenge the best AI models</title>
+      <link>https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/</link>
+      <guid>https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/</guid>
+      <pubDate>Wed, 07 Oct 2026 14:12:37 +0000</pubDate>
+      <description>La startup Mistral annonce que son nouveau modèle d'intelligence artificielle nommé Le Chonk est capable de rivaliser avec les meilleurs modèles propriétaires du marché. Ce modèle présente l'avantage majeur de conserver des poids ouverts, offrant ainsi une alternative puissante et accessible aux développeurs.
+
+★★★★★ · Ars Technica (IA)</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO</title>
+      <link>https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026</link>
+      <guid>https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026</guid>
+      <pubDate>Wed, 07 Oct 2026 12:45:31 +0000</pubDate>
+      <description>L'article présente l'utilisation du fine-tuning sur la famille de modèles Nemotron pour obtenir des résultats de niveau médaille d'or aux Olympiades Internationales d'Informatique et de Mathématiques. Il démontre les performances accrues des LLM dans la résolution de problèmes complexes de programmation et de logique.
+
+★★★★☆ · Hugging Face Blog</description>
+      <category>LLM</category>
+      <category>Recherche</category>
+    </item>
+    <item>
+      <title>GPT-6 and Intelligent UI for everyone</title>
+      <link>https://openai.com/index/gpt-6-for-everyone</link>
+      <guid>https://openai.com/index/gpt-6-for-everyone</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description>OpenAI deploie mondialement GPT-6 dans ChatGPT avec une interface utilisateur intelligente et interactive. Cette mise à jour offre des reponses plus rapides enrichies de visuels directement exploitables par les utilisateurs.
+
+★★★★★ · OpenAI News</description>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>llm-openai-decisions 0.1a0</title>
+      <link>https://simonwillison.net/2026/Oct/6/llm-openai-decisions/</link>
+      <guid>https://simonwillison.net/2026/Oct/6/llm-openai-decisions/</guid>
+      <pubDate>Tue, 06 Oct 2026 23:04:13 +0000</pubDate>
+      <description>L'article présente la sortie du plugin 'llm-openai-decisions 0.1a0' développé par Simon Willison, permettant d'utiliser la nouvelle API de décision d'OpenAI. Ce modèle gère à la fois le texte et les images pour structurer des requêtes décisionnelles simples.
+
+★★★★☆ · Simon Willison</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Image &amp; vidéo</category>
+    </item>
+    <item>
+      <title>llm-mistral 0.16</title>
+      <link>https://simonwillison.net/2026/Oct/6/llm-mistral/</link>
+      <guid>https://simonwillison.net/2026/Oct/6/llm-mistral/</guid>
+      <pubDate>Tue, 06 Oct 2026 21:32:34 +0000</pubDate>
+      <description>La version 0.16 de llm-mistral est sortie et intègre désormais le support des modèles de raisonnement comme Mistral Large 4. Cette mise à jour permet aux développeurs d'exploiter plus facilement ces nouvelles capacités directement depuis l'outil.
+
+★★★★☆ · Simon Willison</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+    </item>
+  </channel>
+</rss>

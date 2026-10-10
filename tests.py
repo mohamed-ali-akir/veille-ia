@@ -13,6 +13,8 @@ Pour les lancer :  py -m unittest -v tests
 
 import unittest
 
+import feedparser
+
 import collecte
 import generer_site
 import tri
@@ -122,6 +124,33 @@ class TestExport(unittest.TestCase):
 
     def test_en_liste_vide(self):
         self.assertEqual(generer_site.en_liste(None), [])
+
+
+class TestFluxRSS(unittest.TestCase):
+    """Étape 3 : le flux RSS produit par la veille."""
+
+    @classmethod
+    def setUpClass(cls):
+        def article(titre, note):
+            return {"titre": titre, "url": f"https://exemple.fr/{note}", "note": note,
+                    "date": "2026-10-09T12:00:00+00:00", "resume": "Résumé.",
+                    "source": "Test", "tags": ["LLM"]}
+        articles = [
+            article("Un titre piège <script> & co", 5),
+            article("Article important", 4),
+            article("Article moyen", 3),
+        ]
+        # On relit notre propre flux avec feedparser, comme un vrai lecteur RSS
+        cls.flux = feedparser.parse(generer_site.creer_flux_rss(articles))
+
+    def test_xml_valide(self):
+        self.assertFalse(self.flux.bozo)  # bozo = 1 si le XML est mal formé
+
+    def test_seulement_les_articles_importants(self):
+        self.assertEqual(len(self.flux.entries), 2)  # l'article noté 3 est exclu
+
+    def test_caracteres_speciaux_conserves(self):
+        self.assertEqual(self.flux.entries[0].title, "Un titre piège <script> & co")
 
 
 if __name__ == "__main__":
