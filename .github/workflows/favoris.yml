@@ -1,0 +1,62 @@
+# =============================================================
+#  FAVORIS : synchronisation rapide des réactions ⭐ Discord
+# =============================================================
+#  Workflow léger, séparé de la veille principale :
+#  il lit seulement les réactions ⭐ (pas d'IA, pas de quota),
+#  toutes les 15 minutes, et ne crée un commit QUE si mes
+#  favoris ont changé.
+#
+#  Pourquoi pas en temps réel ? Il faudrait un bot connecté
+#  en permanence sur un serveur allumé 24h/24 (payant).
+#  15 minutes est un bon compromis, gratuit.
+# =============================================================
+
+name: Favoris Discord
+
+on:
+  # Toutes les 15 minutes (GitHub peut prendre quelques minutes de retard)
+  schedule:
+    - cron: "*/15 * * * *"
+  # Bouton "Run workflow" pour une mise à jour immédiate (démo)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Même groupe que la veille principale : les deux workflows ne tournent
+# jamais en même temps, donc ne modifient jamais veille.db en même temps
+concurrency:
+  group: veille
+
+jobs:
+  favoris:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v5
+
+      - name: Installer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # favoris.py et generer_site.py n'utilisent que des bibliothèques
+      # intégrées à Python : pas besoin de "pip install"
+      - name: Lire les réactions ⭐ sur Discord
+        run: python favoris.py
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_WEBHOOK_FAVORIS: ${{ secrets.DISCORD_WEBHOOK_FAVORIS }}
+
+      - name: Mettre à jour le site si les favoris ont changé
+        run: |
+          if git diff --quiet data/veille.db; then
+            echo "Aucun changement de favoris : rien à faire."
+          else
+            python generer_site.py
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/veille.db docs/articles.json docs/flux.xml
+            git commit -m "Favoris mis à jour depuis Discord"
+            git push
+          fi

@@ -74,7 +74,9 @@ veille-ia/
 │   ├── app.js             recherche instantanée et filtres
 │   ├── articles.json      données (fichier généré)
 │   └── flux.xml           flux RSS des articles 4-5★ (fichier généré)
-└── .github/workflows/veille.yml   automatisation
+└── .github/workflows/
+    ├── veille.yml         la veille complète, 2 fois par jour
+    └── favoris.yml        synchronisation des favoris ⭐, toutes les 15 minutes
 ```
 
 ## Utilisation sur mon PC (Windows)
