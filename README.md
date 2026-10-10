@@ -45,8 +45,9 @@ Toute la chaîne est lancée **deux fois par jour** par **GitHub Actions**
 | 3. Stocker | `base.py` → `data/veille.db` | Base SQLite partagée par tous les scripts (avec migration automatique) |
 | 4. Retrouver | `generer_site.py` → `docs/` | Exporte les articles en JSON et en **flux RSS** ; le site les affiche avec recherche et filtres |
 | Synthèse | `essentiel.py` | Tous les 7 jours, « L'essentiel de la semaine » en 5 points, chacun relié à son article |
-| Bonus | `alerte_discord.py` | Envoie les articles notés 4 ou 5 (et la synthèse) sur Discord |
-| Qualité | `tests.py` | 31 tests automatiques, lancés avant chaque veille |
+| Bonus | `alerte_discord.py` | Envoie les articles notés 4 ou 5 (et la synthèse) sur Discord, un message par article |
+| Favoris | `favoris.py` | Un bot Discord lit mes réactions ⭐ : l'article passe dans l'onglet « Favoris » du site et le salon #favoris |
+| Qualité | `tests.py` | 34 tests automatiques, lancés avant chaque veille |
 
 ## Structure du projet
 
@@ -61,6 +62,7 @@ veille-ia/
 ├── generer_site.py        étape 3 : exporter pour le site
 ├── essentiel.py           « L'essentiel de la semaine » (synthèse IA tous les 7 jours)
 ├── alerte_discord.py      bonus : alertes Discord
+├── favoris.py             favoris : réactions ⭐ sur Discord → base → site
 ├── chercher.py            recherche en ligne de commande (secours)
 ├── synthese.py            brouillon de synthèse mensuelle → syntheses/
 ├── tests.py               tests automatiques
@@ -84,6 +86,7 @@ py tri.py                               # filtrer + analyser par l'IA
 py essentiel.py --forcer                # écrire l'essentiel de la semaine tout de suite
 py generer_site.py                      # mettre à jour docs/articles.json et docs/flux.xml
 py alerte_discord.py                    # envoyer les alertes Discord
+py favoris.py                           # synchroniser les favoris (réactions ⭐)
 py -m unittest -v tests                 # lancer les tests
 py chercher.py agent                    # chercher un article en ligne de commande
 py synthese.py                          # brouillon de la synthèse du mois (syntheses/)
@@ -103,7 +106,9 @@ Le dépôt est public : les clés sont dans des **variables d'environnement**.
 |---|---|---|
 | `GEMINI_API_KEY` | PC : `setx GEMINI_API_KEY "..."` · GitHub : Settings > Secrets and variables > Actions | clé de l'API Gemini |
 | `MISTRAL_API_KEY` | idem (facultatif) | IA de secours si pas de clé Gemini |
-| `DISCORD_WEBHOOK_URL` | idem | adresse du salon Discord |
+| `DISCORD_WEBHOOK_URL` | idem | adresse du salon Discord des alertes |
+| `DISCORD_BOT_TOKEN` | idem | jeton du bot qui lit les réactions ⭐ (droits : voir le salon, lire l'historique) |
+| `DISCORD_WEBHOOK_FAVORIS` | idem | adresse du salon #favoris |
 
 ## Ajouter une source
 

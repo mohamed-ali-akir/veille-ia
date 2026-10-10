@@ -181,6 +181,34 @@ a { color: var(--accent); }
     width: 100%;
 }
 
+/* ---------- Onglets "Tous" / "Favoris" ---------- */
+
+.onglets { display: flex; gap: 4px; margin-bottom: 12px; border-bottom: 1px solid var(--bordure); }
+
+.onglet {
+    font: inherit;
+    font-size: 0.95rem;
+    padding: 8px 14px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    color: var(--texte-doux);
+    cursor: pointer;
+}
+
+.onglet:hover { color: var(--texte); }
+.onglet[aria-pressed="true"] { color: var(--texte); font-weight: 600; border-bottom-color: var(--accent); }
+
+.badge-favori {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--etoile);
+    border: 1px solid var(--etoile);
+    padding: 0 6px;
+    border-radius: 4px;
+}
+
 /* ---------- Tags ---------- */
 
 .tags-filtre {

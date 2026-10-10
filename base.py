@@ -47,8 +47,13 @@ def ouvrir_base():
             note             INTEGER,  -- 0 = hors sujet, 1 à 5 = pertinence
             justification    TEXT,     -- une phrase de l'IA : "pourquoi cette note ?"
 
-            -- Colonne remplie par alerte_discord.py
-            alerte_envoyee   INTEGER NOT NULL DEFAULT 0  -- 1 = déjà envoyé sur Discord
+            -- Colonnes remplies par alerte_discord.py
+            alerte_envoyee   INTEGER NOT NULL DEFAULT 0,  -- 1 = déjà envoyé sur Discord
+            discord_message_id TEXT,   -- identifiant du message Discord de l'alerte
+            discord_canal_id   TEXT,   -- identifiant du salon où il a été envoyé
+
+            -- Colonne remplie par favoris.py
+            favori           INTEGER NOT NULL DEFAULT 0  -- 1 = réaction ⭐ sur Discord
         )
     """)
 
@@ -68,6 +73,9 @@ def ouvrir_base():
     # existe déjà. Les colonnes ajoutées après coup doivent donc être
     # ajoutées à la main dans les bases existantes, avec ALTER TABLE.
     ajouter_colonne_si_absente(connexion, "articles", "justification", "TEXT")
+    ajouter_colonne_si_absente(connexion, "articles", "discord_message_id", "TEXT")
+    ajouter_colonne_si_absente(connexion, "articles", "discord_canal_id", "TEXT")
+    ajouter_colonne_si_absente(connexion, "articles", "favori", "INTEGER NOT NULL DEFAULT 0")
 
     connexion.commit()
     return connexion

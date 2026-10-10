@@ -11,12 +11,17 @@ dans le salon. L'adresse est lue dans la variable
 d'environnement DISCORD_WEBHOOK_URL (jamais dans le code :
 n'importe qui pourrait écrire dans le salon avec).
 
+Chaque article est envoyé dans un message SÉPARÉ, dont on garde
+l'identifiant : si je réagis avec ⭐ sous le message, favoris.py
+saura de quel article il s'agit.
+
 Pour le lancer :  py alerte_discord.py
 =============================================================
 """
 
 import json
 import os
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -29,14 +34,18 @@ from base import ouvrir_base
 # Note minimale pour qu'un article soit envoyé
 NOTE_MINIMALE = 4
 
-# Discord accepte 10 "cartes" (embeds) maximum par message
+# Nombre maximum d'articles envoyés à chaque lancement
 MAX_ARTICLES = 10
 
 # On n'envoie que les articles collectés depuis moins de X jours
 # (évite d'envoyer de vieux articles la première fois)
 AGE_MAX_JOURS = 2
 
-# Adresse du site, ajoutée dans le message
+# Pause (en secondes) entre deux messages : Discord limite le nombre
+# de messages qu'un webhook peut envoyer en peu de temps
+PAUSE_ENTRE_MESSAGES = 1
+
+# Adresse du site, ajoutée dans les messages
 URL_SITE = "https://mohamed-ali-akir.github.io/veille-ia/"
 
 # Couleur de la carte selon la note (format hexadécimal converti en nombre)
@@ -62,14 +71,14 @@ def lire_articles_a_envoyer(connexion):
 def creer_carte(article):
     """
     Transforme un article en "carte" Discord (un embed).
-    Les textes sont raccourcis : Discord refuse un message dont
-    les cartes dépassent 6000 caractères au total.
+    Aussi utilisée par favoris.py pour le salon #favoris.
     """
     etoiles = "★" * article["note"] + "☆" * (5 - article["note"])
     return {
-        "title": article["titre"][:200],
+        "author": {"name": "Veille IA", "url": URL_SITE},
+        "title": article["titre"][:250],
         "url": article["url"],
-        "description": (article["resume"] or "")[:300],
+        "description": (article["resume"] or "")[:1000],
         "color": COULEURS.get(article["note"], 0x868E96),
         "fields": [
             {"name": "Note", "value": etoiles, "inline": True},
@@ -79,23 +88,15 @@ def creer_carte(article):
     }
 
 
-def envoyer_message(url_webhook, articles):
-    """Envoie un message avec une carte par article. Renvoie True si ça a marché."""
-    message = {
-        "username": "Veille IA",
-        "content": f"**{len(articles)} article(s) important(s) dans la veille IA** · {URL_SITE}",
-        "embeds": [creer_carte(article) for article in articles],
-    }
-    return envoyer_sur_discord(url_webhook, message)
-
-
 def envoyer_sur_discord(url_webhook, message):
     """
-    Envoie un message (dictionnaire) sur le webhook Discord.
-    Renvoie True si ça a marché. Aussi utilisée par essentiel.py.
+    Envoie un message (dictionnaire) sur un webhook Discord.
+    "?wait=true" demande à Discord de répondre avec le message créé
+    (dont son identifiant). Renvoie ce message, ou None en cas d'erreur.
+    Aussi utilisée par essentiel.py et favoris.py.
     """
     requete = urllib.request.Request(
-        url_webhook,
+        url_webhook + "?wait=true",
         data=json.dumps(message).encode("utf-8"),
         # Discord refuse les requêtes sans "User-Agent" (carte d'identité du programme)
         headers={"Content-Type": "application/json",
@@ -103,13 +104,13 @@ def envoyer_sur_discord(url_webhook, message):
         method="POST",
     )
     try:
-        with urllib.request.urlopen(requete, timeout=30):
-            return True
+        with urllib.request.urlopen(requete, timeout=30) as reponse:
+            return json.load(reponse)
     except urllib.error.HTTPError as erreur:
         print(f"Erreur Discord {erreur.code} : {erreur.read().decode()[:200]}")
     except urllib.error.URLError as erreur:
         print(f"Discord injoignable : {erreur}")
-    return False
+    return None
 
 
 # ---------- Programme principal ----------
@@ -123,17 +124,34 @@ def main():
     connexion = ouvrir_base()
     articles = lire_articles_a_envoyer(connexion)
 
-    if not articles:
-        print("Aucun nouvel article important à envoyer sur Discord.")
-    elif envoyer_message(url_webhook, articles):
-        # On note les articles comme envoyés pour ne jamais les renvoyer
-        for article in articles:
-            connexion.execute(
-                "UPDATE articles SET alerte_envoyee = 1 WHERE id = ?", (article["id"],)
-            )
-        connexion.commit()
-        print(f"{len(articles)} article(s) envoyé(s) sur Discord.")
+    envoyes = 0
+    for numero, article in enumerate(articles, start=1):
+        if numero > 1:
+            time.sleep(PAUSE_ENTRE_MESSAGES)
 
+        carte = creer_carte(article)
+        carte["footer"] = {"text": "Réagis avec ⭐ pour l'ajouter à tes favoris"}
+        message_envoye = envoyer_sur_discord(url_webhook, {"username": "Veille IA", "embeds": [carte]})
+        if message_envoye is None:
+            break  # Discord a un problème : on réessaiera au prochain lancement
+
+        # On garde l'identifiant du message et du salon, pour lire les réactions plus tard,
+        # et on note l'article comme envoyé pour ne jamais le renvoyer
+        connexion.execute(
+            """
+            UPDATE articles
+            SET alerte_envoyee = 1, discord_message_id = ?, discord_canal_id = ?
+            WHERE id = ?
+            """,
+            (message_envoye["id"], message_envoye["channel_id"], article["id"]),
+        )
+        connexion.commit()
+        envoyes += 1
+
+    if articles:
+        print(f"{envoyes} article(s) envoyé(s) sur Discord.")
+    else:
+        print("Aucun nouvel article important à envoyer sur Discord.")
     connexion.close()
 
 

@@ -71,7 +71,8 @@ veille-ia/
 ├── tri.py             ÉTAPE 2 : filtre mots-clés puis analyse IA (Gemini ou Mistral)
 ├── generer_site.py    ÉTAPE 3 : SQLite → docs/articles.json (note >= 1)
 ├── essentiel.py       « L'essentiel de la semaine » : synthèse IA tous les 7 jours (--forcer pour la démo)
-├── alerte_discord.py  BONUS : articles notés 4-5 → webhook Discord ; envoyer_sur_discord() partagée
+├── alerte_discord.py  BONUS : articles notés 4-5 → webhook Discord, UN message par article (id gardé)
+├── favoris.py         FAVORIS : bot Discord lit les réactions ⭐ → colonne favori → site + #favoris
 ├── chercher.py        recherche en ligne de commande (secours pour la démo)
 ├── synthese.py        ÉTAPE 5 : brouillon de synthèse mensuelle (n'écrase jamais)
 ├── tests.py           tests unittest (sans internet ni clé)
@@ -103,6 +104,8 @@ La recherche se fait dans le navigateur (JavaScript), sans serveur.
 | note | 0 = hors sujet (mots-clés OU jugé par l'IA) ; 1 à 5 = pertinence ; NULL = pas encore noté |
 | justification | phrase de l'IA « pourquoi cette note ? » (ajoutée par migration ; NULL = à (ré)analyser) |
 | alerte_envoyee | 0/1 : déjà envoyé sur Discord |
+| discord_message_id, discord_canal_id | message Discord de l'alerte (renvoyé par le webhook avec `?wait=true`) |
+| favori | 0/1 : réaction ⭐ sous l'alerte (lu par `favoris.py` via le bot, ajout ET retrait) |
 
 ### Table `essentiels` (SQLite)
 Une ligne par synthèse « L'essentiel de la semaine » : `date_creation`, `debut`, `fin`,
@@ -143,6 +146,7 @@ py tri.py                               # filtrer + analyser par l'IA
 py essentiel.py --forcer                # écrire l'essentiel de la semaine tout de suite
 py generer_site.py                      # mettre à jour le site (articles.json + flux.xml)
 py alerte_discord.py                    # alertes Discord
+py favoris.py                           # synchroniser les favoris ⭐
 py -m unittest -v tests                 # tests
 py synthese.py                          # brouillon de synthèse du mois → syntheses/AAAA-MM.md
 py -m http.server --directory docs      # voir le site : http://localhost:8000
@@ -179,5 +183,9 @@ git add . && git commit -m "message" && git push
     - **L'essentiel de la semaine** (`essentiel.py`) : 5 points sourcés, site + Discord.
     - Correctifs site : `[hidden]` forcé en CSS, pas de surlignage des mots d'une lettre.
     - 31 tests.
+  - **Favoris** : réaction ⭐ sous une alerte Discord → favori (bot Discord en lecture seule,
+    `favoris.py`), onglet « ⭐ Favoris » sur le site (`?favoris=1`), copie dans #favoris.
+    Les alertes sont maintenant envoyées une par message. Les 10 premières alertes (envoyées
+    groupées) ne peuvent pas devenir favorites. 34 tests.
   - **Reste à faire** : relire EPREUVE.md, écrire les synthèses mensuelles (`py synthese.py`),
     répéter la démo.

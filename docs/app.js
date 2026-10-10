@@ -27,6 +27,8 @@ const boutonPlus = document.getElementById("bouton-plus");
 const boutonEffacer = document.getElementById("bouton-effacer");
 const sectionUne = document.getElementById("a-la-une");
 const sectionEssentiel = document.getElementById("essentiel");
+const ongletTous = document.getElementById("onglet-tous");
+const ongletFavoris = document.getElementById("onglet-favoris");
 const listeUne = document.getElementById("liste-une");
 
 // ---------- État de l'application ----------
@@ -35,6 +37,7 @@ let tousLesArticles = [];          // tous les articles du fichier JSON
 let tagActif = "";                 // tag cliqué ("" = aucun)
 let nombreAffiches = NOMBRE_PAR_PAGE;
 let essentielSemaine = null;        // synthèse de la semaine (null = aucune)
+let afficherFavoris = false;       // true = onglet "Favoris" sélectionné
 
 
 // =============================================================
@@ -141,6 +144,7 @@ function filtrerArticles() {
         && (tagActif === "" || article.tags.includes(tagActif))
         && article.note >= noteMinimale
         && (jours === 0 || new Date(article.date).getTime() >= dateLimite)
+        && (!afficherFavoris || article.favori)
     );
 
     if (filtreTri.value === "note") {
@@ -155,7 +159,8 @@ function filtrerArticles() {
 /** Vrai si l'utilisateur a tapé un mot ou choisi un filtre. */
 function filtresActifs() {
     return champRecherche.value.trim() !== "" || filtreSource.value !== ""
-        || filtrePeriode.value !== "0" || filtreNote.value !== "1" || tagActif !== "";
+        || filtrePeriode.value !== "0" || filtreNote.value !== "1" || tagActif !== ""
+        || afficherFavoris;
 }
 
 
@@ -179,6 +184,9 @@ function creerCarte(article, mots) {
     meta.appendChild(note);
     if (Date.now() - new Date(article.collecte).getTime() < UN_JOUR) {
         meta.appendChild(creerElement("span", "badge-nouveau", "Nouveau"));
+    }
+    if (article.favori) {
+        meta.appendChild(creerElement("span", "badge-favori", "⭐ Favori"));
     }
     carte.appendChild(meta);
 
@@ -229,6 +237,8 @@ function afficher() {
     if (recherche) texteCompteur += ` pour « ${recherche} »`;
     compteur.textContent = texteCompteur;
     boutonEffacer.hidden = !filtresActifs();
+    ongletTous.setAttribute("aria-pressed", !afficherFavoris);
+    ongletFavoris.setAttribute("aria-pressed", afficherFavoris);
 
     // Sections "L'essentiel de la semaine" et "À la une" : seulement quand on ne cherche rien
     sectionEssentiel.hidden = filtresActifs() || essentielSemaine === null;
@@ -239,6 +249,10 @@ function afficher() {
     if (tousLesArticles.length === 0) {
         listeArticles.appendChild(creerElement("p", "vide",
             "La veille démarre : les articles apparaîtront après leur première analyse par l'IA."));
+    } else if (afficherFavoris && !tousLesArticles.some(article => article.favori)) {
+        listeArticles.appendChild(creerElement("p", "vide",
+            "Aucun favori pour l'instant. Sur Discord, réagis avec ⭐ sous une alerte : " +
+            "l'article apparaîtra ici à la prochaine mise à jour de la veille."));
     } else if (resultats.length === 0) {
         listeArticles.appendChild(creerElement("p", "vide",
             "Aucun article ne correspond. Essaie un autre mot ou retire un filtre."));
@@ -336,6 +350,7 @@ function memoriserDansAdresse() {
     const parametres = new URLSearchParams();
     if (champRecherche.value.trim()) parametres.set("q", champRecherche.value.trim());
     if (tagActif) parametres.set("tag", tagActif);
+    if (afficherFavoris) parametres.set("favoris", "1");
     const adresse = parametres.toString() ? `?${parametres}` : location.pathname;
     history.replaceState(null, "", adresse);
 }
@@ -384,6 +399,9 @@ async function demarrer() {
     const parametres = new URLSearchParams(location.search);
     champRecherche.value = parametres.get("q") || "";
     tagActif = parametres.get("tag") || "";
+    afficherFavoris = parametres.get("favoris") === "1";
+    document.getElementById("nombre-favoris").textContent =
+        tousLesArticles.filter(article => article.favori).length;
 
     afficher();
     champRecherche.focus();
@@ -409,7 +427,17 @@ boutonPlus.addEventListener("click", () => {
     afficher();
 });
 
+// Onglets "Tous les articles" / "Favoris"
+for (const [onglet, favoris] of [[ongletTous, false], [ongletFavoris, true]]) {
+    onglet.addEventListener("click", () => {
+        afficherFavoris = favoris;
+        nombreAffiches = NOMBRE_PAR_PAGE;
+        afficher();
+    });
+}
+
 boutonEffacer.addEventListener("click", () => {
+    afficherFavoris = false;
     champRecherche.value = "";
     filtreSource.value = "";
     filtrePeriode.value = "0";

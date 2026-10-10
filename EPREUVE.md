@@ -25,6 +25,7 @@ Fiche personnelle pour présenter et défendre le projet devant le jury.
    - Montrer qu'on peut écrire sans accent (« securite » trouve « sécurité »).
    - Cliquer sur un tag, changer la note minimale, la période.
 3. **Discord** : montrer le salon avec les alertes des articles notés 4 et 5.
+   Mettre une ⭐ sous une alerte, lancer « Run workflow », puis montrer l'onglet **Favoris** du site.
 4. **L'automatisation** : sur GitHub, onglet *Actions*, montrer l'historique des lancements
    et cliquer sur **« Run workflow »** pour en lancer un en direct.
 5. **La méthodologie** : page « Méthodologie » (schéma + chiffres de l'entonnoir).
@@ -60,6 +61,8 @@ ou `py chercher.py mot` (recherche en ligne de commande).
 | **IA explicable** | `tri.py` | L'IA justifie chaque note en une phrase : on peut comprendre (et contester) sa décision. |
 | **Anti-hallucination** | `valider_essentiel()` | La synthèse cite des numéros d'articles : un numéro qui n'a pas été fourni à l'IA est supprimé, chaque point reste vérifiable. |
 | **Produire un flux RSS** | `generer_site.py` | `xml.etree.ElementTree` construit le XML et échappe `<` et `&` tout seul ; testé en relisant le flux avec `feedparser`. |
+| **Webhook vs bot** | `favoris.py` | Un webhook sait seulement écrire ; pour LIRE les réactions ⭐, il faut un bot avec un jeton secret. Le bot n'a que 2 droits (voir le salon, lire l'historique) : principe du **moindre privilège**. |
+| **API REST paginée** | `favoris.py` | Discord renvoie 100 messages par page ; on demande la page suivante avec `before=<id>` jusqu'à 30 jours. |
 | **Cache HTTP** | `app.js` | GitHub Pages fait garder les fichiers 10 min par le navigateur : `fetch(..., { cache: "no-cache" })` force la vérification de la dernière version. |
 | **Webhook** | `alerte_discord.py` | URL secrète ; un POST JSON = un message dans le salon. Colonne `alerte_envoyee` pour ne jamais envoyer deux fois. |
 | **Windows / Linux** | partout | `encoding="utf-8"` obligatoire, sinon les accents sont abîmés sous Windows. |

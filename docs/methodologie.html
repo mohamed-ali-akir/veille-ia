@@ -20,6 +20,7 @@
             <nav class="menu">
                 <a href="index.html">Articles</a>
                 <a href="methodologie.html" aria-current="page">Méthodologie</a>
+                <a href="index.html?favoris=1">Favoris</a>
                 <a href="flux.xml" title="Suivre les articles 4 et 5 étoiles dans un lecteur RSS">Flux RSS</a>
                 <a href="https://github.com/mohamed-ali-akir/veille-ia">Code source</a>
             </nav>
@@ -142,6 +143,11 @@
             <li>
                 <strong>Discord</strong> : les articles notés 4 ou 5 et la synthèse de la
                 semaine sont envoyés automatiquement dans un salon grâce à un webhook.
+            </li>
+            <li>
+                <strong>Les favoris</strong> : une réaction ⭐ sous une alerte Discord ajoute
+                l'article à l'onglet « Favoris » de ce site. Un bot Discord, qui a seulement le
+                droit de lire le salon, relève les réactions à chaque mise à jour.
             </li>
             <li>
                 <strong>Un flux RSS</strong> (<a href="flux.xml">flux.xml</a>) : la veille

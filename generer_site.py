@@ -53,7 +53,7 @@ def lire_articles(connexion):
     lignes = connexion.execute(
         """
         SELECT id, titre, url, source, categorie, date_publication,
-               date_collecte, tags, mots_cles, resume, note, justification
+               date_collecte, tags, mots_cles, resume, note, justification, favori
         FROM articles
         WHERE note >= 1
         ORDER BY COALESCE(date_publication, date_collecte) DESC
@@ -76,6 +76,7 @@ def lire_articles(connexion):
             "resume": ligne["resume"],
             "note": ligne["note"],
             "justification": ligne["justification"],
+            "favori": ligne["favori"] == 1,  # True / False en JSON
         })
     return articles
 

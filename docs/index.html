@@ -21,6 +21,7 @@
             <nav class="menu">
                 <a href="index.html" aria-current="page">Articles</a>
                 <a href="methodologie.html">Méthodologie</a>
+                <a href="index.html?favoris=1">Favoris</a>
                 <a href="flux.xml" title="Suivre les articles 4 et 5 étoiles dans un lecteur RSS">Flux RSS</a>
                 <a href="https://github.com/mohamed-ali-akir/veille-ia">Code source</a>
             </nav>
@@ -40,6 +41,14 @@
 
         <!-- ========== RECHERCHE ET FILTRES ========== -->
         <section class="recherche" aria-label="Recherche">
+            <!-- Onglets : tous les articles ou seulement mes favoris (réaction ⭐ sur Discord) -->
+            <div class="onglets">
+                <button id="onglet-tous" class="onglet" type="button" aria-pressed="true">Tous les articles</button>
+                <button id="onglet-favoris" class="onglet" type="button" aria-pressed="false">
+                    ⭐ Favoris <span id="nombre-favoris" class="tag-nombre"></span>
+                </button>
+            </div>
+
             <div class="barre">
                 <span class="barre-loupe" aria-hidden="true">⌕</span>
                 <input id="champ-recherche" type="search" autocomplete="off"

@@ -17,6 +17,7 @@ import feedparser
 
 import collecte
 import essentiel
+import favoris
 import generer_site
 import tri
 
@@ -159,6 +160,35 @@ class TestEssentiel(unittest.TestCase):
         reponse = self.reponse([1, 2, 3])
         reponse["introduction"] = ""
         self.assertIsNone(essentiel.valider_essentiel(reponse, self.ARTICLES))
+
+
+class TestFavoris(unittest.TestCase):
+    """Bonus : les réactions ⭐ de Discord deviennent des favoris."""
+
+    @staticmethod
+    def message(identifiant, emojis):
+        # Imite un message renvoyé par l'API Discord
+        return {"id": identifiant,
+                "reactions": [{"emoji": {"name": emoji}, "count": 1} for emoji in emojis]}
+
+    def test_message_avec_etoile(self):
+        self.assertTrue(favoris.a_une_etoile(self.message("1", ["👍", "⭐"])))
+
+    def test_message_sans_etoile(self):
+        self.assertFalse(favoris.a_une_etoile(self.message("1", ["👍"])))
+        self.assertFalse(favoris.a_une_etoile({"id": "1"}))  # aucune réaction
+
+    def test_ajouts_et_retraits(self):
+        messages = [
+            self.message("10", ["⭐"]),  # nouvelle étoile -> ajout
+            self.message("11", []),      # étoile retirée -> retrait
+            self.message("12", ["⭐"]),  # déjà favori -> rien
+            self.message("99", ["⭐"]),  # pas une alerte d'article -> ignoré
+        ]
+        favori_par_message = {"10": 0, "11": 1, "12": 1}
+        ajouts, retraits = favoris.calculer_changements(messages, favori_par_message)
+        self.assertEqual(ajouts, ["10"])
+        self.assertEqual(retraits, ["11"])
 
 
 class TestFluxRSS(unittest.TestCase):

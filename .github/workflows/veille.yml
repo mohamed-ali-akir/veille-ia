@@ -62,6 +62,12 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
+      - name: "Bonus : favoris (réactions ⭐ sur Discord)"
+        run: python favoris.py
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_WEBHOOK_FAVORIS: ${{ secrets.DISCORD_WEBHOOK_FAVORIS }}
+
       - name: "Étape 3 : générer les données du site"
         run: python generer_site.py
 
