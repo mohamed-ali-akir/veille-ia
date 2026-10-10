@@ -5,7 +5,67 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 10 Oct 2026 12:04:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 20:32:22 +0000</lastBuildDate>
+    <item>
+      <title>Goodbye Coding Plans</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2nfg4/goodbye_coding_plans/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2nfg4/goodbye_coding_plans/</guid>
+      <pubDate>Sat, 10 Oct 2026 19:12:31 +0000</pubDate>
+      <description>Un utilisateur de Reddit discute de l'évolution rapide des modèles locaux comme Qwen, affirmant qu'ils approchent d'un niveau suffisant pour écrire 90 % du code. La communauté semble même estimer que ces outils de développement sont déjà opérationnels.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Engineer / developer observations of Gemma4-31B, Qwen3.8-27B, and 6.1-Sol for software engineering work</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2mw1o/engineer_developer_observations_of_gemma431b/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2mw1o/engineer_developer_observations_of_gemma431b/</guid>
+      <pubDate>Sat, 10 Oct 2026 18:49:52 +0000</pubDate>
+      <description>Un ingénieur logiciel teste et compare l'efficacité de plusieurs grands modèles de langage locaux pour des tâches de génie logiciel. L'évaluation porte sur l'analyse de code et la création de nouvelles fonctionnalités à l'aide de différents outils en ligne de commande.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Qwen3.8-27B on a single 3090: 140 tok/s on code with a custom megakernel</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2erdj/qwen3827b_on_a_single_3090_140_toks_on_code_with/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2erdj/qwen3827b_on_a_single_3090_140_toks_on_code_with/</guid>
+      <pubDate>Sat, 10 Oct 2026 13:01:23 +0000</pubDate>
+      <description>Un développeur a créé un noyau CUDA personnalisé pour optimiser un modèle Qwen, doublant ainsi sa vitesse d'exécution pour le code sur une carte graphique RTX 3090. Cette solution locale surpasse les performances de llama.cpp grâce à une meilleure gestion du décodage spéculatif.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Open-source Mac app that runs EmbeddingGemma 2 locally to search your files by what’s in them</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/</guid>
+      <pubDate>Sat, 10 Oct 2026 12:43:33 +0000</pubDate>
+      <description>DigUp est une application macOS gratuite et open-source qui utilise EmbeddingGemma 2 pour rechercher localement dans vos fichiers multimédias et textuels. L'outil fonctionne entièrement en local grâce à llama.cpp et Metal, sans dépendance Python, garantissant rapidité et confidentialité.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Open source</category>
+      <category>Outils dev</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Fully local conversational AI: Whisper + Hermes 8B + Kokoro, zero cloud, running inside a plush toy</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2cztv/fully_local_conversational_ai_whisper_hermes_8b/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2cztv/fully_local_conversational_ai_whisper_hermes_8b/</guid>
+      <pubDate>Sat, 10 Oct 2026 11:28:41 +0000</pubDate>
+      <description>Un développeur a créé une peluche interactive intelligente fonctionnant entièrement en local sur son réseau grâce à Whisper, Hermes 8B, Kokoro et LangGraph. Aucun service cloud ni clé API n'est utilisé pour gérer la voix, la vision et la mémoire de ce prototype open source.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
     <item>
       <title>Qwen 3.6 35B A3B: 131K context + vision on 6GB VRAM</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x27au9/qwen_36_35b_a3b_131k_context_vision_on_6gb_vram/</link>
@@ -115,7 +175,7 @@
       <link>https://intelligence-artificielle.developpez.com/actu/387962/Anthropic-lance-des-analyses-de-securite-gratuites-par-IA-pour-les-projets-open-source-OSS-Scanner-propose-des-rapports-de-vulnerabilite-generes-par-ses-modeles-les-plus-performants-dont-Mythos/</link>
       <guid>https://intelligence-artificielle.developpez.com/actu/387962/Anthropic-lance-des-analyses-de-securite-gratuites-par-IA-pour-les-projets-open-source-OSS-Scanner-propose-des-rapports-de-vulnerabilite-generes-par-ses-modeles-les-plus-performants-dont-Mythos/</guid>
       <pubDate>Fri, 09 Oct 2026 11:58:00 +0000</pubDate>
-      <description>Anthropic a lance OSS Scanner, un service gratuit qui utilise ses modeles d'IA les plus performants pour analyser les projets open source a la recherche de failles de securite. Les responsables de maintenance recoivent ensuite directement des rapports de vulnerabilite detailles par e-mail.
+      <description>Anthropic propose OSS Scanner, un service gratuit utilisant ses modèles d'IA pour analyser les failles de sécurité des projets open source. Les rapports de vulnérabilité sont directement envoyés aux responsables de maintenance.
 
 ★★★★☆ · Developpez.com (IA)</description>
       <category>Sécurité</category>
@@ -127,79 +187,44 @@
       <link>https://www.lemondeinformatique.fr/actualites/lire-anthropic-lance-claude-haiku-55-100843.html</link>
       <guid>https://www.lemondeinformatique.fr/actualites/lire-anthropic-lance-claude-haiku-55-100843.html</guid>
       <pubDate>Fri, 09 Oct 2026 09:55:09 +0000</pubDate>
-      <description>Anthropic complete sa gamme de modeles en lancant Claude Haiku 5.5, quelques jours apres les sorties d'Opus 5.5 et Sonnet 5.5. Ce nouveau modele d'intelligence artificielle vient enrichir l'offre de l'entreprise.
+      <description>Anthropic complete sa gamme de modeles d'intelligence artificielle avec le lancement de Claude Haiku 5.5. Ce nouveau modele arrive peu de temps apres la sortie d'Opus 5.5 et Sonnet 5.5.
 
 ★★★★☆ · Le Monde Informatique (IA)</description>
       <category>LLM</category>
       <category>Entreprises</category>
     </item>
     <item>
-      <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
-      <link>https://openai.com/index/sophos</link>
-      <guid>https://openai.com/index/sophos</guid>
-      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
-      <description>Sophos utilise l'outil OpenAI Daybreak pour réduire de 96 % le temps d'investigation des cybermenaces. Cette solution automatise également 52 % des cas de détection et réponse gérées tout en conservant une supervision humaine.
-
-★★★★☆ · OpenAI News</description>
-      <category>Sécurité</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
-      <link>https://openai.com/index/asana-browser-agent</link>
-      <guid>https://openai.com/index/asana-browser-agent</guid>
-      <pubDate>Fri, 09 Oct 2026 07:00:00 +0000</pubDate>
-      <description>Asana a testé le modèle GPT-6 Astra via Codex pour optimiser son agent de navigateur. Cette intégration a permis de réduire les coûts de calcul de 76 fois tout en multipliant la vitesse d'exécution par 5.
-
-★★★★☆ · OpenAI News</description>
-      <category>LLM</category>
-      <category>Agents IA</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Qwen3.8-27B: 159 tok/s on R9700, 64 tok/s on Strix Halo</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x18e95/qwen3827b_159_toks_on_r9700_64_toks_on_strix_halo/</guid>
-      <pubDate>Fri, 09 Oct 2026 01:20:39 +0000</pubDate>
-      <description>Un développeur présente LemonSeed Studio, un IDE et éditeur pour iPad permettant l'inférence locale de grands modèles de langage sur GPU AMD via un moteur multiplateforme optimisé. L'article détaille des performances impressionnantes en tokens par seconde sur le modèle Qwen avec différentes configurations matérielles.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
       <title>OpenAI met GPT-6 à la disposition des 1,2 milliard d'utilisateurs de ChatGPT avec « Intelligent UI », qui permet au chatbot IA de répondre aux questions via des interfaces interactives</title>
       <link>https://intelligence-artificielle.developpez.com/actu/387950/OpenAI-met-GPT-6-a-la-disposition-des-1-2-milliard-d-utilisateurs-de-ChatGPT-avec-Intelligent-UI-qui-permet-au-chatbot-IA-de-repondre-aux-questions-via-des-interfaces-interactives/</link>
       <guid>https://intelligence-artificielle.developpez.com/actu/387950/OpenAI-met-GPT-6-a-la-disposition-des-1-2-milliard-d-utilisateurs-de-ChatGPT-avec-Intelligent-UI-qui-permet-au-chatbot-IA-de-repondre-aux-questions-via-des-interfaces-interactives/</guid>
       <pubDate>Fri, 09 Oct 2026 00:25:00 +0000</pubDate>
-      <description>OpenAI lance GPT-6 et introduit la fonctionnalité Intelligent UI, permettant à ChatGPT de répondre aux utilisateurs via des interfaces interactives. Ce déploiement concerne d'abord les formules payantes avant d'être généralisé à l'ensemble des utilisateurs.
+      <description>OpenAI lance GPT-6 et sa fonction Intelligent UI pour offrir des interfaces interactives sur ChatGPT. Cette mise à jour révolutionne l'interaction utilisateur au-delà du simple texte.
 
-★★★★☆ · Developpez.com (IA)</description>
+★★★★★ · Developpez.com (IA)</description>
       <category>LLM</category>
       <category>Entreprises</category>
-    </item>
-    <item>
-      <title>« C'en est fini des logiciels » : Porté par la frustration liée aux frais et pratiques de résiliation d'Adobe, un développeur utilise l'IA pour créer des clones gratuits et open source d'Adobe</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/387952/-C-en-est-fini-des-logiciels-Porte-par-la-frustration-liee-aux-frais-et-pratiques-de-resiliation-d-Adobe-un-developpeur-utilise-l-IA-pour-creer-des-clones-gratuits-et-open-source-d-Adobe/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/387952/-C-en-est-fini-des-logiciels-Porte-par-la-frustration-liee-aux-frais-et-pratiques-de-resiliation-d-Adobe-un-developpeur-utilise-l-IA-pour-creer-des-clones-gratuits-et-open-source-d-Adobe/</guid>
-      <pubDate>Thu, 08 Oct 2026 18:41:00 +0000</pubDate>
-      <description>Un développeur frustré par les pratiques d'Adobe a utilisé l'intelligence artificielle pour créer Artcraft, une suite de sept logiciels open source écrits en Rust. Ce projet illustre comment l'IA permet de concevoir rapidement des alternatives gratuites à des logiciels commerciaux majeurs.
-
-★★★★☆ · Developpez.com (IA)</description>
-      <category>Outils dev</category>
-      <category>Open source</category>
     </item>
     <item>
       <title>Google brings agentic AI to Gemini, starting with businesses</title>
       <link>https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/</link>
       <guid>https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/</guid>
       <pubDate>Thu, 08 Oct 2026 18:18:00 +0000</pubDate>
-      <description>Google transforme Gemini en un agent IA capable de planifier, d'exécuter des tâches et de déléguer du travail via des sous-agents. Cette évolution vise à intégrer l'intelligence artificielle au cœur des applications et des systèmes d'entreprise.
+      <description>Google transforme Gemini en agent IA autonome capable de planifier, d'exécuter des tâches et de collaborer à travers divers outils d'entreprise. Ce système peut déléguer du travail à des sous-agents et dispose de sa propre identité professionnelle.
 
 ★★★★☆ · TechCrunch (IA)</description>
       <category>Agents IA</category>
       <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost</title>
+      <link>https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/</link>
+      <guid>https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
+      <description>Goodfire a lance un outil economique pour surveiller les agents IA en observant directement leur fonctionnement interne. Cette methode evite de faire appel a une seconde IA pour verifier chaque action, reduisant ainsi les couts de securite.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>Agents IA</category>
+      <category>Sécurité</category>
     </item>
     <item>
       <title>Anthropic lance Claude Haiku 5.5 avec une réduction de 90 % du prix des API, s'alignant ainsi sur GPT-6 Luna, présenté comme « le petit modèle le moins cher, le plus rapide et le plus performant »</title>
@@ -328,28 +353,6 @@
 ★★★★☆ · Hugging Face Blog</description>
       <category>LLM</category>
       <category>Recherche</category>
-    </item>
-    <item>
-      <title>GPT-6 and Intelligent UI for everyone</title>
-      <link>https://openai.com/index/gpt-6-for-everyone</link>
-      <guid>https://openai.com/index/gpt-6-for-everyone</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description>OpenAI deploie mondialement GPT-6 dans ChatGPT avec une interface utilisateur intelligente et interactive. Cette mise à jour offre des reponses plus rapides enrichies de visuels directement exploitables par les utilisateurs.
-
-★★★★★ · OpenAI News</description>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>llm-openai-decisions 0.1a0</title>
-      <link>https://simonwillison.net/2026/Oct/6/llm-openai-decisions/</link>
-      <guid>https://simonwillison.net/2026/Oct/6/llm-openai-decisions/</guid>
-      <pubDate>Tue, 06 Oct 2026 23:04:13 +0000</pubDate>
-      <description>L'article présente la sortie du plugin 'llm-openai-decisions 0.1a0' développé par Simon Willison, permettant d'utiliser la nouvelle API de décision d'OpenAI. Ce modèle gère à la fois le texte et les images pour structurer des requêtes décisionnelles simples.
-
-★★★★☆ · Simon Willison</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Image &amp; vidéo</category>
     </item>
   </channel>
 </rss>
