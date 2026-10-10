@@ -310,7 +310,9 @@ function memoriserDansAdresse() {
 
 async function demarrer() {
     try {
-        const reponse = await fetch("articles.json");
+        // "no-cache" : le navigateur vérifie toujours s'il existe une version plus
+        // récente (sinon GitHub Pages lui fait garder l'ancienne pendant 10 minutes)
+        const reponse = await fetch("articles.json", { cache: "no-cache" });
         const donnees = await reponse.json();
         tousLesArticles = donnees.articles;
 

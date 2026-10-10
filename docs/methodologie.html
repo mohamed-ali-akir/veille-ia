@@ -182,7 +182,7 @@
 
     <script>
         // Remplit les chiffres et le tableau des sources à partir de articles.json
-        fetch("articles.json")
+        fetch("articles.json", { cache: "no-cache" })
             .then(reponse => reponse.json())
             .then(donnees => {
                 const stats = donnees.statistiques;
