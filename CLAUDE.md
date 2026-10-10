@@ -136,7 +136,7 @@ Une ligne par synthèse « L'essentiel de la semaine » : `date_creation`, `debu
 - ✅ Étape 1 — Récupérer + stocker (`collecte.py`, `base.py`)
 - ✅ Étape 2 — Trier (`tri.py`) — testé avec la vraie clé Gemini (188 articles analysés)
 - ✅ Étape 3 — Site (`generer_site.py`, `docs/`) — en ligne sur GitHub Pages
-- ✅ Étape 4 — GitHub Actions (testé) + alertes Discord (testées)
+- ✅ Étape 4 — GitHub Actions (testé) + alertes Discord + favoris ⭐ (testés dans les deux sens)
 - ⬜ Étape 5 — Préparer l'épreuve : relire `EPREUVE.md`, synthèses mensuelles, répétition de la démo
 
 ## 6. Commandes utiles (PC Windows)
@@ -188,11 +188,22 @@ git add . && git commit -m "message" && git push
     - 31 tests.
   - **Favoris** : réaction ⭐ sous une alerte Discord → favori (bot Discord en lecture seule,
     `favoris.py`), onglet « ⭐ Favoris » sur le site (`?favoris=1`), copie dans #favoris.
-    Les alertes sont maintenant envoyées une par message. Les 10 premières alertes (envoyées
-    groupées) ne peuvent pas devenir favorites. 34 tests.
+    Les alertes sont maintenant envoyées une par message. Les 20 premières alertes (envoyées
+    groupées : 10 à la main, 10 par le robot) ne peuvent pas devenir favorites. 34 tests.
+  - Incident : GitHub Actions a poussé `veille.db` pendant que je codais (conflit, fichier
+    binaire). Solution : garder la base du robot (`git checkout -- data/veille.db docs/articles.json
+    docs/flux.xml`, `git pull`, puis régénérer). D'où la règle : toujours `git pull` d'abord.
   - Favoris pas en temps réel (bot non connecté en permanence) → workflow léger `favoris.yml`
     toutes les 5 min, sans IA ; testé : sans changement, veille.db reste identique (pas de commit).
   - Bug signalé : retirer une ⭐ ne supprimait pas la copie dans #favoris. Corrigé : l'id de la copie
     est gardé et le webhook la supprime (`supprimer_sur_discord`, DELETE). Nettoyage des anciennes copies.
-  - **Reste à faire** : relire EPREUVE.md, écrire les synthèses mensuelles (`py synthese.py`),
-    répéter la démo.
+  - Test complet des favoris validé par moi : ⭐ ajoutée → site + #favoris ; ⭐ retirée → retirée
+    du site et copie supprimée de #favoris (avec « Run workflow » sur « Favoris Discord »).
+  - Secrets en place (PC + GitHub) : `GEMINI_API_KEY`, `DISCORD_WEBHOOK_URL`,
+    `DISCORD_BOT_TOKEN`, `DISCORD_WEBHOOK_FAVORIS`.
+  - **À surveiller** : les lancements automatiques « schedule » de `favoris.yml` (toutes les 5 min)
+    n'avaient pas encore démarré le 10/10 au soir (seulement des lancements manuels). Si rien
+    après quelques jours : vérifier dans l'onglet Actions que le workflow est bien activé.
+  - **Reste à faire** (présentation vers juin 2027, dans ~8 mois) : laisser la veille tourner,
+    mettre ⭐ aux articles marquants, écrire chaque fin de mois la synthèse (`py synthese.py`
+    + partie « Mon analyse »), relire EPREUVE.md et chaque fichier .py, répéter la démo.
