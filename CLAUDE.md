@@ -120,7 +120,7 @@ La recherche se fait dans le navigateur (JavaScript), sans serveur.
 - ✅ Étape 1 — Récupérer + stocker (`collecte.py`, `base.py`)
 - ✅ Étape 2 — Trier (`tri.py`) — testé avec la vraie clé Gemini (188 articles analysés)
 - ✅ Étape 3 — Site (`generer_site.py`, `docs/`) — en ligne sur GitHub Pages
-- ✅ Étape 4 — GitHub Actions écrit et secret Gemini en place ; **Discord à configurer**
+- ✅ Étape 4 — GitHub Actions (testé) + alertes Discord (testées)
 - ⬜ Étape 5 — Préparer l'épreuve : relire `EPREUVE.md`, synthèses mensuelles, répétition de la démo
 
 ## 6. Commandes utiles (PC Windows)
@@ -159,5 +159,7 @@ git add . && git commit -m "message" && git push
   - Dépôt passé en **public**, **GitHub Pages activé** : https://mohamed-ali-akir.github.io/veille-ia/
   - Correctif : `fetch(..., { cache: "no-cache" })`, car GitHub Pages fait garder
     `articles.json` 10 minutes en cache par le navigateur.
-  - **Reste à faire** : webhook Discord (`setx DISCORD_WEBHOOK_URL` + secret GitHub),
-    vérifier le premier lancement automatique de GitHub Actions, relire EPREUVE.md.
+  - Premier « Run workflow » manuel : les 10 étapes au vert, commit automatique du bot.
+  - Discord configuré (PC + secret GitHub) : 10 premières alertes envoyées dans #veille-ia.
+  - **Reste à faire** : relire EPREUVE.md, écrire les synthèses mensuelles (`py synthese.py`),
+    répéter la démo.
