@@ -112,9 +112,10 @@
             <li>
                 <strong>Analyse par une IA</strong> (API Google Gemini, offre gratuite) : pour
                 chaque article gardé, l'IA écrit un résumé en français, choisit 1 à 3 tags dans
-                une liste fixe et donne une note de pertinence de 0 à 5. La réponse est
-                <strong>vérifiée</strong> par le programme avant d'être enregistrée : tags
-                inconnus supprimés, note ramenée entre 0 et 5.
+                une liste fixe, donne une note de pertinence de 0 à 5 et
+                <strong>justifie sa note</strong> en une phrase (visible sous chaque article :
+                « Pourquoi 4/5 ? »). La réponse est <strong>vérifiée</strong> par le programme
+                avant d'être enregistrée : tags inconnus supprimés, note ramenée entre 0 et 5.
             </li>
         </ol>
 
@@ -134,8 +135,18 @@
                 <code>articles.json</code> et filtre les articles directement dans le navigateur.
             </li>
             <li>
-                <strong>Discord</strong> : les articles notés 4 ou 5 sont envoyés
-                automatiquement dans un salon grâce à un webhook.
+                <strong>L'essentiel de la semaine</strong> : tous les 7 jours, l'IA lit les
+                articles les mieux notés et écrit une synthèse en 5 points. Chaque point renvoie
+                vers son article d'origine ; un numéro d'article inventé par l'IA est supprimé.
+            </li>
+            <li>
+                <strong>Discord</strong> : les articles notés 4 ou 5 et la synthèse de la
+                semaine sont envoyés automatiquement dans un salon grâce à un webhook.
+            </li>
+            <li>
+                <strong>Un flux RSS</strong> (<a href="flux.xml">flux.xml</a>) : la veille
+                devient elle-même une source. On peut suivre les articles 4 et 5 étoiles dans
+                n'importe quel lecteur RSS (Feedly, Inoreader, Thunderbird…).
             </li>
         </ul>
 

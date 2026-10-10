@@ -17,7 +17,9 @@ Fiche personnelle pour présenter et défendre le projet devant le jury.
 ## 2. Déroulé de la démo (≈ 5 minutes)
 
 1. **Le site** : ouvrir https://mohamed-ali-akir.github.io/veille-ia/
+   - Montrer **« L'essentiel de la semaine »** (synthèse en 5 points, chaque point a sa source).
    - Montrer « À la une », les étoiles, les tags, le badge « Nouveau ».
+   - Déplier un **« Pourquoi 4/5 ? »** : l'IA justifie sa note.
 2. **Le défi des 30 secondes** : demander un mot-clé au jury, le taper.
    - Les résultats s'affichent **pendant la frappe**, le mot est **surligné**.
    - Montrer qu'on peut écrire sans accent (« securite » trouve « sécurité »).
@@ -26,6 +28,7 @@ Fiche personnelle pour présenter et défendre le projet devant le jury.
 4. **L'automatisation** : sur GitHub, onglet *Actions*, montrer l'historique des lancements
    et cliquer sur **« Run workflow »** pour en lancer un en direct.
 5. **La méthodologie** : page « Méthodologie » (schéma + chiffres de l'entonnoir).
+   Cliquer sur **« Flux RSS »** : « ma veille est elle-même une source qu'on peut suivre ».
 6. **Le code** : ouvrir `tri.py`, montrer la consigne envoyée à l'IA et `valider_resultat()`.
 
 **Plan B si internet ne marche pas** : `py -m http.server --directory docs` (site en local)
@@ -51,7 +54,13 @@ ou `py chercher.py mot` (recherche en ligne de commande).
 | **Faille XSS** | `app.js` | Texte inséré avec `textContent` et jamais `innerHTML` : un titre contenant `<script>` ne s'exécute pas. |
 | **Responsive** | `style.css` | `@media (max-width: 640px)` + grille CSS ; mode sombre avec `prefers-color-scheme`. |
 | **CI/CD** | `veille.yml` | GitHub Actions : déclenchement `cron` + bouton manuel, tests d'abord, puis la veille, puis `git push`. |
-| **Tests unitaires** | `tests.py` | 21 tests `unittest`, lancés avant chaque veille ; si un test échoue, rien n'est publié. |
+| **Tests unitaires** | `tests.py` | 31 tests `unittest`, lancés avant chaque veille ; si un test échoue, rien n'est publié. |
+| **Migration de base** | `base.py` | `CREATE TABLE IF NOT EXISTS` ne modifie pas une table existante : la colonne `justification` est ajoutée avec `ALTER TABLE`, seulement si `PRAGMA table_info` montre qu'elle manque. |
+| **Module partagé (DRY)** | `ia.py`, `base.py` | Le code d'appel à l'IA est écrit une fois et utilisé par `tri.py` et `essentiel.py` : seuls la consigne et le schéma changent. |
+| **IA explicable** | `tri.py` | L'IA justifie chaque note en une phrase : on peut comprendre (et contester) sa décision. |
+| **Anti-hallucination** | `valider_essentiel()` | La synthèse cite des numéros d'articles : un numéro qui n'a pas été fourni à l'IA est supprimé, chaque point reste vérifiable. |
+| **Produire un flux RSS** | `generer_site.py` | `xml.etree.ElementTree` construit le XML et échappe `<` et `&` tout seul ; testé en relisant le flux avec `feedparser`. |
+| **Cache HTTP** | `app.js` | GitHub Pages fait garder les fichiers 10 min par le navigateur : `fetch(..., { cache: "no-cache" })` force la vérification de la dernière version. |
 | **Webhook** | `alerte_discord.py` | URL secrète ; un POST JSON = un message dans le salon. Colonne `alerte_envoyee` pour ne jamais envoyer deux fois. |
 | **Windows / Linux** | partout | `encoding="utf-8"` obligatoire, sinon les accents sont abîmés sous Windows. |
 
@@ -91,6 +100,17 @@ Trois lignes dans `sources.yml`, sans toucher au code.
 **Pourquoi la base est-elle dans le dépôt Git ?**
 GitHub Actions repart d'une machine vierge à chaque lancement : la base doit être
 récupérée depuis le dépôt puis renvoyée dedans, sinon on perdrait l'historique.
+
+**La synthèse de la semaine peut-elle inventer des choses ?**
+C'est le risque principal (« hallucination »). Trois protections : (1) la consigne interdit
+d'utiliser autre chose que les articles fournis, (2) chaque point doit citer le numéro d'un
+article fourni, sinon il est supprimé par le programme, (3) chaque point affiche un lien vers
+sa source pour vérifier.
+
+**Pourquoi ne pas faire un chatbot « pose une question à ta veille » ?**
+Le site est statique : pour appeler l'IA depuis le navigateur, il faudrait mettre la clé
+dans le JavaScript, donc la rendre publique. Il faudrait un serveur intermédiaire : c'est
+une piste d'évolution, pas un oubli.
 
 **Combien ça coûte ?**
 Rien : GitHub Actions et GitHub Pages sont gratuits pour un dépôt public, l'API Gemini

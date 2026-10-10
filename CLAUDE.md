@@ -65,19 +65,21 @@ veille-ia/
 ├── requirements.txt   bibliothèques : feedparser, pyyaml
 ├── sources.yml        liste des flux RSS (nom, url, categorie)
 ├── mots_cles.yml      "mots_cles" (sans casse) + "sigles" (casse respectée : AI ≠ j'ai)
-├── base.py            ouvrir_base() : connexion + CREATE TABLE (partagé par tous)
+├── base.py            ouvrir_base() : connexion + CREATE TABLE + migration (ALTER TABLE)
+├── ia.py              appel à l'IA partagé : choisir_ia(), appeler_gemini/mistral(consigne, clé, schéma)
 ├── collecte.py        ÉTAPE 1 : flux RSS → SQLite (sans doublons, < 30 jours)
 ├── tri.py             ÉTAPE 2 : filtre mots-clés puis analyse IA (Gemini ou Mistral)
 ├── generer_site.py    ÉTAPE 3 : SQLite → docs/articles.json (note >= 1)
-├── alerte_discord.py  BONUS : articles notés 4-5 → webhook Discord
+├── essentiel.py       « L'essentiel de la semaine » : synthèse IA tous les 7 jours (--forcer pour la démo)
+├── alerte_discord.py  BONUS : articles notés 4-5 → webhook Discord ; envoyer_sur_discord() partagée
 ├── chercher.py        recherche en ligne de commande (secours pour la démo)
 ├── synthese.py        ÉTAPE 5 : brouillon de synthèse mensuelle (n'écrase jamais)
 ├── tests.py           tests unittest (sans internet ni clé)
 ├── data/veille.db     base SQLite
 ├── docs/              site statique publié par GitHub Pages
 │   ├── index.html, methodologie.html, style.css, app.js  (écrits à la main)
-│   └── articles.json  (SEUL fichier généré)
-└── .github/workflows/veille.yml   tests → collecte → tri → site → Discord → commit/push
+│   └── articles.json, flux.xml  (SEULS fichiers générés)
+└── .github/workflows/veille.yml   tests → collecte → tri → essentiel → site → Discord → commit/push
 ```
 
 **Choix d'architecture (option B, validée)** : Python ne génère que les données
@@ -99,15 +101,23 @@ La recherche se fait dans le navigateur (JavaScript), sans serveur.
 | tags | tags IA séparés par `, `, pris dans `TAGS_AUTORISES` (tri.py) |
 | resume | résumé IA en français (NULL = pas encore analysé) |
 | note | 0 = hors sujet (mots-clés OU jugé par l'IA) ; 1 à 5 = pertinence ; NULL = pas encore noté |
+| justification | phrase de l'IA « pourquoi cette note ? » (ajoutée par migration ; NULL = à (ré)analyser) |
 | alerte_envoyee | 0/1 : déjà envoyé sur Discord |
+
+### Table `essentiels` (SQLite)
+Une ligne par synthèse « L'essentiel de la semaine » : `date_creation`, `debut`, `fin`,
+`introduction`, `points` (JSON : liste de `{texte, id, titre, url, source}`).
+`essentiel.py` n'en crée une que si la dernière a plus de 7 jours (sauf `--forcer`).
+`valider_essentiel()` supprime les points dont l'`id` n'est pas un article fourni à l'IA.
 
 ### Fonctionnement de `tri.py`
 - **Phase 1** : regex `\b` sur titre + description. `mots_cles` insensibles à la casse,
   `sigles` sensibles. Aucun mot → `mots_cles = ''` et `note = 0`.
-- **Phase 2** : articles gardés sans résumé, les plus récents d'abord, 50 max par
-  lancement, pause de 5 s, arrêt propre sur 429. Gemini : `responseSchema` impose le JSON.
-  Mistral : `response_format: json_object`. `valider_resultat()` vérifie tout
-  (tags hors liste supprimés, 3 max, note ramenée entre 0 et 5).
+- **Phase 2** : articles gardés sans justification (`justification IS NULL`), les plus
+  récents d'abord, 50 max par lancement, pause de 5 s, arrêt propre sur 429.
+  Appel via `ia.py` avec `SCHEMA_ANALYSE` (Gemini : `responseSchema` impose le JSON ;
+  Mistral : `response_format: json_object`). `valider_resultat()` vérifie tout
+  (tags hors liste supprimés, 3 max, note ramenée entre 0 et 5, justification 250 car. max).
 
 ### Conventions du code
 - Commentaires et noms en français, docstring en tête de chaque script expliquant son rôle.
@@ -130,7 +140,8 @@ git pull                                # TOUJOURS en premier
 py -m pip install -r requirements.txt   # installer les dépendances
 py collecte.py                          # récupérer les nouveaux articles
 py tri.py                               # filtrer + analyser par l'IA
-py generer_site.py                      # mettre à jour le site
+py essentiel.py --forcer                # écrire l'essentiel de la semaine tout de suite
+py generer_site.py                      # mettre à jour le site (articles.json + flux.xml)
 py alerte_discord.py                    # alertes Discord
 py -m unittest -v tests                 # tests
 py synthese.py                          # brouillon de synthèse du mois → syntheses/AAAA-MM.md
@@ -161,5 +172,12 @@ git add . && git commit -m "message" && git push
     `articles.json` 10 minutes en cache par le navigateur.
   - Premier « Run workflow » manuel : les 10 étapes au vert, commit automatique du bot.
   - Discord configuré (PC + secret GitHub) : 10 premières alertes envoyées dans #veille-ia.
+  - 3 nouvelles fonctionnalités (inspirées de Feedly, des newsletters TLDR, etc.) :
+    - **« Pourquoi cette note ? »** : colonne `justification` (migration `ALTER TABLE`),
+      module `ia.py` partagé ; les anciens articles sont réanalysés peu à peu par Actions.
+    - **Flux RSS** `docs/flux.xml` (articles 4-5★), testé en le relisant avec feedparser.
+    - **L'essentiel de la semaine** (`essentiel.py`) : 5 points sourcés, site + Discord.
+    - Correctifs site : `[hidden]` forcé en CSS, pas de surlignage des mots d'une lettre.
+    - 31 tests.
   - **Reste à faire** : relire EPREUVE.md, écrire les synthèses mensuelles (`py synthese.py`),
     répéter la démo.
