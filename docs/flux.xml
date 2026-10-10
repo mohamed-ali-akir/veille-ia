@@ -5,7 +5,19 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 10 Oct 2026 10:52:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 11:00:44 +0000</lastBuildDate>
+    <item>
+      <title>Qwen 3.6 35B A3B: 131K context + vision on 6GB VRAM</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x27au9/qwen_36_35b_a3b_131k_context_vision_on_6gb_vram/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x27au9/qwen_36_35b_a3b_131k_context_vision_on_6gb_vram/</guid>
+      <pubDate>Sat, 10 Oct 2026 05:41:18 +0000</pubDate>
+      <description>Cet article montre comment faire tourner un modèle local lourd de 35 milliards de paramètres avec vision sur un modeste GPU de 6 Go grâce à une optimisation poussée. L'utilisation astucieuse du CPU pour le déchargement permet d'exécuter l'IA efficacement avec une grande fenêtre de contexte.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
     <item>
       <title>My "Anthropic/ChatGPT in a box" is... now open source and publicly hosted on Github.</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/</link>
@@ -19,46 +31,44 @@
       <category>Agents IA</category>
     </item>
     <item>
+      <title>The maker of non-text AI model Jev valued at $7.5B just weeks after launch</title>
+      <link>https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/</link>
+      <guid>https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/</guid>
+      <pubDate>Fri, 09 Oct 2026 21:41:29 +0000</pubDate>
+      <description>La startup TypeSafe a lancé Jev, un nouveau modèle d'IA non textuel valorisé à 7,5 milliards de dollars quelques semaines seulement après son lancement. Ce modèle suscite l'enthousiasme car il serait beaucoup plus rapide et utiliserait moins de jetons que les grands modèles de langage traditionnels.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
       <title>H2O-Lightning-4B: Apache-2.0 4B Decision model, official #1 open model on JevBench (above Jev)</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1w1nv/h2olightning4b_apache20_4b_decision_model/</link>
       <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1w1nv/h2olightning4b_apache20_4b_decision_model/</guid>
       <pubDate>Fri, 09 Oct 2026 20:26:12 +0000</pubDate>
-      <description>La société H2O.ai a publié H2O-Lightning-4B, un modèle open-source de 4 milliards de paramètres spécialisé dans les inférences de type décisionnel rapide sans génération de texte. Ce modèle se positionne en tête du benchmark JevBench avec un score de 72,5 et fonctionne localement pour optimiser les coûts et la vitesse des applications.
+      <description>H2O.ai a publié H2O-Lightning-4B, un modèle open-source optimisé pour les inférences de décision rapides sans génération de texte. Il surpasse les modèles existants sur JevBench et fonctionne localement avec vLLM.
 
 ★★★★☆ · Reddit r/LocalLLaMA</description>
       <category>LLM</category>
       <category>Open source</category>
     </item>
     <item>
-      <title>AI coding agents generate more code, but not more software</title>
-      <link>https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/</link>
-      <guid>https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/</guid>
-      <pubDate>Fri, 09 Oct 2026 19:43:50 +0000</pubDate>
-      <description>Une étude montre que les agents de codage IA génèrent davantage de code, mais cela ne se traduit pas par une augmentation de la production logicielle globale. Le principal goulot d'étranglement réside désormais dans la revision humaine du code généré.
-
-★★★★☆ · Ars Technica (IA)</description>
-      <category>Agents IA</category>
-      <category>Outils dev</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Just another purely open-weight models benchmark</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1tf1t/just_another_purely_openweight_models_benchmark/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1tf1t/just_another_purely_openweight_models_benchmark/</guid>
-      <pubDate>Fri, 09 Oct 2026 18:43:54 +0000</pubDate>
-      <description>Cet article présente un nouveau benchmark open-source pour comparer les performances de modèles d'IA open-weights. Il intègre notamment des tests axés sur le code et les agents IA, évalués sur du matériel local.
+      <title>GLM 5.3 Flash opensource @ the top of Artificial Analysis Cyber Index over Claude.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1rwof/glm_53_flash_opensource_the_top_of_artificial/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1rwof/glm_53_flash_opensource_the_top_of_artificial/</guid>
+      <pubDate>Fri, 09 Oct 2026 17:45:37 +0000</pubDate>
+      <description>L'article discute de la performance de nouveaux modèles d'intelligence artificielle open source qui surpassent les solutions d'Anthropic sur les classements spécialisés. Cette évolution met en avant la progression rapide des alternatives ouvertes face aux grands acteurs propriétaires.
 
 ★★★★☆ · Reddit r/LocalLLaMA</description>
       <category>LLM</category>
       <category>Open source</category>
-      <category>Agents IA</category>
     </item>
     <item>
       <title>GitHub - google-ai-edge/ml-drift: GPU-Accelerated AI/ML Inference</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/</link>
       <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/</guid>
       <pubDate>Fri, 09 Oct 2026 15:50:37 +0000</pubDate>
-      <description>Google a annonce la sortie open source de ML Drift, un moteur de calcul GPU cross-platform dedie a l'inference d'IA sur les appareils. Cet outil permet aux developpeurs d'integrer des experiences de machine learning en temps reel et de l'IA generative sur plusieurs plateformes grace a une abstraction des API materielles.
+      <description>Google lance en open source ML Drift, un moteur de calcul GPU haute performance et multiplateforme pour l'inférence d'IA directement sur les appareils. Cette bibliothèque unifie les API bas niveau comme OpenGL ES, Metal et WebGPU pour faciliter l'intégration de modèles sur mobile et web.
 
 ★★★★☆ · Reddit r/LocalLLaMA</description>
       <category>Outils dev</category>
@@ -66,37 +76,39 @@
       <category>Matériel &amp; GPU</category>
     </item>
     <item>
+      <title>A 24KB stand-alone HTML-LLM that can generate consistent stories</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1obep/a_24kb_standalone_htmlllm_that_can_generate/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1obep/a_24kb_standalone_htmlllm_that_can_generate/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:27:09 +0000</pubDate>
+      <description>Un développeur a créé un modèle de langage miniature intégré dans un fichier HTML de seulement 24 Ko, capable de tourner sur smartphone. Il utilise des techniques d'optimisation poussées comme la quantification adaptative pour générer des histoires de manière autonome.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
       <title>Qwen-Image-2.1-Turbo released!</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1lclx/qwenimage21turbo_released/</link>
       <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1lclx/qwenimage21turbo_released/</guid>
       <pubDate>Fri, 09 Oct 2026 13:27:18 +0000</pubDate>
-      <description>Alibaba a sorti Qwen-Image-2.1-Turbo, un modèle open weights de génération et d'édition d'images basé sur une architecture de 7 milliards de paramètres. Il permet de créer des images 2K de haute qualité en seulement 8 étapes de débruitage grâce à une version optimisée. Ce modèle intègre également l'édition par langage naturel et est directement compatible avec la bibliothèque Diffusers.
+      <description>Le modèle Qwen-Image-2.1-Turbo est désormais disponible en open source. Il permet de générer et d'éditer des images en seulement 8 étapes de diffusion tout en conservant une haute qualité.
 
 ★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Image &amp; vidéo</category>
       <category>Open source</category>
-    </item>
-    <item>
-      <title>A new feature for my blog, built using my voice</title>
-      <link>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</link>
-      <guid>https://simonwillison.net/2026/Oct/9/built-using-my-voice/</guid>
-      <pubDate>Fri, 09 Oct 2026 12:54:06 +0000</pubDate>
-      <description>Simon Willison partage son expérience de développement d'une nouvelle fonctionnalité pour son blog, réalisée presque entièrement à la voix grâce au mode vocal de l'application de bureau ChatGPT. Cet article illustre une nouvelle façon d'interagir avec les outils de développement en utilisant l'intelligence artificielle.
-
-★★★★☆ · Simon Willison</description>
-      <category>Outils dev</category>
-      <category>Agents IA</category>
+      <category>Image &amp; vidéo</category>
     </item>
     <item>
       <title>tencent/Youtu-Parsing-Omni · Hugging Face</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/</link>
       <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/</guid>
       <pubDate>Fri, 09 Oct 2026 12:03:32 +0000</pubDate>
-      <description>L'article présente Youtu-Parsing-Omni, un modèle omni-modal compact de 5 milliards de paramètres capable de traiter divers types d'entrées (documents, images, audio, vidéo). Il génère une sortie structurée en JSON combinant perception et cognition selon la tâche demandée.
+      <description>Youtu-Parsing-Omni est un modèle omni-modal compact de 5 milliards de paramètres capable de traiter divers types de données d'entrée comme des documents, des images ou des vidéos. Il génère une enveloppe JSON structurée unique combinant la perception et la cognition selon la tâche demandée.
 
 ★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
       <category>Open source</category>
+      <category>Image &amp; vidéo</category>
+      <category>Audio &amp; voix</category>
     </item>
     <item>
       <title>Anthropic lance des analyses de sécurité gratuites par IA pour les projets open source, OSS Scanner propose des rapports de vulnérabilité générés par ses modèles les plus performants, dont Mythos</title>
@@ -338,17 +350,6 @@
       <category>LLM</category>
       <category>Outils dev</category>
       <category>Image &amp; vidéo</category>
-    </item>
-    <item>
-      <title>llm-mistral 0.16</title>
-      <link>https://simonwillison.net/2026/Oct/6/llm-mistral/</link>
-      <guid>https://simonwillison.net/2026/Oct/6/llm-mistral/</guid>
-      <pubDate>Tue, 06 Oct 2026 21:32:34 +0000</pubDate>
-      <description>La version 0.16 de llm-mistral est sortie et intègre désormais le support des modèles de raisonnement comme Mistral Large 4. Cette mise à jour permet aux développeurs d'exploiter plus facilement ces nouvelles capacités directement depuis l'outil.
-
-★★★★☆ · Simon Willison</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
     </item>
   </channel>
 </rss>
