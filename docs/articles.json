@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-10T20:32:22+00:00",
+ "genere_le": "2026-10-11T08:43:51+00:00",
  "statistiques": {
   "collectes": 487,
   "gardes_mots_cles": 330,
@@ -113,7 +113,7 @@
    "resume": "Un utilisateur de Reddit discute de l'évolution rapide des modèles locaux comme Qwen, affirmant qu'ils approchent d'un niveau suffisant pour écrire 90 % du code. La communauté semble même estimer que ces outils de développement sont déjà opérationnels.",
    "note": 4,
    "justification": "Cet article montre l'évolution rapide des LLM locaux pour l'aide au développement.",
-   "favori": false
+   "favori": true
   },
   {
    "id": 1583,
@@ -136,7 +136,7 @@
    "resume": "Un ingénieur logiciel teste et compare l'efficacité de plusieurs grands modèles de langage locaux pour des tâches de génie logiciel. L'évaluation porte sur l'analyse de code et la création de nouvelles fonctionnalités à l'aide de différents outils en ligne de commande.",
    "note": 4,
    "justification": "Très pertinent car il compare des modèles locaux récents pour des tâches de développement concrètes.",
-   "favori": false
+   "favori": true
   },
   {
    "id": 1608,
