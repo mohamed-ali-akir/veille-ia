@@ -5,7 +5,67 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 11 Oct 2026 11:15:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 20:49:37 +0000</lastBuildDate>
+    <item>
+      <title>"Strata" for GLM5.3 Flash is here for some! Project Maya</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3fxzj/strata_for_glm53_flash_is_here_for_some_project/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x3fxzj/strata_for_glm53_flash_is_here_for_some_project/</guid>
+      <pubDate>Sun, 11 Oct 2026 18:42:01 +0000</pubDate>
+      <description>Project Maya permet d'exécuter localement le modèle open source GLM5.3-Flash de 321 milliards de paramètres avec des performances grandement améliorées. Ce système optimise l'utilisation du GPU, de la RAM et du SSD pour faire tourner des IA massives sur du matériel grand public.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>OpenMed 3.0 is out: Apache-2.0 clinical AI that runs fully local and never falls back to the cloud. 422 open issues if you want in on 3.1</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x37z7z/openmed_30_is_out_apache20_clinical_ai_that_runs/</guid>
+      <pubDate>Sun, 11 Oct 2026 13:16:26 +0000</pubDate>
+      <description>OpenMed 3.0 est une boîte à outils d'IA médicale open-source fonctionnant entièrement en local sans cloud. Cette nouvelle version introduit Patient Journey pour unifier les dossiers patients hétérogènes sur sa propre machine.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>UPDATE: Qwen 3.8 27B 140 tok/s on single RTX 3090 Megakernel: KL divergence 0.0009 vs llama.cpp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/</guid>
+      <pubDate>Sun, 11 Oct 2026 13:04:42 +0000</pubDate>
+      <description>Un développeur présente un nouveau moteur CUDA megakernel pour le modèle Qwen 3.8 27B. Il permet d'exécuter le LLM sur une seule carte graphique RTX 3090 avec des performances accrues et sans perte de précision par rapport à llama.cpp.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Now you can grow Bonsai on your potato</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x37kxn/now_you_can_grow_bonsai_on_your_potato/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x37kxn/now_you_can_grow_bonsai_on_your_potato/</guid>
+      <pubDate>Sun, 11 Oct 2026 12:58:20 +0000</pubDate>
+      <description>Un nouveau format de poids ternaires permet de faire tourner un modèle LLM de 27 milliards de paramètres sur des ordinateurs portables standard. Ce modèle comprime drastiquement la taille du fichier tout en conservant 98,2% des performances d'origine. C'est une avancée majeure pour exécuter des IA puissantes en local sans carte graphique haut de gamme.
+
+★★★★★ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>microsoft/AesCode 8B and 32B</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x35o1y/microsoftaescode_8b_and_32b/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x35o1y/microsoftaescode_8b_and_32b/</guid>
+      <pubDate>Sun, 11 Oct 2026 11:17:46 +0000</pubDate>
+      <description>Microsoft présente AesCode (8B et 32B), des modèles basés sur Qwen3-VL capables de générer des artefacts visuels structurés en HTML/CSS. Ils combinent la précision textuelle du code et l'esthétique visuelle en s'aidant d'images de référence générées à partir du même prompt.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
     <item>
       <title>PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/</link>
@@ -292,65 +352,6 @@
       <description>Le nouveau modèle Mistral Large 4 a été testé face à la concurrence. Il excelle en cybersécurité et en français, mais montre des limites sur l'écriture de code et l'analyse.
 
 ★★★★☆ · Journal du Net (IA)</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Chez Anthropic, Haiku 5.5 prend la relève des petits modèles rapides</title>
-      <link>https://next.ink/260659/chez-anthropic-haiku-5-5-prend-la-releve-des-petits-modeles-rapides/</link>
-      <guid>https://next.ink/260659/chez-anthropic-haiku-5-5-prend-la-releve-des-petits-modeles-rapides/</guid>
-      <pubDate>Thu, 08 Oct 2026 09:10:45 +0000</pubDate>
-      <description>Anthropic a présenté Haiku 5.5, son nouveau petit modèle d'IA à la fois rapide et très économique. Cette version apporte des performances grandement améliorées pour les développeurs cherchant rapidité et accessibilité.
-
-★★★★☆ · Next</description>
-      <category>LLM</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Le Chonk de Mistral : le géant européen qui court après son retard</title>
-      <link>https://www.journaldunet.com/intelligence-artificielle/1555965-le-chonk-de-mistral-le-geant-europeen-qui-court-apres-son-retard/</link>
-      <guid>https://www.journaldunet.com/intelligence-artificielle/1555965-le-chonk-de-mistral-le-geant-europeen-qui-court-apres-son-retard/</guid>
-      <pubDate>Thu, 08 Oct 2026 08:05:49 +0000</pubDate>
-      <description>Mistral lance Mistral Large 4, un nouveau modèle de langage européen doté d'un millier de milliards de paramètres. Cette sortie illustre la volonté de l'entreprise française de rattraper son retard face aux géants américains du secteur.
-
-★★★★☆ · Journal du Net (IA)</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Claude Haiku 5.5</title>
-      <link>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</link>
-      <guid>https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/</guid>
-      <pubDate>Wed, 07 Oct 2026 20:56:21 +0000</pubDate>
-      <description>Anthropic sort le modèle Claude Haiku 5.5, plus rapide et économique. Il s'aligne sur les prix de la concurrence mais présente des coûts majorés au-delà de 100 000 tokens.
-
-★★★★☆ · Simon Willison</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Mistral dévoile Large 4, un modèle à plus de 1 000 milliards de paramètres</title>
-      <link>https://www.lemondeinformatique.fr/actualites/lire-mistral-devoile-large-4-un-modele-a-plus-de-1-000-milliards-de-parametres-100838.html</link>
-      <guid>https://www.lemondeinformatique.fr/actualites/lire-mistral-devoile-large-4-un-modele-a-plus-de-1-000-milliards-de-parametres-100838.html</guid>
-      <pubDate>Wed, 07 Oct 2026 14:42:23 +0000</pubDate>
-      <description>Mistral AI a dévoilé Mistral Large 4, son nouveau modèle de plus de 1 000 milliards de paramètres. Cette annonce marque une étape majeure pour l'entreprise française suite à sa récente levée de fonds.
-
-★★★★★ · Le Monde Informatique (IA)</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Mistral says "Le Chonk" can challenge the best AI models</title>
-      <link>https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/</link>
-      <guid>https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/</guid>
-      <pubDate>Wed, 07 Oct 2026 14:12:37 +0000</pubDate>
-      <description>La startup Mistral annonce que son nouveau modèle d'intelligence artificielle nommé Le Chonk est capable de rivaliser avec les meilleurs modèles propriétaires du marché. Ce modèle présente l'avantage majeur de conserver des poids ouverts, offrant ainsi une alternative puissante et accessible aux développeurs.
-
-★★★★★ · Ars Technica (IA)</description>
       <category>LLM</category>
       <category>Open source</category>
       <category>Entreprises</category>
