@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-12T12:46:35+00:00",
+ "genere_le": "2026-10-12T19:10:22+00:00",
  "statistiques": {
   "collectes": 637,
   "gardes_mots_cles": 400,
@@ -484,7 +484,7 @@
    "resume": "Un développeur a créé un outil open-source nommé whatmodel.sh pour aider à identifier quels modèles d'IA locaux peuvent tourner sur sa machine selon la RAM et le GPU. Ce projet compare ces performances locales avec les modèles d'API et est accessible directement depuis le terminal.",
    "note": 4,
    "justification": "Cet outil open source aide directement les développeurs à évaluer l'exécution locale des LLM sur leur matériel.",
-   "favori": false
+   "favori": true
   },
   {
    "id": 2792,
