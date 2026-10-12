@@ -5,7 +5,100 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 12 Oct 2026 19:10:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 23:31:09 +0000</lastBuildDate>
+    <item>
+      <title>Lecture: Building a GPU Compiler From Scratch. Lowering PyTorch Graphs to CUDA via Multi-Level IRs (GPU_MODE video + article)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/</guid>
+      <pubDate>Mon, 12 Oct 2026 22:18:03 +0000</pubDate>
+      <description>Cet article détaille la création d'un compilateur GPU de A à Z pour convertir des graphes PyTorch en code CUDA. Il explique les différentes étapes de compilation et l'intégration avec vLLM pour le service de modèles.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Explore DNA with DeepMind’s AlphaGenome and in-browser MedGemma 1.5 4B via WebGPU</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4ec7b/explore_dna_with_deepminds_alphagenome_and/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4ec7b/explore_dna_with_deepminds_alphagenome_and/</guid>
+      <pubDate>Mon, 12 Oct 2026 21:20:33 +0000</pubDate>
+      <description>Un nouvel outil éducatif, AskCyph Health Explorer, combine l'API AlphaGenome de DeepMind et le modèle MedGemma 1.5 4B exécuté localement via WebGPU. Cette architecture permet d'analyser des mutations de l'ADN tout en garantissant la confidentialité des données des utilisateurs directement dans le navigateur.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Epic Games reportedly pivoting to "AI first" game development model</title>
+      <link>https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/</link>
+      <guid>https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/</guid>
+      <pubDate>Mon, 12 Oct 2026 20:59:50 +0000</pubDate>
+      <description>Epic Games adopte un modèle de développement basé sur l'intelligence artificielle pour ses jeux vidéo, visant à éliminer le code entièrement rédigé à la main. Cette transition touche particulièrement les projets d'envergure comme les jeux de tir Marvel et Star Wars.
+
+★★★★☆ · Ars Technica (IA)</description>
+      <category>Entreprises</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Running unsloth/Qwen3.8-27B-UD-IQ4_XS 262k q4_0 KV + vision on 16GB VRAM @ 80t/s and 1500pp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/</guid>
+      <pubDate>Mon, 12 Oct 2026 20:14:03 +0000</pubDate>
+      <description>Un utilisateur partage son astuce pour exécuter localement un modèle Qwen 27B avec vision et un large contexte de 262k sur une carte graphique de 16GB de VRAM. Il utilise pour cela une version modifiée de llama.cpp avec une gestion optimisée de la mémoire KV.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Hello Python 3.15, goodbye 3.10, and now I can use 3.11</title>
+      <link>https://simonwillison.net/2026/Oct/12/python-3-15/</link>
+      <guid>https://simonwillison.net/2026/Oct/12/python-3-15/</guid>
+      <pubDate>Mon, 12 Oct 2026 18:15:38 +0000</pubDate>
+      <description>L'article présente les nouveautés de Python 3.15, notamment l'introduction des importations paresseuses explicites (lazy imports) issues du PEP 810. Cette fonctionnalité permet de réduire considérablement le temps de démarrage des applications en ne chargeant les modules lourds qu'au moment de leur utilisation.
+
+★★★★☆ · Simon Willison</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>GitHub Copilot app for Beginners: How to teach Copilot about your codebase</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</link>
+      <guid>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</guid>
+      <pubDate>Mon, 12 Oct 2026 17:43:59 +0000</pubDate>
+      <description>Cet article explique comment configurer GitHub Copilot pour un projet en y ajoutant des instructions personnalisées, des agents et des serveurs MCP. Il guide les débutants pour enseigner leur base de code à l'assistant de développement.
+
+★★★★★ · GitHub Blog (IA)</description>
+      <category>Outils dev</category>
+      <category>Agents IA</category>
+    </item>
+    <item>
+      <title>openbmb/MiniCPM-V-4.7-35B-A3B</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/</guid>
+      <pubDate>Mon, 12 Oct 2026 17:16:21 +0000</pubDate>
+      <description>MiniCPM-V 4.7 35B-A3B est le premier modèle MoE open-source optimisé pour l'inférence locale et fluide sur mobile. Il améliore la compréhension d'images et de vidéos tout en maintenant de hautes performances.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Boole-1.7B: A 1-bit Qwen3-1.7B model that outperforms Bonsai-1.7B</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/</guid>
+      <pubDate>Mon, 12 Oct 2026 15:35:58 +0000</pubDate>
+      <description>Boole-1.7B est un modèle open source à 1 bit basé sur Qwen3-1.7B, offrant un poids réduit à 247 Mo. Il permet une exécution locale ultra-rapide tout en conservant des performances proches du modèle d'origine.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
     <item>
       <title>AWS lance une boîte à outils open source dédiée à la robotique</title>
       <link>https://www.lemondeinformatique.fr/actualites/lire-aws-lance-une-boite-a-outils-open-source-dediee-a-la-robotique-100849.html</link>
@@ -16,6 +109,54 @@
 ★★★★☆ · Le Monde Informatique (IA)</description>
       <category>Open source</category>
       <category>Robotique</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>graphsignal-top: a `top` for inference GPUs in the open-source Graphsignal profiler, kernels ranked by time, live, with readable names</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x421ow/graphsignaltop_a_top_for_inference_gpus_in_the/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x421ow/graphsignaltop_a_top_for_inference_gpus_in_the/</guid>
+      <pubDate>Mon, 12 Oct 2026 13:35:21 +0000</pubDate>
+      <description>Graphsignal-top est un nouvel outil open-source permettant de surveiller en direct l'utilisation des GPU lors de l'inférence de LLM. Il affiche les métriques de performance, l'utilisation de la mémoire et le classement des kernels CUDA avec des noms lisibles.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Qwen released QwenGyre - RL framework for training AI agents on extremely long complex tasks</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/</guid>
+      <pubDate>Mon, 12 Oct 2026 13:18:10 +0000</pubDate>
+      <description>QwenGyre est un nouveau framework d'apprentissage par renforcement conçu pour entraîner des agents IA sur des tâches extrêmement longues et complexes. Il introduit un planificateur élastique et un processeur de trajectoire pour optimiser l'utilisation des GPU et réduire le temps d'entraînement.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Agents IA</category>
+      <category>Open source</category>
+      <category>Recherche</category>
+    </item>
+    <item>
+      <title>A "free" multi-modal "embedding" model (already) included with your LLM: vLLM plugin + upstream PR</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/</guid>
+      <pubDate>Mon, 12 Oct 2026 12:59:09 +0000</pubDate>
+      <description>Cet article présente un plugin vLLM permettant d'obtenir facilement des embeddings multimodaux directement à partir des modèles de langage déjà chargés. Il expose les états cachés internes via une API compatible OpenAI pour générer ces représentations textuelles et visuelles.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>LLC: lightweight Open WebUI alt now with Agents+MCP+RAG+Image Editing</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x415dd/llc_lightweight_open_webui_alt_now_with/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x415dd/llc_lightweight_open_webui_alt_now_with/</guid>
+      <pubDate>Mon, 12 Oct 2026 12:57:20 +0000</pubDate>
+      <description>LocalLightChat (LLC) est une alternative légère à Open WebUI pour les LLM locaux. Cette nouvelle version intègre des agents, le protocole MCP, un système RAG et l'édition d'images tout en restant très performante.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
       <category>Outils dev</category>
     </item>
     <item>
@@ -219,146 +360,6 @@
       <category>LLM</category>
       <category>Outils dev</category>
       <category>Open source</category>
-    </item>
-    <item>
-      <title>Open-source Mac app that runs EmbeddingGemma 2 locally to search your files by what’s in them</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2eeds/opensource_mac_app_that_runs_embeddinggemma_2/</guid>
-      <pubDate>Sat, 10 Oct 2026 12:43:33 +0000</pubDate>
-      <description>DigUp est une application macOS gratuite et open-source qui utilise EmbeddingGemma 2 pour rechercher localement dans vos fichiers multimédias et textuels. L'outil fonctionne entièrement en local grâce à llama.cpp et Metal, sans dépendance Python, garantissant rapidité et confidentialité.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Open source</category>
-      <category>Outils dev</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>Fully local conversational AI: Whisper + Hermes 8B + Kokoro, zero cloud, running inside a plush toy</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2cztv/fully_local_conversational_ai_whisper_hermes_8b/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2cztv/fully_local_conversational_ai_whisper_hermes_8b/</guid>
-      <pubDate>Sat, 10 Oct 2026 11:28:41 +0000</pubDate>
-      <description>Un développeur a créé une peluche interactive intelligente fonctionnant entièrement en local sur son réseau grâce à Whisper, Hermes 8B, Kokoro et LangGraph. Aucun service cloud ni clé API n'est utilisé pour gérer la voix, la vision et la mémoire de ce prototype open source.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Agents IA</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Qwen 3.6 35B A3B: 131K context + vision on 6GB VRAM</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x27au9/qwen_36_35b_a3b_131k_context_vision_on_6gb_vram/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x27au9/qwen_36_35b_a3b_131k_context_vision_on_6gb_vram/</guid>
-      <pubDate>Sat, 10 Oct 2026 05:41:18 +0000</pubDate>
-      <description>Cet article montre comment faire tourner un modèle local lourd de 35 milliards de paramètres avec vision sur un modeste GPU de 6 Go grâce à une optimisation poussée. L'utilisation astucieuse du CPU pour le déchargement permet d'exécuter l'IA efficacement avec une grande fenêtre de contexte.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>My "Anthropic/ChatGPT in a box" is... now open source and publicly hosted on Github.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1zlxh/my_anthropicchatgpt_in_a_box_is_now_open_source/</guid>
-      <pubDate>Fri, 09 Oct 2026 23:00:01 +0000</pubDate>
-      <description>LumaBrowser, un écosystème tout-en-un pour LLM et agents conversationnels, est désormais open source sur GitHub. Il gère automatiquement le chargement des modèles et l'intégration d'outils multimodaux selon les capacités du système.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Agents IA</category>
-    </item>
-    <item>
-      <title>The maker of non-text AI model Jev valued at $7.5B just weeks after launch</title>
-      <link>https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/</link>
-      <guid>https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/</guid>
-      <pubDate>Fri, 09 Oct 2026 21:41:29 +0000</pubDate>
-      <description>La startup TypeSafe a lancé Jev, un nouveau modèle d'IA non textuel valorisé à 7,5 milliards de dollars quelques semaines seulement après son lancement. Ce modèle suscite l'enthousiasme car il serait beaucoup plus rapide et utiliserait moins de jetons que les grands modèles de langage traditionnels.
-
-★★★★☆ · TechCrunch (IA)</description>
-      <category>LLM</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>H2O-Lightning-4B: Apache-2.0 4B Decision model, official #1 open model on JevBench (above Jev)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1w1nv/h2olightning4b_apache20_4b_decision_model/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1w1nv/h2olightning4b_apache20_4b_decision_model/</guid>
-      <pubDate>Fri, 09 Oct 2026 20:26:12 +0000</pubDate>
-      <description>H2O.ai a publié H2O-Lightning-4B, un modèle open-source optimisé pour les inférences de décision rapides sans génération de texte. Il surpasse les modèles existants sur JevBench et fonctionne localement avec vLLM.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>GLM 5.3 Flash opensource @ the top of Artificial Analysis Cyber Index over Claude.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1rwof/glm_53_flash_opensource_the_top_of_artificial/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1rwof/glm_53_flash_opensource_the_top_of_artificial/</guid>
-      <pubDate>Fri, 09 Oct 2026 17:45:37 +0000</pubDate>
-      <description>L'article discute de la performance de nouveaux modèles d'intelligence artificielle open source qui surpassent les solutions d'Anthropic sur les classements spécialisés. Cette évolution met en avant la progression rapide des alternatives ouvertes face aux grands acteurs propriétaires.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>GitHub - google-ai-edge/ml-drift: GPU-Accelerated AI/ML Inference</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/</guid>
-      <pubDate>Fri, 09 Oct 2026 15:50:37 +0000</pubDate>
-      <description>Google lance en open source ML Drift, un moteur de calcul GPU haute performance et multiplateforme pour l'inférence d'IA directement sur les appareils. Cette bibliothèque unifie les API bas niveau comme OpenGL ES, Metal et WebGPU pour faciliter l'intégration de modèles sur mobile et web.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Outils dev</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>A 24KB stand-alone HTML-LLM that can generate consistent stories</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1obep/a_24kb_standalone_htmlllm_that_can_generate/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1obep/a_24kb_standalone_htmlllm_that_can_generate/</guid>
-      <pubDate>Fri, 09 Oct 2026 15:27:09 +0000</pubDate>
-      <description>Un développeur a créé un modèle de langage miniature intégré dans un fichier HTML de seulement 24 Ko, capable de tourner sur smartphone. Il utilise des techniques d'optimisation poussées comme la quantification adaptative pour générer des histoires de manière autonome.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Qwen-Image-2.1-Turbo released!</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1lclx/qwenimage21turbo_released/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1lclx/qwenimage21turbo_released/</guid>
-      <pubDate>Fri, 09 Oct 2026 13:27:18 +0000</pubDate>
-      <description>Le modèle Qwen-Image-2.1-Turbo est désormais disponible en open source. Il permet de générer et d'éditer des images en seulement 8 étapes de diffusion tout en conservant une haute qualité.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Open source</category>
-      <category>Image &amp; vidéo</category>
-    </item>
-    <item>
-      <title>tencent/Youtu-Parsing-Omni · Hugging Face</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x1jk9z/tencentyoutuparsingomni_hugging_face/</guid>
-      <pubDate>Fri, 09 Oct 2026 12:03:32 +0000</pubDate>
-      <description>Youtu-Parsing-Omni est un modèle omni-modal compact de 5 milliards de paramètres capable de traiter divers types de données d'entrée comme des documents, des images ou des vidéos. Il génère une enveloppe JSON structurée unique combinant la perception et la cognition selon la tâche demandée.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Open source</category>
-      <category>Image &amp; vidéo</category>
-      <category>Audio &amp; voix</category>
-    </item>
-    <item>
-      <title>Anthropic lance des analyses de sécurité gratuites par IA pour les projets open source, OSS Scanner propose des rapports de vulnérabilité générés par ses modèles les plus performants, dont Mythos</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/387962/Anthropic-lance-des-analyses-de-securite-gratuites-par-IA-pour-les-projets-open-source-OSS-Scanner-propose-des-rapports-de-vulnerabilite-generes-par-ses-modeles-les-plus-performants-dont-Mythos/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/387962/Anthropic-lance-des-analyses-de-securite-gratuites-par-IA-pour-les-projets-open-source-OSS-Scanner-propose-des-rapports-de-vulnerabilite-generes-par-ses-modeles-les-plus-performants-dont-Mythos/</guid>
-      <pubDate>Fri, 09 Oct 2026 11:58:00 +0000</pubDate>
-      <description>Anthropic propose OSS Scanner, un service gratuit utilisant ses modèles d'IA pour analyser les failles de sécurité des projets open source. Les rapports de vulnérabilité sont directement envoyés aux responsables de maintenance.
-
-★★★★☆ · Developpez.com (IA)</description>
-      <category>Sécurité</category>
-      <category>Open source</category>
-      <category>Entreprises</category>
     </item>
   </channel>
 </rss>
