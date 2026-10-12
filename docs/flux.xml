@@ -5,7 +5,89 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 11 Oct 2026 20:49:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 12:46:35 +0000</lastBuildDate>
+    <item>
+      <title>AWS lance une boîte à outils open source dédiée à la robotique</title>
+      <link>https://www.lemondeinformatique.fr/actualites/lire-aws-lance-une-boite-a-outils-open-source-dediee-a-la-robotique-100849.html</link>
+      <guid>https://www.lemondeinformatique.fr/actualites/lire-aws-lance-une-boite-a-outils-open-source-dediee-a-la-robotique-100849.html</guid>
+      <pubDate>Mon, 12 Oct 2026 13:47:17 +0000</pubDate>
+      <description>AWS lance une boîte à outils open source pour simplifier le développement de modèles d'intelligence artificielle en robotique. Cette initiative vise à réduire les contraintes d'infrastructure pour les développeurs.
+
+★★★★☆ · Le Monde Informatique (IA)</description>
+      <category>Open source</category>
+      <category>Robotique</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>LSearch - Spotlight for windows with embedding</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3zut6/lsearch_spotlight_for_windows_with_embedding/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x3zut6/lsearch_spotlight_for_windows_with_embedding/</guid>
+      <pubDate>Mon, 12 Oct 2026 11:54:55 +0000</pubDate>
+      <description>Un développeur a créé un outil de recherche pour Windows intégrant des modèles locaux et un mélange d'experts spécialisés dans le code et les agents. Cet utilitaire open source s'exécute localement avec des exigences matérielles accessibles pour assister les développeurs.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Les agents IA de codage produisent plus de code, mais pas davantage de logiciels : les gains obtenus lors de la génération de code sont annulés par le goulot d'étranglement que représente la révision humaine</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/388008/Les-agents-IA-de-codage-produisent-plus-de-code-mais-pas-davantage-de-logiciels-les-gains-obtenus-lors-de-la-generation-de-code-sont-annules-par-le-goulot-d-etranglement-que-represente-la-revision-humaine/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/388008/Les-agents-IA-de-codage-produisent-plus-de-code-mais-pas-davantage-de-logiciels-les-gains-obtenus-lors-de-la-generation-de-code-sont-annules-par-le-goulot-d-etranglement-que-represente-la-revision-humaine/</guid>
+      <pubDate>Mon, 12 Oct 2026 10:21:00 +0000</pubDate>
+      <description>Les agents IA augmentent la production brute de code mais ne créent pas plus de logiciels finaux. La relecture humaine du code généré crée un nouveau goulot d'étranglement qui annule le gain de temps initial.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>I made an open-source AI leaderboard that shows the best models your machine can run</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x3wp8c/i_made_an_opensource_ai_leaderboard_that_shows/</guid>
+      <pubDate>Mon, 12 Oct 2026 08:47:16 +0000</pubDate>
+      <description>Un développeur a créé un outil open-source nommé whatmodel.sh pour aider à identifier quels modèles d'IA locaux peuvent tourner sur sa machine selon la RAM et le GPU. Ce projet compare ces performances locales avec les modèles d'API et est accessible directement depuis le terminal.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>QLoRA on ExLlamaV3 Quants - Train @ 2-8bpw</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3viem/qlora_on_exllamav3_quants_train_28bpw/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x3viem/qlora_on_exllamav3_quants_train_28bpw/</guid>
+      <pubDate>Mon, 12 Oct 2026 07:30:10 +0000</pubDate>
+      <description>Un développeur a créé un fork d'ExLlamaV3 permettant d'entraîner des modèles quantifiés de 2 à 8 bpw avec QLoRA sans utiliser Transformers. Cette solution native PyTorch gère divers modèles récents et propose des fonctionnalités avancées comme le SFT, DPO et KTO.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Receipt scanner that runs a fine-tuned 0.8B vision model on the phone (free) - detailed cost tracking</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3u3y5/receipt_scanner_that_runs_a_finetuned_08b_vision/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x3u3y5/receipt_scanner_that_runs_a_finetuned_08b_vision/</guid>
+      <pubDate>Mon, 12 Oct 2026 06:04:05 +0000</pubDate>
+      <description>Un développeur a créé une application Android gratuite de scan de reçus qui utilise un petit modèle de vision fine-tuné exécuté directement sur le téléphone. L'application extrait les données sous format JSON en local pour garantir la confidentialité, tout en proposant une option pour utiliser un serveur externe.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>VectorDash: A full Windows search replacement incorporating Embeddinggemma-2</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3sqxc/vectordash_a_full_windows_search_replacement/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x3sqxc/vectordash_a_full_windows_search_replacement/</guid>
+      <pubDate>Mon, 12 Oct 2026 04:44:16 +0000</pubDate>
+      <description>VectorDash est un remplaçant de la recherche Windows 11 propulsé par l'IA et basé sur EmbeddingGemma 2. Il permet d'indexer et de rechercher par le sens ou par mots-clés dans tous types de fichiers multimédias et documents.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
     <item>
       <title>"Strata" for GLM5.3 Flash is here for some! Project Maya</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3fxzj/strata_for_glm53_flash_is_here_for_some_project/</link>
@@ -275,84 +357,6 @@
 
 ★★★★☆ · Developpez.com (IA)</description>
       <category>Sécurité</category>
-      <category>Open source</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Anthropic lance Claude Haiku 5.5</title>
-      <link>https://www.lemondeinformatique.fr/actualites/lire-anthropic-lance-claude-haiku-55-100843.html</link>
-      <guid>https://www.lemondeinformatique.fr/actualites/lire-anthropic-lance-claude-haiku-55-100843.html</guid>
-      <pubDate>Fri, 09 Oct 2026 09:55:09 +0000</pubDate>
-      <description>Anthropic complete sa gamme de modeles d'intelligence artificielle avec le lancement de Claude Haiku 5.5. Ce nouveau modele arrive peu de temps apres la sortie d'Opus 5.5 et Sonnet 5.5.
-
-★★★★☆ · Le Monde Informatique (IA)</description>
-      <category>LLM</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>OpenAI met GPT-6 à la disposition des 1,2 milliard d'utilisateurs de ChatGPT avec « Intelligent UI », qui permet au chatbot IA de répondre aux questions via des interfaces interactives</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/387950/OpenAI-met-GPT-6-a-la-disposition-des-1-2-milliard-d-utilisateurs-de-ChatGPT-avec-Intelligent-UI-qui-permet-au-chatbot-IA-de-repondre-aux-questions-via-des-interfaces-interactives/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/387950/OpenAI-met-GPT-6-a-la-disposition-des-1-2-milliard-d-utilisateurs-de-ChatGPT-avec-Intelligent-UI-qui-permet-au-chatbot-IA-de-repondre-aux-questions-via-des-interfaces-interactives/</guid>
-      <pubDate>Fri, 09 Oct 2026 00:25:00 +0000</pubDate>
-      <description>OpenAI lance GPT-6 et sa fonction Intelligent UI pour offrir des interfaces interactives sur ChatGPT. Cette mise à jour révolutionne l'interaction utilisateur au-delà du simple texte.
-
-★★★★★ · Developpez.com (IA)</description>
-      <category>LLM</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Google brings agentic AI to Gemini, starting with businesses</title>
-      <link>https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/</link>
-      <guid>https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/</guid>
-      <pubDate>Thu, 08 Oct 2026 18:18:00 +0000</pubDate>
-      <description>Google transforme Gemini en agent IA autonome capable de planifier, d'exécuter des tâches et de collaborer à travers divers outils d'entreprise. Ce système peut déléguer du travail à des sous-agents et dispose de sa propre identité professionnelle.
-
-★★★★☆ · TechCrunch (IA)</description>
-      <category>Agents IA</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost</title>
-      <link>https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/</link>
-      <guid>https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/</guid>
-      <pubDate>Thu, 08 Oct 2026 16:00:00 +0000</pubDate>
-      <description>Goodfire a lance un outil economique pour surveiller les agents IA en observant directement leur fonctionnement interne. Cette methode evite de faire appel a une seconde IA pour verifier chaque action, reduisant ainsi les couts de securite.
-
-★★★★☆ · TechCrunch (IA)</description>
-      <category>Agents IA</category>
-      <category>Sécurité</category>
-    </item>
-    <item>
-      <title>Anthropic lance Claude Haiku 5.5 avec une réduction de 90 % du prix des API, s'alignant ainsi sur GPT-6 Luna, présenté comme « le petit modèle le moins cher, le plus rapide et le plus performant »</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/387942/Anthropic-lance-Claude-Haiku-5-5-avec-une-reduction-de-90-pourcent-du-prix-des-API-s-alignant-ainsi-sur-GPT-6-Luna-presente-comme-le-petit-modele-le-moins-cher-le-plus-rapide-et-le-plus-performant/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/387942/Anthropic-lance-Claude-Haiku-5-5-avec-une-reduction-de-90-pourcent-du-prix-des-API-s-alignant-ainsi-sur-GPT-6-Luna-presente-comme-le-petit-modele-le-moins-cher-le-plus-rapide-et-le-plus-performant/</guid>
-      <pubDate>Thu, 08 Oct 2026 13:42:00 +0000</pubDate>
-      <description>Anthropic a lance Claude Haiku 5.5 avec une baisse de 90 pour cent des prix des API. Ce nouveau petit modele vise a concurrencer directement GPT-6 Luna en offrant vitesse et performance a bas cout.
-
-★★★★★ · Developpez.com (IA)</description>
-      <category>LLM</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Unity dévoile Unity Spark, un outil basé sur des prompts pour la plateforme de jeux IA de Google, permettant de développer des jeux en collaboration avec l'IA de Google</title>
-      <link>https://jeux.developpez.com/actu/387926/Unity-devoile-Unity-Spark-un-outil-base-sur-des-prompts-pour-la-plateforme-de-jeux-IA-de-Google-permettant-de-developper-des-jeux-en-collaboration-avec-l-IA-de-Google/</link>
-      <guid>https://jeux.developpez.com/actu/387926/Unity-devoile-Unity-Spark-un-outil-base-sur-des-prompts-pour-la-plateforme-de-jeux-IA-de-Google-permettant-de-developper-des-jeux-en-collaboration-avec-l-IA-de-Google/</guid>
-      <pubDate>Thu, 08 Oct 2026 12:06:00 +0000</pubDate>
-      <description>Unity a annonce un partenariat strategique avec Google pour lancer Unity Spark, un outil base sur des prompts destine au developpement de jeux video grace a l'IA. Cette integration permet aux createurs de collaborer directement avec la plateforme d'intelligence artificielle de Google.
-
-★★★★☆ · Developpez.com (IA)</description>
-      <category>Outils dev</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Code, finance, français, cybersécurité... On a testé Mistral Large 4</title>
-      <link>https://www.journaldunet.com/intelligence-artificielle/1556073-code-finance-francais-cybersecurite-on-a-teste-mistral-large-4/</link>
-      <guid>https://www.journaldunet.com/intelligence-artificielle/1556073-code-finance-francais-cybersecurite-on-a-teste-mistral-large-4/</guid>
-      <pubDate>Thu, 08 Oct 2026 09:44:15 +0000</pubDate>
-      <description>Le nouveau modèle Mistral Large 4 a été testé face à la concurrence. Il excelle en cybersécurité et en français, mais montre des limites sur l'écriture de code et l'analyse.
-
-★★★★☆ · Journal du Net (IA)</description>
-      <category>LLM</category>
       <category>Open source</category>
       <category>Entreprises</category>
     </item>
