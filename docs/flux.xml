@@ -5,7 +5,42 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:31:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:43:00 +0000</lastBuildDate>
+    <item>
+      <title>Epic Games reporte son jeu Disney et bascule en mode « AI first »</title>
+      <link>https://next.ink/261388/epic-games-reporte-son-jeu-disney-et-bascule-en-mode-ai-first/</link>
+      <guid>https://next.ink/261388/epic-games-reporte-son-jeu-disney-et-bascule-en-mode-ai-first/</guid>
+      <pubDate>Tue, 13 Oct 2026 09:47:00 +0000</pubDate>
+      <description>Epic Games a reporté son jeu vidéo aux couleurs de Disney et demande désormais à ses équipes d'utiliser l'intelligence artificielle pour concevoir l'ensemble du code et des visuels. Ce pivot vers une approche entièrement axée sur l'IA témoigne des bouleversements en cours dans l'industrie du développement.
+
+★★★★☆ · Next</description>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>SonicBoom: 52 tok/s decode on a laptop RTX 3050 (llama.cpp: 45) with the same quantized kernels, the difference is a graph compiler. No Python.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4scub/sonicboom_52_toks_decode_on_a_laptop_rtx_3050/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4scub/sonicboom_52_toks_decode_on_a_laptop_rtx_3050/</guid>
+      <pubDate>Tue, 13 Oct 2026 09:46:50 +0000</pubDate>
+      <description>Un développeur a créé SonicBoom, un moteur d'inférence de LLM local en C++/CUDA sans Python. En utilisant les mêmes noyaux que llama.cpp mais avec un compilateur de graphe, il atteint de meilleures performances sur GPU grand public.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>open-source desktop agent app running its agents on local ollama models: two agents on qwen3.5:9b and qwen3.8 on a 16 gb card, real recording, including the limits i hit</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/</guid>
+      <pubDate>Tue, 13 Oct 2026 08:24:24 +0000</pubDate>
+      <description>L'auteur présente Dodaios, une application de bureau open-source permettant de faire tourner des agents IA locaux avec des modèles comme Qwen via Ollama. L'outil intègre diverses fonctionnalités comme un IDE agentique, la voix et l'utilisation de l'ordinateur entièrement hors ligne.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
     <item>
       <title>Lecture: Building a GPU Compiler From Scratch. Lowering PyTorch Graphs to CUDA via Multi-Level IRs (GPU_MODE video + article)</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/</link>
@@ -324,42 +359,6 @@
       <category>LLM</category>
       <category>Open source</category>
       <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Goodbye Coding Plans</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2nfg4/goodbye_coding_plans/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2nfg4/goodbye_coding_plans/</guid>
-      <pubDate>Sat, 10 Oct 2026 19:12:31 +0000</pubDate>
-      <description>Un utilisateur de Reddit discute de l'évolution rapide des modèles locaux comme Qwen, affirmant qu'ils approchent d'un niveau suffisant pour écrire 90 % du code. La communauté semble même estimer que ces outils de développement sont déjà opérationnels.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Engineer / developer observations of Gemma4-31B, Qwen3.8-27B, and 6.1-Sol for software engineering work</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2mw1o/engineer_developer_observations_of_gemma431b/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2mw1o/engineer_developer_observations_of_gemma431b/</guid>
-      <pubDate>Sat, 10 Oct 2026 18:49:52 +0000</pubDate>
-      <description>Un ingénieur logiciel teste et compare l'efficacité de plusieurs grands modèles de langage locaux pour des tâches de génie logiciel. L'évaluation porte sur l'analyse de code et la création de nouvelles fonctionnalités à l'aide de différents outils en ligne de commande.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Qwen3.8-27B on a single 3090: 140 tok/s on code with a custom megakernel</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x2erdj/qwen3827b_on_a_single_3090_140_toks_on_code_with/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x2erdj/qwen3827b_on_a_single_3090_140_toks_on_code_with/</guid>
-      <pubDate>Sat, 10 Oct 2026 13:01:23 +0000</pubDate>
-      <description>Un développeur a créé un noyau CUDA personnalisé pour optimiser un modèle Qwen, doublant ainsi sa vitesse d'exécution pour le code sur une carte graphique RTX 3090. Cette solution locale surpasse les performances de llama.cpp grâce à une meilleure gestion du décodage spéculatif.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
     </item>
   </channel>
 </rss>
