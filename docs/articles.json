@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-10-13T12:43:00+00:00",
+ "genere_le": "2026-10-13T21:47:24+00:00",
  "statistiques": {
-  "collectes": 753,
-  "gardes_mots_cles": 471,
-  "analyses_ia": 390,
-  "affiches": 389
+  "collectes": 823,
+  "gardes_mots_cles": 512,
+  "analyses_ia": 440,
+  "affiches": 439
  },
  "essentiel": {
   "debut": "2026-10-03T10:51:44.668395+00:00",
@@ -50,6 +50,854 @@
  },
  "articles": [
   {
+   "id": 3942,
+   "titre": "La police utilise l'IA pour localiser des logements à partir d'une simple photo d'intérieur, même celle d'une machine à laver peut suffire à l'outil vu comme une menace pour la vie privée",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388091/La-police-utilise-l-IA-pour-localiser-des-logements-a-partir-d-une-simple-photo-d-interieur-meme-celle-d-une-machine-a-laver-peut-suffire-a-l-outil-vu-comme-une-menace-pour-la-vie-privee/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-13T21:34:00+00:00",
+   "collecte": "2026-10-13T21:42:21.080568+00:00",
+   "tags": [
+    "Sécurité",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "La police utilise l'outil d'IA Raven pour géolocaliser des habitations à partir d'une simple photo d'intérieur. Cette technologie soulève de graves inquiétudes concernant la protection de la vie privée.",
+   "note": 3,
+   "justification": "Cet article montre les dérives éthiques de l'IA, intéressant pour la culture numérique d'un développeur.",
+   "favori": false
+  },
+  {
+   "id": 4008,
+   "titre": "Thank-you post for DeepSeek-V4-Flash-0731 with DSpark",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x592dl/thankyou_post_for_deepseekv4flash0731_with_dspark/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T21:18:18+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "DeepSeek",
+    "Qwen"
+   ],
+   "resume": "Un développeur partage sa configuration locale combinant le nouveau modèle DeepSeek-V4-Flash et Qwen 3.6 pour créer un système fonctionnel sur Mac. Cette expérimentation montre l'utilisation pratique de modèles open source récents dans un flux de travail de développement.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'utilisation pratique de nouveaux modèles locaux en développement.",
+   "favori": false
+  },
+  {
+   "id": 4023,
+   "titre": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+   "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T21:01:12+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Entreprises",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "L'entreprise PostEra recrute des chercheurs en intelligence artificielle pour travailler sur la découverte de médicaments. Cette annonce illustre l'application concrète du machine learning dans le secteur pharmaceutique.",
+   "note": 1,
+   "justification": "Cette offre d'emploi est anecdotique pour un étudiant en développement logiciel.",
+   "favori": false
+  },
+  {
+   "id": 3818,
+   "titre": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T20:36:44+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "Un juge fédéral a ordonné à OpenAI de fournir des documents de recrutement dans le cadre d'un litige concernant des secrets industriels avec Apple. Cette décision permet à Apple d'accéder à des messages privés et des entretiens d'anciens employés.",
+   "note": 1,
+   "justification": "Cet article traite d'un litige juridique et n'apporte aucune nouveauté technique ou de développement.",
+   "favori": false
+  },
+  {
+   "id": 3996,
+   "titre": "Character.AI files for bankruptcy, to sell some assets to Disney for $20 million",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x57zpx/characterai_files_for_bankruptcy_to_sell_some/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T20:35:33+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Character.AI se place en faillite et vend certains de ses actifs à Disney pour 20 millions de dollars. Cette situation interroge sur l'éclatement potentiel de la bulle économique autour des start-up de l'intelligence artificielle.",
+   "note": 2,
+   "justification": "Cette information financière concerne la viabilité économique d'une entreprise mais n'apporte rien sur le plan technique.",
+   "favori": false
+  },
+  {
+   "id": 4022,
+   "titre": "OpenAI engineer arrested in bugging of executive conference room",
+   "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T20:23:55+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "Un ingénieur d'OpenAI a été arrêté pour avoir espionné une salle de réunion de cadres dirigeants. Cet incident soulève des questions de sécurité et d'éthique au sein de l'entreprise.",
+   "note": 1,
+   "justification": "Cet article traite d'un fait divers interne sans aucun lien direct avec le développement ou les technologies d'intelligence artificielle.",
+   "favori": false
+  },
+  {
+   "id": 3997,
+   "titre": "Why AnythingLLM is moving from Ollama to Lemonade and llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x5720r/why_anythingllm_is_moving_from_ollama_to_lemonade/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T19:59:31+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Ollama"
+   ],
+   "resume": "AnythingLLM annonce le remplacement d'Ollama par Lemonade et llama.cpp pour ses intégrations. Ce changement technique modifie l'infrastructure d'exécution locale des modèles de langage.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des outils de déploiement local de LLM.",
+   "favori": false
+  },
+  {
+   "id": 4033,
+   "titre": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+   "url": "https://parsimony.lasu.dev/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T19:50:31+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Parsimony est un nouveau benchmark open-source qui évalue la quantité de code superflux ajoutée par les modèles d'intelligence artificielle. Cet outil permet d'analyser l'efficacité et la concision du code généré par les assistants de développement.",
+   "note": 4,
+   "justification": "C'est important pour un développeur car cela aide à évaluer la qualité et la pertinence du code généré par l'IA.",
+   "favori": false
+  },
+  {
+   "id": 4012,
+   "titre": "is worth going from 7800xt to 7900xtx for Qwen 3.8 27b?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x56bqa/is_worth_going_from_7800xt_to_7900xtx_for_qwen_38/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T19:31:48+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Matériel & GPU",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Qwen",
+    "AI",
+    "LLMs",
+    "GPU"
+   ],
+   "resume": "Un utilisateur demande s'il est rentable de passer d'une carte graphique RX 7800 XT à une RX 7900 XTX pour améliorer l'exécution locale du modèle de langage Qwen. L'objectif est d'augmenter la taille du contexte tout en restant sur un budget maîtrisé grâce au marché de l'occasion.",
+   "note": 2,
+   "justification": "C'est un retour d'expérience matériel très spécifique sur Reddit, peu utile pour un développeur en veille globale.",
+   "favori": false
+  },
+  {
+   "id": 3819,
+   "titre": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+   "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T18:30:00+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "La startup Flox Intelligence développe des appareils intelligents pour éloigner la faune des infrastructures critiques. Ces systèmes de pointe utilisent l'identification visuelle et des sons spécifiques pour effrayer les animaux.",
+   "note": 2,
+   "justification": "Ce cas d'usage en périphérie (edge) concerne la robotique et l'écologie, mais reste peu utile pour le développement logiciel classique.",
+   "favori": false
+  },
+  {
+   "id": 3658,
+   "titre": "[màj] Google : Gemini 4 Argon et son million de tokens en sortie disponible pour tous",
+   "url": "https://next.ink/259219/google-veut-revenir-dans-la-course-avec-gemini-4-argon-et-son-million-de-tokens-en-sortie/",
+   "source": "Next",
+   "categorie": "Actualité FR",
+   "date": "2026-10-13T18:27:53+00:00",
+   "collecte": "2026-10-13T21:42:04.906929+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "Anthropic",
+    "Gemini",
+    "LLM"
+   ],
+   "resume": "Google lance Gemini 4 Argon, un nouveau LLM proposant un million de tokens en sortie et mettant l'accent sur le code et la cybersécurité. Cet outil vise à concurrencer directement les avancées récentes d'Anthropic et d'OpenAI sur le marché des intelligences artificielles.",
+   "note": 5,
+   "justification": "C'est un nouveau modèle majeur qui impacte directement le développement logiciel et l'actualité des grands LLM.",
+   "favori": false
+  },
+  {
+   "id": 3798,
+   "titre": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+   "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T18:23:33+00:00",
+   "collecte": "2026-10-13T21:42:10.820572+00:00",
+   "tags": [
+    "Entreprises",
+    "Sécurité",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "chatbot",
+    "AI"
+   ],
+   "resume": "Disney envisagerait d'acquérir la technologie de chatbots de Character.AI pour une somme importante. Cette offre intervient alors que l'entreprise fait face à des controverses liées à la sécurité des utilisateurs.",
+   "note": 2,
+   "justification": "Cet article traite de transactions financières et de controverses plutôt que de nouveautés techniques pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 3820,
+   "titre": "Facebook is giving users more control over their algorithm",
+   "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T18:05:24+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Meta lance une nouvelle fonctionnalité propulsée par l'IA appelée 'Your Algorithm', offrant aux utilisateurs davantage de contrôle sur leurs flux. Cette option, initialement introduite sur Instagram, se déploie désormais plus largement.",
+   "note": 2,
+   "justification": "Cet article concerne la gestion des réseaux sociaux plutôt que le développement d'applications ou l'IA technique.",
+   "favori": false
+  },
+  {
+   "id": 4014,
+   "titre": "Quartermaster 1.7 update now lets you run llama.cpp's new decision models (/v1/systemone) with a playground tab",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x53ob3/quartermaster_17_update_now_lets_you_run/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T17:54:13+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "prompt",
+    "inference",
+    "Llama",
+    "Hugging Face"
+   ],
+   "resume": "La mise à jour 1.7 de Quartermaster intègre le support des nouveaux modèles de décision de llama.cpp avec un espace de test et une gestion optimisée de la VRAM. Cet outil open source facilite l'exécution et le test local de modèles d'intelligence artificielle pour les développeurs.",
+   "note": 4,
+   "justification": "C'est un outil pratique pour tester et gérer des modèles d'IA en local.",
+   "favori": false
+  },
+  {
+   "id": 3821,
+   "titre": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+   "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T17:30:00+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "Agents IA",
+    "Robotique",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI agents",
+    "AI"
+   ],
+   "resume": "La startup Laplace Intelligence utilise des agents IA et des simulations interactives pour tester la sécurité des robots et des véhicules autonomes avant leur déploiement. Cette approche permet de stress-tester les systèmes dans un environnement virtuel sécurisé.",
+   "note": 3,
+   "justification": "C'est intéressant pour voir l'utilisation concrète des agents IA dans les tests de systèmes autonomes.",
+   "favori": false
+  },
+  {
+   "id": 3822,
+   "titre": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+   "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T17:18:25+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "La startup Pluto Security a levé 42 millions de dollars pour répondre aux nouveaux défis de cybersécurité engendrés par l'utilisation massive des outils d'IA en entreprise. L'adoption non encadrée de ces technologies par les salariés crée en effet des failles inédites au sein des systèmes d'information.",
+   "note": 3,
+   "justification": "Cet article aborde les enjeux cruciaux de la cybersécurité liés à l'intégration de l'IA en entreprise.",
+   "favori": false
+  },
+  {
+   "id": 3994,
+   "titre": "\"New AI fake text generator may be too dangerous to release, say creators\" (2019 Guardian headline)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x52lsb/new_ai_fake_text_generator_may_be_too_dangerous/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T17:15:27+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Sécurité",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "Cet article rétrospectif de 2019 revient sur la décision d'OpenAI de ne pas publier immédiatement le modèle GPT-2, jugé alors trop dangereux en raison des risques de mauvaise utilisation. Il rappelle les débuts de l'évolution des grands modèles de langage et des craintes liées à la génération de faux textes.",
+   "note": 2,
+   "justification": "Rétrospective historique intéressante mais peu utile pour le développement d'applications actuel.",
+   "favori": false
+  },
+  {
+   "id": 3993,
+   "titre": "LiquidAI/LFM2.5-24B-A2B",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x52kco/liquidailfm2524ba2b/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T17:14:08+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Open source"
+   ],
+   "mots_cles": [
+    "agentic",
+    "inference",
+    "Nvidia",
+    "GPU"
+   ],
+   "resume": "LiquidAI lance le LFM2.5-24B-A2B, un modèle de raisonnement de 24 milliards de paramètres dont seulement 2 milliards sont actifs. Il est conçu pour offrir des performances d'agents rapides et efficaces sur les appareils locaux.",
+   "note": 4,
+   "justification": "Ce nouveau modèle performant et optimisé pour le développement sur appareil local est important pour l'actualité des LLM.",
+   "favori": false
+  },
+  {
+   "id": 3799,
+   "titre": "Google wants to host your personal vibe-coded apps in the Play Store",
+   "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T17:00:39+00:00",
+   "collecte": "2026-10-13T21:42:10.820572+00:00",
+   "tags": [
+    "Entreprises",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Google envisage d'aider à publier sur le Play Store des applications personnelles créées par intelligence artificielle. Cette initiative vise à faciliter le passage de projets générés par IA à des applications grand public.",
+   "note": 3,
+   "justification": "Intéressant pour un développeur car cela montre l'évolution du déploiement d'applications générées par IA.",
+   "favori": false
+  },
+  {
+   "id": 3823,
+   "titre": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+   "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T17:00:00+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Google permet désormais à n'importe qui de créer et d'exécuter des applications Android personnelles générées par l'IA, sans les publier sur le Play Store. Cette nouveauté simplifie l'utilisation d'applications sur mesure développées grâce à l'intelligence artificielle.",
+   "note": 3,
+   "justification": "C'est intéressant car cela montre comment l'IA générative simplifie le prototypage et l'utilisation d'applications mobiles.",
+   "favori": false
+  },
+  {
+   "id": 4035,
+   "titre": "Gemini 4 Argon for Robotics",
+   "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T16:55:47+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Robotique",
+    "LLM"
+   ],
+   "mots_cles": [
+    "Gemini"
+   ],
+   "resume": "Cet article de discussion aborde un nouveau modèle pour la robotique. Les utilisateurs échangent leurs avis sur ses performances techniques.",
+   "note": 2,
+   "justification": "Il s'agit d'une simple discussion sans détails techniques concrets pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 3659,
+   "titre": "NVIDIA entre au capital de Doctolib, Entalpic, Genesis AI et Pigment",
+   "url": "https://next.ink/261549/nvidia-entre-au-capital-de-doctolib-pour-accelerer-dans-lia-en-sante/",
+   "source": "Next",
+   "categorie": "Actualité FR",
+   "date": "2026-10-13T16:23:54+00:00",
+   "collecte": "2026-10-13T21:42:04.906929+00:00",
+   "tags": [
+    "Entreprises",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Nvidia",
+    "IA",
+    "AI"
+   ],
+   "resume": "Nvidia a pris une participation minoritaire au capital de plusieurs entreprises françaises dont Doctolib, qui développe des outils basés sur l'intelligence artificielle. Cet investissement stratégique montre l'implication croissante du fabricant de puces dans l'écosystème tech européen.",
+   "note": 2,
+   "justification": "Cet article traite de stratégie financière et d'investissements, ce qui apporte peu de valeur technique directe pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 4017,
+   "titre": "Gemini 4 Argon",
+   "url": "https://deepmind.google/models/gemini/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T16:03:16+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Gemini"
+   ],
+   "resume": "Un sujet de discussion sur Hacker News évoque la sortie potentielle ou les rumeurs autour d'un nouveau modèle nommé Gemini 4 Argon. Les utilisateurs partagent leurs réactions et analyses sur cette évolution technologique.",
+   "note": 2,
+   "justification": "L'extrait ne contient que des commentaires sans détail technique précis pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 3800,
+   "titre": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+   "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T16:00:02+00:00",
+   "collecte": "2026-10-13T21:42:10.820572+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Gemini"
+   ],
+   "resume": "Google deploie Gemini 4 Argon sur son application et Antigravity, reserve aux abonnes payants. De plus, les developpeurs beneficient d'une reduction de 50 pourcent sur les tarifs de l'API jusqu'en novembre.",
+   "note": 4,
+   "justification": "Important car il s'agit du lancement d'un nouveau modele majeur avec des tarifs avantageux pour les developpeurs.",
+   "favori": false
+  },
+  {
+   "id": 3902,
+   "titre": "Gemini 4 Argon: Built to solve your hardest problems",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-10-13T16:00:00+00:00",
+   "collecte": "2026-10-13T21:42:14.749673+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Gemini"
+   ],
+   "resume": "Google presente Gemini 4 Argon, un nouveau modele concu pour resoudre les problemes informatiques les plus complexes. Cette annonce met en avant des avancees significatives en matiere de capacites de calcul et de developpement.",
+   "note": 5,
+   "justification": "C'est un nouveau modele majeur qui introduit des avancees importantes pour les developpeurs.",
+   "favori": false
+  },
+  {
+   "id": 4021,
+   "titre": "Redesigning source control at Anthropic",
+   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T15:49:56+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Anthropic"
+   ],
+   "resume": "Cet article de Hacker News aborde la refonte du contrôle de version chez Anthropic. Il présente des discussions et des retours d'expérience sur la gestion du code source pour les projets liés à l'intelligence artificielle.",
+   "note": 2,
+   "justification": "L'article est trop anecdotique et manque de détails techniques concrets pour un développeur SLAM.",
+   "favori": false
+  },
+  {
+   "id": 4044,
+   "titre": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+   "url": "https://news.ycombinator.com/item?id=50073471",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T15:41:00+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "LLM",
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "LLM"
+   ],
+   "resume": "Consus est une nouvelle passerelle LLM conçue pour les entreprises qui gèrent des données sensibles. Cet outil vise à sécuriser les interactions avec les modèles de langage dans un cadre professionnel.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre comment sécuriser l'utilisation des LLM en entreprise.",
+   "favori": false
+  },
+  {
+   "id": 3943,
+   "titre": "« Muse, le nouveau jouet de Zuckerberg, est un parasite » : les experts fustigent une intrusion dans la vie privée semblable à Cambridge Analytica et exhortent les utilisateurs à ne pas se laisser piéger",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388081/-Muse-le-nouveau-jouet-de-Zuckerberg-est-un-parasite-les-experts-fustigent-une-intrusion-dans-la-vie-privee-semblable-a-Cambridge-Analytica-et-exhortent-les-utilisateurs-a-ne-pas-se-laisser-pieger/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-13T15:33:00+00:00",
+   "collecte": "2026-10-13T21:42:21.080568+00:00",
+   "tags": [
+    "Sécurité",
+    "Éthique & société",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Le nouvel assistant IA Muse de Meta est vivement critiqué par les experts en raison de son accès très intrusif aux données personnelles. Cet outil soulève de graves inquiétudes concernant la confidentialité et la sécurité des utilisateurs.",
+   "note": 3,
+   "justification": "Cet article sensibilise aux enjeux majeurs de sécurité et de confidentialité liés à l'utilisation des assistants IA.",
+   "favori": false
+  },
+  {
+   "id": 4026,
+   "titre": "I posted to HN, and then my website was flooded with AI bot traffic",
+   "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T15:25:50+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Un développeur témoigne d'un afflux massif de trafic de robots IA sur son site après une publication sur Hacker News. Cet événement met en lumière l'impact de l'automatisation et du web scraping par les intelligences artificielles.",
+   "note": 2,
+   "justification": "C'est un témoignage intéressant sur le scraping mais peu utile pour le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 4004,
+   "titre": "PSA for 3090 FE owners: Running LLMs overheats your VRAM",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4z19k/psa_for_3090_fe_owners_running_llms_overheats/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T15:02:59+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "Matériel & GPU",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Nvidia",
+    "LLM",
+    "LLMs"
+   ],
+   "resume": "L'exécution locale de grands modèles de langage sur des cartes graphiques RTX 3090 Founders Edition provoque une surchauffe critique de la VRAM. L'auteur recommande de limiter la puissance et d'augmenter la vitesse des ventilateurs pour éviter les dégâts matériels.",
+   "note": 3,
+   "justification": "Intéressant pour les développeurs exécutant des LLM en local sur ce type de matériel spécifique.",
+   "favori": false
+  },
+  {
+   "id": 4000,
+   "titre": "4x 6000 Pro for the company",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4yoqm/4x_6000_pro_for_the_company/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T14:49:31+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "agentic",
+    "embedding",
+    "ChatGPT",
+    "OpenAI",
+    "Llama",
+    "DeepSeek",
+    "Qwen",
+    "AI",
+    "GPU"
+   ],
+   "resume": "Un utilisateur partage son infrastructure matérielle et logicielle locale pour héberger des modèles d'IA à destination de ses collaborateurs et développeurs. Cette installation s'appuie sur un serveur puissant sous Proxmox pour faire tourner des LLM, des agents et des outils d'automatisation.",
+   "note": 4,
+   "justification": "Ce retour d'expérience concret montre comment architecturer et déployer des services d'IA locaux pour une équipe de développeurs.",
+   "favori": false
+  },
+  {
+   "id": 4009,
+   "titre": "Netflix’s documentary of Huggingface discussion",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4y1eq/netflixs_documentary_of_huggingface_discussion/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T14:24:21+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "Agents IA",
+    "Open source"
+   ],
+   "mots_cles": [
+    "AI agents",
+    "Codex",
+    "AI"
+   ],
+   "resume": "Un utilisateur partage sur Reddit ses impressions sur une bande-annonce de documentaire Netflix concernant Hugging Face. Il critique l'utilisation de termes anthropomorphiques et guerriers pour décrire les agents IA plutôt que le vocabulaire technique habituel.",
+   "note": 1,
+   "justification": "Cet article est anecdotique pour un développeur car il s'agit d'une simple discussion sur un teaser de documentaire.",
+   "favori": false
+  },
+  {
+   "id": 4041,
+   "titre": "How to engineer an AI harness for game development",
+   "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T14:14:23+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article discute de l'utilisation de l'intelligence artificielle pour assister le développement de jeux vidéo. Il aborde la création de cadres techniques adaptés aux besoins des développeurs.",
+   "note": 2,
+   "justification": "Le contenu est trop axé sur les commentaires de discussion sans apporter de réelles nouveautés techniques concrètes.",
+   "favori": false
+  },
+  {
+   "id": 4011,
+   "titre": "Basalt: Fast Blackwell inference engine for Qwen 3.8 Flash Next (and how we got vision for free)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4xmxb/basalt_fast_blackwell_inference_engine_for_qwen/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T14:08:21+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "inference",
+    "Llama",
+    "Qwen"
+   ],
+   "resume": "Basalt est un moteur d'inférence rapide optimisé pour les puces Blackwell et le modèle Qwen. Il intègre une gestion dynamique de la vision pour économiser la VRAM sans pénaliser les performances textuelles.",
+   "note": 4,
+   "justification": "Cet article présente un nouvel outil d'inférence très utile pour optimiser le déploiement de modèles.",
+   "favori": false
+  },
+  {
+   "id": 4015,
+   "titre": "An 80B MoE (Qwen3-Next, 48 GB GGUF) answering in a Chrome tab: llama.cpp's WebGPU backend, experts paged in from disk",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4xjuh/an_80b_moe_qwen3next_48_gb_gguf_answering_in_a/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T14:04:51+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Llama",
+    "GPU"
+   ],
+   "resume": "L'article présente l'exécution d'un modèle de langage massif de type Mixture of Experts directement dans un navigateur web via WebGPU et llama.cpp. Des experts du modèle sont chargés à la volée depuis le disque, permettant de faire tourner de grands modèles sur des configurations matérielles limitées.",
+   "note": 4,
+   "justification": "C'est important car cela montre comment exécuter des modèles locaux avancés directement dans un navigateur.",
+   "favori": false
+  },
+  {
+   "id": 3826,
+   "titre": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+   "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T13:50:19+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Grok",
+    "Cursor",
+    "AI"
+   ],
+   "resume": "X propose un nouvel abonnement groupé qui intègre ses fonctionnalités payantes avec des outils d'intelligence artificielle comme Grok et l'éditeur de code Cursor. Cette offre s'adresse aux utilisateurs souhaitant centraliser plusieurs services technologiques pour un tarif mensuel variable.",
+   "note": 3,
+   "justification": "Intéressant pour un développeur car il associe un assistant IA et un IDE populaire dans une offre commerciale.",
+   "favori": false
+  },
+  {
+   "id": 3962,
+   "titre": "Quoting Geoffrey Huntley",
+   "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+   "source": "Simon Willison",
+   "categorie": "Développement",
+   "date": "2026-10-13T13:32:00+00:00",
+   "collecte": "2026-10-13T21:42:22.748110+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "agentic",
+    "prompt"
+   ],
+   "resume": "L'article explique comment utiliser un hook pre-commit pour forcer un agent IA à utiliser une bibliothèque spécifique de diagnostic. Cette technique permet d'éviter que l'agent ne contourne les outils prévus lors de la génération de code.",
+   "note": 4,
+   "justification": "C'est important car cela montre comment intégrer et contrôler des agents IA directement dans le workflow de développement.",
+   "favori": false
+  },
+  {
+   "id": 3995,
+   "titre": "Is everyone in here buying up smart TVs now?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4wcnn/is_everyone_in_here_buying_up_smart_tvs_now/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T13:16:08+00:00",
+   "collecte": "2026-10-13T21:42:25.131245+00:00",
+   "tags": [
+    "LLM",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Anthropic"
+   ],
+   "resume": "Un utilisateur de Reddit plaisante sur la consommation de ressources nécessaire pour exécuter de futurs modèles d'IA. Le message ironise sur le fait qu'il faudrait quatorze téléviseurs intelligents pour faire tourner un modèle fictif de grande taille.",
+   "note": 1,
+   "justification": "Il s'agit d'une blague humoristique sur le matériel, sans information technique utile pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 3828,
+   "titre": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+   "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T13:00:00+00:00",
+   "collecte": "2026-10-13T21:42:11.995802+00:00",
+   "tags": [
+    "Agents IA",
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI agents",
+    "AI"
+   ],
+   "resume": "American Express lance un cadre de sécurité pour empêcher les agents IA d'effectuer des achats non autorisés par les utilisateurs. Cette initiative vise à prévenir les erreurs coûteuses et les litiges liés au commerce piloté par l'intelligence artificielle.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre la sécurisation des transactions par agents IA, bien que peu technique.",
+   "favori": false
+  },
+  {
+   "id": 4036,
+   "titre": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+   "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T12:26:36+00:00",
+   "collecte": "2026-10-13T21:42:27.374676+00:00",
+   "tags": [
+    "Matériel & GPU",
+    "Open source"
+   ],
+   "mots_cles": [
+    "GPU"
+   ],
+   "resume": "Cet article explore la création d'un cloud de GPU virtuel dynamique et distribué utilisant des appareils Apple Silicon inactifs. Il s'agit d'une approche innovante pour optimiser le matériel existant et potentiellement réduire les coûts de calcul.",
+   "note": 2,
+   "justification": "C'est une initiative intéressante pour du calcul distribué, mais elle reste trop spécifique pour un développeur logiciel classique.",
+   "favori": false
+  },
+  {
    "id": 3416,
    "titre": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
    "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
@@ -67,6 +915,49 @@
    "resume": "La célèbre plateforme de chatbots interactifs Character.AI a déposé le bilan après seulement cinq ans d'existence. L'entreprise va revendre certains de ses actifs à Disney pour vingt millions de dollars.",
    "note": 2,
    "justification": "Cette faillite d'une startup IA concerne l'actualité économique mais n'apporte rien de technique pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 3838,
+   "titre": "Higgsfield takes AI video from 1 minute to over 10",
+   "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-13T12:00:00+00:00",
+   "collecte": "2026-10-13T21:42:13.444800+00:00",
+   "tags": [
+    "Image & vidéo",
+    "Audio & voix"
+   ],
+   "mots_cles": [
+    "GPT",
+    "AI"
+   ],
+   "resume": "Higgsfield propose aux créateurs des outils vidéo et audio alimentés par de nouveaux modèles pour générer des contenus plus longs et précis. Cette mise à jour intègre des capacités avancées de génération vidéo, d'image et de voix.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des outils de génération multimédia par IA.",
+   "favori": false
+  },
+  {
+   "id": 3597,
+   "titre": "Horsey challenge | Strata Fork | Qwen 3.8 FN NVFP4",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4uipn/horsey_challenge_strata_fork_qwen_38_fn_nvfp4/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-13T11:50:07+00:00",
+   "collecte": "2026-10-13T12:26:08.346230+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "prompt",
+    "Qwen"
+   ],
+   "resume": "Un utilisateur partage son test du modèle Qwen avec une version quantifiée NVFP4 sur un fork d'un moteur d'inférence LLM local. Il détaille ses réglages de contexte et les performances obtenues lors d'un test pratique.",
+   "note": 3,
+   "justification": "Intéressant pour un développeur qui teste des LLM locaux et des outils d'inférence open source.",
    "favori": false
   },
   {
@@ -93,6 +984,27 @@
    "favori": false
   },
   {
+   "id": 3538,
+   "titre": "Epic Games se réoriente vers un modèle de développement de jeux entièrement par IA, d'après une annonce de son PDG qui ramène le débat entre gains de productivité et dette technique due à l'IA sur la table",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388077/Epic-Games-se-reoriente-vers-un-modele-de-developpement-de-jeux-entierement-par-IA-d-apres-une-annonce-de-son-PDG-qui-ramene-le-debat-entre-gains-de-productivite-et-dette-technique-due-a-l-IA-sur-la-table/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-13T11:26:00+00:00",
+   "collecte": "2026-10-13T12:26:04.891750+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "intelligence artificielle",
+    "IA"
+   ],
+   "resume": "Epic Games prévoit de basculer vers un modèle de développement de jeux entièrement basé sur l'intelligence artificielle. Cette annonce relance le débat crucial entre les gains de productivité immédiats et la dette technique générée par ces outils.",
+   "note": 4,
+   "justification": "Cet article montre comment l'IA transforme concrètement les méthodes de développement dans l'industrie du jeu vidéo.",
+   "favori": false
+  },
+  {
    "id": 3598,
    "titre": "Got 2x DGX Sparks. Excited and confused!",
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x4ttde/got_2x_dgx_sparks_excited_and_confused/",
@@ -110,6 +1022,26 @@
    "resume": "Un utilisateur a acheté deux serveurs Nvidia DGX pour améliorer son apprentissage et son flux de travail en codage local. Il cherche des informations sur l'utilisation du modèle GLM 5.3 flash sur ce matériel spécialisé.",
    "note": 2,
    "justification": "C'est un retour d'expérience personnel et anecdotique sur l'achat de matériel coûteux.",
+   "favori": false
+  },
+  {
+   "id": 3543,
+   "titre": "« J'utilise l'IA pour faire ce que je ne sais pas bien faire, c'est un outil formidable si on sait s'en servir correctement », explique Linus Torvalds, pour préciser pourquoi cela fonctionne pour lui",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388054/-J-utilise-l-IA-pour-faire-ce-que-je-ne-sais-pas-bien-faire-c-est-un-outil-formidable-si-on-sait-s-en-servir-correctement-explique-Linus-Torvalds-pour-preciser-pourquoi-cela-fonctionne-pour-lui/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-13T11:06:00+00:00",
+   "collecte": "2026-10-13T12:26:04.891750+00:00",
+   "tags": [
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Linus Torvalds explique qu'il utilise l'intelligence artificielle pour l'aider dans les tâches qu'il maîtrise moins bien. Il considère qu'il s'agit d'un excellent outil de développement lorsqu'il est utilisé correctement.",
+   "note": 3,
+   "justification": "Intéressant pour un développeur car il montre comment Linus Torvalds intègre l'IA dans ses projets.",
    "favori": false
   },
   {
@@ -155,6 +1087,68 @@
    "favori": false
   },
   {
+   "id": 3542,
+   "titre": "Mark Zuckerberg affirme que Meta a atteint le niveau \"Frontière\" en IA et rejette les appels à ralentir son développement, alors que l'entreprise prévoit jusqu'à 145 milliards $ d'investissements en 2026",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388055/Mark-Zuckerberg-affirme-que-Meta-a-atteint-le-niveau-Frontiere-en-IA-et-rejette-les-appels-a-ralentir-son-developpement-alors-que-l-entreprise-prevoit-jusqu-a-145-milliards-d-investissements-en-2026/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-13T10:47:00+00:00",
+   "collecte": "2026-10-13T12:26:04.891750+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "intelligence artificielle",
+    "IA"
+   ],
+   "resume": "Mark Zuckerberg affirme que Meta a atteint le niveau frontière en intelligence artificielle et refuse de ralentir le rythme. L'entreprise prévoit des investissements massifs pouvant atteindre 145 milliards de dollars d'ici 2026 pour soutenir ces ambitions.",
+   "note": 3,
+   "justification": "Cet article montre les investissements massifs des géants de la tech dans l'IA, impactant l'écosystème des développeurs.",
+   "favori": false
+  },
+  {
+   "id": 3540,
+   "titre": "Anthropic met en garde contre le risque que de petits modèles d'IA puissent bientôt s'auto-répliquer sur des appareils connectés à Internet sans avoir besoin d'accéder à un centre de données",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388059/Anthropic-met-en-garde-contre-le-risque-que-de-petits-modeles-d-IA-puissent-bientot-s-auto-repliquer-sur-des-appareils-connectes-a-Internet-sans-avoir-besoin-d-acceder-a-un-centre-de-donnees/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-13T10:33:00+00:00",
+   "collecte": "2026-10-13T12:26:04.891750+00:00",
+   "tags": [
+    "LLM",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "Anthropic",
+    "IA"
+   ],
+   "resume": "Anthropic alerte sur le risque imminent que de petits modèles d'IA parviennent à s'auto-répliquer sur des appareils connectés. Cette menace soulève de nouvelles problématiques en matière de sécurité informatique.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre les risques de sécurité émergents liés aux petits modèles d'IA.",
+   "favori": false
+  },
+  {
+   "id": 3615,
+   "titre": "Show HN: Use your OpenAI subscription to create audiobooks",
+   "url": "https://pdftomp3.com/connect-ai/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-13T10:08:34+00:00",
+   "collecte": "2026-10-13T12:26:10.744468+00:00",
+   "tags": [
+    "Outils dev",
+    "Audio & voix"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "Ce projet Hacker News permet aux utilisateurs de transformer des livres en livres audio en utilisant leur propre abonnement OpenAI. C'est une application pratique qui montre comment exploiter les API payantes des grands modèles pour des usages personnels.",
+   "note": 3,
+   "justification": "Intéressant pour voir un cas d'usage pratique d'intégration d'API vocales d'IA.",
+   "favori": false
+  },
+  {
    "id": 3641,
    "titre": "AI models may soon self-replicate without access to data centers",
    "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
@@ -173,6 +1167,27 @@
    "resume": "Des discussions récentes évoquent la possibilité que des modèles d'intelligence artificielle puissent bientôt se répliquer de manière autonome. Cette perspective soulève de nouvelles questions sur l'avenir de l'IA et son autonomie.",
    "note": 2,
    "justification": "Cet article repose sur des commentaires spéculatifs sans application concrète pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 3386,
+   "titre": "Open models have real benefits. Do they outweigh the risks?",
+   "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+   "source": "MIT Technology Review (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T10:00:00+00:00",
+   "collecte": "2026-10-13T12:25:54.192287+00:00",
+   "tags": [
+    "Open source",
+    "Sécurité",
+    "LLM"
+   ],
+   "mots_cles": [
+    "Anthropic"
+   ],
+   "resume": "Anthropic a publié un rapport affirmant que le modèle GLM-5.3 présente des risques majeurs de cyberattaque. Cet article du MIT Technology Review explore le débat persistant entre les avantages des modèles ouverts et les risques de sécurité associés.",
+   "note": 3,
+   "justification": "Cet article aborde les enjeux cruciaux de sécurité et de vulnérabilité liés aux grands modèles de langage open source.",
    "favori": false
   },
   {
@@ -267,6 +1282,27 @@
    "favori": false
   },
   {
+   "id": 3387,
+   "titre": "AI labs are buying data from dead startups to train their models",
+   "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+   "source": "MIT Technology Review (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-13T09:00:00+00:00",
+   "collecte": "2026-10-13T12:25:54.192287+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Les laboratoires d'intelligence artificielle achètent désormais les bases de données et les codes sources de startups en faillite pour alimenter l'entraînement de leurs modèles. Cette pratique permet à des fondateurs de monétiser leurs archives numériques, créant ainsi un nouveau marché de données.",
+   "note": 3,
+   "justification": "C'est intéressant pour comprendre l'approvisionnement en données des LLM, bien que cela n'impacte pas directement le code.",
+   "favori": false
+  },
+  {
    "id": 3259,
    "titre": "Pour le FMI, une chute des cours de l’IA menacerait la stabilité financière mondiale",
    "url": "https://next.ink/261430/pour-le-fmi-une-chute-des-cours-de-lia-menacerait-la-stabilite-financiere-mondiale/",
@@ -353,6 +1389,27 @@
    "resume": "Un utilisateur demande des conseils sur Reddit concernant l'exécution locale des nouveaux modèles de décision vllm d3. Il s'interroge sur l'impact de la quantification et l'utilisation de la VRAM avec un GPU de 6 Go. C'est une discussion technique axée sur le matériel et l'optimisation des inférences locales.",
    "note": 3,
    "justification": "Intéressant pour comprendre les contraintes matérielles et la quantification lors du déploiement local de modèles d'IA.",
+   "favori": false
+  },
+  {
+   "id": 3261,
+   "titre": "Meta revient dans la course aux modèles frontière avec Muse Wonder",
+   "url": "https://next.ink/261349/meta-revient-dans-la-course-aux-modeles-frontiere-avec-muse-wonder/",
+   "source": "Next",
+   "categorie": "Actualité FR",
+   "date": "2026-10-13T06:22:37+00:00",
+   "collecte": "2026-10-13T12:25:48.871321+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "Meta lance Muse Wonder, une nouvelle famille de modèles de pointe qui rivalisent avec les références du marché. Spécialisés dans les tâches complexes et les agents autonomes, ils sont accessibles par API et via Muse Code.",
+   "note": 5,
+   "justification": "C'est un nouveau modèle de pointe majeur qui révolutionne le développement d'agents.",
    "favori": false
   },
   {
