@@ -5,7 +5,146 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:59:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 20:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Le Model Context Protocol (MCP), utilisé pour les communications entre agents IA, est peut-être le protocole le plus risqué dont vous n'avez jamais entendu parler</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/388132/Le-Model-Context-Protocol-MCP-utilise-pour-les-communications-entre-agents-IA-est-peut-etre-le-protocole-le-plus-risque-dont-vous-n-avez-jamais-entendu-parler/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/388132/Le-Model-Context-Protocol-MCP-utilise-pour-les-communications-entre-agents-IA-est-peut-etre-le-protocole-le-plus-risque-dont-vous-n-avez-jamais-entendu-parler/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:55:00 +0000</pubDate>
+      <description>Le Model Context Protocol (MCP), utilisé pour les communications entre agents IA, présente des failles de sécurité majeures. Un chercheur a démontré que des instructions malveillantes peuvent se propager facilement d'un agent à un autre en raison d'une trop grande confiance par défaut.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Agents IA</category>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>Tessera-27B-B-CJK, Zellige AIs new finetune of Qwen with novel approaches to how we think about token savings</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5xm28/tessera27bbcjk_zellige_ais_new_finetune_of_qwen/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5xm28/tessera27bbcjk_zellige_ais_new_finetune_of_qwen/</guid>
+      <pubDate>Wed, 14 Oct 2026 17:35:08 +0000</pubDate>
+      <description>Zellige AI a publié Tessera-27B-B-CJK, un modèle open source basé sur Qwen optimisé pour économiser des tokens. Il utilise un langage abrégé pour sa phase de réflexion tout en répondant en anglais clair et en code.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>New model from Telperion: Qwen3.8-27B-MLA &amp; Qwen3.8-27B-GLA-g2. 4x smaller KV cache, smarter, and more efficient reasoning.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5wcnz/new_model_from_telperion_qwen3827bmla/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5wcnz/new_model_from_telperion_qwen3827bmla/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:47:46 +0000</pubDate>
+      <description>Telperion a lance de nouvelles variantes du modele Qwen3.8-27B utilisant l'attention latente pour compresser le cache KV par quatre. Cette technique ameliore les performances sur le benchmark SWE tout en reduisant l'utilisation des jetons de raisonnement.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Recherche</category>
+    </item>
+    <item>
+      <title>A 35B multimodal model running on a phone with ~3GB memory? MiniCPM-V 4.7 demo is pretty wild</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:53:48 +0000</pubDate>
+      <description>Le modèle multimodal MiniCPM-V 4.7 démontre qu'il est possible de faire tourner localement des intelligences artificielles puissantes sur mobile grâce à des optimisations comme le LES. Cette avancée permet d'exécuter des tâches de vision et de raisonnement directement sur l'appareil sans passer par le cloud.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>JetBrains Mellum 2.1 12B A2.5B MoE is a very good model.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5uqcu/jetbrains_mellum_21_12b_a25b_moe_is_a_very_good/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5uqcu/jetbrains_mellum_21_12b_a25b_moe_is_a_very_good/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:47:08 +0000</pubDate>
+      <description>JetBrains a publié Mellum 2.1, un modèle MoE de 12B taillé pour le code. Il offre d'excellentes performances locales et des vitesses élevées même sur des cartes graphiques modestes.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Anthropic remplace Git par son système interne Scion après que Claude a dépassé les 30 000 fusions de code quotidiennes, pour accélérer les extractions et réduire les coûts d'infrastructure</title>
+      <link>https://alm.developpez.com/actu/388122/Anthropic-remplace-Git-par-son-systeme-interne-Scion-apres-que-Claude-a-depasse-les-30-000-fusions-de-code-quotidiennes-pour-accelerer-les-extractions-et-reduire-les-couts-d-infrastructure/</link>
+      <guid>https://alm.developpez.com/actu/388122/Anthropic-remplace-Git-par-son-systeme-interne-Scion-apres-que-Claude-a-depasse-les-30-000-fusions-de-code-quotidiennes-pour-accelerer-les-extractions-et-reduire-les-couts-d-infrastructure/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:28:00 +0000</pubDate>
+      <description>Anthropic a abandonné Git au profit de son système interne Scion. Ce changement fait suite à une explosion des fusions de code quotidiennes générées par l'IA Claude.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>inclusionAI/Ling-3.1-flash · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:11:14 +0000</pubDate>
+      <description>L'article présente Ling-3.1-flash, un nouveau modèle de langage doté de 560 milliards de paramètres totaux et d'une grande fenêtre de contexte. Cette annonce suscite l'étonnement de la communauté par l'ampleur de son architecture par rapport à la version précédente.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>NVIDIA Nemotron Bolt 3.5 74B A9B releases Oct. 15th</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/</guid>
+      <pubDate>Wed, 14 Oct 2026 14:42:30 +0000</pubDate>
+      <description>NVIDIA annonce le modèle Nemotron Bolt 3.5 74B, un modèle MoE optimisé par quantification 2 bits. Il offre un équilibre entre vitesse et performance tout en tenant dans 24 Go de mémoire.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Amp puts AI agents to work beyond code with OpenAI models</title>
+      <link>https://openai.com/index/amp-beyond-coding</link>
+      <guid>https://openai.com/index/amp-beyond-coding</guid>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Amp intègre de nouveaux modèles OpenAI pour repousser les limites des agents IA au-delà du simple code. Cette technologie permet d'automatiser des tâches complexes grâce à des outils innovants.
+
+★★★★☆ · OpenAI News</description>
+      <category>Agents IA</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Comment ouvrir votre site aux agents IA avec WebMCP</title>
+      <link>https://www.journaldunet.com/intelligence-artificielle/1556619-comment-ouvrir-votre-site-aux-agents-ia-avec-webmcp/</link>
+      <guid>https://www.journaldunet.com/intelligence-artificielle/1556619-comment-ouvrir-votre-site-aux-agents-ia-avec-webmcp/</guid>
+      <pubDate>Wed, 14 Oct 2026 11:50:08 +0000</pubDate>
+      <description>Le protocole WebMCP permet aux sites web d'exposer directement leurs actions aux agents d'IA, éliminant ainsi le besoin de passer par le computer use. Cet article propose des explications et un tutoriel pratique sur cette technologie.
+
+★★★★☆ · Journal du Net (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Web search for a 1.7B model running fully on a phone, no search API and no backend (open source)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5oqiy/web_search_for_a_17b_model_running_fully_on_a/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5oqiy/web_search_for_a_17b_model_running_fully_on_a/</guid>
+      <pubDate>Wed, 14 Oct 2026 11:28:43 +0000</pubDate>
+      <description>L'application open source Private Mind intègre désormais une recherche web locale pour les petits modèles sur mobile. Elle utilise des techniques d'embedding et de découpage de texte pour fonctionner sans API de recherche ni backend distant.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>common : add --spec-draft-n-ubatch by ggerganov · Pull Request #30459 · ggml-org/llama.cpp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5odh2/common_add_specdraftnubatch_by_ggerganov_pull/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5odh2/common_add_specdraftnubatch_by_ggerganov_pull/</guid>
+      <pubDate>Wed, 14 Oct 2026 11:08:21 +0000</pubDate>
+      <description>Une nouvelle option a ete ajoutee a llama.cpp pour optimiser l'utilisation de la VRAM lors de l'execution de modeles locaux. Cette amelioration technique cible directement les developpeurs integrant l'intelligence artificielle sur du materiel grand public.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
     <item>
       <title>Les agents d'IA requièrent plus qu'un garde-fou humain</title>
       <link>https://www.journaldunet.com/intelligence-artificielle/1556447-les-agents-d-ia-requierent-plus-qu-un-garde-fou-humain/</link>
@@ -16,6 +155,17 @@
 ★★★★☆ · Journal du Net (IA)</description>
       <category>Agents IA</category>
       <category>Sécurité</category>
+    </item>
+    <item>
+      <title>How Third Moment Research runs 10,000 agents for 36+ hours</title>
+      <link>https://openai.com/index/third-moment-research</link>
+      <guid>https://openai.com/index/third-moment-research</guid>
+      <pubDate>Wed, 14 Oct 2026 07:00:00 +0000</pubDate>
+      <description>L'article explique comment le laboratoire Third Moment Research utilise des modèles avancés pour exécuter 10 000 agents IA de manière autonome pendant plus de 36 heures. Ces agents sont conçus pour se concentrer sur de longues durées et s'améliorer continuellement grâce à l'utilisation.
+
+★★★★☆ · OpenAI News</description>
+      <category>Agents IA</category>
+      <category>Entreprises</category>
     </item>
     <item>
       <title>Google Gemini 4 Argon est désormais disponible pour les développeurs, les entreprises et les abonnés à Google AI dans Antigravity, l'application Gemini et le mode IA de la recherche</title>
@@ -201,157 +351,6 @@
       <category>LLM</category>
       <category>Outils dev</category>
       <category>Open source</category>
-    </item>
-    <item>
-      <title>An 80B MoE (Qwen3-Next, 48 GB GGUF) answering in a Chrome tab: llama.cpp's WebGPU backend, experts paged in from disk</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4xjuh/an_80b_moe_qwen3next_48_gb_gguf_answering_in_a/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4xjuh/an_80b_moe_qwen3next_48_gb_gguf_answering_in_a/</guid>
-      <pubDate>Tue, 13 Oct 2026 14:04:51 +0000</pubDate>
-      <description>L'article présente l'exécution d'un modèle de langage massif de type Mixture of Experts directement dans un navigateur web via WebGPU et llama.cpp. Des experts du modèle sont chargés à la volée depuis le disque, permettant de faire tourner de grands modèles sur des configurations matérielles limitées.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Quoting Geoffrey Huntley</title>
-      <link>https://simonwillison.net/2026/Oct/13/geoffrey-huntley/</link>
-      <guid>https://simonwillison.net/2026/Oct/13/geoffrey-huntley/</guid>
-      <pubDate>Tue, 13 Oct 2026 13:32:00 +0000</pubDate>
-      <description>L'article explique comment utiliser un hook pre-commit pour forcer un agent IA à utiliser une bibliothèque spécifique de diagnostic. Cette technique permet d'éviter que l'agent ne contourne les outils prévus lors de la génération de code.
-
-★★★★☆ · Simon Willison</description>
-      <category>Agents IA</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Epic Games se réoriente vers un modèle de développement de jeux entièrement par IA, d'après une annonce de son PDG qui ramène le débat entre gains de productivité et dette technique due à l'IA sur la table</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/388077/Epic-Games-se-reoriente-vers-un-modele-de-developpement-de-jeux-entierement-par-IA-d-apres-une-annonce-de-son-PDG-qui-ramene-le-debat-entre-gains-de-productivite-et-dette-technique-due-a-l-IA-sur-la-table/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/388077/Epic-Games-se-reoriente-vers-un-modele-de-developpement-de-jeux-entierement-par-IA-d-apres-une-annonce-de-son-PDG-qui-ramene-le-debat-entre-gains-de-productivite-et-dette-technique-due-a-l-IA-sur-la-table/</guid>
-      <pubDate>Tue, 13 Oct 2026 11:26:00 +0000</pubDate>
-      <description>Epic Games prévoit de basculer vers un modèle de développement de jeux entièrement basé sur l'intelligence artificielle. Cette annonce relance le débat crucial entre les gains de productivité immédiats et la dette technique générée par ces outils.
-
-★★★★☆ · Developpez.com (IA)</description>
-      <category>Outils dev</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Epic Games reporte son jeu Disney et bascule en mode « AI first »</title>
-      <link>https://next.ink/261388/epic-games-reporte-son-jeu-disney-et-bascule-en-mode-ai-first/</link>
-      <guid>https://next.ink/261388/epic-games-reporte-son-jeu-disney-et-bascule-en-mode-ai-first/</guid>
-      <pubDate>Tue, 13 Oct 2026 09:47:00 +0000</pubDate>
-      <description>Epic Games a reporté son jeu vidéo aux couleurs de Disney et demande désormais à ses équipes d'utiliser l'intelligence artificielle pour concevoir l'ensemble du code et des visuels. Ce pivot vers une approche entièrement axée sur l'IA témoigne des bouleversements en cours dans l'industrie du développement.
-
-★★★★☆ · Next</description>
-      <category>Outils dev</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>SonicBoom: 52 tok/s decode on a laptop RTX 3050 (llama.cpp: 45) with the same quantized kernels, the difference is a graph compiler. No Python.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4scub/sonicboom_52_toks_decode_on_a_laptop_rtx_3050/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4scub/sonicboom_52_toks_decode_on_a_laptop_rtx_3050/</guid>
-      <pubDate>Tue, 13 Oct 2026 09:46:50 +0000</pubDate>
-      <description>Un développeur a créé SonicBoom, un moteur d'inférence de LLM local en C++/CUDA sans Python. En utilisant les mêmes noyaux que llama.cpp mais avec un compilateur de graphe, il atteint de meilleures performances sur GPU grand public.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>open-source desktop agent app running its agents on local ollama models: two agents on qwen3.5:9b and qwen3.8 on a 16 gb card, real recording, including the limits i hit</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4r3ht/opensource_desktop_agent_app_running_its_agents/</guid>
-      <pubDate>Tue, 13 Oct 2026 08:24:24 +0000</pubDate>
-      <description>L'auteur présente Dodaios, une application de bureau open-source permettant de faire tourner des agents IA locaux avec des modèles comme Qwen via Ollama. L'outil intègre diverses fonctionnalités comme un IDE agentique, la voix et l'utilisation de l'ordinateur entièrement hors ligne.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Agents IA</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Meta revient dans la course aux modèles frontière avec Muse Wonder</title>
-      <link>https://next.ink/261349/meta-revient-dans-la-course-aux-modeles-frontiere-avec-muse-wonder/</link>
-      <guid>https://next.ink/261349/meta-revient-dans-la-course-aux-modeles-frontiere-avec-muse-wonder/</guid>
-      <pubDate>Tue, 13 Oct 2026 06:22:37 +0000</pubDate>
-      <description>Meta lance Muse Wonder, une nouvelle famille de modèles de pointe qui rivalisent avec les références du marché. Spécialisés dans les tâches complexes et les agents autonomes, ils sont accessibles par API et via Muse Code.
-
-★★★★★ · Next</description>
-      <category>LLM</category>
-      <category>Agents IA</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>Built a VRAM scheduler (vramble) to automate model swapping on my local AI workstation</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4ocgn/built_a_vram_scheduler_vramble_to_automate_model/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4ocgn/built_a_vram_scheduler_vramble_to_automate_model/</guid>
-      <pubDate>Tue, 13 Oct 2026 05:28:39 +0000</pubDate>
-      <description>Un développeur a créé vramble, un gestionnaire de VRAM open-source pour automatiser le chargement et le déchargement de modèles d'IA locaux. Cet outil résout les conflits de mémoire sur les stations de travail et fluidifie l'exécution des workflows.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>llm-meta-ai 0.2</title>
-      <link>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</link>
-      <guid>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</guid>
-      <pubDate>Mon, 12 Oct 2026 23:58:46 +0000</pubDate>
-      <description>Meta a sorti son nouveau modèle de langage Muse Wonder, considéré comme l'un de ses plus puissants. Le plugin llm-meta-ai a été mis à jour pour intégrer cette nouveauté et ses différents niveaux de raisonnement.
-
-★★★★☆ · Simon Willison</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Lecture: Building a GPU Compiler From Scratch. Lowering PyTorch Graphs to CUDA via Multi-Level IRs (GPU_MODE video + article)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/</guid>
-      <pubDate>Mon, 12 Oct 2026 22:18:03 +0000</pubDate>
-      <description>Cet article détaille la création d'un compilateur GPU de A à Z pour convertir des graphes PyTorch en code CUDA. Il explique les différentes étapes de compilation et l'intégration avec vLLM pour le service de modèles.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>Janas: Run LLMs larger than RAM by streaming experts from SSD</title>
-      <link>https://github.com/prabanta-dev/janas</link>
-      <guid>https://github.com/prabanta-dev/janas</guid>
-      <pubDate>Mon, 12 Oct 2026 22:05:43 +0000</pubDate>
-      <description>Janas est un outil permettant d'exécuter des grands modèles de langage (LLM) plus grands que la mémoire RAM disponible en diffusant les experts directement depuis un disque SSD. Cette technique innovante optimise l'utilisation du matériel pour faire tourner des modèles lourds sur des machines modestes.
-
-★★★★☆ · Hacker News</description>
-      <category>LLM</category>
-      <category>Matériel &amp; GPU</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Explore DNA with DeepMind’s AlphaGenome and in-browser MedGemma 1.5 4B via WebGPU</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4ec7b/explore_dna_with_deepminds_alphagenome_and/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4ec7b/explore_dna_with_deepminds_alphagenome_and/</guid>
-      <pubDate>Mon, 12 Oct 2026 21:20:33 +0000</pubDate>
-      <description>Un nouvel outil éducatif, AskCyph Health Explorer, combine l'API AlphaGenome de DeepMind et le modèle MedGemma 1.5 4B exécuté localement via WebGPU. Cette architecture permet d'analyser des mutations de l'ADN tout en garantissant la confidentialité des données des utilisateurs directement dans le navigateur.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Epic Games reportedly pivoting to "AI first" game development model</title>
-      <link>https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/</link>
-      <guid>https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/</guid>
-      <pubDate>Mon, 12 Oct 2026 20:59:50 +0000</pubDate>
-      <description>Epic Games adopte un modèle de développement basé sur l'intelligence artificielle pour ses jeux vidéo, visant à éliminer le code entièrement rédigé à la main. Cette transition touche particulièrement les projets d'envergure comme les jeux de tir Marvel et Star Wars.
-
-★★★★☆ · Ars Technica (IA)</description>
-      <category>Entreprises</category>
-      <category>Outils dev</category>
     </item>
   </channel>
 </rss>
