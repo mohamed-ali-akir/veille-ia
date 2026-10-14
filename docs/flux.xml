@@ -5,7 +5,111 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 13 Oct 2026 21:47:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:59:11 +0000</lastBuildDate>
+    <item>
+      <title>Les agents d'IA requièrent plus qu'un garde-fou humain</title>
+      <link>https://www.journaldunet.com/intelligence-artificielle/1556447-les-agents-d-ia-requierent-plus-qu-un-garde-fou-humain/</link>
+      <guid>https://www.journaldunet.com/intelligence-artificielle/1556447-les-agents-d-ia-requierent-plus-qu-un-garde-fou-humain/</guid>
+      <pubDate>Wed, 14 Oct 2026 07:56:55 +0000</pubDate>
+      <description>La maîtrise des actions et des risques liés aux agents d'IA reste complexe, malgré la présence d'un opérateur humain. Assurer la sécurité de ces systèmes autonomes nécessite des mécanismes de contrôle plus avancés.
+
+★★★★☆ · Journal du Net (IA)</description>
+      <category>Agents IA</category>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>Google Gemini 4 Argon est désormais disponible pour les développeurs, les entreprises et les abonnés à Google AI dans Antigravity, l'application Gemini et le mode IA de la recherche</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/388097/Google-Gemini-4-Argon-est-desormais-disponible-pour-les-developpeurs-les-entreprises-et-les-abonnes-a-Google-AI-dans-Antigravity-l-application-Gemini-et-le-mode-IA-de-la-recherche/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/388097/Google-Gemini-4-Argon-est-desormais-disponible-pour-les-developpeurs-les-entreprises-et-les-abonnes-a-Google-AI-dans-Antigravity-l-application-Gemini-et-le-mode-IA-de-la-recherche/</guid>
+      <pubDate>Wed, 14 Oct 2026 05:41:00 +0000</pubDate>
+      <description>Google lance officiellement Gemini 4 Argon, un nouveau modèle d'intelligence artificielle de pointe. Il est conçu pour gérer des tâches complexes d'ingénierie logicielle et d'entreprise. Il est dès à présent disponible pour les développeurs sur différentes plateformes.
+
+★★★★★ · Developpez.com (IA)</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Train LoRA directly on Quantized GGUFs, no PyTorch, no Parent(FP16) needed, just your GGUF and the data</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5j48s/train_lora_directly_on_quantized_ggufs_no_pytorch/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5j48s/train_lora_directly_on_quantized_ggufs_no_pytorch/</guid>
+      <pubDate>Wed, 14 Oct 2026 05:34:47 +0000</pubDate>
+      <description>Un nouvel outil permet d'entraîner des adaptateurs LoRA directement sur des fichiers GGUF quantifiés, sans utiliser PyTorch ni modèle de base en FP16. Cette approche simplifie le fine-tuning en évitant les conversions et en s'exécutant sur les poids exacts utilisés pour l'inférence.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Updated list of official MCP servers (300+), well-known and widely used projects only</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5j0p7/updated_list_of_official_mcp_servers_300/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5j0p7/updated_list_of_official_mcp_servers_300/</guid>
+      <pubDate>Wed, 14 Oct 2026 05:28:58 +0000</pubDate>
+      <description>Une liste mise à jour de plus de 300 serveurs MCP officiels et open source est disponible sur GitHub. Elle répertorie des projets reconnus et maintenus activement par des entreprises.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Moving a running model's layers between GPUs mid-reply (8 ms, no re-prefill)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5i7o9/moving_a_running_models_layers_between_gpus/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5i7o9/moving_a_running_models_layers_between_gpus/</guid>
+      <pubDate>Wed, 14 Oct 2026 04:40:53 +0000</pubDate>
+      <description>Un développeur présente "jitllm", un moteur d'inférence permettant de déplacer les couches d'un LLM entre différents GPU en pleine génération. Cette technique utilise une mise en cache paginée pour éviter de réévaluer le prompt initial.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Discover AI: A Learning Guide - 51 hands-on labs for learning how AI actually works.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5ft3e/discover_ai_a_learning_guide_51_handson_labs_for/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5ft3e/discover_ai_a_learning_guide_51_handson_labs_for/</guid>
+      <pubDate>Wed, 14 Oct 2026 02:31:03 +0000</pubDate>
+      <description>Cet article présente une application hors-ligne proposant 51 ateliers pratiques pour comprendre le fonctionnement de l'IA, des réseaux de neurones aux agents intelligents. Elle permet d'expérimenter directement des concepts clés comme le RAG, le fine-tuning ou l'attention.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+      <category>Éducation</category>
+    </item>
+    <item>
+      <title>Redesigning source control at Anthropic</title>
+      <link>https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/</link>
+      <guid>https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/</guid>
+      <pubDate>Tue, 13 Oct 2026 23:00:06 +0000</pubDate>
+      <description>Anthropic a créé son propre système de contrôle de code source, nommé Scion, pour faire face à l'explosion des modifications de code générées par l'IA. Leurs équipes sont passées de 2 500 à plus de 30 000 fusions par jour en quelques mois.
+
+★★★★☆ · Simon Willison</description>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Claude CoWork for Local LLMs that runs on your Phone</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5bawd/claude_cowork_for_local_llms_that_runs_on_your/</guid>
+      <pubDate>Tue, 13 Oct 2026 22:54:38 +0000</pubDate>
+      <description>Un développeur solo a créé SteerClaw Mobile, une application permettant d'exécuter des agents IA et des serveurs MCP entièrement sur mobile en se connectant à un LLM local. Cette solution garantit une confidentialité totale des données en évitant tout stockage ou analyse externe. L'outil gère des cas d'usage variés comme l'analyse de logs ou la recherche.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Agents IA</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>llm-gemini 0.35</title>
+      <link>https://simonwillison.net/2026/Oct/13/llm-gemini/</link>
+      <guid>https://simonwillison.net/2026/Oct/13/llm-gemini/</guid>
+      <pubDate>Tue, 13 Oct 2026 22:28:54 +0000</pubDate>
+      <description>La version 0.35 du plugin llm-gemini intègre le support du nouveau modèle Gemini 4 Argon via son API. Cet article détaille également les capacités graphiques de ce modèle ainsi que sa tarification concurrentielle.
+
+★★★★☆ · Simon Willison</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+    </item>
     <item>
       <title>Show HN: Parsimony – an open-source benchmark for how much code AI models add</title>
       <link>https://parsimony.lasu.dev/</link>
@@ -180,6 +284,29 @@
       <category>Entreprises</category>
     </item>
     <item>
+      <title>Built a VRAM scheduler (vramble) to automate model swapping on my local AI workstation</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4ocgn/built_a_vram_scheduler_vramble_to_automate_model/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4ocgn/built_a_vram_scheduler_vramble_to_automate_model/</guid>
+      <pubDate>Tue, 13 Oct 2026 05:28:39 +0000</pubDate>
+      <description>Un développeur a créé vramble, un gestionnaire de VRAM open-source pour automatiser le chargement et le déchargement de modèles d'IA locaux. Cet outil résout les conflits de mémoire sur les stations de travail et fluidifie l'exécution des workflows.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>llm-meta-ai 0.2</title>
+      <link>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</link>
+      <guid>https://simonwillison.net/2026/Oct/12/llm-meta-ai/</guid>
+      <pubDate>Mon, 12 Oct 2026 23:58:46 +0000</pubDate>
+      <description>Meta a sorti son nouveau modèle de langage Muse Wonder, considéré comme l'un de ses plus puissants. Le plugin llm-meta-ai a été mis à jour pour intégrer cette nouveauté et ses différents niveaux de raisonnement.
+
+★★★★☆ · Simon Willison</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
       <title>Lecture: Building a GPU Compiler From Scratch. Lowering PyTorch Graphs to CUDA via Multi-Level IRs (GPU_MODE video + article)</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/</link>
       <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4fp3r/lecture_building_a_gpu_compiler_from_scratch/</guid>
@@ -190,6 +317,18 @@
       <category>LLM</category>
       <category>Outils dev</category>
       <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Janas: Run LLMs larger than RAM by streaming experts from SSD</title>
+      <link>https://github.com/prabanta-dev/janas</link>
+      <guid>https://github.com/prabanta-dev/janas</guid>
+      <pubDate>Mon, 12 Oct 2026 22:05:43 +0000</pubDate>
+      <description>Janas est un outil permettant d'exécuter des grands modèles de langage (LLM) plus grands que la mémoire RAM disponible en diffusant les experts directement depuis un disque SSD. Cette technique innovante optimise l'utilisation du matériel pour faire tourner des modèles lourds sur des machines modestes.
+
+★★★★☆ · Hacker News</description>
+      <category>LLM</category>
+      <category>Matériel &amp; GPU</category>
+      <category>Outils dev</category>
     </item>
     <item>
       <title>Explore DNA with DeepMind’s AlphaGenome and in-browser MedGemma 1.5 4B via WebGPU</title>
@@ -212,147 +351,6 @@
 
 ★★★★☆ · Ars Technica (IA)</description>
       <category>Entreprises</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Running unsloth/Qwen3.8-27B-UD-IQ4_XS 262k q4_0 KV + vision on 16GB VRAM @ 80t/s and 1500pp</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x4cmfc/running_unslothqwen3827budiq4_xs_262k_q4_0_kv/</guid>
-      <pubDate>Mon, 12 Oct 2026 20:14:03 +0000</pubDate>
-      <description>Un utilisateur partage son astuce pour exécuter localement un modèle Qwen 27B avec vision et un large contexte de 262k sur une carte graphique de 16GB de VRAM. Il utilise pour cela une version modifiée de llama.cpp avec une gestion optimisée de la mémoire KV.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Hello Python 3.15, goodbye 3.10, and now I can use 3.11</title>
-      <link>https://simonwillison.net/2026/Oct/12/python-3-15/</link>
-      <guid>https://simonwillison.net/2026/Oct/12/python-3-15/</guid>
-      <pubDate>Mon, 12 Oct 2026 18:15:38 +0000</pubDate>
-      <description>L'article présente les nouveautés de Python 3.15, notamment l'introduction des importations paresseuses explicites (lazy imports) issues du PEP 810. Cette fonctionnalité permet de réduire considérablement le temps de démarrage des applications en ne chargeant les modules lourds qu'au moment de leur utilisation.
-
-★★★★☆ · Simon Willison</description>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>GitHub Copilot app for Beginners: How to teach Copilot about your codebase</title>
-      <link>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</link>
-      <guid>https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/</guid>
-      <pubDate>Mon, 12 Oct 2026 17:43:59 +0000</pubDate>
-      <description>Cet article explique comment configurer GitHub Copilot pour un projet en y ajoutant des instructions personnalisées, des agents et des serveurs MCP. Il guide les débutants pour enseigner leur base de code à l'assistant de développement.
-
-★★★★★ · GitHub Blog (IA)</description>
-      <category>Outils dev</category>
-      <category>Agents IA</category>
-    </item>
-    <item>
-      <title>openbmb/MiniCPM-V-4.7-35B-A3B</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x47taj/openbmbminicpmv4735ba3b/</guid>
-      <pubDate>Mon, 12 Oct 2026 17:16:21 +0000</pubDate>
-      <description>MiniCPM-V 4.7 35B-A3B est le premier modèle MoE open-source optimisé pour l'inférence locale et fluide sur mobile. Il améliore la compréhension d'images et de vidéos tout en maintenant de hautes performances.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>Boole-1.7B: A 1-bit Qwen3-1.7B model that outperforms Bonsai-1.7B</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x452zj/boole17b_a_1bit_qwen317b_model_that_outperforms/</guid>
-      <pubDate>Mon, 12 Oct 2026 15:35:58 +0000</pubDate>
-      <description>Boole-1.7B est un modèle open source à 1 bit basé sur Qwen3-1.7B, offrant un poids réduit à 247 Mo. Il permet une exécution locale ultra-rapide tout en conservant des performances proches du modèle d'origine.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>AWS lance une boîte à outils open source dédiée à la robotique</title>
-      <link>https://www.lemondeinformatique.fr/actualites/lire-aws-lance-une-boite-a-outils-open-source-dediee-a-la-robotique-100849.html</link>
-      <guid>https://www.lemondeinformatique.fr/actualites/lire-aws-lance-une-boite-a-outils-open-source-dediee-a-la-robotique-100849.html</guid>
-      <pubDate>Mon, 12 Oct 2026 13:47:17 +0000</pubDate>
-      <description>AWS lance une boîte à outils open source pour simplifier le développement de modèles d'intelligence artificielle en robotique. Cette initiative vise à réduire les contraintes d'infrastructure pour les développeurs.
-
-★★★★☆ · Le Monde Informatique (IA)</description>
-      <category>Open source</category>
-      <category>Robotique</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>graphsignal-top: a `top` for inference GPUs in the open-source Graphsignal profiler, kernels ranked by time, live, with readable names</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x421ow/graphsignaltop_a_top_for_inference_gpus_in_the/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x421ow/graphsignaltop_a_top_for_inference_gpus_in_the/</guid>
-      <pubDate>Mon, 12 Oct 2026 13:35:21 +0000</pubDate>
-      <description>Graphsignal-top est un nouvel outil open-source permettant de surveiller en direct l'utilisation des GPU lors de l'inférence de LLM. Il affiche les métriques de performance, l'utilisation de la mémoire et le classement des kernels CUDA avec des noms lisibles.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Outils dev</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>Qwen released QwenGyre - RL framework for training AI agents on extremely long complex tasks</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/</guid>
-      <pubDate>Mon, 12 Oct 2026 13:18:10 +0000</pubDate>
-      <description>QwenGyre est un nouveau framework d'apprentissage par renforcement conçu pour entraîner des agents IA sur des tâches extrêmement longues et complexes. Il introduit un planificateur élastique et un processeur de trajectoire pour optimiser l'utilisation des GPU et réduire le temps d'entraînement.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Agents IA</category>
-      <category>Open source</category>
-      <category>Recherche</category>
-    </item>
-    <item>
-      <title>A "free" multi-modal "embedding" model (already) included with your LLM: vLLM plugin + upstream PR</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x416s0/a_free_multimodal_embedding_model_already/</guid>
-      <pubDate>Mon, 12 Oct 2026 12:59:09 +0000</pubDate>
-      <description>Cet article présente un plugin vLLM permettant d'obtenir facilement des embeddings multimodaux directement à partir des modèles de langage déjà chargés. Il expose les états cachés internes via une API compatible OpenAI pour générer ces représentations textuelles et visuelles.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>LLC: lightweight Open WebUI alt now with Agents+MCP+RAG+Image Editing</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x415dd/llc_lightweight_open_webui_alt_now_with/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x415dd/llc_lightweight_open_webui_alt_now_with/</guid>
-      <pubDate>Mon, 12 Oct 2026 12:57:20 +0000</pubDate>
-      <description>LocalLightChat (LLC) est une alternative légère à Open WebUI pour les LLM locaux. Cette nouvelle version intègre des agents, le protocole MCP, un système RAG et l'édition d'images tout en restant très performante.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Agents IA</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>LSearch - Spotlight for windows with embedding</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x3zut6/lsearch_spotlight_for_windows_with_embedding/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x3zut6/lsearch_spotlight_for_windows_with_embedding/</guid>
-      <pubDate>Mon, 12 Oct 2026 11:54:55 +0000</pubDate>
-      <description>Un développeur a créé un outil de recherche pour Windows intégrant des modèles locaux et un mélange d'experts spécialisés dans le code et les agents. Cet utilitaire open source s'exécute localement avec des exigences matérielles accessibles pour assister les développeurs.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Outils dev</category>
-      <category>Open source</category>
-      <category>LLM</category>
-    </item>
-    <item>
-      <title>Les agents IA de codage produisent plus de code, mais pas davantage de logiciels : les gains obtenus lors de la génération de code sont annulés par le goulot d'étranglement que représente la révision humaine</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/388008/Les-agents-IA-de-codage-produisent-plus-de-code-mais-pas-davantage-de-logiciels-les-gains-obtenus-lors-de-la-generation-de-code-sont-annules-par-le-goulot-d-etranglement-que-represente-la-revision-humaine/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/388008/Les-agents-IA-de-codage-produisent-plus-de-code-mais-pas-davantage-de-logiciels-les-gains-obtenus-lors-de-la-generation-de-code-sont-annules-par-le-goulot-d-etranglement-que-represente-la-revision-humaine/</guid>
-      <pubDate>Mon, 12 Oct 2026 10:21:00 +0000</pubDate>
-      <description>Les agents IA augmentent la production brute de code mais ne créent pas plus de logiciels finaux. La relecture humaine du code généré crée un nouveau goulot d'étranglement qui annule le gain de temps initial.
-
-★★★★☆ · Developpez.com (IA)</description>
-      <category>Agents IA</category>
       <category>Outils dev</category>
     </item>
   </channel>
