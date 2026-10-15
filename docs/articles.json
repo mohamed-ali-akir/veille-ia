@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-15T09:40:20+00:00",
+ "genere_le": "2026-10-15T18:23:28+00:00",
  "statistiques": {
   "collectes": 1011,
   "gardes_mots_cles": 614,
@@ -653,7 +653,7 @@
    "resume": "Le Model Context Protocol (MCP), utilisé pour les communications entre agents IA, présente des failles de sécurité majeures. Un chercheur a démontré que des instructions malveillantes peuvent se propager facilement d'un agent à un autre en raison d'une trop grande confiance par défaut.",
    "note": 4,
    "justification": "Cet article aborde les risques de sécurité cruciaux liés aux communications entre agents IA.",
-   "favori": false
+   "favori": true
   },
   {
    "id": 4830,
@@ -975,7 +975,7 @@
    "resume": "Anthropic a abandonné Git au profit de son système interne Scion. Ce changement fait suite à une explosion des fusions de code quotidiennes générées par l'IA Claude.",
    "note": 4,
    "justification": "Cet article montre comment l'utilisation intensive des IA génératives révolutionne les outils de développement en entreprise.",
-   "favori": false
+   "favori": true
   },
   {
    "id": 4628,
