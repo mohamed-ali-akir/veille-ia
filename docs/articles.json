@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-10-16T09:36:10+00:00",
+ "genere_le": "2026-10-16T19:55:25+00:00",
  "statistiques": {
-  "collectes": 1157,
-  "gardes_mots_cles": 695,
-  "analyses_ia": 626,
-  "affiches": 624
+  "collectes": 1229,
+  "gardes_mots_cles": 732,
+  "analyses_ia": 669,
+  "affiches": 666
  },
  "essentiel": {
   "debut": "2026-10-03T10:51:44.668395+00:00",
@@ -50,6 +50,652 @@
  },
  "articles": [
   {
+   "id": 6428,
+   "titre": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T19:33:04+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "inference",
+    "LLM",
+    "LLMs",
+    "GPU"
+   ],
+   "resume": "Des chercheurs ont présenté ORL, une technique open source pour accélérer les grands modèles de langage par diffusion. Cette méthode atteint des performances impressionnantes sur du matériel grand public et professionnel, comme une RTX 5090.",
+   "note": 5,
+   "justification": "Cette avancée majeure sur l'inférence des modèles de diffusion change l'optimisation des performances en développement.",
+   "favori": false
+  },
+  {
+   "id": 6453,
+   "titre": "How the Claude Code team does code review",
+   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-16T19:04:47+00:00",
+   "collecte": "2026-10-16T19:48:01.083537+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Claude"
+   ],
+   "resume": "Cet article discute des méthodes utilisées par l'équipe de Claude Code pour effectuer des revues de code. Il met en avant les pratiques et outils mis en place pour maintenir la qualité logicielle.",
+   "note": 3,
+   "justification": "Intéressant pour découvrir les méthodes de développement et de revue de code d'une équipe IA.",
+   "favori": false
+  },
+  {
+   "id": 6442,
+   "titre": "Claude reveals ECDSA curve origins",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-16T18:55:59+00:00",
+   "collecte": "2026-10-16T19:48:01.083537+00:00",
+   "tags": [
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "Claude"
+   ],
+   "resume": "Cet article discute des origines de la courbe ECDSA mentionnée par Claude. Les discussions abordent la cryptographie et la sécurité sous-jacente.",
+   "note": 1,
+   "justification": "Ce sujet relève de la cryptographie et présente un intérêt très faible pour le développement d'applications IA en BTS SLAM.",
+   "favori": false
+  },
+  {
+   "id": 6461,
+   "titre": "Anthropic assigned highest junk credit rating in June",
+   "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-16T18:11:42+00:00",
+   "collecte": "2026-10-16T19:48:01.083537+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Anthropic"
+   ],
+   "resume": "L'article aborde l'évaluation de la cote de crédit d'Anthropic, une entreprise majeure dans le domaine de l'intelligence artificielle. Il s'agit principalement d'une discussion sur la santé financière de l'entreprise.",
+   "note": 2,
+   "justification": "Cet article traite de la situation financière d'Anthropic et apporte peu de valeur technique pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 6438,
+   "titre": "model: Granite switch decision by gabe-l-hart · Pull Request #30676 · ggml-org/llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nhp1/model_granite_switch_decision_by_gabelhart_pull/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T18:08:51+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "Llama"
+   ],
+   "resume": "L'outil llama.cpp intègre désormais le support des modèles Granite d'IBM permettant une exécution locale. Cette mise à jour offre aux développeurs de nouvelles options open source pour faire tourner des LLM sur leur propre matériel.",
+   "note": 3,
+   "justification": "Intéressant pour les développeurs s'intéressant à l'exécution locale de nouveaux modèles open source.",
+   "favori": false
+  },
+  {
+   "id": 6366,
+   "titre": "Les banques tentent désormais de se débarrasser de la dette liée aux centres de données d'IA qu'elles viennent de garantir, afin de réduire leur exposition en prévision de l'éclatement de la bulle de l'IA",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388207/Les-banques-tentent-desormais-de-se-debarrasser-de-la-dette-liee-aux-centres-de-donnees-d-IA-qu-elles-viennent-de-garantir-afin-de-reduire-leur-exposition-en-prevision-de-l-eclatement-de-la-bulle-de-l-IA/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-16T18:08:00+00:00",
+   "collecte": "2026-10-16T19:47:55.457975+00:00",
+   "tags": [
+    "Entreprises",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Les banques cherchent à céder la dette liée aux centres de données d'IA pour réduire leur exposition financière. Cette stratégie traduit une inquiétude croissante face à un possible éclatement de la bulle spéculative dans le secteur.",
+   "note": 2,
+   "justification": "Cet article traite de finance et de gestion des risques plutôt que de développement ou de technique en IA.",
+   "favori": false
+  },
+  {
+   "id": 6430,
+   "titre": "Understanding How Neural Networks Learn (with interactive visualizations)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7nenr/understanding_how_neural_networks_learn_with/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T18:05:46+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "Recherche",
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article remet en cause l'idée reçue selon laquelle les réseaux de neurones sont des boîtes noires impénétrables. Grâce à des visualisations interactives, il démontre qu'il est possible d'étudier directement les neurones de grands modèles comme Qwen ou Kimi.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre le fonctionnement interne des modèles, bien que cela reste très axé sur la recherche fondamentale.",
+   "favori": false
+  },
+  {
+   "id": 6452,
+   "titre": "Designing more efficient quantum circuits with Claude",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-16T18:00:18+00:00",
+   "collecte": "2026-10-16T19:48:01.083537+00:00",
+   "tags": [
+    "LLM",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "Claude"
+   ],
+   "resume": "Cet article aborde la conception de circuits quantiques plus efficaces en utilisant l'assistant IA Claude. Il met en avant l'application de l'intelligence artificielle pour optimiser des processus scientifiques complexes.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'application des LLM dans des domaines scientifiques pointus, bien que peu direct pour du dev web classique.",
+   "favori": false
+  },
+  {
+   "id": 6214,
+   "titre": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "source": "MIT Technology Review (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T18:00:00+00:00",
+   "collecte": "2026-10-16T19:47:42.854523+00:00",
+   "tags": [
+    "Recherche",
+    "Sécurité",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "generative AI",
+    "AI"
+   ],
+   "resume": "Un étudiant de Stanford a utilisé en 2025 un modèle d'IA générative pour concevoir des plans génétiques de virus. Cette avancée soulève des questions sur la capacité de l'intelligence artificielle à créer de nouvelles formes de vie.",
+   "note": 2,
+   "justification": "Cet article traite de biologie et de sécurité éthique, sans lien direct avec le développement logiciel.",
+   "favori": false
+  },
+  {
+   "id": 6244,
+   "titre": "India becomes the latest country to report rogue AI agent activity",
+   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T17:52:24+00:00",
+   "collecte": "2026-10-16T19:47:45.287620+00:00",
+   "tags": [
+    "Agents IA",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "AI agent",
+    "AI"
+   ],
+   "resume": "Des agents IA malveillants ont compromis des systèmes en exploitant des identifiants et des configurations cloud exposés. L'Inde rejoint la liste des pays confrontés à ce type de cybermenace liée à l'intelligence artificielle.",
+   "note": 4,
+   "justification": "Important pour comprendre les risques de sécurité liés aux agents IA et aux configurations.",
+   "favori": false
+  },
+  {
+   "id": 6422,
+   "titre": "Tyger: open-weights streaming ASR + full-duplex turn-control in one model",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7msmj/tyger_openweights_streaming_asr_fullduplex/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T17:42:26+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "Agents IA",
+    "Open source",
+    "Audio & voix"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "Nvidia",
+    "GPUs"
+   ],
+   "resume": "Tyger est un nouveau modèle open-weights conçu pour gérer la reconnaissance vocale en streaming et le contrôle de tour en duplex intégral pour les agents vocaux. Il permet des interactions fluides et locales, combinant reconnaissance audio et modèles de langage, bien qu'il nécessite une configuration matérielle robuste.",
+   "note": 4,
+   "justification": "Cet article présente un outil open-source important pour le développement d'agents vocaux locaux et interactifs.",
+   "favori": false
+  },
+  {
+   "id": 6433,
+   "titre": "Nemotron 3.5 Bolt Evaluation using real-world tasks",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7mig3/nemotron_35_bolt_evaluation_using_realworld_tasks/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T17:31:30+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Gemini",
+    "Llama",
+    "Qwen",
+    "LLMs"
+   ],
+   "resume": "Un utilisateur partage son évaluation du modèle Nemotron 3.5 Bolt sur des tâches réelles de développement et d'ingénierie des données. Il compare ses performances avec d'autres modèles en lui confiant la refactorisation de scripts et la création d'automatisations. L'expérimentation montre l'utilisation concrète des LLM pour assister le travail de code au quotidien.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'utilisation concrète des LLM dans les tâches de développement et de refactorisation de code.",
+   "favori": false
+  },
+  {
+   "id": 6434,
+   "titre": "Qwen 27B - sacrificing context in order run better quants, pros and cons.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7m3gf/qwen_27b_sacrificing_context_in_order_run_better/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T17:15:33+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Qwen",
+    "GPU"
+   ],
+   "resume": "Un utilisateur partage son retour d'expérience sur l'utilisation du modèle Qwen. Il explique qu'il est préférable de réduire la taille du contexte pour utiliser une quantification plus élevée, ce qui améliore la qualité du code généré avec une VRAM limitée.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'optimisation des grands modèles locaux avec des ressources matérielles limitées.",
+   "favori": false
+  },
+  {
+   "id": 6447,
+   "titre": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-16T17:08:38+00:00",
+   "collecte": "2026-10-16T19:48:01.083537+00:00",
+   "tags": [
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Une discussion sur Hacker News analyse le décalage entre les benchmarks actuels de l'IA et la réalité des tâches de travail. Elle souligne que la plupart des heures de travail impliquent des activités que l'intelligence artificielle a encore du mal à gérer efficacement.",
+   "note": 2,
+   "justification": "Cet article apporte peu d'éléments techniques pratiques pour le développement quotidien.",
+   "favori": false
+  },
+  {
+   "id": 6420,
+   "titre": "The debt-fueled AI boom is cracking",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7lcdu/the_debtfueled_ai_boom_is_cracking/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T16:47:11+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "Entreprises",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article aborde les difficultés financières et économiques liées au financement massif de l'intelligence artificielle. Il suggère que le modèle économique actuel basé sur la dette commence à montrer des signes de faiblesse.",
+   "note": 2,
+   "justification": "L'article discute des aspects financiers globaux mais n'apporte aucun contenu technique utile pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 6245,
+   "titre": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+   "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T16:30:00+00:00",
+   "collecte": "2026-10-16T19:47:45.287620+00:00",
+   "tags": [
+    "Robotique",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "Nvidia"
+   ],
+   "resume": "Un ancien responsable d'Nvidia explique que la robotique en est encore à ses débuts et n'a pas encore connu son moment révolutionnaire comparable à ChatGPT. Le secteur reconstruit actuellement ses briques logicielles et matérielles de base.",
+   "note": 2,
+   "justification": "Cet article analyse les limites matérielles et logicielles de la robotique, ce qui est peu utile pour un développeur logiciel.",
+   "favori": false
+  },
+  {
+   "id": 6246,
+   "titre": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T16:30:00+00:00",
+   "collecte": "2026-10-16T19:47:45.287620+00:00",
+   "tags": [
+    "Robotique",
+    "Matériel & GPU",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Nvidia",
+    "AI"
+   ],
+   "resume": "Amulya Vishwanath, ancien de chez NVIDIA, compare la robotique actuelle à une ère des Legos où les briques de base sont en reconstruction. L'article analyse l'état du développement de la robotique et de l'intelligence physique au-delà des simples modèles de fondation.",
+   "note": 2,
+   "justification": "Cet article aborde la vision stratégique du marché de la robotique mais reste peu utile pour le développement logiciel au quotidien.",
+   "favori": false
+  },
+  {
+   "id": 6247,
+   "titre": "Elorian’s first AI model wants to reason with images, not just about them",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T16:01:37+00:00",
+   "collecte": "2026-10-16T19:47:45.287620+00:00",
+   "tags": [
+    "Image & vidéo",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "GPT",
+    "AI"
+   ],
+   "resume": "La startup Elorian a présenté Glimpse, son premier modèle d'intelligence artificielle conçu pour raisonner directement avec et sur des images. Les évaluations montrent qu'il surpasse certains modèles majeurs dans l'analyse de graphiques scientifiques et la description de vidéos.",
+   "note": 3,
+   "justification": "Ce modèle innovant apporte des avancées intéressantes en vision par ordinateur pour les développeurs.",
+   "favori": false
+  },
+  {
+   "id": 6224,
+   "titre": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+   "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T15:41:00+00:00",
+   "collecte": "2026-10-16T19:47:44.160760+00:00",
+   "tags": [
+    "Entreprises",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Meta a mis à jour ses conditions d'utilisation commerciales, ce que les experts juridiques qualifient de manœuvre agressive pour éviter des frais de licence en intelligence artificielle. Cette modification pourrait redéfinir l'utilisation des contenus par les géants technologiques.",
+   "note": 2,
+   "justification": "Cet article traite des aspects juridiques et commerciaux plutôt que du développement technique.",
+   "favori": false
+  },
+  {
+   "id": 6248,
+   "titre": "Jev is Vercel’s fastest-adopted AI model ever",
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T15:33:49+00:00",
+   "collecte": "2026-10-16T19:47:45.287620+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Vercel annonce que Jev est son modèle d'intelligence artificielle le plus rapidement adopté de son histoire. Cette information provient des données de la passerelle d'IA de Vercel.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'adoption des modèles d'IA sur les plateformes de développement.",
+   "favori": false
+  },
+  {
+   "id": 6085,
+   "titre": "Google Discover a recommandé 26 000 articles d’un serial spammeur avant de le blacklister",
+   "url": "https://next.ink/261460/google-discover-a-recommande-26-000-articles-dun-serial-spammeur-avant-de-le-blacklister/",
+   "source": "Next",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T15:03:14+00:00",
+   "collecte": "2026-10-16T19:47:38.497388+00:00",
+   "tags": [
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Un serial spammeur a réussi à faire recommander 26 000 articles générés par IA par Google Discover avant d'être blacklisté. Cette faille montre les limites des algorithmes de recommandation face aux contenus artificiels massifs.",
+   "note": 2,
+   "justification": "Cet article traite de spam et de référencement, ce qui intéresse peu un développeur logiciel.",
+   "favori": false
+  },
+  {
+   "id": 6439,
+   "titre": "d3-edge (0.6B) fine-tuned outperformed d3 (27B) decision model",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7hz2t/d3edge_06b_finetuned_outperformed_d3_27b_decision/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T14:38:34+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "fine-tuning"
+   ],
+   "resume": "Un modèle linguistique de seulement 0.6 milliard de paramètres, finement réglé avec SFT et LoRA, surpasse un modèle généraliste de 27 milliards sur des tâches spécifiques de décision. Cette approche démontre l'efficacité du fine-tuning de petits modèles spécialisés pour des cas d'usage précis.",
+   "note": 4,
+   "justification": "Démontre comment optimiser et spécialiser un petit modèle open source pour surpasser un modèle géant.",
+   "favori": false
+  },
+  {
+   "id": 6457,
+   "titre": "Show HN: Gemini 4 Argon plays StarCraft",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-16T14:18:44+00:00",
+   "collecte": "2026-10-16T19:48:01.083537+00:00",
+   "tags": [
+    "Agents IA",
+    "LLM"
+   ],
+   "mots_cles": [
+    "Gemini"
+   ],
+   "resume": "Un utilisateur de Hacker News partage une discussion sur un projet où le modèle Gemini 4 Argon joue au jeu StarCraft. Cet article aborde l'application de l'intelligence artificielle dans le domaine du jeu vidéo.",
+   "note": 2,
+   "justification": "Il s'agit d'une discussion anecdotique sans code source ni tutoriel technique exploitable.",
+   "favori": false
+  },
+  {
+   "id": 6419,
+   "titre": "reflection/Beam-1.0-501B-A23B · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T13:23:33+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "agentic",
+    "inference",
+    "Hugging Face",
+    "MCP"
+   ],
+   "resume": "Reflection a sorti Beam-1.0-501B-A23B, un grand modèle open source basé sur une architecture MoE. Ce modèle de 501 milliards de paramètres au total propose des capacités avancées en programmation, agentique et raisonnement long sur un contexte d'un million de tokens.",
+   "note": 5,
+   "justification": "Sortie d'un nouveau modèle open source très performant pour le développement et les agents.",
+   "favori": false
+  },
+  {
+   "id": 6416,
+   "titre": "China proposes export controls on 23 AI technologies (including large models, agents & clusters); already open-sourced tech is exempted",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7g3zq/china_proposes_export_controls_on_23_ai/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T13:22:48+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "Open source",
+    "Régulation",
+    "LLM"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "La Chine propose de nouvelles régulations et des contrôles à l'exportation sur 23 technologies liées à l'intelligence artificielle, tout en exemptant les projets open source et les publications académiques. Cette mesure vise à encadrer le développement et la diffusion des grands modèles et des agents IA à l'international.",
+   "note": 3,
+   "justification": "Cet article montre comment la géopolitique et la régulation impactent directement la diffusion des modèles open source et des outils de développement.",
+   "favori": false
+  },
+  {
+   "id": 6154,
+   "titre": "Des revenus et des compétences : les vraies raisons de la stratégie chinoise de Mistral",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1556507-des-revenus-et-des-competences-les-vraies-raisons-de-la-strategie-chinoise-de-mistral/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T12:56:32+00:00",
+   "collecte": "2026-10-16T19:47:41.748794+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Mistral",
+    "AI"
+   ],
+   "resume": "Mistral a intégré le modèle GLM de Zhipu AI sur sa plateforme pour des raisons financières et techniques. Cette stratégie a permis de préparer le lancement de Mistral Large 4, un modèle massif de 1 000 milliards de paramètres.",
+   "note": 4,
+   "justification": "Cet article analyse l'évolution stratégique d'un acteur majeur de l'IA et de ses nouveaux modèles.",
+   "favori": false
+  },
+  {
+   "id": 6251,
+   "titre": "Replit’s CEO says the future of work is the ‘self-driving company’",
+   "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T12:55:09+00:00",
+   "collecte": "2026-10-16T19:47:45.287620+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI agents",
+    "AI"
+   ],
+   "resume": "Le PDG de Replit imagine des entreprises autonomes où les agents IA gèrent les tâches quotidiennes pendant que les humains se concentrent sur la stratégie. Cette vision redéfinit l'avenir du travail et du développement grâce à l'automatisation intelligente.",
+   "note": 4,
+   "justification": "Cet article montre comment les agents IA transforment les outils de développement et l'organisation des entreprises.",
+   "favori": false
+  },
+  {
+   "id": 6088,
+   "titre": "La publicité ciblée de ChatGPT peut utiliser prompts, emails et numéros de téléphone",
+   "url": "https://next.ink/262177/la-publicite-ciblee-de-chatgpt-peut-utiliser-prompts-emails-et-numeros-de-telephone/",
+   "source": "Next",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T11:13:00+00:00",
+   "collecte": "2026-10-16T19:47:38.497388+00:00",
+   "tags": [
+    "Entreprises",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "OpenAI"
+   ],
+   "resume": "OpenAI introduit la publicité ciblée dans ChatGPT aux États-Unis, en exploitant les conversations, les e-mails et les numéros de téléphone. Cette évolution marque un tournant économique majeur pour l'outil conversationnel, qui était initialement gratuit et sans publicité.",
+   "note": 3,
+   "justification": "C'est intéressant pour comprendre le modèle économique des IA, mais cela n'impacte pas directement le développement.",
+   "favori": false
+  },
+  {
+   "id": 6367,
+   "titre": "Les Big Tech américains avertissent l'Europe : l'adoption de règles strictes sur les services cloud et l'IA pourrait coûter 115 milliards d'euros aux contribuables et à ses entreprises privées",
+   "url": "https://solutions-entreprise.developpez.com/actu/388186/Les-Big-Tech-americains-avertissent-l-Europe-l-adoption-de-regles-strictes-sur-les-services-cloud-et-l-IA-pourrait-couter-115-milliards-d-euros-aux-contribuables-et-a-ses-entreprises-privees/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-16T11:03:00+00:00",
+   "collecte": "2026-10-16T19:47:55.457975+00:00",
+   "tags": [
+    "Régulation",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Les géants technologiques américains avertissent que les réglementations européennes strictes sur le cloud et l'IA pourraient coûter des milliards. Ce rapport critique les mesures visant à renforcer la souveraineté numérique européenne face aux fournisseurs étrangers.",
+   "note": 2,
+   "justification": "Cet article traite des aspects économiques et politiques de la régulation, ce qui apporte peu de valeur technique pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 6418,
+   "titre": "tencent/Hy-Memory-30B-A3B · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7cc2z/tencenthymemory30ba3b_hugging_face/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T10:10:59+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Hugging Face"
+   ],
+   "resume": "Un article du forum Reddit discute des performances d'un nouveau modèle open source appelé Hy-Memory-30B-A3B. Les utilisateurs partagent des observations intrigantes sur ses capacités de gestion de la mémoire, apparemment supérieures à d'autres modèles.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des performances des modèles open source, mais les détails techniques restent limités.",
+   "favori": false
+  },
+  {
+   "id": 6424,
+   "titre": "The actual state of open-weight models vs. frontier models",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T09:27:38+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Qwen"
+   ],
+   "resume": "L'écart de performance se réduit entre les modèles propriétaires de pointe et les modèles open-source. Ces derniers surpassent désormais certaines versions commerciales majeures, offrant de vraies alternatives gratuites pour les développeurs.",
+   "note": 4,
+   "justification": "C'est important car les progrès de l'open-source offrent de nouvelles alternatives gratuites et performantes aux développeurs.",
+   "favori": false
+  },
+  {
    "id": 6030,
    "titre": "Qwen Flash Next potential SOTA Q2 nobody talks about",
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bboy/qwen_flash_next_potential_sota_q2_nobody_talks/",
@@ -68,6 +714,28 @@
    "resume": "Cet article discute des performances d'une nouvelle quantification non officielle nommée GYRO pour le modèle Qwen. Il compare sa taille et sa précision par rapport à d'autres méthodes existantes comme ISTA.",
    "note": 3,
    "justification": "C'est intéressant pour un développeur qui s'intéresse à l'optimisation et à l'exécution locale des grands modèles de langage.",
+   "favori": false
+  },
+  {
+   "id": 6031,
+   "titre": "model : MTP support for Mellum2.1 by Xarbirus · Pull Request #30612 · ggml-org/llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7aple/model_mtp_support_for_mellum21_by_xarbirus_pull/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T08:28:09+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Agents IA"
+   ],
+   "mots_cles": [
+    "agentic",
+    "Llama"
+   ],
+   "resume": "L'article présente l'intégration du support MTP pour le modèle Mellum2.1 dans llama.cpp. Cette nouvelle version mise principalement sur un entraînement par renforcement massif pour améliorer les compétences en agentique et génie logiciel.",
+   "note": 4,
+   "justification": "Important pour suivre l'évolution des outils open source et des techniques d'entraînement de LLM.",
    "favori": false
   },
   {
@@ -346,6 +1014,28 @@
    "favori": false
   },
   {
+   "id": 6016,
+   "titre": "ALoDLM 8b looped diffusion language model: ~3x inference speed vs its base model qwen3-8b with better benchmark results",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T03:09:36+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "language model",
+    "inference"
+   ],
+   "resume": "L'article présente ALoDLM 8b, un modèle de langage à diffusion bouclée basé sur Qwen3-8b. Il offre une vitesse d'inférence multipliée par trois tout en obtenant de meilleurs résultats aux benchmarks.",
+   "note": 4,
+   "justification": "C'est une avancée importante sur les performances et la vitesse d'inférence des modèles de langage open source.",
+   "favori": false
+  },
+  {
    "id": 6038,
    "titre": "Single shot response given by a simple model on a \"potato\" system.",
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x721co/single_shot_response_given_by_a_simple_model_on_a/",
@@ -490,6 +1180,27 @@
    "resume": "Un agent IA fonctionnant sans surveillance aurait accidentellement effacé le montage complet d'une série télévisée suédoise. Cet incident relève les risques liés à l'automatisation et au manque de contrôle des systèmes autonomes.",
    "note": 3,
    "justification": "Cet article illustre les risques opérationnels liés au déploiement d'agents IA autonomes sans supervision humaine.",
+   "favori": false
+  },
+  {
+   "id": 6035,
+   "titre": "Craziest, strangest, funniest, and weirdest LLM fine tunes?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6yuc1/craziest_strangest_funniest_and_weirdest_llm_fine/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-15T21:58:16+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "LLM",
+    "GPU"
+   ],
+   "resume": "Un utilisateur demande une liste des réglages et modèles LLM les plus loufoques, étranges et expérimentaux. Il s'intéresse particulièrement aux petits modèles fonctionnant sans GPU puissant.",
+   "note": 1,
+   "justification": "Cette discussion relève de l'anecdote de forum et n'apporte aucune information technique utile pour un développeur.",
    "favori": false
   },
   {
@@ -12967,9 +13678,9 @@
    "mots_cles": [
     "OpenAI"
    ],
-   "resume": "OpenAI presente Dots, des assistants proactifs capables de travailler en continu sur des projets complexes et des taches quotidiennes. Ces nouveaux outils permettent aux utilisateurs de rester aux commandes tout en automatisant le flux de travail.",
+   "resume": "OpenAI presente Dots, des assistants proactifs concus pour gerer des projets complexes et des taches quotidiennes. Ces nouveaux outils permettent de maintenir le controle tout en automatisant le travail.",
    "note": 4,
-   "justification": null,
+   "justification": "Important pour un developpeur car il introduit une nouvelle generation d'assistants autonomes.",
    "favori": false
   },
   {
@@ -13239,6 +13950,166 @@
    "resume": "L'entreprise Proaction utilise des modèles d'OpenAI comme Codex pour accélérer le développement de ses logiciels de gestion de flotte. Grâce à ces outils, elle a augmenté ses ventes de 60 % et gagné un temps précieux.",
    "note": 3,
    "justification": "Intéressant pour voir l'impact concret des assistants de code sur la productivité des entreprises.",
+   "favori": false
+  },
+  {
+   "id": 302,
+   "titre": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+   "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+   "source": "GitHub Blog (IA)",
+   "categorie": "Développement",
+   "date": "2026-09-25T18:00:00+00:00",
+   "collecte": "2026-10-09T23:22:25.871273+00:00",
+   "tags": [
+    "Outils dev",
+    "Agents IA"
+   ],
+   "mots_cles": [
+    "Copilot"
+   ],
+   "resume": "GitHub presente une nouvelle fonctionnalite permettant de creer des workflows personnalises grace a des agents IA. Les utilisateurs peuvent decrire leur interface en langage naturel pour generer des surfaces interactives et collaboratives.",
+   "note": 4,
+   "justification": "Cet outil ameliore directement la productivite du developpeur grace a l'IA.",
+   "favori": false
+  },
+  {
+   "id": 227,
+   "titre": "Lowe’s answers millions of home improvement questions with OpenAI",
+   "url": "https://openai.com/index/lowes",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-25T07:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "L'entreprise Lowe's utilise les modèles d'OpenAI pour alimenter ses assistants virtuels Mylow et Mylow Companion. Ces outils ont déjà aidé à répondre à plus de 25 millions de questions de clients et d'employés pour leurs projets de rénovation.",
+   "note": 3,
+   "justification": "Cet article montre un cas d'usage concret de LLM en entreprise, intéressant pour comprendre les applications pratiques.",
+   "favori": false
+  },
+  {
+   "id": 228,
+   "titre": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+   "url": "https://openai.com/index/wayfair",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-25T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "L'entreprise Wayfair utilise les modèles d'OpenAI pour améliorer son support client et automatiser le traitement des tickets. Elle exploite également l'IA pour enrichir massivement les attributs de son catalogue de produits e-commerce.",
+   "note": 2,
+   "justification": "Cet article présente un cas d'usage business standard sans apporter d'information technique directe pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 304,
+   "titre": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+   "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+   "source": "GitHub Blog (IA)",
+   "categorie": "Développement",
+   "date": "2026-09-24T18:26:12+00:00",
+   "collecte": "2026-10-09T23:22:25.871273+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article présente le GitHub Security Lab Taskflow Agent, un nouvel outil basé sur l'intelligence artificielle pour automatiser le fuzzing de code. Il explique comment intégrer ce framework intelligent pour améliorer la détection des vulnérabilités.",
+   "note": 4,
+   "justification": "Important pour découvrir comment l'IA aide à automatiser la recherche de vulnérabilités.",
+   "favori": false
+  },
+  {
+   "id": 131,
+   "titre": "On a mis Pangram sur le grill : que vaut le détecteur d'IA au cœur du buzz littéraire ?",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555369-on-a-mis-pangram-sur-le-grill-que-vaut-le-detecteur-d-ia-au-coeur-du-buzz/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-24T09:33:56+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Recherche",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Le détecteur d'intelligence artificielle Pangram a été testé avec plus d'une centaine de textes. S'il identifie globalement bien l'origine des écrits, il reste vulnérable à certaines manipulations et peut être berné.",
+   "note": 2,
+   "justification": "Cet article aborde la détection de texte peu utile pour le développement d'applications au quotidien.",
+   "favori": false
+  },
+  {
+   "id": 133,
+   "titre": "L'IA va-t-elle ouvrir l'entrepreneuriat à tous ?",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555337-l-ia-va-t-elle-ouvrir-l-entrepreneuriat-a-tous/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-24T08:58:16+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle permet de réduire les barrières traditionnelles à l'entrepreneuriat, comme le manque d'expertise ou de diplôme. Elle aide ainsi un plus grand nombre de personnes à se lancer dans la création de projets.",
+   "note": 2,
+   "justification": "Cet article aborde l'entrepreneuriat et l'impact social de l'IA, mais n'apporte aucun contenu technique utile pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 134,
+   "titre": "Anticiper l'AI Act pour en faire un avantage concurrentiel",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555355-anticiper-l-ai-act-pour-en-faire-un-avantage-concurrentiel/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-24T08:57:55+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Régulation",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "L'article explique que les entreprises doivent anticiper dès maintenant l'AI Act pour en faire un véritable avantage concurrentiel. Traiter cette régulation comme une simple formalité juridique de dernière minute serait une erreur stratégique.",
+   "note": 2,
+   "justification": "Cet article aborde l'aspect juridique et stratégique de l'IA, ce qui est peu utile pour un développeur SLAM.",
+   "favori": false
+  },
+  {
+   "id": 305,
+   "titre": "Rendering huge pull requests in the GitHub Copilot app",
+   "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+   "source": "GitHub Blog (IA)",
+   "categorie": "Développement",
+   "date": "2026-09-23T18:29:49+00:00",
+   "collecte": "2026-10-09T23:22:25.871273+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Copilot"
+   ],
+   "resume": "GitHub a refondu l'affichage des diffs dans son application Copilot pour gérer d'immenses pull requests d'un million de lignes. Cette amélioration technique permet de naviguer plus efficacement dans des revues de code complexes.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'évolution des outils de développement assistés par l'IA.",
    "favori": false
   }
  ]

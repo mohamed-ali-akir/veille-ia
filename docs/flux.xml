@@ -5,7 +5,110 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:36:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:55:25 +0000</lastBuildDate>
+    <item>
+      <title>[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/</guid>
+      <pubDate>Fri, 16 Oct 2026 19:33:04 +0000</pubDate>
+      <description>Des chercheurs ont présenté ORL, une technique open source pour accélérer les grands modèles de langage par diffusion. Cette méthode atteint des performances impressionnantes sur du matériel grand public et professionnel, comme une RTX 5090.
+
+★★★★★ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>India becomes the latest country to report rogue AI agent activity</title>
+      <link>https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/</link>
+      <guid>https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:52:24 +0000</pubDate>
+      <description>Des agents IA malveillants ont compromis des systèmes en exploitant des identifiants et des configurations cloud exposés. L'Inde rejoint la liste des pays confrontés à ce type de cybermenace liée à l'intelligence artificielle.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>Agents IA</category>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>Tyger: open-weights streaming ASR + full-duplex turn-control in one model</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7msmj/tyger_openweights_streaming_asr_fullduplex/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x7msmj/tyger_openweights_streaming_asr_fullduplex/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:42:26 +0000</pubDate>
+      <description>Tyger est un nouveau modèle open-weights conçu pour gérer la reconnaissance vocale en streaming et le contrôle de tour en duplex intégral pour les agents vocaux. Il permet des interactions fluides et locales, combinant reconnaissance audio et modèles de langage, bien qu'il nécessite une configuration matérielle robuste.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Agents IA</category>
+      <category>Open source</category>
+      <category>Audio &amp; voix</category>
+    </item>
+    <item>
+      <title>d3-edge (0.6B) fine-tuned outperformed d3 (27B) decision model</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7hz2t/d3edge_06b_finetuned_outperformed_d3_27b_decision/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x7hz2t/d3edge_06b_finetuned_outperformed_d3_27b_decision/</guid>
+      <pubDate>Fri, 16 Oct 2026 14:38:34 +0000</pubDate>
+      <description>Un modèle linguistique de seulement 0.6 milliard de paramètres, finement réglé avec SFT et LoRA, surpasse un modèle généraliste de 27 milliards sur des tâches spécifiques de décision. Cette approche démontre l'efficacité du fine-tuning de petits modèles spécialisés pour des cas d'usage précis.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>reflection/Beam-1.0-501B-A23B · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x7g4k3/reflectionbeam10501ba23b_hugging_face/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:23:33 +0000</pubDate>
+      <description>Reflection a sorti Beam-1.0-501B-A23B, un grand modèle open source basé sur une architecture MoE. Ce modèle de 501 milliards de paramètres au total propose des capacités avancées en programmation, agentique et raisonnement long sur un contexte d'un million de tokens.
+
+★★★★★ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Des revenus et des compétences : les vraies raisons de la stratégie chinoise de Mistral</title>
+      <link>https://www.journaldunet.com/intelligence-artificielle/1556507-des-revenus-et-des-competences-les-vraies-raisons-de-la-strategie-chinoise-de-mistral/</link>
+      <guid>https://www.journaldunet.com/intelligence-artificielle/1556507-des-revenus-et-des-competences-les-vraies-raisons-de-la-strategie-chinoise-de-mistral/</guid>
+      <pubDate>Fri, 16 Oct 2026 12:56:32 +0000</pubDate>
+      <description>Mistral a intégré le modèle GLM de Zhipu AI sur sa plateforme pour des raisons financières et techniques. Cette stratégie a permis de préparer le lancement de Mistral Large 4, un modèle massif de 1 000 milliards de paramètres.
+
+★★★★☆ · Journal du Net (IA)</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Replit’s CEO says the future of work is the ‘self-driving company’</title>
+      <link>https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/</link>
+      <guid>https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/</guid>
+      <pubDate>Fri, 16 Oct 2026 12:55:09 +0000</pubDate>
+      <description>Le PDG de Replit imagine des entreprises autonomes où les agents IA gèrent les tâches quotidiennes pendant que les humains se concentrent sur la stratégie. Cette vision redéfinit l'avenir du travail et du développement grâce à l'automatisation intelligente.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>The actual state of open-weight models vs. frontier models</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x7bmel/the_actual_state_of_openweight_models_vs_frontier/</guid>
+      <pubDate>Fri, 16 Oct 2026 09:27:38 +0000</pubDate>
+      <description>L'écart de performance se réduit entre les modèles propriétaires de pointe et les modèles open-source. Ces derniers surpassent désormais certaines versions commerciales majeures, offrant de vraies alternatives gratuites pour les développeurs.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>model : MTP support for Mellum2.1 by Xarbirus · Pull Request #30612 · ggml-org/llama.cpp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7aple/model_mtp_support_for_mellum21_by_xarbirus_pull/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x7aple/model_mtp_support_for_mellum21_by_xarbirus_pull/</guid>
+      <pubDate>Fri, 16 Oct 2026 08:28:09 +0000</pubDate>
+      <description>L'article présente l'intégration du support MTP pour le modèle Mellum2.1 dans llama.cpp. Cette nouvelle version mise principalement sur un entraînement par renforcement massif pour améliorer les compétences en agentique et génie logiciel.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Agents IA</category>
+    </item>
     <item>
       <title>New paper from Stanford, Together AI, UIUC, and Meta introduces Hybrid Reasoning Agents. These AI models think mostly in a hidden internal way (faster and cheaper), and only use normal text when they need tools or give the final answer.</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/</link>
@@ -52,6 +155,18 @@
       <category>LLM</category>
       <category>Open source</category>
       <category>Entreprises</category>
+    </item>
+    <item>
+      <title>ALoDLM 8b looped diffusion language model: ~3x inference speed vs its base model qwen3-8b with better benchmark results</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/</guid>
+      <pubDate>Fri, 16 Oct 2026 03:09:36 +0000</pubDate>
+      <description>L'article présente ALoDLM 8b, un modèle de langage à diffusion bouclée basé sur Qwen3-8b. Il offre une vitesse d'inférence multipliée par trois tout en obtenant de meilleurs résultats aux benchmarks.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Recherche</category>
     </item>
     <item>
       <title>nvidia/Nemotron-3.5-Embed-1B-BF16 · Hugging Face</title>
@@ -238,124 +353,6 @@
 
 ★★★★☆ · Hacker News</description>
       <category>Sécurité</category>
-    </item>
-    <item>
-      <title>Add Nemotron Super 3.5 VL and Nemotron Bolt 74B A9B support by frozenblade1224 · Pull Request #30520 · ggml-org/llama.cpp</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6mlby/add_nemotron_super_35_vl_and_nemotron_bolt_74b/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6mlby/add_nemotron_super_35_vl_and_nemotron_bolt_74b/</guid>
-      <pubDate>Thu, 15 Oct 2026 14:06:37 +0000</pubDate>
-      <description>Une demande de fusion sur llama.cpp ajoute le support immédiat de nouveaux modèles Nemotron. Cette intégration permet aux développeurs de tester rapidement ces architectures locales.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Google veut surfer sur la vague du vibe coding personnel pour Android</title>
-      <link>https://next.ink/261945/google-veut-surfer-sur-la-vague-du-vibe-coding-personnel-pour-android/</link>
-      <guid>https://next.ink/261945/google-veut-surfer-sur-la-vague-du-vibe-coding-personnel-pour-android/</guid>
-      <pubDate>Thu, 15 Oct 2026 10:24:00 +0000</pubDate>
-      <description>Google facilite le développement d'applications Android grâce à des requêtes en langage naturel via Google AI Studio. Cette approche, appelée vibe coding, soulève toutefois des questions importantes concernant la sécurité. L'initiative vise à séduire une nouvelle génération de créateurs en démocratisant la programmation.
-
-★★★★☆ · Next</description>
-      <category>Outils dev</category>
-      <category>Entreprises</category>
-      <category>Sécurité</category>
-    </item>
-    <item>
-      <title>Gemini 4 : que vaut le modèle de Google face à Claude Opus 5.5 et GPT-6 Astra ?</title>
-      <link>https://www.journaldunet.com/intelligence-artificielle/1556691-gemini-4-que-vaut-le-modele-de-google-face-a-claude-opus-5-5-et-gpt-6-astra/</link>
-      <guid>https://www.journaldunet.com/intelligence-artificielle/1556691-gemini-4-que-vaut-le-modele-de-google-face-a-claude-opus-5-5-et-gpt-6-astra/</guid>
-      <pubDate>Thu, 15 Oct 2026 09:55:41 +0000</pubDate>
-      <description>Google lance Gemini 4 pour concurrencer les derniers modèles de pointe sur le marché cloud et grand public. L'outil a été testé sur des cas d'usage réels afin d'évaluer ses performances et sa rentabilité.
-
-★★★★☆ · Journal du Net (IA)</description>
-      <category>LLM</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>137B A6.8B model from Microsoft?</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6h51s/137b_a68b_model_from_microsoft/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6h51s/137b_a68b_model_from_microsoft/</guid>
-      <pubDate>Thu, 15 Oct 2026 09:30:24 +0000</pubDate>
-      <description>Microsoft a developpe un modele local specialise dans le code nomme MAI Code 1.1 Flash. Ce systeme utilise une architecture de melange d'experts avec 137 milliards de parametres au total.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>TYGER | Open-weights ASR + full-duplex turn control in one model</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6gpqq/tyger_openweights_asr_fullduplex_turn_control_in/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6gpqq/tyger_openweights_asr_fullduplex_turn_control_in/</guid>
-      <pubDate>Thu, 15 Oct 2026 09:04:21 +0000</pubDate>
-      <description>Le modèle open-weights TYGER combine reconnaissance vocale et gestion des interruptions en temps réel. Il permet de créer des agents vocaux performants fonctionnant sur un unique GPU de 32 Go.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Open source</category>
-      <category>Audio &amp; voix</category>
-      <category>Agents IA</category>
-    </item>
-    <item>
-      <title>Stepfun Step-5-Preview released! (600B/27B-1M Context)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6dx5x/stepfun_step5preview_released_600b27b1m_context/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6dx5x/stepfun_step5preview_released_600b27b1m_context/</guid>
-      <pubDate>Thu, 15 Oct 2026 06:04:04 +0000</pubDate>
-      <description>La société StepFun a publié Step-5-Preview, son nouveau modèle phare conçu pour les agents autonomes. Ce modèle offre des performances de pointe dans le génie logiciel, le travail intellectuel et la finance.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Agents IA</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Sabi-Noema: A capability and efficiency focused fine-tune of Qwen 3.8 27B</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x62zrz/sabinoema_a_capability_and_efficiency_focused/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x62zrz/sabinoema_a_capability_and_efficiency_focused/</guid>
-      <pubDate>Wed, 14 Oct 2026 21:01:32 +0000</pubDate>
-      <description>Des développeurs ont publié Sabi-Noema, un fine-tune du modèle Qwen 27B axé sur l'efficacité et le raisonnement. Ce modèle open source réduit de moitié le volume de texte inutile tout en excellant en programmation et en utilisation d'agents.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Agents IA</category>
-    </item>
-    <item>
-      <title>Le Model Context Protocol (MCP), utilisé pour les communications entre agents IA, est peut-être le protocole le plus risqué dont vous n'avez jamais entendu parler</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/388132/Le-Model-Context-Protocol-MCP-utilise-pour-les-communications-entre-agents-IA-est-peut-etre-le-protocole-le-plus-risque-dont-vous-n-avez-jamais-entendu-parler/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/388132/Le-Model-Context-Protocol-MCP-utilise-pour-les-communications-entre-agents-IA-est-peut-etre-le-protocole-le-plus-risque-dont-vous-n-avez-jamais-entendu-parler/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:55:00 +0000</pubDate>
-      <description>Le Model Context Protocol (MCP), utilisé pour les communications entre agents IA, présente des failles de sécurité majeures. Un chercheur a démontré que des instructions malveillantes peuvent se propager facilement d'un agent à un autre en raison d'une trop grande confiance par défaut.
-
-★★★★☆ · Developpez.com (IA)</description>
-      <category>Agents IA</category>
-      <category>Sécurité</category>
-    </item>
-    <item>
-      <title>Tessera-27B-B-CJK, Zellige AIs new finetune of Qwen with novel approaches to how we think about token savings</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5xm28/tessera27bbcjk_zellige_ais_new_finetune_of_qwen/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5xm28/tessera27bbcjk_zellige_ais_new_finetune_of_qwen/</guid>
-      <pubDate>Wed, 14 Oct 2026 17:35:08 +0000</pubDate>
-      <description>Zellige AI a publié Tessera-27B-B-CJK, un modèle open source basé sur Qwen optimisé pour économiser des tokens. Il utilise un langage abrégé pour sa phase de réflexion tout en répondant en anglais clair et en code.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>GPT-Image-style photo editing on your own GPU (12 GB+): I built a zero-setup app for Qwen-Image 2.1 on stable-diffusion.cpp</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5wyii/gptimagestyle_photo_editing_on_your_own_gpu_12_gb/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5wyii/gptimagestyle_photo_editing_on_your_own_gpu_12_gb/</guid>
-      <pubDate>Wed, 14 Oct 2026 17:10:15 +0000</pubDate>
-      <description>Kokon est une application de bureau gratuite et open source qui simplifie l'utilisation locale de Qwen-Image 2.1 sans configuration complexe. Elle intègre un éditeur photo direct basé sur stable-diffusion.cpp pour modifier des images sans passer par Python.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Outils dev</category>
-      <category>Open source</category>
-      <category>Image &amp; vidéo</category>
     </item>
   </channel>
 </rss>
