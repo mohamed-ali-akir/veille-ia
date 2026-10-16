@@ -5,7 +5,89 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 15 Oct 2026 20:15:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:36:10 +0000</lastBuildDate>
+    <item>
+      <title>New paper from Stanford, Together AI, UIUC, and Meta introduces Hybrid Reasoning Agents. These AI models think mostly in a hidden internal way (faster and cheaper), and only use normal text when they need tools or give the final answer.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/</guid>
+      <pubDate>Fri, 16 Oct 2026 07:58:04 +0000</pubDate>
+      <description>Des chercheurs ont introduit les Hybrid Reasoning Agents, des modèles d'IA qui réfléchissent en interne pour être plus rapides et économiques. Sur divers tests, ils surpassent les modèles traditionnels tout en consommant deux fois moins de jetons.
+
+★★★★★ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Recherche</category>
+    </item>
+    <item>
+      <title>Meta lance le nouveau modèle d'IA Muse Spark Open, « le modèle américain à poids ouvert le plus performant à ce jour », optimisé pour fonctionner sur le Mac Studio équipé de la puce M5 Ultra</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/388182/Meta-lance-le-nouveau-modele-d-IA-Muse-Spark-Open-le-modele-americain-a-poids-ouvert-le-plus-performant-a-ce-jour-optimise-pour-fonctionner-sur-le-Mac-Studio-equipe-de-la-puce-M5-Ultra/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/388182/Meta-lance-le-nouveau-modele-d-IA-Muse-Spark-Open-le-modele-americain-a-poids-ouvert-le-plus-performant-a-ce-jour-optimise-pour-fonctionner-sur-le-Mac-Studio-equipe-de-la-puce-M5-Ultra/</guid>
+      <pubDate>Fri, 16 Oct 2026 07:39:00 +0000</pubDate>
+      <description>Meta a lance Muse Spark Open, un nouveau modele d'intelligence artificielle a poids ouvert presente comme le plus performant aux Etats-Unis. Ce modele est notamment optimise pour fonctionner sur le Mac Studio dote d'une puce M5 Ultra.
+
+★★★★★ · Developpez.com (IA)</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Un agent IA peut exécuter l'outil que son modèle dit refuser</title>
+      <link>https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/</link>
+      <guid>https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/</guid>
+      <pubDate>Fri, 16 Oct 2026 06:04:00 +0000</pubDate>
+      <description>Une étude montre qu'un agent IA peut exécuter un outil alors même que son modèle de langage prétend le refuser. De plus, de nombreux bogues ont été identifiés dans les serveurs MCP, soulignant le besoin crucial de sécuriser l'orchestration.
+
+★★★★☆ · ActuIA</description>
+      <category>Agents IA</category>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>Avec Muse Spark Open, Meta ouvre les poids et se rapproche d’Apple</title>
+      <link>https://next.ink/262141/avec-muse-spark-open-meta-ouvre-les-poids-et-se-rapproche-dapple/</link>
+      <guid>https://next.ink/262141/avec-muse-spark-open-meta-ouvre-les-poids-et-se-rapproche-dapple/</guid>
+      <pubDate>Fri, 16 Oct 2026 05:05:30 +0000</pubDate>
+      <description>Meta lance Muse Spark Open, un nouveau modèle d'intelligence artificielle à poids ouverts, et s'associe curieusement avec Apple pour permettre son exécution en local. Cette initiative marque le retour de Meta vers l'open source pour concurrencer les solutions propriétaires.
+
+★★★★☆ · Next</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>nvidia/Nemotron-3.5-Embed-1B-BF16 · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x70qhu/nvidianemotron35embed1bbf16_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x70qhu/nvidianemotron35embed1bbf16_hugging_face/</guid>
+      <pubDate>Thu, 15 Oct 2026 23:22:20 +0000</pubDate>
+      <description>NVIDIA a publié Nemotron-3.5-Embed-1B-BF16, un modèle d'embedding multimodal et multilingue. Il permet de récupérer des documents sous forme de texte, d'image ou combinés.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>ibm-granite/granite-switch-4.1 30B/8B</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6wwx2/ibmgranitegraniteswitch41_30b8b/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6wwx2/ibmgranitegraniteswitch41_30b8b/</guid>
+      <pubDate>Thu, 15 Oct 2026 20:38:05 +0000</pubDate>
+      <description>IBM lance Granite Switch 4.1 30B, un grand modèle de langage modulaire combinant texte, décisions et reconnaissance vocale en un seul point de terminaison. Ce modèle open source sous licence Apache 2.0 utilise des adaptateurs activés par des jetons de contrôle.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/</guid>
+      <pubDate>Thu, 15 Oct 2026 20:09:00 +0000</pubDate>
+      <description>Les modèles Ternary Bonsai 2, disponibles en 2B, 4B et 9B sur Hugging Face, permettent une exécution locale très rapide. Notamment, la version 2B atteint 500 tokens par seconde directement dans le navigateur grâce à WebGPU.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
     <item>
       <title>Meta launches an open-weight AI model that runs on Macs</title>
       <link>https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/</link>
@@ -274,87 +356,6 @@
       <category>Outils dev</category>
       <category>Open source</category>
       <category>Image &amp; vidéo</category>
-    </item>
-    <item>
-      <title>New model from Telperion: Qwen3.8-27B-MLA &amp; Qwen3.8-27B-GLA-g2. 4x smaller KV cache, smarter, and more efficient reasoning.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5wcnz/new_model_from_telperion_qwen3827bmla/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5wcnz/new_model_from_telperion_qwen3827bmla/</guid>
-      <pubDate>Wed, 14 Oct 2026 16:47:46 +0000</pubDate>
-      <description>Telperion a lance de nouvelles variantes du modele Qwen3.8-27B utilisant l'attention latente pour compresser le cache KV par quatre. Cette technique ameliore les performances sur le benchmark SWE tout en reduisant l'utilisation des jetons de raisonnement.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Recherche</category>
-    </item>
-    <item>
-      <title>A 35B multimodal model running on a phone with ~3GB memory? MiniCPM-V 4.7 demo is pretty wild</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5uwnd/a_35b_multimodal_model_running_on_a_phone_with/</guid>
-      <pubDate>Wed, 14 Oct 2026 15:53:48 +0000</pubDate>
-      <description>Le modèle multimodal MiniCPM-V 4.7 démontre qu'il est possible de faire tourner localement des intelligences artificielles puissantes sur mobile grâce à des optimisations comme le LES. Cette avancée permet d'exécuter des tâches de vision et de raisonnement directement sur l'appareil sans passer par le cloud.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>JetBrains Mellum 2.1 12B A2.5B MoE is a very good model.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5uqcu/jetbrains_mellum_21_12b_a25b_moe_is_a_very_good/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5uqcu/jetbrains_mellum_21_12b_a25b_moe_is_a_very_good/</guid>
-      <pubDate>Wed, 14 Oct 2026 15:47:08 +0000</pubDate>
-      <description>JetBrains a publié Mellum 2.1, un modèle MoE de 12B taillé pour le code. Il offre d'excellentes performances locales et des vitesses élevées même sur des cartes graphiques modestes.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Anthropic remplace Git par son système interne Scion après que Claude a dépassé les 30 000 fusions de code quotidiennes, pour accélérer les extractions et réduire les coûts d'infrastructure</title>
-      <link>https://alm.developpez.com/actu/388122/Anthropic-remplace-Git-par-son-systeme-interne-Scion-apres-que-Claude-a-depasse-les-30-000-fusions-de-code-quotidiennes-pour-accelerer-les-extractions-et-reduire-les-couts-d-infrastructure/</link>
-      <guid>https://alm.developpez.com/actu/388122/Anthropic-remplace-Git-par-son-systeme-interne-Scion-apres-que-Claude-a-depasse-les-30-000-fusions-de-code-quotidiennes-pour-accelerer-les-extractions-et-reduire-les-couts-d-infrastructure/</guid>
-      <pubDate>Wed, 14 Oct 2026 15:28:00 +0000</pubDate>
-      <description>Anthropic a abandonné Git au profit de son système interne Scion. Ce changement fait suite à une explosion des fusions de code quotidiennes générées par l'IA Claude.
-
-★★★★☆ · Developpez.com (IA)</description>
-      <category>Outils dev</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>inclusionAI/Ling-3.1-flash · Hugging Face</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5tsni/inclusionailing31flash_hugging_face/</guid>
-      <pubDate>Wed, 14 Oct 2026 15:11:14 +0000</pubDate>
-      <description>L'article présente Ling-3.1-flash, un nouveau modèle de langage doté de 560 milliards de paramètres totaux et d'une grande fenêtre de contexte. Cette annonce suscite l'étonnement de la communauté par l'ampleur de son architecture par rapport à la version précédente.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>NVIDIA Nemotron Bolt 3.5 74B A9B releases Oct. 15th</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x5t1tm/nvidia_nemotron_bolt_35_74b_a9b_releases_oct_15th/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:42:30 +0000</pubDate>
-      <description>NVIDIA annonce le modèle Nemotron Bolt 3.5 74B, un modèle MoE optimisé par quantification 2 bits. Il offre un équilibre entre vitesse et performance tout en tenant dans 24 Go de mémoire.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>Amp puts AI agents to work beyond code with OpenAI models</title>
-      <link>https://openai.com/index/amp-beyond-coding</link>
-      <guid>https://openai.com/index/amp-beyond-coding</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-      <description>Amp intègre de nouveaux modèles OpenAI pour repousser les limites des agents IA au-delà du simple code. Cette technologie permet d'automatiser des tâches complexes grâce à des outils innovants.
-
-★★★★☆ · OpenAI News</description>
-      <category>Agents IA</category>
-      <category>LLM</category>
     </item>
   </channel>
 </rss>

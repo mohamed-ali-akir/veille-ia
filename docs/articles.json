@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-10-15T20:15:18+00:00",
+ "genere_le": "2026-10-16T09:36:10+00:00",
  "statistiques": {
-  "collectes": 1100,
-  "gardes_mots_cles": 663,
-  "analyses_ia": 598,
-  "affiches": 596
+  "collectes": 1157,
+  "gardes_mots_cles": 695,
+  "analyses_ia": 626,
+  "affiches": 624
  },
  "essentiel": {
   "debut": "2026-10-03T10:51:44.668395+00:00",
@@ -49,6 +49,536 @@
   ]
  },
  "articles": [
+  {
+   "id": 6030,
+   "titre": "Qwen Flash Next potential SOTA Q2 nobody talks about",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7bboy/qwen_flash_next_potential_sota_q2_nobody_talks/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T09:08:25+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "inference",
+    "Qwen"
+   ],
+   "resume": "Cet article discute des performances d'une nouvelle quantification non officielle nommée GYRO pour le modèle Qwen. Il compare sa taille et sa précision par rapport à d'autres méthodes existantes comme ISTA.",
+   "note": 3,
+   "justification": "C'est intéressant pour un développeur qui s'intéresse à l'optimisation et à l'exécution locale des grands modèles de langage.",
+   "favori": false
+  },
+  {
+   "id": 5664,
+   "titre": "Anthropic verrouille Claude contre la distillation, ses clients paient une part",
+   "url": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/",
+   "source": "ActuIA",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T08:14:25+00:00",
+   "collecte": "2026-10-16T09:27:30.945721+00:00",
+   "tags": [
+    "LLM",
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Claude",
+    "Anthropic"
+   ],
+   "resume": "Anthropic a considérablement renforcé les mesures techniques pour empêcher la distillation de son modèle Claude. Cependant, ces nouvelles barrières de sécurité modifient les habitudes des développeurs et facturent les requêtes bloquées.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre les aspects économiques et de sécurité liés à l'utilisation des LLM.",
+   "favori": false
+  },
+  {
+   "id": 5964,
+   "titre": "Amazon dévoile deux nouveaux appareils Bee dotés d'une « IA personnelle » qui enregistrent, transcrivent et analysent en continu les conversations, le Bee Frontier à 75 $ et le Bee Eclipse à 100 $",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388183/Amazon-devoile-deux-nouveaux-appareils-Bee-dotes-d-une-IA-personnelle-qui-enregistrent-transcrivent-et-analysent-en-continu-les-conversations-le-Bee-Frontier-a-75-et-le-Bee-Eclipse-a-100/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-16T08:12:00+00:00",
+   "collecte": "2026-10-16T09:27:51.312845+00:00",
+   "tags": [
+    "Entreprises",
+    "Audio & voix"
+   ],
+   "mots_cles": [
+    "intelligence artificielle",
+    "IA"
+   ],
+   "resume": "Amazon a lancé les appareils Bee Frontier et Bee Eclipse équipés d'une intelligence artificielle personnelle. Ces gadgets enregistrent, transcrivent et analysent en continu les conversations quotidiennes.",
+   "note": 2,
+   "justification": "Ces gadgets grand public sont peu utiles pour un développeur logiciel en BTS SIO.",
+   "favori": false
+  },
+  {
+   "id": 6015,
+   "titre": "New paper from Stanford, Together AI, UIUC, and Meta introduces Hybrid Reasoning Agents. These AI models think mostly in a hidden internal way (faster and cheaper), and only use normal text when they need tools or give the final answer.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T07:58:04+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Des chercheurs ont introduit les Hybrid Reasoning Agents, des modèles d'IA qui réfléchissent en interne pour être plus rapides et économiques. Sur divers tests, ils surpassent les modèles traditionnels tout en consommant deux fois moins de jetons.",
+   "note": 5,
+   "justification": "Cette innovation sur les agents hybrides modifie l'efficacité et les coûts des modèles.",
+   "favori": false
+  },
+  {
+   "id": 6021,
+   "titre": "cpu : reduce AVX2 tiled accumulators together by trivalik · Pull Request #30296 · ggml-org/llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a59i/cpu_reduce_avx2_tiled_accumulators_together_by/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T07:52:47+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Llama",
+    "GPU"
+   ],
+   "resume": "Cette pull request sur le projet llama.cpp optimise les accumulateurs AVX2 pour améliorer les performances d'inférence des modèles de langage sur les processeurs. Ces changements permettent d'obtenir plus de tokens par seconde pour les utilisateurs exécutant des LLM en local sans carte graphique puissante.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'optimisation des performances des LLM sur CPU.",
+   "favori": false
+  },
+  {
+   "id": 5965,
+   "titre": "Meta lance le nouveau modèle d'IA Muse Spark Open, « le modèle américain à poids ouvert le plus performant à ce jour », optimisé pour fonctionner sur le Mac Studio équipé de la puce M5 Ultra",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388182/Meta-lance-le-nouveau-modele-d-IA-Muse-Spark-Open-le-modele-americain-a-poids-ouvert-le-plus-performant-a-ce-jour-optimise-pour-fonctionner-sur-le-Mac-Studio-equipe-de-la-puce-M5-Ultra/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-16T07:39:00+00:00",
+   "collecte": "2026-10-16T09:27:51.312845+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Meta a lance Muse Spark Open, un nouveau modele d'intelligence artificielle a poids ouvert presente comme le plus performant aux Etats-Unis. Ce modele est notamment optimise pour fonctionner sur le Mac Studio dote d'une puce M5 Ultra.",
+   "note": 5,
+   "justification": "La sortie d'un nouveau modele open source performant et optimise pour du materiel recent interesse directement les developpeurs.",
+   "favori": false
+  },
+  {
+   "id": 6020,
+   "titre": "DeepSeek V4.1 Flash on 4x DGX Spark: my numbers vs Patrick Moorhead's results via Wccftech.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x79ijg/deepseek_v41_flash_on_4x_dgx_spark_my_numbers_vs/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T07:11:48+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Matériel & GPU",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek",
+    "Nvidia"
+   ],
+   "resume": "Un utilisateur analyse et compare ses propres benchmarks du modèle DeepSeek sur une configuration matérielle spécifique avec les résultats publiés par Patrick Moorhead. Il critique le manque de détails techniques fournis dans l'article d'origine concernant la configuration logicielle utilisée.",
+   "note": 3,
+   "justification": "Intéressant pour voir des retours d'expérience matériels sur l'exécution locale de grands modèles de langage.",
+   "favori": false
+  },
+  {
+   "id": 5966,
+   "titre": "Accenture plafonne désormais le financement centralisé de Claude Enterprise à 29 $ par mois et par employé, la décision marque un désengagement de l'entreprise dans un contexte d'explosion des coûts liés à l'IA",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388180/Accenture-plafonne-desormais-le-financement-centralise-de-Claude-Enterprise-a-29-par-mois-et-par-employe-la-decision-marque-un-desengagement-de-l-entreprise-dans-un-contexte-d-explosion-des-couts-lies-a-l-IA/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-16T06:46:00+00:00",
+   "collecte": "2026-10-16T09:27:51.312845+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "Claude",
+    "IA"
+   ],
+   "resume": "Accenture a décidé de plafonner le financement centralisé de Claude Enterprise à 29 dollars par mois et par employé. Cette mesure restrictive interne fait suite à une explosion des coûts liés à l'intelligence artificielle.",
+   "note": 2,
+   "justification": "Cet article traite de la gestion financière interne d'une grande entreprise mais apporte peu de valeur technique pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 5967,
+   "titre": "Le FMI met en garde contre un krach boursier lié à la bulle de l'IA, alimentée par les dépenses financées par l'endettement, qui menacent les marchés mondiaux",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388179/Le-FMI-met-en-garde-contre-un-krach-boursier-lie-a-la-bulle-de-l-IA-alimentee-par-les-depenses-financees-par-l-endettement-qui-menacent-les-marches-mondiaux/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-16T06:31:00+00:00",
+   "collecte": "2026-10-16T09:27:51.312845+00:00",
+   "tags": [
+    "Entreprises",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Le FMI avertit que l'économie mondiale fait face à des risques de krach boursier en raison de l'endettement massif des géants de la tech pour financer l'IA. Les dépenses excessives dans les centres de données menacent ainsi la stabilité des marchés financiers.",
+   "note": 2,
+   "justification": "Cet article aborde les aspects financiers de l'IA mais n'apporte rien de concret pour le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 5666,
+   "titre": "Un agent IA peut exécuter l'outil que son modèle dit refuser",
+   "url": "https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/",
+   "source": "ActuIA",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T06:04:00+00:00",
+   "collecte": "2026-10-16T09:27:30.945721+00:00",
+   "tags": [
+    "Agents IA",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "IA",
+    "MCP"
+   ],
+   "resume": "Une étude montre qu'un agent IA peut exécuter un outil alors même que son modèle de langage prétend le refuser. De plus, de nombreux bogues ont été identifiés dans les serveurs MCP, soulignant le besoin crucial de sécuriser l'orchestration.",
+   "note": 4,
+   "justification": "Cet article met en lumière un risque critique d'orchestration et de sécurité pour le développement d'agents IA.",
+   "favori": false
+  },
+  {
+   "id": 5682,
+   "titre": "Pour Linus Torvalds, le code généré par IA est légitime, à condition de savoir le lire",
+   "url": "https://next.ink/262097/pour-linus-torvalds-le-code-genere-par-ia-est-legitime-a-condition-de-savoir-le-lire/",
+   "source": "Next",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T06:02:53+00:00",
+   "collecte": "2026-10-16T09:27:33.936682+00:00",
+   "tags": [
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Linus Torvalds estime que le code généré par l'intelligence artificielle est tout à fait légitime dans le développement. La seule condition indispensable est que le programmeur sache le lire et le comprendre.",
+   "note": 3,
+   "justification": "C'est intéressant pour un développeur car cela concerne l'utilisation des assistants de code dans les projets.",
+   "favori": false
+  },
+  {
+   "id": 5667,
+   "titre": "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
+   "url": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/",
+   "source": "ActuIA",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T05:32:00+00:00",
+   "collecte": "2026-10-16T09:27:30.945721+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Gemini"
+   ],
+   "resume": "Google a annoncé une augmentation de 100% des tarifs de son API Gemini 4 Argon à partir du 1er décembre 2026. Cette hausse concerne l'ensemble des développeurs et entreprises utilisant ce modèle d'intelligence artificielle.",
+   "note": 3,
+   "justification": "Intéressant pour un développeur car l'évolution des coûts des API impacte directement le choix et l'architecture des applications.",
+   "favori": false
+  },
+  {
+   "id": 5683,
+   "titre": "Avec Muse Spark Open, Meta ouvre les poids et se rapproche d’Apple",
+   "url": "https://next.ink/262141/avec-muse-spark-open-meta-ouvre-les-poids-et-se-rapproche-dapple/",
+   "source": "Next",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T05:05:30+00:00",
+   "collecte": "2026-10-16T09:27:33.936682+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "Llama",
+    "IA",
+    "LLM"
+   ],
+   "resume": "Meta lance Muse Spark Open, un nouveau modèle d'intelligence artificielle à poids ouverts, et s'associe curieusement avec Apple pour permettre son exécution en local. Cette initiative marque le retour de Meta vers l'open source pour concurrencer les solutions propriétaires.",
+   "note": 4,
+   "justification": "Important pour les développeurs car l'arrivée de nouveaux modèles ouverts modifie l'écosystème de l'IA locale.",
+   "favori": false
+  },
+  {
+   "id": 5668,
+   "titre": "Recours rédigés par IA : la justice administrative sous pression",
+   "url": "https://www.actuia.com/actualite/recours-rediges-par-ia-la-justice-administrative-sous-pression/",
+   "source": "ActuIA",
+   "categorie": "Actualité FR",
+   "date": "2026-10-16T05:00:00+00:00",
+   "collecte": "2026-10-16T09:27:30.945721+00:00",
+   "tags": [
+    "Régulation",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "La justice administrative fait face à une hausse des affaires en raison de recours rédigés par l'intelligence artificielle. Le Conseil d'État alerte sur cette pression croissante exercée sur les tribunaux.",
+   "note": 2,
+   "justification": "Cet article traite de l'impact sociétal et juridique de l'IA, mais n'apporte rien de technique pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 6038,
+   "titre": "Single shot response given by a simple model on a \"potato\" system.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x721co/single_shot_response_given_by_a_simple_model_on_a/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T00:22:12+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "prompt"
+   ],
+   "resume": "Un utilisateur montre qu'un petit modèle de langage open-source tourne efficacement sur une configuration matérielle modeste. Il parvient à générer en une seule passe une application web interactive complète sur le système solaire.",
+   "note": 3,
+   "justification": "Intéressant pour voir les capacités des petits modèles locaux sur du matériel basique.",
+   "favori": false
+  },
+  {
+   "id": 5839,
+   "titre": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+   "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-15T23:44:56+00:00",
+   "collecte": "2026-10-16T09:27:41.119482+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "L'application Cal AI a connu un succès viral massif grâce à des campagnes d'influence, générant plus de 30 millions de dollars de revenus en deux ans. Elle a finalement été rachetée par MyFitnessPal en mars dernier.",
+   "note": 1,
+   "justification": "Cet article traite du marketing d'une application mais n'apporte aucune information technique utile pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 6037,
+   "titre": "nvidia/Nemotron-3.5-Embed-1B-BF16 · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70qhu/nvidianemotron35embed1bbf16_hugging_face/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-15T23:22:20+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "embedding",
+    "Hugging Face",
+    "Nvidia"
+   ],
+   "resume": "NVIDIA a publié Nemotron-3.5-Embed-1B-BF16, un modèle d'embedding multimodal et multilingue. Il permet de récupérer des documents sous forme de texte, d'image ou combinés.",
+   "note": 4,
+   "justification": "Ce nouveau modèle multimodal open source de NVIDIA est important pour l'intégration de la recherche documentaire.",
+   "favori": false
+  },
+  {
+   "id": 6019,
+   "titre": "**DeepSeek-V4-Flash-0731 on 4x Radeon AI PRO R9700 with affinity: the \"refused\" 4-card config works, ~79 tok/s on real cards**",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x70e5r/deepseekv4flash0731_on_4x_radeon_ai_pro_r9700/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-15T23:06:40+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "DeepSeek",
+    "AI"
+   ],
+   "resume": "Un développeur teste avec succès le modèle DeepSeek-V4-Flash sur quatre cartes graphiques AMD Radeon AI PRO R9700. Cette configuration matérielle spécifique permet d'atteindre une vitesse d'environ 79 tokens par seconde en local.",
+   "note": 3,
+   "justification": "Intéressant pour l'exécution locale de grands modèles sur du matériel spécialisé.",
+   "favori": false
+  },
+  {
+   "id": 5669,
+   "titre": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+   "url": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
+   "source": "ActuIA",
+   "categorie": "Actualité FR",
+   "date": "2026-10-15T22:39:08+00:00",
+   "collecte": "2026-10-16T09:27:30.945721+00:00",
+   "tags": [
+    "Régulation",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "IA",
+    "AI"
+   ],
+   "resume": "Le Bureau de l'IA prépare un projet européen permettant de prolonger jusqu'à dix ans le délai de prescription des sanctions de l'AI Act grâce aux enquêtes. Ce texte réglementaire est en consultation jusqu'au 9 novembre.",
+   "note": 2,
+   "justification": "Cet article traite de droit et de régulation, ce qui intéresse peu le développement technique.",
+   "favori": false
+  },
+  {
+   "id": 5670,
+   "titre": "LLMoin, l’assistant IA que sept Länder allemands mutualisent",
+   "url": "https://www.actuia.com/actualite/llmoin-lassistant-ia-que-sept-lander-allemands-mutualisent/",
+   "source": "ActuIA",
+   "categorie": "Actualité FR",
+   "date": "2026-10-15T22:39:08+00:00",
+   "collecte": "2026-10-16T09:27:30.945721+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Sept Länder allemands mutualisent LLMoin, un assistant IA sécurisé déjà utilisé par 100 000 agents publics. Ce projet démontre comment les administrations peuvent collaborer pour déployer des solutions d'intelligence artificielle souveraines.",
+   "note": 3,
+   "justification": "Intéressant pour observer l'adoption de l'IA dans le secteur public.",
+   "favori": false
+  },
+  {
+   "id": 5968,
+   "titre": "Un agent IA sans surveillance efface l'intégralité du montage d'une série télévisée plusieurs semaines avant sa diffusion, d'après le rapport d'un quotidien qui contredit la version officielle de la chaîne TV4",
+   "url": "https://intelligence-artificielle.developpez.com/actu/388176/Un-agent-IA-sans-surveillance-efface-l-integralite-du-montage-d-une-serie-televisee-plusieurs-semaines-avant-sa-diffusion-d-apres-le-rapport-d-un-quotidien-qui-contredit-la-version-officielle-de-la-chaine-TV4/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-15T22:13:00+00:00",
+   "collecte": "2026-10-16T09:27:51.312845+00:00",
+   "tags": [
+    "Agents IA",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "intelligence artificielle",
+    "IA"
+   ],
+   "resume": "Un agent IA fonctionnant sans surveillance aurait accidentellement effacé le montage complet d'une série télévisée suédoise. Cet incident relève les risques liés à l'automatisation et au manque de contrôle des systèmes autonomes.",
+   "note": 3,
+   "justification": "Cet article illustre les risques opérationnels liés au déploiement d'agents IA autonomes sans supervision humaine.",
+   "favori": false
+  },
+  {
+   "id": 6032,
+   "titre": "Ternary Bonsai 2 Family: 2B, 4B, & 9B based on Qwen 3.5",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6yk1f/ternary_bonsai_2_family_2b_4b_9b_based_on_qwen_35/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-15T21:45:44+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Qwen"
+   ],
+   "resume": "La famille de modèles Ternary Bonsai 2 (2B, 4B et 9B) basée sur Qwen 3.5 propose des alternatives potentiellement plus efficaces en mémoire. Ces modèles nécessitent des adaptations spécifiques pour l'inférence locale, comme l'utilisation sur iOS avec LocallyAI.",
+   "note": 3,
+   "justification": "Ces nouveaux modèles locaux offrent un intérêt technique pour tester l'optimisation des performances sur mobile.",
+   "favori": false
+  },
+  {
+   "id": 6028,
+   "titre": "ibm-granite/granite-switch-4.1 30B/8B",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wwx2/ibmgranitegraniteswitch41_30b8b/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-15T20:38:05+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "LLM"
+   ],
+   "resume": "IBM lance Granite Switch 4.1 30B, un grand modèle de langage modulaire combinant texte, décisions et reconnaissance vocale en un seul point de terminaison. Ce modèle open source sous licence Apache 2.0 utilise des adaptateurs activés par des jetons de contrôle.",
+   "note": 4,
+   "justification": "C'est un modèle modulaire open source innovant combinant texte et voix, utile pour les développeurs.",
+   "favori": false
+  },
+  {
+   "id": 6036,
+   "titre": "capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-15T20:20:40+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "agentic",
+    "prompt",
+    "Nvidia",
+    "GPU",
+    "GPUs"
+   ],
+   "resume": "Un développeur présente capy-flash, un nouveau moteur d'inférence optimisé pour exécuter des modèles massifs sur du matériel grand public. Ce projet utilise la quantification NVFP4 pour faire tourner de grands LLM sur deux cartes graphiques de 16 Go.",
+   "note": 3,
+   "justification": "Intéressant pour voir comment exécuter localement de grands modèles avec du matériel grand public.",
+   "favori": false
+  },
+  {
+   "id": 6024,
+   "titre": "Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-15T20:09:00+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Hugging Face"
+   ],
+   "resume": "Les modèles Ternary Bonsai 2, disponibles en 2B, 4B et 9B sur Hugging Face, permettent une exécution locale très rapide. Notamment, la version 2B atteint 500 tokens par seconde directement dans le navigateur grâce à WebGPU.",
+   "note": 4,
+   "justification": "Important pour un développeur car il montre l'exécution locale ultra-rapide de modèles de langage via WebGPU.",
+   "favori": false
+  },
   {
    "id": 5435,
    "titre": "Meta launches an open-weight AI model that runs on Macs",
@@ -149,6 +679,27 @@
    "resume": "Anthropic accorde aux chercheurs de METR un accès de niveau employé pour évaluer ses modèles d'intelligence artificielle avancés. L'entreprise s'engage également à publier ces évaluations sans droit de véto préalable.",
    "note": 3,
    "justification": "Intéressant pour comprendre comment les entreprises gèrent la sécurité et l'évaluation des risques des IA frontières.",
+   "favori": false
+  },
+  {
+   "id": 5859,
+   "titre": "Bringing GPT-Rosalind to academic research labs",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-15T19:00:00+00:00",
+   "collecte": "2026-10-16T09:27:42.819142+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "OpenAI lance le plan académique Rosalind pour offrir aux laboratoires de recherche un accès sponsorisé à GPT-Rosalind. Ce nouvel outil vise à accélérer les avancées scientifiques dans le domaine des sciences de la vie.",
+   "note": 3,
+   "justification": "Cet article présente un nouvel outil IA appliqué à la recherche, intéressant pour un développeur mais axé sur le milieu scientifique.",
    "favori": false
   },
   {
@@ -663,6 +1214,26 @@
    "resume": "Une analyse de 217 millions de réponses web met en évidence la présence d'injections de requêtes par l'intermédiaire des en-têtes HTTP. Cette étude démontre des risques de sécurité majeurs pour les applications exploitant des données non fiables via l'IA.",
    "note": 4,
    "justification": "Important pour comprendre les vulnérabilités de sécurité liées aux entrées utilisateur et aux LLM.",
+   "favori": false
+  },
+  {
+   "id": 6067,
+   "titre": "Using AI to reverse engineer hardware",
+   "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-15T14:35:15+00:00",
+   "collecte": "2026-10-16T09:27:56.694144+00:00",
+   "tags": [
+    "Outils dev",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article aborde l'utilisation de l'intelligence artificielle pour effectuer de la rétro-ingénierie sur du matériel informatique. Les discussions de la communauté soulignent les méthodes et les implications de cette approche technique.",
+   "note": 3,
+   "justification": "Intéressant pour découvrir des cas d'usage originaux de l'IA en rétro-ingénierie matérielle.",
    "favori": false
   },
   {
@@ -1538,6 +2109,27 @@
    "resume": "La startup Gudea utilise l'intelligence artificielle pour surveiller la propagation des rumeurs et des contenus viraux en ligne. Cet outil aide les organisations à anticiper et prévenir les crises sur les réseaux sociaux avant qu'elles ne s'amplifient.",
    "note": 2,
    "justification": "Cet article présente un outil métier plutôt qu'une nouveauté technique utile pour un développeur SLAM.",
+   "favori": false
+  },
+  {
+   "id": 5861,
+   "titre": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "url": "https://openai.com/index/sullivan-cromwell",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-15T00:00:00+00:00",
+   "collecte": "2026-10-16T09:27:42.819142+00:00",
+   "tags": [
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "La firme Sullivan & Cromwell a collaboré avec OpenAI pour développer Agreement Analyzer, un outil d'intelligence artificielle destiné à l'analyse des contrats. Cette solution juridique automatisée permet d'identifier rapidement les problèmes potentiels dans les projets d'accords.",
+   "note": 3,
+   "justification": "Cet outil montre l'application concrète des LLM dans le secteur juridique, intéressant pour un développeur.",
    "favori": false
   },
   {
@@ -12311,15 +12903,14 @@
    "date": "2026-09-29T08:10:19+00:00",
    "collecte": "2026-10-09T23:22:16.320399+00:00",
    "tags": [
-    "Éthique & société",
-    "Entreprises"
+    "Éthique & société"
    ],
    "mots_cles": [
     "IA"
    ],
-   "resume": "L'intelligence artificielle accélère les processus de travail et remet en question les notions traditionnelles d'effort et de compétence. Cet article interroge les nouveaux critères sur lesquels fonder la valeur et le mérite des salariés dans un contexte professionnel transformé par l'IA.",
+   "resume": "L'intelligence artificielle accélère l'exécution des tâches professionnelles et remet en question les notions traditionnelles d'effort et de compétence. Cette évolution pousse à repenser la définition et l'évaluation du mérite au travail.",
    "note": 2,
-   "justification": null,
+   "justification": "Cet article aborde la sociologie du travail mais n'apporte rien de technique pour un développeur.",
    "favori": false
   },
   {
@@ -12332,15 +12923,14 @@
    "collecte": "2026-10-09T23:22:16.320399+00:00",
    "tags": [
     "Agents IA",
-    "Sécurité",
-    "Entreprises"
+    "Sécurité"
    ],
    "mots_cles": [
     "OpenAI"
    ],
-   "resume": "L'article analyse la nécessité de surveiller les agents IA autonomes face aux risques de dérapages observés chez OpenAI. Il propose aux dirigeants quatre questions clés pour apprendre à déléguer en toute sécurité à leurs propres agents.",
+   "resume": "OpenAI a découvert les dérapages de ses agents grâce à d'autres IA. Cet article invite les responsables à mettre en place une surveillance rigoureuse pour déléguer des tâches à leurs agents en toute sécurité.",
    "note": 3,
-   "justification": null,
+   "justification": "C'est intéressant pour comprendre les risques de sécurité liés au déploiement d'agents IA autonomes.",
    "favori": false
   },
   {
@@ -12357,9 +12947,9 @@
    "mots_cles": [
     "IA"
    ],
-   "resume": "L'article explique que l'expression projet IA regroupe des réalités très différentes selon les objectifs. Il souligne l'importance de bien les distinguer pour adapter les outils, les compétences et les investissements.",
+   "resume": "L'article explique que l'expression projet IA regroupe des réalités très différentes. Cette distinction aide à mieux choisir les outils, les compétences et les investissements nécessaires.",
    "note": 2,
-   "justification": null,
+   "justification": "Cet article est trop généraliste et n'apporte pas de connaissances concrètes en développement logiciel.",
    "favori": false
   },
   {
@@ -12391,15 +12981,14 @@
    "date": "2026-09-28T19:00:00+00:00",
    "collecte": "2026-10-09T23:22:21.714309+00:00",
    "tags": [
-    "Sécurité",
-    "Entreprises"
+    "Sécurité"
    ],
    "mots_cles": [
     "OpenAI"
    ],
-   "resume": "OpenAI s'excuse suite à des incidents impliquant des sites web du gouvernement australien. L'entreprise présente de nouveaux garde-fous pour renforcer la cybersécurité en Australie.",
+   "resume": "OpenAI présente ses excuses suite à des incidents impliquant des sites gouvernementaux australiens. L'entreprise détaille de nouveaux mécanismes de sécurité pour renforcer les défenses cybernétiques du pays.",
    "note": 2,
-   "justification": null,
+   "justification": "Cet article traite de sécurité géopolitique mais n'apporte aucune nouveauté technique pour le développement d'applications.",
    "favori": false
   },
   {
@@ -12417,9 +13006,9 @@
    "mots_cles": [
     "AI"
    ],
-   "resume": "OpenAI publie de nouvelles directives concernant la sécurité lors de l'entraînement des intelligences artificielles frontières. Ces lignes directrices couvrent les mesures de protection techniques, les pratiques opérationnelles et l'analyse des incidents d'alignement.",
-   "note": 3,
-   "justification": null,
+   "resume": "OpenAI publie de nouvelles directives sur les dossiers de sécurité pour l'entraînement des IA de pointe. Ces lignes directrices abordent les mesures de protection techniques, les pratiques opérationnelles et l'analyse des incidents d'alignement.",
+   "note": 2,
+   "justification": "C'est une information de gouvernance et de sécurité globale, peu utile pour le développement pratique en BTS SIO.",
    "favori": false
   },
   {
@@ -12442,9 +13031,9 @@
     "Anthropic",
     "Codex"
    ],
-   "resume": "Cet article compare les performances des assistants de code Claude Code et Codex, propulsés respectivement par Claude Opus 5.5 et GPT-6. L'analyse met en évidence les différences d'utilisation réelle entre ces deux solutions d'intelligence artificielle pour les développeurs.",
-   "note": 5,
-   "justification": null,
+   "resume": "Cet article compare les agents de code Claude Code et Codex à l'ère de GPT-6 et Claude Opus 5.5. Il analyse leurs performances réelles par rapport aux promesses sur le papier pour les développeurs.",
+   "note": 4,
+   "justification": "Important pour un développeur car il compare des outils majeurs d'aide au codage.",
    "favori": false
   },
   {
@@ -12461,9 +13050,9 @@
    "mots_cles": [
     "IA"
    ],
-   "resume": "Cet article aborde la place grandissante de l'intelligence artificielle dans notre quotidien et soulève la question de son impact sur notre rapport au temps et aux relations humaines. L'auteur rappelle que malgré les gains de productivité promis, l'IA ne pourra jamais remplacer les moments précieux passés en famille.",
+   "resume": "L'article aborde avec ironie la place grandissante de l'intelligence artificielle dans notre quotidien et la perception qu'en ont les jeunes générations. Il rappelle également que malgré tous ses gains de productivité, l'IA ne pourra jamais remplacer le temps passé en famille.",
    "note": 1,
-   "justification": null,
+   "justification": "Cet article philosophique n'apporte aucune information technique utile pour un développeur en BTS SIO.",
    "favori": false
   },
   {
@@ -12475,17 +13064,17 @@
    "date": "2026-09-28T08:56:31+00:00",
    "collecte": "2026-10-09T23:22:16.320399+00:00",
    "tags": [
-    "Robotique",
-    "Matériel & GPU"
+    "Matériel & GPU",
+    "Robotique"
    ],
    "mots_cles": [
     "intelligence artificielle",
     "IA",
     "AI"
    ],
-   "resume": "L'intelligence artificielle entre dans une nouvelle ère qualifiée d'IA physique. Le principal défi de cette transition majeure sera d'ordre infrastructurel.",
+   "resume": "L'intelligence artificielle entre dans une nouvelle ère marquée par le concept d'IA physique. Ce tournant technologique pose de nouveaux défis majeurs en termes d'infrastructure.",
    "note": 3,
-   "justification": null,
+   "justification": "Intéressant pour comprendre l'évolution de l'IA vers le monde physique et ses besoins matériels.",
    "favori": false
   },
   {
@@ -12502,9 +13091,9 @@
    "mots_cles": [
     "IA"
    ],
-   "resume": "L'intelligence artificielle s'installe progressivement dans notre quotidien et au sein des entreprises depuis plus de vingt ans. Aujourd'hui, son intégration franchit une nouvelle étape importante dans les systèmes d'information.",
-   "note": 2,
-   "justification": null,
+   "resume": "L'intelligence artificielle s'intègre progressivement dans l'espace public et les systèmes d'information depuis plus de vingt ans. Aujourd'hui, son impact dans les entreprises franchit une nouvelle étape décisive.",
+   "note": 1,
+   "justification": "Cet article généraliste ne propose aucun contenu technique ou pratique utile pour un développeur.",
    "favori": false
   },
   {
@@ -12518,15 +13107,15 @@
    "tags": [
     "Agents IA",
     "Entreprises",
-    "Sécurité"
+    "Régulation"
    ],
    "mots_cles": [
     "agents IA",
     "IA"
    ],
-   "resume": "L'OCDE a mené une étude auprès de 25 organisations utilisant des agents IA. Les résultats montrent qu'aucune entreprise ne laisse ces systèmes agir sans limites, soulignant les enjeux de contrôle et de sécurité.",
+   "resume": "L'OCDE a interrogé vingt-cinq organisations utilisant des agents IA. Aucune d'elles ne laisse ces systèmes agir sans limites strictes. Cette étude met en lumière leurs pratiques, leurs manques et les questions à se poser.",
    "note": 3,
-   "justification": null,
+   "justification": "Intéressant pour comprendre l'encadrement des agents IA en entreprise, mais reste assez général.",
    "favori": false
   },
   {
@@ -12544,9 +13133,9 @@
     "IA",
     "AI"
    ],
-   "resume": "L'intelligence artificielle transforme profondément les environnements de travail professionnels en instaurant des modèles plus automatisés et collaboratifs. Cette évolution nécessite une adaptation constante combinant technologie, gouvernance et formation continue.",
+   "resume": "L'intelligence artificielle transforme les environnements de travail en créant des modèles plus adaptatifs, automatisés et collaboratifs. Cette évolution nécessite une intégration étroite entre la technologie, la gouvernance, la formation et la synergie humain-machine.",
    "note": 2,
-   "justification": null,
+   "justification": "Cet article aborde la transformation des entreprises par l'IA mais reste trop généraliste pour un développeur SLAM.",
    "favori": false
   },
   {
@@ -12559,16 +13148,15 @@
    "collecte": "2026-10-09T23:22:16.320399+00:00",
    "tags": [
     "Agents IA",
-    "Sécurité",
     "Entreprises"
    ],
    "mots_cles": [
     "agents IA",
     "IA"
    ],
-   "resume": "L'article aborde la question du consentement et de l'autonomie des agents IA dans le développement. Il introduit la notion de budget d'autonomie pour encadrer les actions et les autorisations nécessaires de ces systèmes.",
-   "note": 4,
-   "justification": null,
+   "resume": "Cet article analyse la question du consentement et de l'autonomie des agents IA. Il introduit la notion de budget d'autonomie pour encadrer les actions et décisions de ces systèmes.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre les limites et la gestion de l'autonomie des futurs agents logiciels.",
    "favori": false
   },
   {
@@ -12586,9 +13174,9 @@
     "OpenAI",
     "AI"
    ],
-   "resume": "OpenAI soutient le Lenfest Institute en étendant son programme d'aide avec un financement de 5 millions de dollars et des crédits logiciels. Cette initiative vise à accompagner des projets journalistiques et technologiques.",
-   "note": 1,
-   "justification": null,
+   "resume": "OpenAI soutient le Lenfest Institute avec cinq millions de dollars et des crédits logiciels. Ce programme vise à intégrer l'intelligence artificielle dans le journalisme local.",
+   "note": 2,
+   "justification": "Cet article concerne le journalisme et le financement, sans lien direct avec le développement d'applications.",
    "favori": false
   },
   {
@@ -12606,9 +13194,9 @@
    "mots_cles": [
     "Codex"
    ],
-   "resume": "OpenAI recherche des témoignages de développeurs et créateurs qui utilisent son outil Codex. L'objectif est de recueillir des histoires inspirantes pour enrichir son programme Codex Originals.",
+   "resume": "OpenAI recherche des retours d'expérience et des histoires de développeurs et créateurs utilisant Codex. L'objectif est de recueillir des témoignages pour alimenter la prochaine étape de leur programme Codex Originals.",
    "note": 2,
-   "justification": null,
+   "justification": "Cet article marketing concerne un appel à témoignages sans lien direct avec une nouveauté technique.",
    "favori": false
   },
   {
@@ -12626,9 +13214,9 @@
    "mots_cles": [
     "GPT"
    ],
-   "resume": "Le nouveau modèle d'intelligence artificielle GPT-6 Astra a accompli un travail de comptabilité deux fois plus rapidement que son prédécesseur. Ses performances accrues et sa meilleure compréhension des instructions renforcent la confiance des entreprises pour son utilisation concrète.",
+   "resume": "La nouvelle version GPT-6 Astra a complété un fichier de travail fiscal deux fois plus rapidement que son prédécesseur. Sa meilleure compréhension des intentions des utilisateurs renforce la confiance pour les applications du monde réel.",
    "note": 4,
-   "justification": null,
+   "justification": "Important car l'arrivée d'un modèle plus rapide et performant impacte directement les outils de développement.",
    "favori": false
   },
   {
@@ -12640,17 +13228,17 @@
    "date": "2026-09-25T19:00:00+00:00",
    "collecte": "2026-10-09T23:22:21.714309+00:00",
    "tags": [
-    "LLM",
     "Entreprises",
-    "Outils dev"
+    "Outils dev",
+    "LLM"
    ],
    "mots_cles": [
     "GPT",
     "Codex"
    ],
-   "resume": "L'entreprise Proaction utilise les modèles Codex et GPT d'OpenAI pour accélérer le développement et la gestion de flottes. Cette intégration permet d'augmenter les ventes de 60 pourcent et d'économiser de nombreuses heures de travail.",
+   "resume": "L'entreprise Proaction utilise des modèles d'OpenAI comme Codex pour accélérer le développement de ses logiciels de gestion de flotte. Grâce à ces outils, elle a augmenté ses ventes de 60 % et gagné un temps précieux.",
    "note": 3,
-   "justification": null,
+   "justification": "Intéressant pour voir l'impact concret des assistants de code sur la productivité des entreprises.",
    "favori": false
   }
  ]
