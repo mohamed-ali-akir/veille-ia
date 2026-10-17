@@ -1,54 +1,460 @@
 {
- "genere_le": "2026-10-16T19:55:25+00:00",
+ "genere_le": "2026-10-17T09:04:16+00:00",
  "statistiques": {
-  "collectes": 1229,
-  "gardes_mots_cles": 732,
-  "analyses_ia": 669,
-  "affiches": 666
+  "collectes": 1267,
+  "gardes_mots_cles": 754,
+  "analyses_ia": 719,
+  "affiches": 716
  },
  "essentiel": {
-  "debut": "2026-10-03T10:51:44.668395+00:00",
-  "fin": "2026-10-10T10:51:44.668395+00:00",
-  "introduction": "Cette semaine est marquée par des avancées majeures dans les grands modèles de langage, avec notamment le lancement de Mistral Large 4 et l'évolution des interfaces interactives de GPT-6.",
+  "debut": "2026-10-10T09:04:13.553257+00:00",
+  "fin": "2026-10-17T09:04:13.553257+00:00",
+  "introduction": "Cette semaine, l'actualité de l'IA est marquée par l'émergence de nouveaux modèles multimodaux puissants et l'essor des agents autonomes pour le développement.",
   "points": [
    {
-    "texte": "Mistral AI a dévoilé Mistral Large 4, surnommé « Le Chonk », un modèle de plus de 1 000 milliards de paramètres dont les poids ouverts seront bientôt publiés, offrant aux développeurs une alternative puissante.",
-    "id": 72,
-    "titre": "Mistral dévoile Large 4, un modèle à plus de 1 000 milliards de paramètres",
-    "url": "https://www.lemondeinformatique.fr/actualites/lire-mistral-devoile-large-4-un-modele-a-plus-de-1-000-milliards-de-parametres-100838.html",
-    "source": "Le Monde Informatique (IA)"
-   },
-   {
-    "texte": "OpenAI déploie mondialement GPT-6 avec une interface utilisateur interactive et intelligente, permettant des réponses enrichies de visuels et des interactions modernisées pour les utilisateurs.",
-    "id": 204,
-    "titre": "GPT-6 and Intelligent UI for everyone",
-    "url": "https://openai.com/index/gpt-6-for-everyone",
-    "source": "OpenAI News"
-   },
-   {
-    "texte": "Anthropic a lancé Claude Haiku 5.5 avec une réduction drastique de 90 % sur les prix des API, positionnant ce petit modèle comme une solution ultra-rapide et économique pour les développeurs.",
-    "id": 320,
-    "titre": "Anthropic lance Claude Haiku 5.5 avec une réduction de 90 % du prix des API, s'alignant ainsi sur GPT-6 Luna, présenté comme « le petit modèle le moins cher, le plus rapide et le plus performant »",
-    "url": "https://intelligence-artificielle.developpez.com/actu/387942/Anthropic-lance-Claude-Haiku-5-5-avec-une-reduction-de-90-pourcent-du-prix-des-API-s-alignant-ainsi-sur-GPT-6-Luna-presente-comme-le-petit-modele-le-moins-cher-le-plus-rapide-et-le-plus-performant/",
+    "texte": "Google a lancé Gemini 4 Argon, un LLM majeur offrant un million de tokens en sortie et conçu spécifiquement pour résoudre des problèmes complexes d'ingénierie logicielle et de cybersécurité.",
+    "id": 4347,
+    "titre": "Google Gemini 4 Argon est désormais disponible pour les développeurs, les entreprises et les abonnés à Google AI dans Antigravity, l'application Gemini et le mode IA de la recherche",
+    "url": "https://intelligence-artificielle.developpez.com/actu/388097/Google-Gemini-4-Argon-est-desormais-disponible-pour-les-developpeurs-les-entreprises-et-les-abonnes-a-Google-AI-dans-Antigravity-l-application-Gemini-et-le-mode-IA-de-la-recherche/",
     "source": "Developpez.com (IA)"
    },
    {
-    "texte": "Une étude récente montre que si les agents de codage IA génèrent davantage de code, la production logicielle globale ne progresse pas forcément en raison du goulot d'étranglement de la révision humaine.",
-    "id": 157,
-    "titre": "AI coding agents generate more code, but not more software",
-    "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-    "source": "Ars Technica (IA)"
+    "texte": "Meta a introduit sa nouvelle famille de modèles de pointe Muse Wonder ainsi que Muse Spark Open, optimisés pour les tâches complexes, le code et les agents autonomes.",
+    "id": 5560,
+    "titre": "Meta dévoile deux nouveaux modèles IA de pointe, Muse Wonder et Muse Wonder Full, sa première tentative pour les modèles frontière",
+    "url": "https://intelligence-artificielle.developpez.com/actu/388168/Meta-devoile-deux-nouveaux-modeles-IA-de-pointe-Muse-Wonder-et-Muse-Wonder-Full-sa-premiere-tentative-pour-les-modeles-frontiere/",
+    "source": "Developpez.com (IA)"
    },
    {
-    "texte": "Google a annoncé la mise en open source de ML Drift, un moteur GPU cross-platform qui simplifie l'inférence locale d'IA et le machine learning en temps réel sur les appareils pour les développeurs.",
-    "id": 364,
-    "titre": "GitHub - google-ai-edge/ml-drift: GPU-Accelerated AI/ML Inference",
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x1owzm/github_googleaiedgemldrift_gpuaccelerated_aiml/",
+    "texte": "L'équipe de Claude Code montre comment l'utilisation continue de l'IA pour la relecture de code modifie le développement, les erreurs de routine étant corrigées avant l'intervention humaine.",
+    "id": 6789,
+    "titre": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+    "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+    "source": "Simon Willison"
+   },
+   {
+    "texte": "Des chercheurs ont introduit les Hybrid Reasoning Agents, des modèles qui réfléchissent en interne pour être plus rapides et économiques tout en consommant deux fois moins de jetons.",
+    "id": 6015,
+    "titre": "New paper from Stanford, Together AI, UIUC, and Meta introduces Hybrid Reasoning Agents. These AI models think mostly in a hidden internal way (faster and cheaper), and only use normal text when they need tools or give the final answer.",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7a8i8/new_paper_from_stanford_together_ai_uiuc_and_meta/",
     "source": "Reddit r/LocalLLaMA"
+   },
+   {
+    "texte": "Une étude met en garde contre les risques de sécurité en démontrant qu'un agent IA peut exécuter un outil que son modèle prétend refuser, tout en soulignant des bogues dans les serveurs MCP.",
+    "id": 5666,
+    "titre": "Un agent IA peut exécuter l'outil que son modèle dit refuser",
+    "url": "https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/",
+    "source": "ActuIA"
    }
   ]
  },
  "articles": [
+  {
+   "id": 6853,
+   "titre": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-17T08:21:25+00:00",
+   "collecte": "2026-10-17T08:59:06.142212+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek"
+   ],
+   "resume": "Cet article de Hacker News présente des discussions sur la nouvelle version de modèle DeepSeek-v4.1-Flash-1017. Il aborde les performances et les retours d'utilisateurs de la communauté de développeurs.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des modèles de langage, mais les détails techniques restent limités dans les commentaires.",
+   "favori": false
+  },
+  {
+   "id": 6819,
+   "titre": "deepseek-ai/DeepSeek-V4.1-Flash-1017 · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x84po4/deepseekaideepseekv41flash1017_hugging_face/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T08:09:21+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek",
+    "Hugging Face"
+   ],
+   "resume": "Cet article sur Reddit renvoie vers une page Hugging Face concernant le modèle DeepSeek-V4.1-Flash-1017. Il s'agit d'une référence à un nouveau modèle de langage open source potentiellement intéressant pour les développeurs.",
+   "note": 3,
+   "justification": "Il mentionne un nouveau modèle open source, ce qui est intéressant pour la veille technologique.",
+   "favori": false
+  },
+  {
+   "id": 6832,
+   "titre": "Uncensored models via LORA",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x83ign/uncensored_models_via_lora/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T06:57:03+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "LLM"
+   ],
+   "resume": "Cet article discute de l'utilisation de la technique LoRA pour contourner les restrictions et désactiver la censure sur les grands modèles de langage. Il met en avant l'aspect économique et flexible de cette approche par rapport au réentraînement complet.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'adaptation des modèles de langage, mais reste spécifique aux aspects de censure.",
+   "favori": false
+  },
+  {
+   "id": 6835,
+   "titre": "I built a tiny site that let's you feel the tokens/s before you buy the GPU",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x83321/i_built_a_tiny_site_that_lets_you_feel_the/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T06:30:47+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "LLM",
+    "GPU"
+   ],
+   "resume": "Un développeur a créé un site web interactif pour estimer la vitesse d'exécution des LLM en tokens par seconde avant d'acheter du matériel. Cet outil open source aide à évaluer les performances locales selon sa configuration.",
+   "note": 3,
+   "justification": "Utile pour comprendre l'impact matériel sur l'inférence des LLM locaux.",
+   "favori": false
+  },
+  {
+   "id": 6829,
+   "titre": "Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x82yxx/qwen3827bdefianceuncensoredmtpgguf/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T06:23:41+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Ollama",
+    "AI"
+   ],
+   "resume": "Cet article présente un nouveau modèle de langage open source, le Qwen3.8-27B non censuré, combiné à des modes de raisonnement avancés via des templates intégrés. Les poids et les configurations sont packagés au format GGUF pour être utilisés facilement avec des outils locaux comme Ollama ou LM Studio.",
+   "note": 3,
+   "justification": "Intéressant pour tester des modèles open source locaux avec des modes de raisonnement spécifiques.",
+   "favori": false
+  },
+  {
+   "id": 6822,
+   "titre": "DeepSeek 4.1 Flash 1017 Incoming? --> DeepSeek users report a possible V4.1-Flash-1017 refresh across its API",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x825su/deepseek_41_flash_1017_incoming_deepseek_users/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T05:34:11+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "DeepSeek"
+   ],
+   "resume": "Des utilisateurs rapportent des indices sur une possible mise à jour de l'API de DeepSeek vers une version V4.1-Flash-1017. Cette fuite suggère l'arrivée prochaine d'un nouveau modèle ou d'une version améliorée pour les développeurs.",
+   "note": 2,
+   "justification": "Il s'agit d'une simple rumeur sans confirmation officielle ni documentation technique exploitable pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 6846,
+   "titre": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+   "url": "https://llmspeed.dev/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-17T04:36:53+00:00",
+   "collecte": "2026-10-17T08:59:06.142212+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "LLM"
+   ],
+   "resume": "Llmspeed est un outil permettant de tester la vitesse d'exécution d'un LLM local avant d'acheter du matériel informatique. Les développeurs peuvent ainsi évaluer les performances de leur future configuration pour l'IA.",
+   "note": 3,
+   "justification": "Intéressant pour estimer les performances matérielles nécessaires au développement local avec des LLM.",
+   "favori": false
+  },
+  {
+   "id": 6830,
+   "titre": "What do you guys use for chat interface?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x80ci1/what_do_you_guys_use_for_chat_interface/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T03:51:15+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Claude"
+   ],
+   "resume": "Cet article de la communauté Reddit r/LocalLLaMA compare différentes interfaces de chat open source pour interagir avec des modèles de langage. Les utilisateurs partagent leurs outils préférés comme OpenWebUI ou SillyTavern selon leurs besoins de discussion ou de rôle.",
+   "note": 3,
+   "justification": "Intéressant pour découvrir des interfaces open source utiles aux développeurs interagissant avec des LLM.",
+   "favori": false
+  },
+  {
+   "id": 6823,
+   "titre": "llama.cpp has come a long way",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7xbf0/llamacpp_has_come_a_long_way/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T01:08:07+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "Mistral",
+    "Llama",
+    "Ollama",
+    "AI"
+   ],
+   "resume": "Un développeur sceptique partage son expérience positive avec l'exécution locale de grands modèles de langage comme Mistral et l'utilisation d'outils comme llama.cpp depuis mars 2025. Il utilise ces technologies pour des aventures textuelles en solo, illustrant l'accessibilité croissante de l'IA sur matériel grand public.",
+   "note": 3,
+   "justification": "Cet article montre l'utilisation pratique des LLM en local, utile pour un développeur curieux des outils open source.",
+   "favori": false
+  },
+  {
+   "id": 6821,
+   "titre": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16 · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7w7dp/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T00:11:45+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Hugging Face",
+    "Nvidia"
+   ],
+   "resume": "Cet article présente un nouveau modèle d'intelligence artificielle partagé sur la plateforme Hugging Face. Il s'agit du modèle NVIDIA Nemotron Labs Dory1.0 en version 4B.",
+   "note": 2,
+   "justification": "L'extrait est trop succinct et ne fournit pas de détails techniques exploitables pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 6828,
+   "titre": "I don't get the qwen 3.8 flash next hype",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7uf15/i_dont_get_the_qwen_38_flash_next_hype/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T22:48:28+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "prompt",
+    "Llama",
+    "DeepSeek",
+    "Qwen"
+   ],
+   "resume": "Un utilisateur partage son retour d'expérience négatif sur un modèle Qwen récent exécuté localement pour coder un jeu Tetris. Il compare ses performances aux versions précédentes et à Llama, soulignant des lenteurs et des bugs de génération.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'utilisation pratique des LLM locaux en développement, mais le retour reste subjectif.",
+   "favori": false
+  },
+  {
+   "id": 6789,
+   "titre": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+   "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+   "source": "Simon Willison",
+   "categorie": "Développement",
+   "date": "2026-10-16T22:06:37+00:00",
+   "collecte": "2026-10-17T08:59:01.959339+00:00",
+   "tags": [
+    "Outils dev",
+    "Agents IA",
+    "LLM"
+   ],
+   "mots_cles": [
+    "agentic",
+    "Claude",
+    "Anthropic"
+   ],
+   "resume": "L'équipe de Claude Code explique comment l'utilisation continue de l'IA pour la relecture de code modifie le processus de développement. La plupart des erreurs de routine sont corrigées par l'agent avant même l'intervention humaine.",
+   "note": 5,
+   "justification": "Cet article montre concrètement comment un outil d'IA révolutionne le processus de développement et la relecture de code.",
+   "favori": false
+  },
+  {
+   "id": 6820,
+   "titre": "10 Things you maybe didn't know you can do with Qwen 3.6 27B right now. (For Noobs)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sq8e/10_things_you_maybe_didnt_know_you_can_do_with/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T21:35:36+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Qwen"
+   ],
+   "resume": "Cet article partage dix astuces pratiques pour utiliser efficacement le modèle open source Qwen. L'auteur explique comment créer de petites applications et exploiter l'outil localement pour progresser.",
+   "note": 3,
+   "justification": "Intéressant pour découvrir des cas d'usage pratiques des grands modèles de langage en local.",
+   "favori": false
+  },
+  {
+   "id": 6646,
+   "titre": "Replit is no longer working with Anthropic, CEO says",
+   "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T21:22:28+00:00",
+   "collecte": "2026-10-17T08:58:53.600458+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "resume": "La plateforme de développement Replit a cessé sa collaboration avec Anthropic, invoquant notamment des raisons financières. L'entreprise s'est associée à OpenAI au mois d'août dernier.",
+   "note": 2,
+   "justification": "Cette information concerne un changement de partenaire pour une plateforme, sans impact direct sur les techniques de développement.",
+   "favori": false
+  },
+  {
+   "id": 6824,
+   "titre": "Dario: “With open source you can see the source code. Here we can’t see inside the model.” My 0.646 t/s MiMo-2.6-Pro crammed thru 128GB of Jetson AGX Thor: “Yeah, well, that’s just, like, your opinion, man.”",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbxs/dario_with_open_source_you_can_see_the_source/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T21:18:51+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "inference"
+   ],
+   "resume": "Un développeur exécute localement un modèle massif de 566 Go nommé MiMo-2.6-Pro sur un matériel Jetson AGX Thor limité à 128 Go. L'expérience montre les défis techniques extrêmes de l'inférence locale pour les très grands modèles.",
+   "note": 2,
+   "justification": "Cette expérimentation locale très spécifique reste peu utile pour le développement d'applications au quotidien.",
+   "favori": false
+  },
+  {
+   "id": 6834,
+   "titre": "Qwen3.8-Flash-Next-GSQ-RCO (IQ3_S): ~40-50 tok/sec decode & 1300-1500 tok/sec prefill at 131k ctx on 12GB VRAM + 32GB RAM + NVME",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7sbdc/qwen38flashnextgsqrco_iq3_s_4050_toksec_decode/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T21:18:11+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Un développeur partage une configuration matérielle et logicielle optimisée permettant d'exécuter localement un modèle de langage avancé avec de grandes performances. Cette astuce démontre qu'il est possible d'exploiter des IA puissantes sur du matériel grand public.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'optimisation et l'exécution locale des grands modèles sur du matériel standard.",
+   "favori": false
+  },
+  {
+   "id": 6833,
+   "titre": "Kimi K3, three months after the hype: too big for almost anyone to run locally, and smaller models have already caught it",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7s89u/kimi_k3_three_months_after_the_hype_too_big_for/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T21:14:31+00:00",
+   "collecte": "2026-10-17T08:59:03.764911+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "L'article analyse le modèle open source géant Kimi K3, qui nécessite une configuration matérielle énorme et inaccessible pour la plupart des développeurs. De plus, de nouveaux modèles plus petits ont rapidement rattrapé ses performances initiales.",
+   "note": 2,
+   "justification": "Ce retour d'expérience pratique sur un modèle trop lourd reste peu utile pour un développeur standard.",
+   "favori": false
+  },
+  {
+   "id": 6626,
+   "titre": "OpenAI models hacked a crypto wallet and breached more websites",
+   "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T20:59:01+00:00",
+   "collecte": "2026-10-17T08:58:52.481260+00:00",
+   "tags": [
+    "LLM",
+    "Sécurité",
+    "Agents IA"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "Des modèles d'intelligence artificielle développés par OpenAI ont réussi à pirater un portefeuille de crypto-monnaie et à compromettre des sites web lors de tests. Ces actions, si elles avaient été menées par des humains, auraient pu entraîner des poursuites pénales.",
+   "note": 4,
+   "justification": "Cet article montre les risques importants liés à la sécurité et au détournement des capacités des modèles.",
+   "favori": false
+  },
+  {
+   "id": 6627,
+   "titre": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+   "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+   "source": "Ars Technica (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T20:20:07+00:00",
+   "collecte": "2026-10-17T08:58:52.481260+00:00",
+   "tags": [
+    "Sécurité",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Un procureur adjoint du New Jersey a été arrêté après qu'un utilisateur de Discord a signalé la production d'images CSAM générées par intelligence artificielle. Cette affaire met en lumière les dérives criminelles liées à la génération d'images par IA.",
+   "note": 2,
+   "justification": "Cet article traite d'un fait divers criminel plutôt que d'une avancée technique utile pour le développement.",
+   "favori": false
+  },
   {
    "id": 6428,
    "titre": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source)",
@@ -94,6 +500,27 @@
    "favori": false
   },
   {
+   "id": 6666,
+   "titre": "How Itaú is building generative AI for its entire customer base",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-16T19:00:00+00:00",
+   "collecte": "2026-10-17T08:58:54.988841+00:00",
+   "tags": [
+    "Entreprises",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "generative AI",
+    "AI"
+   ],
+   "resume": "La banque brésilienne Itaú déploie l'intelligence artificielle générative pour l'ensemble de ses clients et employés grâce à une interface conversationnelle et une plateforme de gouvernance. Cette stratégie démontre l'intégration réussie de l'IA dans un secteur fortement régulé.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'application concrète et sécurisée de l'IA générative dans le secteur bancaire.",
+   "favori": false
+  },
+  {
    "id": 6442,
    "titre": "Claude reveals ECDSA curve origins",
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
@@ -110,6 +537,27 @@
    "resume": "Cet article discute des origines de la courbe ECDSA mentionnée par Claude. Les discussions abordent la cryptographie et la sécurité sous-jacente.",
    "note": 1,
    "justification": "Ce sujet relève de la cryptographie et présente un intérêt très faible pour le développement d'applications IA en BTS SLAM.",
+   "favori": false
+  },
+  {
+   "id": 6443,
+   "titre": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+   "url": "https://github.com/cobanov/PS5LM",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-16T18:32:35+00:00",
+   "collecte": "2026-10-16T19:48:01.083537+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Llama"
+   ],
+   "resume": "Des développeurs ont réussi à faire tourner des modèles de langage GGUF nativement sur une PlayStation 5 jailbreakée en utilisant llama.cpp. Cette expérimentation insolite montre la polyvalence des outils open source pour exécuter des IA sur du matériel non conventionnel.",
+   "note": 2,
+   "justification": "C'est une curiosité technique amusante mais sans impact direct sur le développement d'applications au quotidien.",
    "favori": false
   },
   {
@@ -508,6 +956,26 @@
    "favori": false
   },
   {
+   "id": 6249,
+   "titre": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+   "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-16T14:26:51+00:00",
+   "collecte": "2026-10-16T19:47:45.287620+00:00",
+   "tags": [
+    "Image & vidéo",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "L'acteur Mark Wahlberg exprime son ouverture à l'utilisation de l'intelligence artificielle dans le cinéma, notamment pour améliorer la production ou pour créer un clone numérique. Il souligne l'importance d'utiliser ces technologies de manière éthique et respectueuse du travail artistique.",
+   "note": 1,
+   "justification": "Cet article aborde l'aspect artistique et éthique de l'IA au cinéma mais n'apporte rien sur le plan du développement logiciel.",
+   "favori": false
+  },
+  {
    "id": 6457,
    "titre": "Show HN: Gemini 4 Argon plays StarCraft",
    "url": "https://starskirmish.com/bench/v0-2/",
@@ -612,6 +1080,47 @@
    "resume": "Le PDG de Replit imagine des entreprises autonomes où les agents IA gèrent les tâches quotidiennes pendant que les humains se concentrent sur la stratégie. Cette vision redéfinit l'avenir du travail et du développement grâce à l'automatisation intelligente.",
    "note": 4,
    "justification": "Cet article montre comment les agents IA transforment les outils de développement et l'organisation des entreprises.",
+   "favori": false
+  },
+  {
+   "id": 6421,
+   "titre": "OpenMOSS releases MOSS-Image",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x7ey7i/openmoss_releases_mossimage/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T12:30:53+00:00",
+   "collecte": "2026-10-16T19:47:58.759710+00:00",
+   "tags": [
+    "Open source",
+    "Image & vidéo"
+   ],
+   "mots_cles": [
+    "Qwen"
+   ],
+   "resume": "L'organisation OpenMOSS a publié MOSS-Image, un nouveau modèle open-source sous licence Apache. Cette sortie relance la curiosité sur ses performances face aux standards actuels du marché.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des nouveaux modèles d'image open-source, bien que les détails techniques soient limités.",
+   "favori": false
+  },
+  {
+   "id": 6368,
+   "titre": "Microsoft confirme que la future fonctionnalité IA de son navigateur web Edge collecte des données utilisateur, mais pas à des fins d'espionnage, et après le consentement de l'utilisateur",
+   "url": "https://microsoft.developpez.com/actu/388184/Microsoft-confirme-que-la-future-fonctionnalite-IA-de-son-navigateur-web-Edge-collecte-des-donnees-utilisateur-mais-pas-a-des-fins-d-espionnage-et-apres-le-consentement-de-l-utilisateur/",
+   "source": "Developpez.com (IA)",
+   "categorie": "Développement",
+   "date": "2026-10-16T11:45:00+00:00",
+   "collecte": "2026-10-16T19:47:55.457975+00:00",
+   "tags": [
+    "Entreprises",
+    "Sécurité",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "Microsoft a clarifié le fonctionnement de sa future fonctionnalité IA de dépannage dans le navigateur Edge. L'entreprise assure que la collecte de données est facultative, nécessite le consentement de l'utilisateur et ne sert pas à des fins d'espionnage.",
+   "note": 2,
+   "justification": "Cet article concerne la gestion des données personnelles par un grand éditeur, mais n'apporte rien de technique pour le développement.",
    "favori": false
   },
   {
@@ -1014,6 +1523,28 @@
    "favori": false
   },
   {
+   "id": 6018,
+   "titre": "BlenderWorld Benchmark from Alibaba",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x76d8l/blenderworld_benchmark_from_alibaba/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-16T04:05:22+00:00",
+   "collecte": "2026-10-16T09:27:54.457221+00:00",
+   "tags": [
+    "Agents IA",
+    "Open source",
+    "Image & vidéo"
+   ],
+   "mots_cles": [
+    "Qwen",
+    "MCP"
+   ],
+   "resume": "L'équipe Qwen d'Alibaba a publié le benchmark BlenderWorld pour évaluer la capacité des agents visuels à créer des scènes 3D. Cette initiative suggère de futures améliorations des modèles dans la conception 3D et l'utilisation d'outils.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des agents IA capables d'utiliser des outils de modélisation 3D.",
+   "favori": false
+  },
+  {
    "id": 6016,
    "titre": "ALoDLM 8b looped diffusion language model: ~3x inference speed vs its base model qwen3-8b with better benchmark results",
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x75bme/alodlm_8b_looped_diffusion_language_model_3x/",
@@ -1054,6 +1585,47 @@
    "resume": "Un utilisateur montre qu'un petit modèle de langage open-source tourne efficacement sur une configuration matérielle modeste. Il parvient à générer en une seule passe une application web interactive complète sur le système solaire.",
    "note": 3,
    "justification": "Intéressant pour voir les capacités des petits modèles locaux sur du matériel basique.",
+   "favori": false
+  },
+  {
+   "id": 6264,
+   "titre": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-16T00:00:00+00:00",
+   "collecte": "2026-10-16T19:47:46.697534+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "Codex"
+   ],
+   "resume": "Deux ingénieurs ont créé Stack Overflow for Agents en quelques semaines grâce à Codex. Le plugin ChatGPT associé a ensuite multiplié par dix la création d'agents.",
+   "note": 4,
+   "justification": "Cet article montre concrètement comment développer rapidement des applications basées sur des agents IA.",
+   "favori": false
+  },
+  {
+   "id": 6668,
+   "titre": "Benefit Street Partners answers questions faster with Codex",
+   "url": "https://openai.com/index/benefit-street-partners",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-10-16T00:00:00+00:00",
+   "collecte": "2026-10-17T08:58:54.988841+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Codex"
+   ],
+   "resume": "Benefit Street Partners utilise le modèle Codex d'OpenAI pour accélérer le développement d'outils d'analyse de crédits. Les équipes s'en servent notamment pour la revue de code et pour répondre plus rapidement aux questions.",
+   "note": 3,
+   "justification": "Illustre l'utilisation concrète d'un assistant de code en entreprise, intéressant pour un développeur.",
    "favori": false
   },
   {
@@ -2736,6 +3308,26 @@
    "resume": "Un utilisateur de Reddit demande des retours d'expérience sur le nouveau modèle de code Qwen flash 3.8. Il cherche à savoir s'il est performant sur des tâches de développement réelles.",
    "note": 2,
    "justification": "C'est un simple retour d'expérience d'utilisateur sans analyse technique approfondie.",
+   "favori": false
+  },
+  {
+   "id": 6792,
+   "titre": "LaTeX renderer",
+   "url": "https://simonwillison.net/2026/Oct/15/latex/",
+   "source": "Simon Willison",
+   "categorie": "Développement",
+   "date": "2026-10-15T02:07:28+00:00",
+   "collecte": "2026-10-17T08:59:01.959339+00:00",
+   "tags": [
+    "Outils dev",
+    "Agents IA"
+   ],
+   "mots_cles": [
+    "Claude"
+   ],
+   "resume": "Simon Willison explique comment il a utilisé Claude Code pour créer un outil web minimaliste qui rend du code LaTeX directement depuis le fragment d'URL. L'outil s'inspire du projet Tiny Little Office et permet de générer et partager facilement des documents mathématiques.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'utilisation pratique de Claude Code dans le développement rapide d'outils web.",
    "favori": false
   },
   {
@@ -14110,6 +14702,460 @@
    "resume": "GitHub a refondu l'affichage des diffs dans son application Copilot pour gérer d'immenses pull requests d'un million de lignes. Cette amélioration technique permet de naviguer plus efficacement dans des revues de code complexes.",
    "note": 3,
    "justification": "Intéressant pour voir l'évolution des outils de développement assistés par l'IA.",
+   "favori": false
+  },
+  {
+   "id": 229,
+   "titre": "Two years of OpenAI Academy",
+   "url": "https://openai.com/index/two-years-of-openai-academy",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Éducation"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI celebre les deux ans de son initiative OpenAI Academy. Ce programme vise a diffuser les competences en intelligence artificielle aupres de davantage de communautes.",
+   "note": 1,
+   "justification": "Cet article traite d'une initiative sociale sans lien direct avec le developpement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 230,
+   "titre": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T13:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "OpenAI etend l'acces de son programme Daybreak au gouvernement ukrainien. Cette initiative vise a soutenir la cyberdefense des infrastructures civiles face aux menaces.",
+   "note": 2,
+   "justification": "Cet article concerne la geopolitique et la cybersecurite institutionnelle plutot que des techniques de developpement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 231,
+   "titre": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+   "url": "https://openai.com/index/ringg",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises",
+    "Audio & voix"
+   ],
+   "mots_cles": [
+    "AI agents",
+    "GPT",
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "La startup Ringg utilise des modèles d'OpenAI pour propulser des agents conversationnels multilingues capables de résoudre une grande partie des appels clients. Cette solution réduit drastiquement les coûts opérationnels tout en maintenant une efficacité élevée sur différents canaux.",
+   "note": 4,
+   "justification": "Important pour voir comment intégrer des agents conversationnels performants et économiques en entreprise.",
+   "favori": false
+  },
+  {
+   "id": 232,
+   "titre": "How invideo improves color grading 3x with GPT‑6 Astra",
+   "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Image & vidéo",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "L'entreprise invideo utilise le modèle GPT-6 Astra pour améliorer sa précision d'édition, accélérer la correction des couleurs par trois et créer rapidement de nombreux effets personnalisés. Cette avancée démontre l'intégration croissante des modèles génératifs dans les outils logiciels de traitement multimédia.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'usage concret d'un LLM dans le traitement vidéo, mais reste orienté métier.",
+   "favori": false
+  },
+  {
+   "id": 233,
+   "titre": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+   "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "L'entreprise Harvey utilise le modèle GPT-6 Astra pour automatiser et structurer la rédaction de documents juridiques. Cette avancée permet aux avocats de se concentrer davantage sur la stratégie de leur métier.",
+   "note": 3,
+   "justification": "Cet article montre une application concrète des LLM dans le secteur juridique, utile pour comprendre les cas d'usage professionnels.",
+   "favori": false
+  },
+  {
+   "id": 234,
+   "titre": "Sam Altman’s remarks at the United Nations Security Council",
+   "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "Régulation",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "Sam Altman s'est exprimé devant le Conseil de sécurité des Nations Unies concernant la sécurité de l'IA. Il a insisté sur le contrôle humain et la nécessité d'une coopération internationale pour encadrer cette technologie.",
+   "note": 2,
+   "justification": "Cet article aborde la géopolitique de l'IA mais n'apporte rien de technique pour le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 135,
+   "titre": "Code, bureautique, recherche : Claude Opus 5.5 ou GPT-6, lequel est le meilleur ?",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555319-code-bureautique-recherche-claude-opus-5-5-ou-gpt-6-qui-gagne-ou/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-23T10:38:58+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "LLM"
+   ],
+   "mots_cles": [
+    "GPT",
+    "Claude"
+   ],
+   "resume": "Cet article compare les performances et les coûts des derniers modèles de langage Claude Opus 5.5 et GPT-6 Astra. Il analyse leurs avantages respectifs dans les domaines du code, de la bureautique et de la recherche.",
+   "note": 5,
+   "justification": "Incontournable car il compare de nouveaux modèles majeurs pour le développement et l'IA.",
+   "favori": false
+  },
+  {
+   "id": 137,
+   "titre": "L'IA va obliger les entreprises à prendre le management au sérieux",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555233-l-ia-va-obliger-les-entreprises-a-prendre-le-management-au-serieux/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-23T10:09:59+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'essor de l'intelligence artificielle oblige les entreprises à repenser le rôle du manager. Elles doivent désormais valoriser les compétences de gestion d'équipe plutôt que la simple expertise technique.",
+   "note": 2,
+   "justification": "Cet article traite du management en entreprise et n'apporte rien de technique pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 138,
+   "titre": "Quand le collègue numérique prend le relais : les fondements des chaînes d'approvisionnement agentiques",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555237-quand-le-collegue-numerique-prend-le-relais-les-fondements-des-chaines-d-approvisionnement-agentiques/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-23T10:09:10+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "agentique",
+    "IA"
+   ],
+   "resume": "L'intelligence artificielle évolue vers des agents autonomes capables de prendre des décisions et d'agir au sein des chaînes d'approvisionnement. Cette transformation nécessite d'anticiper les impacts organisationnels et humains liés à l'automatisation avancée.",
+   "note": 3,
+   "justification": "Cet article montre comment les agents IA autonomes transforment les processus métiers, ce qui est intéressant pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 139,
+   "titre": "L'IA a donné un avocat à chaque salarié et les patrons commencent à s'en rendre compte",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555247-l-ia-a-donne-un-avocat-a-chaque-salarie-et-les-patrons-commencent-a-s-en-rendre-compte/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-23T10:08:15+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'utilisation de l'intelligence artificielle pour démocratiser l'accès au droit du travail transforme les relations en entreprise. Si les salariés deviennent juridiquement armés, cette évolution engendre un isolement professionnel et fragmente la confiance mutuelle.",
+   "note": 2,
+   "justification": "Cet article traite de l'impact sociologique de l'IA en entreprise mais n'apporte aucun contenu technique utile pour un développeur SLAM.",
+   "favori": false
+  },
+  {
+   "id": 140,
+   "titre": "Le nouveau risque de l'IA se cache dans le code",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555275-le-nouveau-risque-de-l-ia-se-cache-dans-le-code/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-23T10:07:50+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Outils dev",
+    "Sécurité",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "IA",
+    "AI"
+   ],
+   "resume": "L'utilisation croissante de l'intelligence artificielle dans le développement logiciel engendre de nouveaux risques de shadow AI coding. Pour y remédier, des outils comme l'IA-BOM et la réglementation européenne améliorent la gouvernance et la visibilité des projets.",
+   "note": 3,
+   "justification": "Cet article sensibilise les développeurs aux risques sécuritaires et réglementaires liés à l'usage de l'IA.",
+   "favori": false
+  },
+  {
+   "id": 141,
+   "titre": "L'ambition de la France en matière d'IA doit s'appuyer sur une gouvernance agentique",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555285-l-ambition-de-la-france-en-matiere-d-ia-doit-s-appuyer-sur-une-gouvernance-agentique/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-23T10:07:30+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "agentique",
+    "IA"
+   ],
+   "resume": "La France doit miser sur une infrastructure agentique maîtrisée pour relever les défis de l'IA. Alors que la production de code s'accélère, la gouvernance devient un enjeu crucial.",
+   "note": 3,
+   "justification": "Cet article aborde la gouvernance des agents IA dans le développement, ce qui intéresse la veille technologique.",
+   "favori": false
+  },
+  {
+   "id": 142,
+   "titre": "L'IA oblige les entreprises à redécouvrir leur système d'information",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555299-l-ia-oblige-les-entreprises-a-redecouvrir-leur-systeme-d-information/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-23T10:06:12+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "IA"
+   ],
+   "resume": "L'intégration de projets d'intelligence artificielle contraint les entreprises à analyser en profondeur leurs systèmes d'information existants. Cette démarche met en lumière l'importance cruciale de cartographier les flux de données et les dépendances techniques avant tout développement.",
+   "note": 2,
+   "justification": "Cet article aborde la gestion stratégique en entreprise mais apporte peu de valeur technique directe pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 235,
+   "titre": "Introducing MentalHealthBench",
+   "url": "https://openai.com/index/introducing-mentalhealthbench",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T10:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Sécurité",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "OpenAI présente MentalHealthBench, un nouveau banc d'essai conçu avec des experts pour évaluer la sécurité et l'utilité des réponses des intelligences artificielles dans des contextes de santé mentale. Ce benchmark permet de tester les modèles sur des conversations réalistes et sensibles.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'évaluation de la sécurité des LLM, mais pas directement lié au développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 236,
+   "titre": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+   "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T02:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT"
+   ],
+   "resume": "OpenAI étend son offre publicitaire ChatGPT Ads à l'Asie du Sud-Est et à Taïwan. Cette expansion permet aux entreprises de toucher des utilisateurs dans plus de 60 pays.",
+   "note": 1,
+   "justification": "Cet article traite de stratégie commerciale et publicitaire sans aucun intérêt technique pour un développeur en BTS SIO.",
+   "favori": false
+  },
+  {
+   "id": 237,
+   "titre": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+   "url": "https://openai.com/index/airbnb-gpt-6-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T01:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "GPT",
+    "OpenAI"
+   ],
+   "resume": "Airbnb elargit l'acces aux modeles de pointe d'OpenAI pour ses equipes d'ingenieurs. Cette integration les aide a resoudre les bugs, concevoir des systemes et accelerer les developpements.",
+   "note": 4,
+   "justification": "Montre l'utilisation concrete des grands modeles de langage par une grande entreprise pour ameliorer la productivite des developpeurs.",
+   "favori": false
+  },
+  {
+   "id": 238,
+   "titre": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+   "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-23T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises",
+    "Éducation"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI et Grab lancent le programme Go Forward with AI pour former 30 000 partenaires en Asie du Sud-Est. Cette initiative vise à développer des compétences pratiques en intelligence artificielle dans la région.",
+   "note": 2,
+   "justification": "Cet article concerne la formation commerciale et régionale plutôt que le développement technique.",
+   "favori": false
+  },
+  {
+   "id": 239,
+   "titre": "Better prompt caching for GPT-6",
+   "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-22T21:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "prompt",
+    "GPT"
+   ],
+   "resume": "OpenAI annonce des améliorations majeures pour le cache des requêtes sur GPT-6. Ces nouveautés permettent de réduire la latence et les coûts de développement.",
+   "note": 4,
+   "justification": "Ces optimisations réduisent directement les coûts et la latence pour les développeurs utilisant des modèles.",
+   "favori": false
+  },
+  {
+   "id": 240,
+   "titre": "Introducing GPT-6 Sol and Luna",
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-22T18:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "OpenAI presente GPT-6 Sol et Luna, deux nouveaux modeles d'intelligence artificielle offrant differentes combinaisons de performances et de couts. Ils visent a integrer une intelligence de pointe dans le travail quotidien.",
+   "note": 5,
+   "justification": "L'arrivee d'un nouveau modele de pointe change directement les methodes de developpement.",
+   "favori": false
+  },
+  {
+   "id": 143,
+   "titre": "Anthropic dégaine Opus 5.5 : aussi fort que Fable 5.1, mais 60% moins cher",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555269-anthropic-degaine-opus-5-5-aussi-fort-que-fable-5-1-mais-60-moins-cher/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-22T16:30:11+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Claude",
+    "Anthropic"
+   ],
+   "resume": "Anthropic lance le modèle Opus 5.5 offrant la même précision que Fable 5.1 mais avec une réduction de coût significative. Cette nouvelle version permet aux développeurs d'accéder à des performances élevées à un tarif plus abordable.",
+   "note": 4,
+   "justification": "Ce nouveau modèle performant et économique impacte directement les choix d'architecture des développeurs.",
+   "favori": false
+  },
+  {
+   "id": 145,
+   "titre": "De 50 000 à 115 000 euros par an : découvrez les salaires des professionnels de l'IA",
+   "url": "https://www.journaldunet.com/intelligence-artificielle/1555235-de-49-700-a-115-800-euros-par-an-decouvrez-les-salaires-moyens-des-professionnels-de-l-ia/",
+   "source": "Journal du Net (IA)",
+   "categorie": "Actualité FR",
+   "date": "2026-09-22T14:52:56+00:00",
+   "collecte": "2026-10-09T23:22:16.320399+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "prompt",
+    "IA"
+   ],
+   "resume": "Cet article analyse les salaires pratiqués dans le secteur de l'intelligence artificielle en France. Il met en lumière les écarts de rémunération entre les différents métiers liés à l'IA.",
+   "note": 2,
+   "justification": "Cet article aborde le marché du travail mais n'apporte aucune information technique utile pour le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 241,
+   "titre": "Parallel cut research time and cost in half with GPT‑6 Astra",
+   "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-22T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "L'utilisation de GPT-6 Astra par l'entreprise Parallel a permis de réduire de moitié le temps et les coûts liés à la recherche de données sur le marché du travail. Ce nouveau modèle améliore significativement les performances des agents IA.",
+   "note": 5,
+   "justification": "Ce nouveau modèle révolutionnaire change directement les performances et les coûts pour le développement d'agents intelligents.",
    "favori": false
   }
  ]

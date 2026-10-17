@@ -5,7 +5,31 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 16 Oct 2026 19:55:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 09:04:16 +0000</lastBuildDate>
+    <item>
+      <title>Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang</title>
+      <link>https://simonwillison.net/2026/Oct/16/code-review/</link>
+      <guid>https://simonwillison.net/2026/Oct/16/code-review/</guid>
+      <pubDate>Fri, 16 Oct 2026 22:06:37 +0000</pubDate>
+      <description>L'équipe de Claude Code explique comment l'utilisation continue de l'IA pour la relecture de code modifie le processus de développement. La plupart des erreurs de routine sont corrigées par l'agent avant même l'intervention humaine.
+
+★★★★★ · Simon Willison</description>
+      <category>Outils dev</category>
+      <category>Agents IA</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>OpenAI models hacked a crypto wallet and breached more websites</title>
+      <link>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</link>
+      <guid>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:59:01 +0000</pubDate>
+      <description>Des modèles d'intelligence artificielle développés par OpenAI ont réussi à pirater un portefeuille de crypto-monnaie et à compromettre des sites web lors de tests. Ces actions, si elles avaient été menées par des humains, auraient pu entraîner des poursuites pénales.
+
+★★★★☆ · Ars Technica (IA)</description>
+      <category>LLM</category>
+      <category>Sécurité</category>
+      <category>Agents IA</category>
+    </item>
     <item>
       <title>[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source)</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x7polk/research_2788_tokenss_on_a_single_rtx_5090_with_a/</link>
@@ -169,6 +193,17 @@
       <category>Recherche</category>
     </item>
     <item>
+      <title>Stack Overflow for Agents triples signups with ChatGPT plugin</title>
+      <link>https://openai.com/index/stack-overflow-chatgpt-plugin</link>
+      <guid>https://openai.com/index/stack-overflow-chatgpt-plugin</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Deux ingénieurs ont créé Stack Overflow for Agents en quelques semaines grâce à Codex. Le plugin ChatGPT associé a ensuite multiplié par dix la création d'agents.
+
+★★★★☆ · OpenAI News</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
       <title>nvidia/Nemotron-3.5-Embed-1B-BF16 · Hugging Face</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x70qhu/nvidianemotron35embed1bbf16_hugging_face/</link>
       <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x70qhu/nvidianemotron35embed1bbf16_hugging_face/</guid>
@@ -319,40 +354,6 @@
       <category>LLM</category>
       <category>Open source</category>
       <category>Recherche</category>
-    </item>
-    <item>
-      <title>nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · Hugging Face</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6o31q/nvidianvidianemotron35bolt74ba9b24gb_hugging_face/</guid>
-      <pubDate>Thu, 15 Oct 2026 15:04:12 +0000</pubDate>
-      <description>NVIDIA a publié Nemotron-3.5-Bolt-74B, un modèle de vision et langage hybride de 74 milliards de paramètres optimisé pour tourner localement sur une carte graphique de 24 Go. Grâce à une quantification agressive en 2 bits, il permet d'exécuter des tâches d'agents IA tout en maintenant de bonnes performances. Ce modèle open source est disponible pour un usage commercial et non commercial.
-
-★★★★★ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Agents IA</category>
-    </item>
-    <item>
-      <title>nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B model family released (base, NVFP4, BF16, and LiLiCorr speculative decoding)</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6nl8m/nvidianvidianemotron35supervl120ba12b_model/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6nl8m/nvidianvidianemotron35supervl120ba12b_model/</guid>
-      <pubDate>Thu, 15 Oct 2026 14:46:04 +0000</pubDate>
-      <description>Nvidia a publié la famille de modèles Nemotron-3.5-Super-VL-120B-A12B, comprenant diverses versions comme la base, NVFP4, BF16 et le décodage spéculatif LiLiCorr. Cette sortie offre de nouvelles options pour les développeurs travaillant avec des modèles locaux.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>Prompt injection in HTTP headers: what 217M web responses show</title>
-      <link>https://www.signalscorps.com/blog/prompt-injection-in-http-headers/</link>
-      <guid>https://www.signalscorps.com/blog/prompt-injection-in-http-headers/</guid>
-      <pubDate>Thu, 15 Oct 2026 14:36:22 +0000</pubDate>
-      <description>Une analyse de 217 millions de réponses web met en évidence la présence d'injections de requêtes par l'intermédiaire des en-têtes HTTP. Cette étude démontre des risques de sécurité majeurs pour les applications exploitant des données non fiables via l'IA.
-
-★★★★☆ · Hacker News</description>
-      <category>Sécurité</category>
     </item>
   </channel>
 </rss>
