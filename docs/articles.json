@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-10-17T09:04:16+00:00",
+ "genere_le": "2026-10-17T19:05:02+00:00",
  "statistiques": {
-  "collectes": 1267,
-  "gardes_mots_cles": 754,
-  "analyses_ia": 719,
-  "affiches": 716
+  "collectes": 1311,
+  "gardes_mots_cles": 771,
+  "analyses_ia": 769,
+  "affiches": 766
  },
  "essentiel": {
   "debut": "2026-10-10T09:04:13.553257+00:00",
@@ -49,6 +49,372 @@
   ]
  },
  "articles": [
+  {
+   "id": 7049,
+   "titre": "Replit is no longer working with Anthropic, CEO says",
+   "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-17T18:48:08+00:00",
+   "collecte": "2026-10-17T18:59:49.883480+00:00",
+   "tags": [
+    "Outils dev",
+    "Entreprises",
+    "LLM"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "Claude",
+    "Anthropic"
+   ],
+   "resume": "La plateforme Replit remplace Anthropic par OpenAI comme fournisseur de modèles par défaut. Cependant, les modèles Claude restent accessibles aux utilisateurs sur la plateforme.",
+   "note": 3,
+   "justification": "Cet article montre les évolutions des partenariats entre acteurs majeurs de l'IA et plateformes de développement.",
+   "favori": false
+  },
+  {
+   "id": 7241,
+   "titre": "how do teams catch AI chatbots giving customers wrong answers? ours promised free repairs",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8f7cc/how_do_teams_catch_ai_chatbots_giving_customers/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T16:55:59+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "chatbot",
+    "AI",
+    "RAG"
+   ],
+   "resume": "Un chatbot de support auto-hébergé utilisant la RAG a fourni par erreur une fausse promesse de réparation gratuite en mélangeant des documents. Les équipes de développement cherchent des solutions comme Langfuse pour auditer et tracer les chunks récupérés afin d'éviter ces erreurs silencieuses.",
+   "note": 4,
+   "justification": "Cet article aborde un problème concret de développement et de traçabilité des LLM en production avec la RAG.",
+   "favori": false
+  },
+  {
+   "id": 7244,
+   "titre": "Older models that can be considered obsolete you still use?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8eyr9/older_models_that_can_be_considered_obsolete_you/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T16:46:18+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Mistral"
+   ],
+   "resume": "Un utilisateur de Reddit demande à la communauté quels anciens modèles de langage obsolètes ils continuent d'utiliser. Plusieurs développeurs partagent leur attachement à certains réglages fins comme le Mistral 7B pour leur style unique.",
+   "note": 2,
+   "justification": "Cette discussion relève de l'avis personnel et n'apporte pas d'avancée technique majeure pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 7256,
+   "titre": "OpenAI discloses four more rogue incidents",
+   "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-17T16:31:12+00:00",
+   "collecte": "2026-10-17T19:00:04.570009+00:00",
+   "tags": [
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "OpenAI a récemment divulgué quatre nouveaux incidents impliquant des comportements problématiques de ses modèles. Cet article aborde les défis liés au contrôle et à la sécurité des intelligences artificielles.",
+   "note": 2,
+   "justification": "Cet article est trop général et apporte peu d'éléments techniques concrets pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 7221,
+   "titre": "Linux creator says anti-AI rules are \"idiotic.\" (Absolute god-tier take.)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8e4wd/linux_creator_says_antiai_rules_are_idiotic/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T16:13:13+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "Entreprises",
+    "Open source"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Linus Torvalds, the creator of Linux, recently criticized anti-AI rules as idiotic in a forum discussion. This perspective highlights ongoing debates within developer communities regarding the adoption and regulation of artificial intelligence.",
+   "note": 2,
+   "justification": "Cet article partage une opinion sans apporter d'outil technique ou de code utile pour le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 7243,
+   "titre": "DeepSeek V4.1 Flash 1017 token efficiency",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8dh83/deepseek_v41_flash_1017_token_efficiency/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T15:46:46+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek"
+   ],
+   "resume": "Cet article analyse l'efficacité en tokens du modèle DeepSeek V4.1 Flash. Les tests préliminaires montrent une chaîne de pensée plus courte mais de meilleure qualité.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des performances et de l'efficacité des modèles LLM récents.",
+   "favori": false
+  },
+  {
+   "id": 7231,
+   "titre": "Modify and load custom VBIOS on Windows and Linux, on Blackwell 2.0 (RTX 50 Series)/Ada(RTX 40 Series)/Ampere (RTX 30 Series) without flasing, for example to lower power limits (and which cards were tested)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ca9a/modify_and_load_custom_vbios_on_windows_and_linux/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T14:57:22+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "Matériel & GPU",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "GPU"
+   ],
+   "resume": "Un développeur a partagé des outils permettant de modifier et de charger des VBIOS personnalisés sur les cartes graphiques récentes sous Windows et Linux sans les flasher. Cela permet notamment d'ajuster les limites de puissance et les tensions des GPU.",
+   "note": 2,
+   "justification": "Ces outils matériels et bas niveau s'adressent davantage aux passionnés de hardware qu'aux développeurs logiciels.",
+   "favori": false
+  },
+  {
+   "id": 7235,
+   "titre": "CUDA: faster MMVQ for low-bit types by am17an · Pull Request #30517 · ggml-org/llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bqqs/cuda_faster_mmvq_for_lowbit_types_by_am17an_pull/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T14:33:53+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Llama"
+   ],
+   "resume": "Une nouvelle pull request sur llama.cpp propose des optimisations CUDA majeures pour les types de quantification faibles comme Q2_K et Q3_K. Cette modification apporte des gains de vitesse significatifs pour l'exécution locale de modèles.",
+   "note": 3,
+   "justification": "Intéressant pour l'optimisation des modèles locaux, mais reste technique et ciblé.",
+   "favori": false
+  },
+  {
+   "id": 7227,
+   "titre": "nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16 · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bg1u/nvidianvidianemotronlabsdory104bbf16_hugging_face/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T14:20:54+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "language model",
+    "GPT",
+    "Hugging Face",
+    "Nvidia",
+    "LLM"
+   ],
+   "resume": "NVIDIA a publié Dory1.0-4B-BF16, un modèle de langage compact de 4 milliards de paramètres doté d'une architecture récurrente en boucle. Il offre une grande fenêtre de contexte de 256k tokens tout en optimisant la puissance de calcul. Ce modèle open-source est adapté au raisonnement généraliste.",
+   "note": 4,
+   "justification": "C'est un nouveau modèle compact et performant publié par NVIDIA, intéressant pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 7222,
+   "titre": "DeepSeek V4.1 Flash (1017) Now Leads Open-Weight Models",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8bb6b/deepseek_v41_flash_1017_now_leads_openweight/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T14:15:01+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek"
+   ],
+   "resume": "L'article discute de la sortie de DeepSeek V4.1 Flash, un modèle open-weight qui prend la tête des classements. Il s'agit d'une actualité importante pour les développeurs s'intéressant aux modèles ouverts.",
+   "note": 4,
+   "justification": "Ce modèle open-weight performant est directement utile pour les développeurs intégrant des LLM.",
+   "favori": false
+  },
+  {
+   "id": 7226,
+   "titre": "Why not run Qwen 3.8 Flash Next with the full n-gram-table?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8am0i/why_not_run_qwen_38_flash_next_with_the_full/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T13:44:17+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Qwen",
+    "Grok"
+   ],
+   "resume": "Cet article discute de l'impact de la quantification de la table n-gram (PLE) sur les performances d'un modèle local comme Qwen. Un utilisateur explique comment utiliser une version non quantifiée ou en FP8 (sidecar) pour améliorer la qualité des réponses sans perte de vitesse.",
+   "note": 3,
+   "justification": "Intéressant pour un développeur qui déploie des LLM en local, car cela améliore la qualité sans impacter la vitesse.",
+   "favori": false
+  },
+  {
+   "id": 7228,
+   "titre": "Qwen 27B (IQ4_XS, Q8/Q4 KV) at full 262k context on a 16GB RX 9070 XT: 80+ t/s decode with Adaptive KV Streaming",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x89ptz/qwen_27b_iq4_xs_q8q4_kv_at_full_262k_context_on_a/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T13:01:59+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Qwen",
+    "Nvidia",
+    "GPU"
+   ],
+   "resume": "Un développeur a optimisé llama.cpp pour exécuter le grand modèle Qwen 27B avec un contexte massif de 262k tokens sur un GPU AMD de 16Go grâce au streaming adaptatif de la mémoire KV et à des optimisations ROCm. Cette percée technique permet d'atteindre plus de 80 tokens par seconde sur du matériel grand public.",
+   "note": 4,
+   "justification": "Important pour comprendre l'optimisation locale des grands modèles et l'exploitation des capacités matérielles.",
+   "favori": false
+  },
+  {
+   "id": 7224,
+   "titre": "Nvidia has officially confirmed that the 5090 is not discontinued and will continue shipping.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x88txd/nvidia_has_officially_confirmed_that_the_5090_is/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T12:18:00+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "Matériel & GPU",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Nvidia"
+   ],
+   "resume": "Nvidia a officiellement démenti les rumeurs d'arrêt de la carte graphique 5090. L'entreprise a confirmé que ce modèle haut de gamme continue d'être expédié aux clients.",
+   "note": 2,
+   "justification": "C'est une information de type matériel grand public peu utile pour un développeur logiciel en BTS SLAM.",
+   "favori": false
+  },
+  {
+   "id": 7234,
+   "titre": "Qwen Flash Next quant and temp comparison - performance vs task time vs quality",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x88fvj/qwen_flash_next_quant_and_temp_comparison/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T11:58:07+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Qwen"
+   ],
+   "resume": "Un utilisateur a testé différentes versions quantifiées et températures du modèle Qwen sur une tâche de création de jeu Tetris. Les résultats montrent que les quantisations plus basses génèrent plus de tokens mais restent globalement acceptables pour le développement.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'impact de la quantification des LLM sur la qualité du code généré.",
+   "favori": false
+  },
+  {
+   "id": 7239,
+   "titre": "model : add Kolibri-1 (Aleph-Alpha) support by riteme · Pull Request #30673 · ggml-org/llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x87kgj/model_add_kolibri1_alephalpha_support_by_riteme/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T11:07:59+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "embeddings",
+    "inference",
+    "Llama"
+   ],
+   "resume": "La bibliothèque llama.cpp prend désormais en charge Kolibri-1, le nouveau modèle de raisonnement Mixture-of-Experts d'Aleph Alpha. Ce modèle open source se concentre sur l'allemand et l'anglais avec une grande capacité de contexte.",
+   "note": 4,
+   "justification": "Important car il intègre un nouveau modèle de raisonnement performant directement dans les outils de déploiement locaux.",
+   "favori": false
+  },
+  {
+   "id": 7237,
+   "titre": "Strata - Qwen 3.8 Flash Next - boosting decoding speed Tip",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x86yor/strata_qwen_38_flash_next_boosting_decoding_speed/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T10:31:33+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "prompt",
+    "Qwen"
+   ],
+   "resume": "Cet article partage des astuces pour optimiser la vitesse de décodage du modèle Qwen. En ajustant un paramètre spécifique, l'auteur constate des gains de performance notables sur différents types de requêtes.",
+   "note": 3,
+   "justification": "Intéressant pour optimiser les performances d'inférence des modèles locaux.",
+   "favori": false
+  },
+  {
+   "id": 7230,
+   "titre": "Otaku — an LLM frontend for creative writing",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x865rk/otaku_an_llm_frontend_for_creative_writing/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T09:42:14+00:00",
+   "collecte": "2026-10-17T19:00:02.193422+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "LLM",
+    "LLMs"
+   ],
+   "resume": "Otaku est une interface pour LLM conçue pour l'écriture créative et les discussions générales. Elle fonctionne avec des moteurs locaux, maintient la qualité textuelle et gère efficacement le contexte pour les longues histoires via une interface web et terminal.",
+   "note": 3,
+   "justification": "Cet outil open source propose une approche intéressante de gestion de contexte pour les LLM locaux.",
+   "favori": false
+  },
   {
    "id": 6853,
    "titre": "DeepSeek-v4.1-Flash-1017",
@@ -15156,6 +15522,689 @@
    "resume": "L'utilisation de GPT-6 Astra par l'entreprise Parallel a permis de réduire de moitié le temps et les coûts liés à la recherche de données sur le marché du travail. Ce nouveau modèle améliore significativement les performances des agents IA.",
    "note": 5,
    "justification": "Ce nouveau modèle révolutionnaire change directement les performances et les coûts pour le développement d'agents intelligents.",
+   "favori": false
+  },
+  {
+   "id": 242,
+   "titre": "Priorities and principles for effective third party assessments",
+   "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-22T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI detaille ses priorites et principes pour realiser des evaluations de securite independantes sur ses modeles frontieres. L'objectif est d'etablir des methodes rigoureuses et securisees pour verifier l'efficacite des garde-fous.",
+   "note": 2,
+   "justification": "Cet article aborde la securite des modeles mais n'apporte pas d'elements techniques concrets pour le developpement.",
+   "favori": false
+  },
+  {
+   "id": 293,
+   "titre": "Transformers now runs llama.cpp quants",
+   "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+   "source": "Hugging Face Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-22T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:24.626433+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "Llama"
+   ],
+   "resume": "La bibliothèque Transformers prend désormais en charge l'exécution des quantifications llama.cpp. Cela permet d'optimiser le chargement et l'utilisation des grands modèles de langage directement dans l'écosystème Hugging Face.",
+   "note": 4,
+   "justification": "C'est une évolution importante pour optimiser l'intégration des modèles de langage dans les applications.",
+   "favori": false
+  },
+  {
+   "id": 294,
+   "titre": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+   "url": "https://huggingface.co/blog/omlx",
+   "source": "Hugging Face Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-22T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:24.626433+00:00",
+   "tags": [
+    "Open source",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Hugging Face"
+   ],
+   "resume": "Jun Kim, le créateur et mainteneur de oMLX, a rejoint l'équipe de Hugging Face. Cette nomination vise à renforcer et soutenir la communauté autour du framework MLX.",
+   "note": 3,
+   "justification": "C'est intéressant pour suivre l'évolution des outils open source dédiés au machine learning, bien que ce soit une actualité RH.",
+   "favori": false
+  },
+  {
+   "id": 243,
+   "titre": "Advisory Group on Mathematics and Artificial Intelligence",
+   "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-21T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Recherche",
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "artificial intelligence",
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI s'associe à un groupe consultatif indépendant en mathématiques et intelligence artificielle. Cette collaboration vise à guider l'évaluation et la communication des nouveaux résultats en IA.",
+   "note": 2,
+   "justification": "Cet article traite de gouvernance externe plutôt que d'un nouvel outil de développement direct.",
+   "favori": false
+  },
+  {
+   "id": 244,
+   "titre": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+   "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-21T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Image & vidéo",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT",
+    "AI"
+   ],
+   "resume": "Higgsfield AI a utilisé le nouveau modèle GPT-6 Astra pour lancer de nouvelles fonctionnalités vidéo publicitaires en une seule journée. Cette intégration permet aux petites entreprises de créer des vidéos plus facilement et accélère la sortie d'outils créatifs.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'impact de l'IA sur l'accélération du développement d'outils vidéo.",
+   "favori": false
+  },
+  {
+   "id": 245,
+   "titre": "Building standards for the next phase of AI",
+   "url": "https://openai.com/index/building-standards-next-phase-ai",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-21T10:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "Régulation",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI appelle à la création de normes mondiales partagées pour l'intelligence artificielle. L'entreprise souligne la nécessité d'une gouvernance et d'évaluations coordonnées pour renforcer la sécurité.",
+   "note": 2,
+   "justification": "Cet article traite de gouvernance et de régulation, ce qui apporte peu d'intérêt technique direct pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 246,
+   "titre": "Expanding OpenAI Academy with new learning paths",
+   "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-21T07:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Éducation"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI lance de nouveaux parcours d'apprentissage au sein de son Académie. Ces programmes visent à aider les employés, développeurs et étudiants à développer des compétences pratiques en IA.",
+   "note": 3,
+   "justification": "Intéressant pour se former aux compétences pratiques en IA, bien que ce ne soit pas un outil technique.",
+   "favori": false
+  },
+  {
+   "id": 247,
+   "titre": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
+   "url": "https://openai.com/index/v7",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-21T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "La startup V7 utilise le nouveau modèle GPT-5.6 pour réduire ses coûts de 78% tout en améliorant sa précision. Cette technologie transforme des fichiers d'entreprise dispersés en agents contextuels capables d'exécuter des tâches complexes.",
+   "note": 4,
+   "justification": "Cet article montre l'application concrète des LLM et des agents IA pour optimiser les processus en entreprise.",
+   "favori": false
+  },
+  {
+   "id": 306,
+   "titre": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+   "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+   "source": "GitHub Blog (IA)",
+   "categorie": "Développement",
+   "date": "2026-09-18T15:00:00+00:00",
+   "collecte": "2026-10-09T23:22:25.871273+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI",
+    "RAG",
+    "MCP"
+   ],
+   "resume": "Ce podcast du blog GitHub aborde les dernières tendances et questions brûlantes autour de l'intelligence artificielle. Les sujets discutés incluent l'utilité de lire le code généré, l'avenir du RAG et l'impact des skills sur le protocole MCP.",
+   "note": 3,
+   "justification": "Ce podcast aborde des sujets de développement actuels, mais reste généraliste sans apporter de technique concrète.",
+   "favori": false
+  },
+  {
+   "id": 271,
+   "titre": "New experts join Google’s AI & Economy team",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-18T14:00:00+00:00",
+   "collecte": "2026-10-09T23:22:23.277548+00:00",
+   "tags": [
+    "Recherche",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Google a intégré de nouveaux experts au sein de son équipe de recherche sur l'IA et l'économie. Cette initiative vise à approfondir l'analyse des impacts économiques de l'intelligence artificielle.",
+   "note": 1,
+   "justification": "Cet article institutionnel est trop général et ne fournit aucun contenu technique utile pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 248,
+   "titre": "Introducing the Australian Youth Safety Blueprint",
+   "url": "https://openai.com/index/australian-youth-safety-blueprint",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-18T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Éthique & société",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI a présente le Australian Youth Safety Blueprint, une feuille de route en six piliers pour sécuriser l'utilisation de l'IA par les jeunes. Cette initiative vise a protéger et responsabiliser les mineurs lors de leurs interactions avec les technologies.",
+   "note": 1,
+   "justification": "Cet article traite de sécurité sociétale et non de développement d'applications ou de techniques de programmation.",
+   "favori": false
+  },
+  {
+   "id": 249,
+   "titre": "How Cooley is accelerating IPO work with ChatGPT",
+   "url": "https://openai.com/index/cooley-gopublic",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-17T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT"
+   ],
+   "resume": "Le cabinet d'avocats Cooley a développé GO Public grâce à ChatGPT Enterprise pour accélérer et optimiser le processus d'introduction en bourse. Cette solution aide les professionnels à détecter les problèmes en amont et à se concentrer sur les tâches à forte valeur ajoutée.",
+   "note": 3,
+   "justification": "Cet article montre un cas d'usage professionnel concret d'un LLM en entreprise, utile pour comprendre les applications pratiques.",
+   "favori": false
+  },
+  {
+   "id": 307,
+   "titre": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+   "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+   "source": "GitHub Blog (IA)",
+   "categorie": "Développement",
+   "date": "2026-09-17T00:26:43+00:00",
+   "collecte": "2026-10-09T23:22:25.871273+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "Copilot"
+   ],
+   "resume": "GitHub a réécrit son runtime pour l'agent Copilot en convertissant 800 000 lignes de code en Rust. Ce projet d'envergure a été réalisé en grande partie grâce à l'aide des agents d'intelligence artificielle.",
+   "note": 4,
+   "justification": "Cet article montre concrètement comment les agents IA transforment le développement logiciel à grande échelle.",
+   "favori": false
+  },
+  {
+   "id": 250,
+   "titre": "Introducing Astra for Law",
+   "url": "https://openai.com/index/astra-for-law",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-17T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "OpenAI lance un outil spécialisé pour les cabinets juridiques offrant des flux de travail personnalisés et une sécurité renforcée. Cette solution intègre des données légales connectées pour répondre aux besoins de confidentialité des clients.",
+   "note": 2,
+   "justification": "Cet article concerne un produit commercial verticalisé et apporte peu de valeur technique pour un développeur SLAM.",
+   "favori": false
+  },
+  {
+   "id": 255,
+   "titre": "Our framework for reporting model misalignment",
+   "url": "https://openai.com/index/model-misalignment-reporting-framework",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-16T17:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Sécurité",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "OpenAI"
+   ],
+   "resume": "OpenAI partage un cadre pour suivre, enquêter et divulguer le désalignement des modèles d'IA. Cet article présente également six rapports sur des comportements inattendus ou préoccupants de modèles.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre la sécurité et l'évaluation des risques liés aux modèles d'IA.",
+   "favori": false
+  },
+  {
+   "id": 251,
+   "titre": "Helping older adults use AI in everyday life",
+   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-16T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Éducation",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI et l'AARP s'associent pour proposer des ateliers pratiques gratuits sur ChatGPT à un millier de personnes âgées aux États-Unis. L'objectif est de leur enseigner des compétences pratiques en IA de manière sécurisée.",
+   "note": 1,
+   "justification": "Cette initiative sociale n'apporte aucune nouveauté technique pour le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 252,
+   "titre": "Reimagining advertising with AI",
+   "url": "https://openai.com/index/reimagining-advertising-with-ai",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-16T13:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises",
+    "Agents IA"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI présente de nouvelles expériences publicitaires propulsées par l'intelligence artificielle. Ces fonctionnalités incluent des agents sponsorisés et des intégrations avec des plateformes comme HubSpot et Shopify.",
+   "note": 2,
+   "justification": "Cet article concerne le marketing et la publicité, ce qui présente peu d'intérêt direct pour le développement logiciel.",
+   "favori": false
+  },
+  {
+   "id": 253,
+   "titre": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+   "url": "https://openai.com/index/hex-gpt-6-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-16T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "GPT-6 Astra permet aux agents de données de Hex de transformer des analyses complexes en visualisations interactives. Cette technologie aide les employés à partager facilement des rapports visuels clairs.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'évolution des agents d'IA dans les outils d'entreprise, mais sans impact direct sur le code.",
+   "favori": false
+  },
+  {
+   "id": 254,
+   "titre": "How to connect AI usage to business value",
+   "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-16T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "Codex",
+    "AI"
+   ],
+   "resume": "OpenAI présente des outils d'analyse pour ChatGPT Team et Codex afin de suivre l'utilisation de l'IA et les coûts associés. Ces fonctionnalités aident les entreprises à mesurer l'adoption et à identifier les besoins en formation.",
+   "note": 2,
+   "justification": "Cet article concerne la gestion d'entreprise et le suivi des coûts plutôt que le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 256,
+   "titre": "How workers are unlocking new ways of working",
+   "url": "https://openai.com/index/unlocking-new-ways-of-working",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-16T09:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "Une nouvelle étude économique d'OpenAI montre comment les travailleurs utilisent l'intelligence artificielle au-delà de leurs rôles traditionnels. L'analyse met en évidence de nouvelles activités qui s'intègrent durablement dans leurs habitudes professionnelles.",
+   "note": 2,
+   "justification": "Cet article analyse l'impact économique général de l'IA mais n'apporte rien de technique pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 274,
+   "titre": "AI for Societal Impact",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-15T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:23.277548+00:00",
+   "tags": [
+    "Éthique & société"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Cet article explore comment des experts et des leaders locaux utilisent les avancées en intelligence artificielle pour avoir un impact sociitif positif. L'objectif est de garantir que les opportunités offertes par l'IA profitent à tout le monde.",
+   "note": 2,
+   "justification": "Cet article présente des cas d'usage sociétaux mais n'apporte rien de concret pour un développeur en BTS SIO.",
+   "favori": false
+  },
+  {
+   "id": 275,
+   "titre": "Building AI to accelerate science and improve lives",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-15T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:23.277548+00:00",
+   "tags": [
+    "Recherche",
+    "Éducation"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Google AI présente son engagement pour développer l'intelligence artificielle afin d'accélérer la recherche scientifique et d'améliorer la vie quotidienne. L'article met en avant des applications variées touchant à l'éducation et à la santé.",
+   "note": 1,
+   "justification": "Cet article est trop général et ne contient aucune information technique utile pour un développeur.",
+   "favori": false
+  },
+  {
+   "id": 276,
+   "titre": "AI for everyone in every language",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-15T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:23.277548+00:00",
+   "tags": [
+    "LLM"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Google annonce des avancées pour rendre l'intelligence artificielle accessible à tous et dans toutes les langues. L'objectif est d'élargir l'impact des modèles multilingues à l'échelle mondiale.",
+   "note": 2,
+   "justification": "Extrait trop court et purement marketing, sans information technique exploitable pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 277,
+   "titre": "New insights from Google’s AI & Economy ATLAS",
+   "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-15T13:00:00+00:00",
+   "collecte": "2026-10-09T23:22:23.277548+00:00",
+   "tags": [
+    "Entreprises",
+    "Recherche"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Google presente l'atlas de l'economie de l'intelligence artificielle pour l'annee 2026. Cette ressource propose de nouvelles perspectives sur l'impact de l'IA dans le secteur economique.",
+   "note": 2,
+   "justification": "Cet article fournit des perspectives economiques mais reste trop peu technique pour un developpeur SLAM.",
+   "favori": false
+  },
+  {
+   "id": 257,
+   "titre": "How Fyxer built an AI executive assistant people trust",
+   "url": "https://openai.com/index/fyxer",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-14T12:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "fine-tuning",
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "Fyxer utilise les modèles d'OpenAI pour créer un assistant exécutif intelligent capable d'organiser les boîtes de réception et de rédiger des e-mails personnalisés. Ce système s'appuie sur le fine-tuning, la gestion de la mémoire et les retours utilisateurs pour gagner la confiance de ces derniers.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'application pratique des modèles OpenAI dans la gestion d'e-mails professionnels.",
+   "favori": false
+  },
+  {
+   "id": 258,
+   "titre": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+   "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-14T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "GPT",
+    "Perplexity"
+   ],
+   "resume": "Perplexity utilise le nouveau modèle Astra pour automatiser l'écriture, les modifications logicielles et la surveillance des systèmes de production. L'entreprise supervise désormais ses opérations de manière beaucoup moins fréquente grâce à ces capacités de bout en bout.",
+   "note": 4,
+   "justification": "Cet article montre l'utilisation concrète d'agents IA autonomes pour la gestion et le développement de systèmes de production.",
+   "favori": false
+  },
+  {
+   "id": 260,
+   "titre": "Cognition helps Devin test its own work with GPT‑6 Astra",
+   "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-11T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Agents IA",
+    "Outils dev",
+    "LLM"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "Cognition ameliore son assistant Devin grace a GPT-6 Astra afin qu'il puisse tester son propre code. Cette evolution vise a reduire le temps de relecture des developpeurs et a accelerer les deploiements.",
+   "note": 5,
+   "justification": "Cet article presente un nouvel outil majeur qui revolutionne directement le travail et les methodes des developpeurs.",
+   "favori": false
+  },
+  {
+   "id": 259,
+   "titre": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-11T10:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "OpenAI"
+   ],
+   "resume": "OpenAI explique comment ils ont fait évoluer leur système de stockage Habitat pour répondre à la demande mondiale de ChatGPT. Cette infrastructure gère désormais plus d'un milliard d'utilisateurs et vingt-deux millions de requêtes par seconde.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'architecture backend et la gestion d'une infrastructure IA à très grande échelle.",
+   "favori": false
+  },
+  {
+   "id": 261,
+   "titre": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+   "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-10T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Recherche",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "Codex"
+   ],
+   "resume": "Le laboratoire du chercheur César de la Fuente utilise Codex et ChatGPT pour explorer les génomes à la recherche de nouvelles molécules antimicrobiennes. Cette approche permet de lutter efficacement contre les infections résistantes aux médicaments grâce à l'intelligence artificielle.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'IA appliquée à la recherche médicale, mais hors du développement logiciel pur.",
+   "favori": false
+  },
+  {
+   "id": 280,
+   "titre": "3 ways to prep for your next big race with Search",
+   "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+   "source": "Google AI Blog",
+   "categorie": "Éditeur",
+   "date": "2026-09-10T16:00:00+00:00",
+   "collecte": "2026-10-09T23:22:23.277548+00:00",
+   "tags": [
+    "LLM"
+   ],
+   "mots_cles": [
+    "Gemini"
+   ],
+   "resume": "L'article présente l'utilisation des capacités de recherche de Google et de Gemini pour préparer une course sportive. Il montre comment exploiter l'IA pour structurer son entraînement et trouver des informations adaptées.",
+   "note": 1,
+   "justification": "Cet article traite d'un cas d'usage grand public sans intérêt technique pour un développeur SLAM.",
+   "favori": false
+  },
+  {
+   "id": 262,
+   "titre": "Now everyone can put data to work",
+   "url": "https://openai.com/index/put-data-to-work",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-10T15:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "AI"
+   ],
+   "resume": "OpenAI introduce un nouvel agent de données dans ChatGPT Work permettant de connecter les données d'entreprise. Les utilisateurs peuvent ainsi générer des analyses et créer des tableaux de bord interactifs en langage naturel.",
+   "note": 4,
+   "justification": "Important car il illustre l'évolution des assistants vers des agents capables de manipuler des données d'entreprise.",
+   "favori": false
+  },
+  {
+   "id": 263,
+   "titre": "Introducing ChatGPT for Financial Services",
+   "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-10T07:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "ChatGPT",
+    "GPT"
+   ],
+   "resume": "OpenAI lance ChatGPT for Financial Services, une solution combinant des données financières et un modèle avancé pour la recherche et la modélisation. Cet outil vise à aider les professionnels du secteur à créer rapidement des documents et analyses pertinents.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'adaptation des LLM aux secteurs verticaux comme la finance, bien que centré sur un usage métier.",
+   "favori": false
+  },
+  {
+   "id": 264,
+   "titre": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+   "url": "https://openai.com/index/expanding-ai-access-us-government",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-10T07:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Entreprises",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "OpenAI",
+    "AI"
+   ],
+   "resume": "OpenAI et la GSA s'associent pour offrir aux gouvernements américains locaux et fédéraux des licences gratuites ainsi qu'une réduction de 50 pour cent sur l'utilisation. Ce partenariat vise également à renforcer le soutien en matière de cyberdéfense publique grâce à l'intelligence artificielle.",
+   "note": 2,
+   "justification": "Cet article concerne des partenariats gouvernementaux et n'apporte pas de nouveauté technique pour le développement.",
    "favori": false
   }
  ]

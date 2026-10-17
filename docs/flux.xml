@@ -5,7 +5,66 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 17 Oct 2026 09:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 19:05:02 +0000</lastBuildDate>
+    <item>
+      <title>how do teams catch AI chatbots giving customers wrong answers? ours promised free repairs</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8f7cc/how_do_teams_catch_ai_chatbots_giving_customers/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8f7cc/how_do_teams_catch_ai_chatbots_giving_customers/</guid>
+      <pubDate>Sat, 17 Oct 2026 16:55:59 +0000</pubDate>
+      <description>Un chatbot de support auto-hébergé utilisant la RAG a fourni par erreur une fausse promesse de réparation gratuite en mélangeant des documents. Les équipes de développement cherchent des solutions comme Langfuse pour auditer et tracer les chunks récupérés afin d'éviter ces erreurs silencieuses.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16 · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8bg1u/nvidianvidianemotronlabsdory104bbf16_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8bg1u/nvidianvidianemotronlabsdory104bbf16_hugging_face/</guid>
+      <pubDate>Sat, 17 Oct 2026 14:20:54 +0000</pubDate>
+      <description>NVIDIA a publié Dory1.0-4B-BF16, un modèle de langage compact de 4 milliards de paramètres doté d'une architecture récurrente en boucle. Il offre une grande fenêtre de contexte de 256k tokens tout en optimisant la puissance de calcul. Ce modèle open-source est adapté au raisonnement généraliste.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>DeepSeek V4.1 Flash (1017) Now Leads Open-Weight Models</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8bb6b/deepseek_v41_flash_1017_now_leads_openweight/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8bb6b/deepseek_v41_flash_1017_now_leads_openweight/</guid>
+      <pubDate>Sat, 17 Oct 2026 14:15:01 +0000</pubDate>
+      <description>L'article discute de la sortie de DeepSeek V4.1 Flash, un modèle open-weight qui prend la tête des classements. Il s'agit d'une actualité importante pour les développeurs s'intéressant aux modèles ouverts.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Qwen 27B (IQ4_XS, Q8/Q4 KV) at full 262k context on a 16GB RX 9070 XT: 80+ t/s decode with Adaptive KV Streaming</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x89ptz/qwen_27b_iq4_xs_q8q4_kv_at_full_262k_context_on_a/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x89ptz/qwen_27b_iq4_xs_q8q4_kv_at_full_262k_context_on_a/</guid>
+      <pubDate>Sat, 17 Oct 2026 13:01:59 +0000</pubDate>
+      <description>Un développeur a optimisé llama.cpp pour exécuter le grand modèle Qwen 27B avec un contexte massif de 262k tokens sur un GPU AMD de 16Go grâce au streaming adaptatif de la mémoire KV et à des optimisations ROCm. Cette percée technique permet d'atteindre plus de 80 tokens par seconde sur du matériel grand public.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>model : add Kolibri-1 (Aleph-Alpha) support by riteme · Pull Request #30673 · ggml-org/llama.cpp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x87kgj/model_add_kolibri1_alephalpha_support_by_riteme/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x87kgj/model_add_kolibri1_alephalpha_support_by_riteme/</guid>
+      <pubDate>Sat, 17 Oct 2026 11:07:59 +0000</pubDate>
+      <description>La bibliothèque llama.cpp prend désormais en charge Kolibri-1, le nouveau modèle de raisonnement Mixture-of-Experts d'Aleph Alpha. Ce modèle open source se concentre sur l'allemand et l'anglais avec une grande capacité de contexte.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
     <item>
       <title>Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang</title>
       <link>https://simonwillison.net/2026/Oct/16/code-review/</link>
@@ -296,64 +355,6 @@
       <category>LLM</category>
       <category>Open source</category>
       <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>Flux.3 Image Klein is now out</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6s7el/flux3_image_klein_is_now_out/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6s7el/flux3_image_klein_is_now_out/</guid>
-      <pubDate>Thu, 15 Oct 2026 17:38:48 +0000</pubDate>
-      <description>Flux.3 Image Klein est un nouveau modèle open-weights de 5,6 milliards de paramètres dédié à la génération et à l'édition d'images à partir de texte et de références multiples. Il utilise le encodeur textuel Qwen3-VL-4B-Instruct pour traiter les requêtes et les images.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Image &amp; vidéo</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Introducing Muse Spark Open: the most capable US open-weight model to date</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6r9pz/introducing_muse_spark_open_the_most_capable_us/</guid>
-      <pubDate>Thu, 15 Oct 2026 17:03:45 +0000</pubDate>
-      <description>La sortie de Muse Spark Open, un modèle open-weight américain optimisé pour le code et les agents IA avec une grande fenêtre de contexte. Ce modèle multimodal prend en charge le texte, l'image, la vidéo et l'audio tout en offrant des performances de pointe.
-
-★★★★★ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Outils dev</category>
-    </item>
-    <item>
-      <title>Nemotron 3.5 Bolt vs Nemo 3.5 Super vs Qwen 3.8 27B/FN</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6qc3j/nemotron_35_bolt_vs_nemo_35_super_vs_qwen_38_27bfn/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6qc3j/nemotron_35_bolt_vs_nemo_35_super_vs_qwen_38_27bfn/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:28:32 +0000</pubDate>
-      <description>Cet article présente une comparaison des performances de plusieurs modèles de langage open source récents à travers divers benchmarks de codage et de raisonnement. Ces données permettent d'évaluer l'efficacité de ces IA pour le développement logiciel.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>Meta dévoile deux nouveaux modèles IA de pointe, Muse Wonder et Muse Wonder Full, sa première tentative pour les modèles frontière</title>
-      <link>https://intelligence-artificielle.developpez.com/actu/388168/Meta-devoile-deux-nouveaux-modeles-IA-de-pointe-Muse-Wonder-et-Muse-Wonder-Full-sa-premiere-tentative-pour-les-modeles-frontiere/</link>
-      <guid>https://intelligence-artificielle.developpez.com/actu/388168/Meta-devoile-deux-nouveaux-modeles-IA-de-pointe-Muse-Wonder-et-Muse-Wonder-Full-sa-premiere-tentative-pour-les-modeles-frontiere/</guid>
-      <pubDate>Thu, 15 Oct 2026 15:43:00 +0000</pubDate>
-      <description>Meta a annonce le lancement de ses deux nouveaux modeles d'intelligence artificielle de pointe, Muse Wonder et Muse Wonder Full. Concus pour rivaliser avec les leaders du secteur, ils beneficient d'entrainements avances en apprentissage par renforcement.
-
-★★★★★ · Developpez.com (IA)</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>mistralai/Timestral</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6ouoy/mistralaitimestral/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6ouoy/mistralaitimestral/</guid>
-      <pubDate>Thu, 15 Oct 2026 15:32:45 +0000</pubDate>
-      <description>Mistral a lance Timestral, une famille de modeles de fondation dediee a la prevision de series temporelles. Ce modele open source est disponible en plusieurs tailles allant jusqu'a 209 millions de parametres et supporte des contextes longs. Il utilise une architecture de type transformer par patchs pour effectuer des predictions precises.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Recherche</category>
     </item>
   </channel>
 </rss>
