@@ -1,0 +1,57 @@
+# =============================================================
+#  SITE : publication sur GitHub Pages
+# =============================================================
+#  Le site est assemblé à partir de deux branches :
+#    - main : le code du site (docs/index.html, app.js, style.css...)
+#    - data : les données générées par la veille (docs/articles.json,
+#             docs/flux.xml), à côté de la base data/veille.db
+#  Ainsi, les commits automatiques de la veille ne remplissent plus
+#  l'historique de main : il ne contient que les vrais changements.
+#
+#  Lancé après chaque veille et chaque changement de favoris
+#  (veille.yml et favoris.yml l'appellent), et quand le code du site change.
+# =============================================================
+
+name: Site
+
+on:
+  push:
+    branches: [main]
+    paths: ["docs/**", ".github/workflows/site.yml"]
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Deux publications ne se marchent jamais dessus
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publication.outputs.page_url }}
+    steps:
+      - name: Récupérer le code du site (main)
+        uses: actions/checkout@v5
+
+      - name: Ajouter les données générées (branche data)
+        run: |
+          git fetch --depth=1 origin +refs/heads/data:refs/remotes/origin/data
+          git restore --source=origin/data --worktree -- docs/articles.json docs/flux.xml
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Publier
+        id: publication
+        uses: actions/deploy-pages@v4

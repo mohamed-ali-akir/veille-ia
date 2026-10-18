@@ -3,7 +3,11 @@
 # =============================================================
 #  GitHub lance ce "workflow" sur ses propres serveurs (Linux),
 #  gratuitement, même quand mon ordinateur est éteint :
-#    tests -> collecte -> tri -> site -> Discord -> sauvegarde
+#    tests -> collecte -> tri -> site -> Discord -> sauvegarde -> publication
+#
+#  Les données (la base et les fichiers du site générés) vivent sur
+#  la branche "data" : le code reste sur main, dont l'historique ne
+#  contient ainsi que les vrais changements.
 #
 #  Les clés secrètes viennent de :
 #  Settings > Secrets and variables > Actions
@@ -19,10 +23,6 @@ on:
   # Ajoute un bouton "Run workflow" pour lancer la veille à la main (démo)
   workflow_dispatch:
 
-# Autorise le workflow à enregistrer (push) la base et le site dans le dépôt
-permissions:
-  contents: write
-
 # Empêche deux veilles de tourner en même temps
 concurrency:
   group: veille
@@ -30,9 +30,17 @@ concurrency:
 jobs:
   veille:
     runs-on: ubuntu-latest
+    # Autorise le job à enregistrer (push) la base sur la branche data
+    permissions:
+      contents: write
     steps:
       - name: Récupérer le code du dépôt
         uses: actions/checkout@v5
+
+      - name: Récupérer la base (branche data)
+        run: |
+          git fetch --depth=1 origin +refs/heads/data:refs/remotes/origin/data
+          git restore --source=origin/data --worktree -- data/veille.db
 
       - name: Installer Python
         uses: actions/setup-python@v6
@@ -82,20 +90,17 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
-      - name: Sauvegarder la base et le site dans le dépôt
+      - name: Sauvegarder la base et les données du site (branche data)
         if: ${{ !cancelled() && steps.tests.outcome == 'success' }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/veille.db docs/articles.json docs/flux.xml
-          # On ne crée un commit que s'il y a du nouveau
-          git diff --staged --quiet && exit 0
-          git commit -m "Veille automatique du $(date -u +'%d/%m/%Y %Hh%M') UTC"
-          # Si quelqu'un a poussé un commit pendant la veille, le push est refusé :
-          # on récupère ce commit puis on réessaie (3 fois maximum)
-          for essai in 1 2 3; do
-            git pull --rebase && git push && exit 0
-            echo "Push refusé, nouvel essai dans 10 secondes..."
-            sleep 10
-          done
-          exit 1
+        run: bash .github/sauvegarder-donnees.sh "Veille automatique du $(date -u +'%d/%m/%Y %Hh%M') UTC"
+
+  # Publie le site avec les nouvelles données, même si une étape de la veille a planté
+  # (ce qui a été fait est sauvegardé, autant l'afficher).
+  site:
+    needs: veille
+    if: ${{ !cancelled() }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/site.yml

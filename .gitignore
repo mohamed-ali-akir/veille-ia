@@ -9,3 +9,8 @@ __pycache__/
 data/*.db-journal
 
 CLAUDE.md
+
+# Données générées par la veille : elles vivent sur la branche "data" (voir README)
+data/veille.db
+docs/articles.json
+docs/flux.xml
