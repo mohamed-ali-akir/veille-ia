@@ -39,7 +39,7 @@ jobs:
       url: ${{ steps.publication.outputs.page_url }}
     steps:
       - name: Récupérer le code du site (main)
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Ajouter les données générées (branche data)
         run: |

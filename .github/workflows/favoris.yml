@@ -34,7 +34,7 @@ jobs:
       change: ${{ steps.sauvegarde.outputs.change }}
     steps:
       - name: Récupérer le code du dépôt
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Récupérer la base (branche data)
         run: |
