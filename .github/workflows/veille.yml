@@ -43,7 +43,7 @@ jobs:
           git restore --source=origin/data --worktree -- data/veille.db
 
       - name: Installer Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
