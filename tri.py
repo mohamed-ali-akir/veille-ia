@@ -32,6 +32,7 @@ import yaml
 
 from base import ouvrir_base
 from ia import choisir_ia
+from reseau import ERREURS_RESEAU
 
 
 # ---------- Réglages ----------
@@ -242,7 +243,7 @@ def phase_2_ia(connexion):
                 break
             print(f"  [ERREUR {erreur.code}] {article['titre'][:60]}")
             continue
-        except (urllib.error.URLError, TimeoutError, KeyError, IndexError,
+        except (*ERREURS_RESEAU, KeyError, IndexError, TypeError,
                 json.JSONDecodeError) as erreur:
             print(f"  [ERREUR] {article['titre'][:60]} : {erreur}")
             continue

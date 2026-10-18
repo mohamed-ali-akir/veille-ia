@@ -20,6 +20,8 @@ import json
 import os
 import urllib.request
 
+from reseau import lire_json
+
 
 # ---------- Réglages ----------
 
@@ -30,15 +32,17 @@ MODELE_MISTRAL = "mistral-small-latest"
 # ---------- Fonctions ----------
 
 def envoyer_requete(url, corps, entetes):
-    """Envoie une requête POST en JSON et renvoie la réponse décodée."""
+    """
+    Envoie une requête POST en JSON et renvoie la réponse décodée.
+    Une panne passagère de l'API (erreur 5xx, connexion coupée) est réessayée.
+    """
     requete = urllib.request.Request(
         url,
         data=json.dumps(corps).encode("utf-8"),
         headers={"Content-Type": "application/json", **entetes},
         method="POST",
     )
-    with urllib.request.urlopen(requete, timeout=60) as reponse:
-        return json.load(reponse)
+    return lire_json(requete, timeout=60)
 
 
 def appeler_gemini(consigne, cle, schema):

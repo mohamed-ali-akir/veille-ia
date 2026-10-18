@@ -27,6 +27,7 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 
 from base import ouvrir_base
+from reseau import ERREURS_RESEAU
 
 
 # ---------- Réglages ----------
@@ -108,7 +109,7 @@ def envoyer_sur_discord(url_webhook, message):
             return json.load(reponse)
     except urllib.error.HTTPError as erreur:
         print(f"Erreur Discord {erreur.code} : {erreur.read().decode()[:200]}")
-    except urllib.error.URLError as erreur:
+    except ERREURS_RESEAU as erreur:
         print(f"Discord injoignable : {erreur}")
     return None
 
@@ -131,7 +132,7 @@ def supprimer_sur_discord(url_webhook, message_id):
         if erreur.code == 404:
             return True  # déjà supprimé (par exemple à la main) : c'est bon aussi
         print(f"Erreur Discord {erreur.code} : {erreur.read().decode()[:200]}")
-    except urllib.error.URLError as erreur:
+    except ERREURS_RESEAU as erreur:
         print(f"Discord injoignable : {erreur}")
     return False
 

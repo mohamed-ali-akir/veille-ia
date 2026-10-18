@@ -1,2 +1,4 @@
-feedparser
-pyyaml
+# Versions figées : la veille tourne seule deux fois par jour, une mise à jour
+# surprise d'une bibliothèque ne doit pas la casser. Dependabot propose les mises à jour.
+feedparser==6.0.14
+pyyaml==6.0.3

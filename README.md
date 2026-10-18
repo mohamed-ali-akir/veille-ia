@@ -47,7 +47,7 @@ Toute la chaîne est lancée **deux fois par jour** par **GitHub Actions**
 | Synthèse | `essentiel.py` | Tous les 7 jours, « L'essentiel de la semaine » en 5 points, chacun relié à son article |
 | Bonus | `alerte_discord.py` | Envoie les articles notés 4 ou 5 (et la synthèse) sur Discord, un message par article |
 | Favoris | `favoris.py` | Un bot Discord lit mes réactions ⭐ : l'article passe dans l'onglet « Favoris » du site et le salon #favoris |
-| Qualité | `tests.py` | 34 tests automatiques, lancés avant chaque veille |
+| Qualité | `tests.py` | 41 tests automatiques, lancés à chaque push et avant chaque veille |
 
 ## Structure du projet
 
@@ -57,6 +57,7 @@ veille-ia/
 ├── mots_cles.yml          mots-clés du filtre
 ├── base.py                ouverture de la base SQLite (structure des tables, migration)
 ├── ia.py                  appel à l'IA (Gemini ou Mistral), partagé par tri et essentiel
+├── reseau.py              erreurs réseau et nouvel essai automatique en cas de panne passagère
 ├── collecte.py            étape 1 : récupérer
 ├── tri.py                 étape 2 : trier (mots-clés + IA)
 ├── generer_site.py        étape 3 : exporter pour le site
@@ -76,6 +77,7 @@ veille-ia/
 │   └── flux.xml           flux RSS des articles 4-5★ (fichier généré)
 └── .github/workflows/
     ├── veille.yml         la veille complète, 2 fois par jour
+    ├── tests.yml          tests à chaque push et pull request
     └── favoris.yml        synchronisation des favoris ⭐, toutes les 5 minutes
 ```
 
@@ -99,6 +101,15 @@ Sous Linux (GitHub Actions), on remplace `py` par `python`.
 
 > ⚠️ GitHub Actions modifie la base deux fois par jour. Avant de travailler sur mon PC,
 > je fais toujours `git pull`, pour ne pas avoir deux versions différentes de `veille.db`.
+
+## Fiabilité
+
+La veille tourne seule, sans personne pour la surveiller. Elle est donc conçue pour encaisser les pannes :
+
+- **Pannes réseau** : toutes les erreurs possibles (site injoignable, délai dépassé, connexion coupée, réponse tronquée) sont regroupées dans `reseau.py`. Une panne passagère de l'API d'IA (erreur 5xx, connexion coupée) est réessayée 3 fois, avec une pause qui double à chaque essai. Une source ou un message Discord en échec n'arrête jamais le reste.
+- **Rien n'est perdu** : la base enregistre chaque article dès qu'il est traité, et le workflow sauvegarde ce qui a été fait même si une étape plante. Un article envoyé sur Discord est donc toujours marqué comme envoyé : il ne sera jamais renvoyé en double.
+- **Pas de conflit** : la veille et les favoris partagent le même groupe de concurrence, ils ne modifient jamais la base en même temps. Si un commit arrive pendant la veille, le push récupère ce commit puis réessaie.
+- **Versions figées** des bibliothèques (`requirements.txt`), mises à jour par Dependabot après passage des tests.
 
 ## Secrets (jamais dans le code)
 

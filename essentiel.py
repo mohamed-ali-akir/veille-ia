@@ -27,6 +27,7 @@ from datetime import datetime, timedelta, timezone
 from alerte_discord import URL_SITE, envoyer_sur_discord
 from base import ouvrir_base
 from ia import choisir_ia
+from reseau import ERREURS_RESEAU
 
 
 # ---------- Réglages ----------
@@ -207,7 +208,7 @@ def main():
         print(f"Erreur de l'API ({erreur.code}) : synthèse reportée au prochain lancement.")
         connexion.close()
         return
-    except (urllib.error.URLError, TimeoutError, KeyError, IndexError,
+    except (*ERREURS_RESEAU, KeyError, IndexError, TypeError,
             json.JSONDecodeError) as erreur:
         print(f"Erreur : {erreur}. Synthèse reportée au prochain lancement.")
         connexion.close()

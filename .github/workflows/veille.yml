@@ -44,6 +44,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Lancer les tests
+        id: tests
         run: python -m unittest -v tests
 
       - name: "Étape 1 : collecter les articles"
@@ -68,7 +69,12 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_WEBHOOK_FAVORIS: ${{ secrets.DISCORD_WEBHOOK_FAVORIS }}
 
+      # Les étapes suivantes tournent MÊME si une étape précédente a planté (mais pas si
+      # les tests ont échoué) : la base enregistre son travail au fur et à mesure, et il
+      # faut sauvegarder ce qui a été fait. Sinon, un article déjà envoyé sur Discord
+      # ne serait pas marqué comme envoyé dans le dépôt, et il serait renvoyé en double.
       - name: "Étape 3 : générer les données du site"
+        if: ${{ !cancelled() && steps.tests.outcome == 'success' }}
         run: python generer_site.py
 
       - name: "Bonus : alertes Discord"
@@ -77,10 +83,19 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Sauvegarder la base et le site dans le dépôt
+        if: ${{ !cancelled() && steps.tests.outcome == 'success' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/veille.db docs/articles.json docs/flux.xml
           # On ne crée un commit que s'il y a du nouveau
-          git diff --staged --quiet || git commit -m "Veille automatique du $(date -u +'%d/%m/%Y %Hh%M') UTC"
-          git push
+          git diff --staged --quiet && exit 0
+          git commit -m "Veille automatique du $(date -u +'%d/%m/%Y %Hh%M') UTC"
+          # Si quelqu'un a poussé un commit pendant la veille, le push est refusé :
+          # on récupère ce commit puis on réessaie (3 fois maximum)
+          for essai in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            echo "Push refusé, nouvel essai dans 10 secondes..."
+            sleep 10
+          done
+          exit 1
