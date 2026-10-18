@@ -7,3 +7,5 @@ __pycache__/
 
 # Fichiers temporaires de SQLite
 data/*.db-journal
+
+CLAUDE.md
