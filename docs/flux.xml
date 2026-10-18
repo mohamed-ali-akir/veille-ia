@@ -5,7 +5,78 @@
     <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
     <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 17 Oct 2026 19:05:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:20:55 +0000</lastBuildDate>
+    <item>
+      <title>The new local coding LLM's are pretty decent and a huge jump from the behemoths of the past</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8yfho/the_new_local_coding_llms_are_pretty_decent_and_a/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8yfho/the_new_local_coding_llms_are_pretty_decent_and_a/</guid>
+      <pubDate>Sun, 18 Oct 2026 08:55:28 +0000</pubDate>
+      <description>Un utilisateur teste de nouveaux petits modèles de langage locaux sur une tâche de codage novatrice. Ces modèles légers surpassent d'anciens géants et des solutions commerciales en matière de logique et d'imagination.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Agens Volundr 32B v1: we fixed what you flagged in the Preview. 0/50 loops, session continuation, and an MIT engine that runs it with 262K context (measured to 239K) within a 16 GB budget</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8yc8d/agens_volundr_32b_v1_we_fixed_what_you_flagged_in/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8yc8d/agens_volundr_32b_v1_we_fixed_what_you_flagged_in/</guid>
+      <pubDate>Sun, 18 Oct 2026 08:49:35 +0000</pubDate>
+      <description>La version finale du modèle Volundr 32B v1 corrige les problèmes de boucles et de lenteur signalés sur la version préliminaire. Ce nouveau modèle open source intègre une gestion améliorée du cache de contexte et des performances optimisées pour les agents.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping</title>
+      <link>https://sphinx-six-theta.vercel.app/</link>
+      <guid>https://sphinx-six-theta.vercel.app/</guid>
+      <pubDate>Sun, 18 Oct 2026 04:33:49 +0000</pubDate>
+      <description>Sphinx est un outil de développement qui teste et interroge le code généré par l'intelligence artificielle avant son déploiement. Il sert de filtre de sécurité pour valider la qualité et la fiabilité du code produit par les assistants IA.
+
+★★★★☆ · Hacker News</description>
+      <category>Outils dev</category>
+      <category>Sécurité</category>
+    </item>
+    <item>
+      <title>Nine models, five coding tasks, one 16GB GPU</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/</guid>
+      <pubDate>Sun, 18 Oct 2026 01:22:03 +0000</pubDate>
+      <description>Un développeur a testé neuf modèles de langage sur cinq tâches de programmation complexes en utilisant un seul GPU de 16 Go. L'expérience compare les performances locales et cloud sur des critères stricts incluant des tests unitaires et des contraintes de temps.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Xolotl (Strata based) - DeepSeek-V4.1-Flash (552B) on a single 4090 at ~27 tok/s, Uncensored 1017 quant coming in a couple of days</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8m0jj/xolotl_strata_based_deepseekv41flash_552b_on_a/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8m0jj/xolotl_strata_based_deepseekv41flash_552b_on_a/</guid>
+      <pubDate>Sat, 17 Oct 2026 21:40:27 +0000</pubDate>
+      <description>Un développeur présente Xolotl, un moteur d'inférence permettant de faire tourner de très grands modèles de langage sur un simple PC de joueur. Cette technique d'optimisation répartit les poids entre la mémoire vive et le disque pour obtenir de bonnes performances à moindre coût.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>2 gaming PCs + an M4 Pro MacBook over Ethernet + 2 iPhone 17 Pro Maxes over USB-C: Qwen3.8 Flash Next at 37-39 tok/s at 60k context (262k layout in the works)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8ley0/2_gaming_pcs_an_m4_pro_macbook_over_ethernet_2/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x8ley0/2_gaming_pcs_an_m4_pro_macbook_over_ethernet_2/</guid>
+      <pubDate>Sat, 17 Oct 2026 21:13:35 +0000</pubDate>
+      <description>Un développeur a réussi à distribuer l'exécution d'un grand modèle de langage (un LLM MoE) sur plusieurs machines personnelles hétérogènes, incluant des PC, un MacBook et des iPhone connectés en réseau. Cette installation ingénieuse démontre qu'il est possible de faire tourner des modèles d'IA très volumineux sans posséder de matériel professionnel dédié.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
     <item>
       <title>how do teams catch AI chatbots giving customers wrong answers? ours promised free repairs</title>
       <link>https://www.reddit.com/r/LocalLLaMA/comments/1x8f7cc/how_do_teams_catch_ai_chatbots_giving_customers/</link>
@@ -284,77 +355,6 @@
 ★★★★☆ · Reddit r/LocalLLaMA</description>
       <category>LLM</category>
       <category>Open source</category>
-    </item>
-    <item>
-      <title>Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/</guid>
-      <pubDate>Thu, 15 Oct 2026 20:09:00 +0000</pubDate>
-      <description>Les modèles Ternary Bonsai 2, disponibles en 2B, 4B et 9B sur Hugging Face, permettent une exécution locale très rapide. Notamment, la version 2B atteint 500 tokens par seconde directement dans le navigateur grâce à WebGPU.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
-    </item>
-    <item>
-      <title>Meta launches an open-weight AI model that runs on Macs</title>
-      <link>https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/</link>
-      <guid>https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/</guid>
-      <pubDate>Thu, 15 Oct 2026 20:04:53 +0000</pubDate>
-      <description>Meta a lance un nouveau modele d'intelligence artificielle open-weight nomme Muse Spark Open. Ce modele est concu pour s'executer localement sur les puces Apple Silicon.
-
-★★★★☆ · TechCrunch (IA)</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Entreprises</category>
-    </item>
-    <item>
-      <title>I built a coding agent you can keep talking to while it builds</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6uazz/i_built_a_coding_agent_you_can_keep_talking_to/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6uazz/i_built_a_coding_agent_you_can_keep_talking_to/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:57:53 +0000</pubDate>
-      <description>Un développeur a créé Fade, un agent de codage fonctionnant avec deux agents en simultané dans le terminal. L'un discute et planifie pendant que l'autre code en arrière-plan, évitant ainsi les temps d'attente. Cet outil améliore l'efficacité des développeurs en permettant une interaction continue sans interruption.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>Agents IA</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>I turned a transformer into a game console that runs Pong, Tetris, Space Invaders and 116 more games.</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6uaav/i_turned_a_transformer_into_a_game_console_that/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6uaav/i_turned_a_transformer_into_a_game_console_that/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:57:13 +0000</pubDate>
-      <description>Un passionné a transformé un modèle transformer de 32M de paramètres en console de jeux rétro, où le réseau de neurones fait office de moteur de jeu via la prédiction de tokens. Sans émulateur séparé, le modèle exécute des classiques comme Pong ou Tetris en interprétant les ROMs directement dans sa fenêtre de contexte. Les poids sont compilés à partir de circuits logiques et non entraînés, démontrant une utilisation originale de l'architecture.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Outils dev</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>QUASAR 4-bit QAT checkpoints for Qwen3.5, Gemma 4 and Muse Glimmer: closer to BF16 than Google’s and NVIDIA’s 4-bit releases</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6u8pi/quasar_4bit_qat_checkpoints_for_qwen35_gemma_4/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6u8pi/quasar_4bit_qat_checkpoints_for_qwen35_gemma_4/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:55:28 +0000</pubDate>
-      <description>Cet article présente des modèles de langage récents quantifiés en 4 bits grâce à la technique QUASAR. Cette méthode surpasse les versions standard de Google et NVIDIA en conservant une excellente précision par rapport au format original.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-    </item>
-    <item>
-      <title>What a £300, 35W Snapdragon mini PC can actually do 👀: 35B coder at ~30 tok/s, and an 80B model that doesnt even fit in RAM running at 17 tok/s</title>
-      <link>https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/</link>
-      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1x6stod/what_a_300_35w_snapdragon_mini_pc_can_actually_do/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:02:21 +0000</pubDate>
-      <description>Un test montre qu'un mini PC ARM à bas coût de 35W avec 32 Go de RAM peut exécuter efficacement des grands modèles de langage localement. L'utilisation du processeur (CPU) permet d'obtenir des vitesses de génération honorables pour des codeurs et modèles avancés.
-
-★★★★☆ · Reddit r/LocalLLaMA</description>
-      <category>LLM</category>
-      <category>Open source</category>
-      <category>Matériel &amp; GPU</category>
     </item>
   </channel>
 </rss>

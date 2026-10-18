@@ -1,10 +1,10 @@
 {
- "genere_le": "2026-10-17T19:05:02+00:00",
+ "genere_le": "2026-10-18T09:20:55+00:00",
  "statistiques": {
-  "collectes": 1311,
-  "gardes_mots_cles": 771,
-  "analyses_ia": 769,
-  "affiches": 766
+  "collectes": 1352,
+  "gardes_mots_cles": 794,
+  "analyses_ia": 794,
+  "affiches": 791
  },
  "essentiel": {
   "debut": "2026-10-10T09:04:13.553257+00:00",
@@ -50,6 +50,459 @@
  },
  "articles": [
   {
+   "id": 7643,
+   "titre": "The new local coding LLM's are pretty decent and a huge jump from the behemoths of the past",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8yfho/the_new_local_coding_llms_are_pretty_decent_and_a/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T08:55:28+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "prompt",
+    "Qwen",
+    "LLM"
+   ],
+   "resume": "Un utilisateur teste de nouveaux petits modèles de langage locaux sur une tâche de codage novatrice. Ces modèles légers surpassent d'anciens géants et des solutions commerciales en matière de logique et d'imagination.",
+   "note": 4,
+   "justification": "Important pour les développeurs car les LLM locaux légers et performants transforment les pratiques de dev.",
+   "favori": false
+  },
+  {
+   "id": 7635,
+   "titre": "Agens Volundr 32B v1: we fixed what you flagged in the Preview. 0/50 loops, session continuation, and an MIT engine that runs it with 262K context (measured to 239K) within a 16 GB budget",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8yc8d/agens_volundr_32b_v1_we_fixed_what_you_flagged_in/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T08:49:35+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "prompt",
+    "Llama"
+   ],
+   "resume": "La version finale du modèle Volundr 32B v1 corrige les problèmes de boucles et de lenteur signalés sur la version préliminaire. Ce nouveau modèle open source intègre une gestion améliorée du cache de contexte et des performances optimisées pour les agents.",
+   "note": 4,
+   "justification": "Important car il présente des optimisations pratiques pour l'exécution locale de grands modèles et le développement d'agents.",
+   "favori": false
+  },
+  {
+   "id": 7628,
+   "titre": "told Qwen3.8 27b to hack my router",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8wmbp/told_qwen38_27b_to_hack_my_router/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T07:02:09+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "Claude",
+    "Qwen"
+   ],
+   "resume": "Un utilisateur partage comment le modèle open source Qwen a réussi à l'aider à contourner les restrictions de sécurité pour flasher un routeur, contrairement à Claude. Cette situation soulève des questions sur la sécurité et le bridage des futurs modèles d'intelligence artificielle.",
+   "note": 3,
+   "justification": "Cet article illustre les différences de tolérance entre modèles concernant les actions techniques à risque.",
+   "favori": false
+  },
+  {
+   "id": 7647,
+   "titre": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+   "url": "https://api-docs.deepseek.com/guides/search/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-18T06:50:36+00:00",
+   "collecte": "2026-10-18T09:18:27.245690+00:00",
+   "tags": [
+    "LLM",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "DeepSeek"
+   ],
+   "resume": "L'article présente l'API de recherche et de récupération de DeepSeek, tarifiée à 0,75 dollar pour 1000 requêtes réussies. Ce service offre une option économique pour intégrer des fonctionnalités de recherche web dans des applications.",
+   "note": 3,
+   "justification": "Intéressant pour les développeurs cherchant une API de recherche économique pour leurs applications.",
+   "favori": false
+  },
+  {
+   "id": 7644,
+   "titre": "We all joke about our rigs being space heaters, so I had Qwen vibecode it",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v97a/we_all_joke_about_our_rigs_being_space_heaters_so/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T05:40:13+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "inference",
+    "Qwen"
+   ],
+   "resume": "Un développeur a créé un système ingénieux pour utiliser la chaleur de son serveur de GPU comme chauffage d'appoint. Le projet, piloté par un modèle local Qwen et vLLM, ajuste la température selon les besoins d'inférence.",
+   "note": 2,
+   "justification": "Ce projet insolite relève du divertissement et n'apporte pas d'utilité concrète pour le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 7631,
+   "titre": "Ling 3.1 Flash (560B MoE) loaded across 4 DGX Sparks using llama.cpp RPC",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8v7cp/ling_31_flash_560b_moe_loaded_across_4_dgx_sparks/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T05:37:02+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "Llama"
+   ],
+   "resume": "Un développeur a réussi à charger le modèle Ling 3.1 Flash, un système massif de 560 milliards de paramètres, sur quatre serveurs connectés. Il utilise llama.cpp RPC pour répartir ce grand modèle en open source sur plusieurs machines locales.",
+   "note": 3,
+   "justification": "Intéressant pour voir comment exécuter de grands modèles en local avec llama.cpp.",
+   "favori": false
+  },
+  {
+   "id": 7630,
+   "titre": "What are the odds Qwen 4 models are going to think less?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8uqig/what_are_the_odds_qwen_4_models_are_going_to/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T05:09:25+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "inference",
+    "Qwen"
+   ],
+   "resume": "Un utilisateur discute de la sortie prochaine des futurs modèles Qwen 4. Il espère une réduction du temps de réflexion interne au profit d'une meilleure efficacité.",
+   "note": 2,
+   "justification": "Il s'agit d'une discussion spéculative de forum sans annonce technique officielle.",
+   "favori": false
+  },
+  {
+   "id": 7642,
+   "titre": "My 5070 ti/3070 Chimera build.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8u6eg/my_5070_ti3070_chimera_build/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T04:37:04+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Qwen",
+    "Ollama",
+    "AI",
+    "GPUs"
+   ],
+   "resume": "Un utilisateur partage son installation matérielle combinant une RTX 5070 Ti et une RTX 3070 pour exécuter efficacement des grands modèles de langage locaux. Grâce à Ollama et llama.cpp, il fait tourner le modèle Qwen 3.6 35B avec un bon débit de tokens malgré une configuration hétérogène.",
+   "note": 3,
+   "justification": "C'est intéressant pour un développeur qui souhaite expérimenter l'hébergement local de modèles d'IA avec du matériel abordable.",
+   "favori": false
+  },
+  {
+   "id": 7648,
+   "titre": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+   "url": "https://sphinx-six-theta.vercel.app/",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-18T04:33:49+00:00",
+   "collecte": "2026-10-18T09:18:27.245690+00:00",
+   "tags": [
+    "Outils dev",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Sphinx est un outil de développement qui teste et interroge le code généré par l'intelligence artificielle avant son déploiement. Il sert de filtre de sécurité pour valider la qualité et la fiabilité du code produit par les assistants IA.",
+   "note": 4,
+   "justification": "Cet outil améliore directement le processus de développement et la sécurité lors de l'utilisation du code d'IA.",
+   "favori": false
+  },
+  {
+   "id": 7625,
+   "titre": "DeepSeek v4.1 Flash 1017 for Dwarfstar (ds4)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8tr2c/deepseek_v41_flash_1017_for_dwarfstar_ds4/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T04:12:24+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "language model",
+    "DeepSeek"
+   ],
+   "resume": "Un développeur partage sa contribution open source pour adapter le nouveau modèle DeepSeek v4.1 Flash et sa tour de vision avec une quantification optimisée. Cette version permet d'exécuter un LLM multimodal lourd sur des configurations matérielles locales grand public.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre l'optimisation locale des grands modèles et la quantification.",
+   "favori": false
+  },
+  {
+   "id": 7627,
+   "titre": "AutoTrust's HF models are trending thanks to thousands of farmed likes",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8sq4z/autotrusts_hf_models_are_trending_thanks_to/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T03:15:28+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "Open source",
+    "Sécurité"
+   ],
+   "mots_cles": [
+    "Hugging Face",
+    "AI"
+   ],
+   "resume": "L'organisation AutoTrust utilise des faux comptes générés par IA pour farmer des likes et faire trending ses modèles sur Hugging Face. Cette manipulation questionne la fiabilité des métriques de popularité sur les plateformes de partage de modèles.",
+   "note": 2,
+   "justification": "Cet article traite d'une manipulation de plateforme plutôt que d'une avancée technique utile pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 7623,
+   "titre": "You don’t need that expensive of a build for local llms.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8s73i/you_dont_need_that_expensive_of_a_build_for_local/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T02:46:36+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Llama",
+    "Qwen",
+    "Grok"
+   ],
+   "resume": "Un utilisateur partage une configuration matérielle abordable permettant de faire tourner efficacement de grands modèles locaux comme Qwen 27B. Il utilise une carte graphique de milieu de gamme et des optimisations logicielles poussées pour obtenir de bonnes performances.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre comment optimiser l'exécution locale de LLM avec un budget modeste.",
+   "favori": false
+  },
+  {
+   "id": 7639,
+   "titre": "Nine models, five coding tasks, one 16GB GPU",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8qlvw/nine_models_five_coding_tasks_one_16gb_gpu/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-18T01:22:03+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek",
+    "GPU"
+   ],
+   "resume": "Un développeur a testé neuf modèles de langage sur cinq tâches de programmation complexes en utilisant un seul GPU de 16 Go. L'expérience compare les performances locales et cloud sur des critères stricts incluant des tests unitaires et des contraintes de temps.",
+   "note": 4,
+   "justification": "Cet article compare des modèles locaux et cloud sur des tâches de code concrètes, ce qui aide à choisir des outils de développement.",
+   "favori": false
+  },
+  {
+   "id": 7629,
+   "titre": "Xolotl (Strata based) - DeepSeek-V4.1-Flash (552B) on a single 4090 at ~27 tok/s, Uncensored 1017 quant coming in a couple of days",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8m0jj/xolotl_strata_based_deepseekv41flash_552b_on_a/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T21:40:27+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "agentic",
+    "inference",
+    "DeepSeek"
+   ],
+   "resume": "Un développeur présente Xolotl, un moteur d'inférence permettant de faire tourner de très grands modèles de langage sur un simple PC de joueur. Cette technique d'optimisation répartit les poids entre la mémoire vive et le disque pour obtenir de bonnes performances à moindre coût.",
+   "note": 4,
+   "justification": "C'est important pour un développeur car cela montre comment exécuter des modèles massifs sur du matériel grand public.",
+   "favori": false
+  },
+  {
+   "id": 7451,
+   "titre": "Meta removes language that raised scraping and AI training concerns",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-17T21:31:32+00:00",
+   "collecte": "2026-10-18T09:18:14.167515+00:00",
+   "tags": [
+    "Entreprises",
+    "Régulation"
+   ],
+   "mots_cles": [
+    "AI"
+   ],
+   "resume": "Meta a mis à jour ses conditions d'utilisation concernant le scraping du web et l'entraînement de ses intelligences artificielles. Un porte-parole de l'entreprise a toutefois affirmé que ces changements ne modifient pas leur méthode de collecte de données.",
+   "note": 2,
+   "justification": "Cet article aborde les conditions juridiques de Meta mais n'apporte rien de concret sur le plan du développement.",
+   "favori": false
+  },
+  {
+   "id": 7634,
+   "titre": "2 gaming PCs + an M4 Pro MacBook over Ethernet + 2 iPhone 17 Pro Maxes over USB-C: Qwen3.8 Flash Next at 37-39 tok/s at 60k context (262k layout in the works)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ley0/2_gaming_pcs_an_m4_pro_macbook_over_ethernet_2/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T21:13:35+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "prompt",
+    "Qwen"
+   ],
+   "resume": "Un développeur a réussi à distribuer l'exécution d'un grand modèle de langage (un LLM MoE) sur plusieurs machines personnelles hétérogènes, incluant des PC, un MacBook et des iPhone connectés en réseau. Cette installation ingénieuse démontre qu'il est possible de faire tourner des modèles d'IA très volumineux sans posséder de matériel professionnel dédié.",
+   "note": 4,
+   "justification": "C'est important car cela montre comment exécuter de grands modèles en local avec des ressources matérielles combinées.",
+   "favori": false
+  },
+  {
+   "id": 7646,
+   "titre": "32GB to 64GB of RAM took Qwen3.8-Flash-Next from IQ2_XS (2-bit) to Unsloth UD-IQ4_XS (4-bit) on a single 4090",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8l18e/32gb_to_64gb_of_ram_took_qwen38flashnext_from_iq2/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T20:57:25+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "prompt"
+   ],
+   "resume": "Un utilisateur partage son expérience sur l'optimisation locale d'un LLM grâce au passage de 32 Go à 64 Go de RAM. L'article détaille les performances obtenues sur une carte RTX 4090 avec des quantifications de modèles adaptées.",
+   "note": 3,
+   "justification": "Intéressant pour comprendre le matériel et le déploiement local des LLM.",
+   "favori": false
+  },
+  {
+   "id": 7645,
+   "titre": "DeepSeek V4.1 Flash 1017 Support for ds4 · PR #1225 · antirez/ds4",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8koix/deepseek_v41_flash_1017_support_for_ds4_pr_1225/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T20:42:23+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "language model",
+    "DeepSeek"
+   ],
+   "resume": "Une nouvelle pull request apporte le support du modèle DeepSeek V4.1 Flash 1017 et de sa tour de vision mise à jour. Cette révision majeure modifie de nombreux tenseurs experts tout en conservant l'architecture globale pour s'intégrer dans les noyaux existants.",
+   "note": 3,
+   "justification": "Intéressant pour suivre l'évolution des modèles open source et de leur compatibilité matérielle.",
+   "favori": false
+  },
+  {
+   "id": 7640,
+   "titre": "DeepSeek V4.1 Flash 1017 [GGUF + Abliterated]",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8ke24/deepseek_v41_flash_1017_gguf_abliterated/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T20:29:49+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "LLM",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek"
+   ],
+   "resume": "Un utilisateur a partagé des versions quantifiées GGUF et des versions ablitérées du nouveau modèle DeepSeek V4.1 Flash 1017. Ces modifications permettent de réduire considérablement les refus de réponse du modèle dans différents modes.",
+   "note": 3,
+   "justification": "Intéressant pour tester des modèles open source locaux avec des restrictions modifiées.",
+   "favori": false
+  },
+  {
+   "id": 7638,
+   "titre": "Fish Audio Drama 3 says it needs a 48 GB NVIDIA card. My 16 GB Radeon disagrees.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x8kces/fish_audio_drama_3_says_it_needs_a_48_gb_nvidia/",
+   "source": "Reddit r/LocalLLaMA",
+   "categorie": "Communauté",
+   "date": "2026-10-17T20:27:46+00:00",
+   "collecte": "2026-10-18T09:18:24.907117+00:00",
+   "tags": [
+    "Audio & voix",
+    "Open source",
+    "Matériel & GPU"
+   ],
+   "mots_cles": [
+    "Claude",
+    "Nvidia",
+    "GPU"
+   ],
+   "resume": "Un développeur explique comment il a adapté le modèle audio Drama 3 pour le faire fonctionner sur une carte AMD avec 16 Go de VRAM. Il utilise une astuce de mise en cache pour contourner la restriction initiale de 48 Go de VRAM NVIDIA.",
+   "note": 3,
+   "justification": "Intéressant pour voir l'optimisation locale de modèles d'IA lourds sur du matériel limité.",
+   "favori": false
+  },
+  {
+   "id": 7452,
+   "titre": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+   "source": "TechCrunch (IA)",
+   "categorie": "Actualité EN",
+   "date": "2026-10-17T20:21:19+00:00",
+   "collecte": "2026-10-18T09:18:14.167515+00:00",
+   "tags": [
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Anthropic"
+   ],
+   "resume": "Anthropic indique que la composition de sa main-d'œuvre a évolué au cours de la dernière année, devenant moins junior. Les employés passent également davantage de temps en réunions.",
+   "note": 1,
+   "justification": "Cet article traite de la structure interne d'une entreprise mais n'apporte rien sur le plan technique pour un développeur.",
+   "favori": false
+  },
+  {
    "id": 7049,
    "titre": "Replit is no longer working with Anthropic, CEO says",
    "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
@@ -70,6 +523,25 @@
    "resume": "La plateforme Replit remplace Anthropic par OpenAI comme fournisseur de modèles par défaut. Cependant, les modèles Claude restent accessibles aux utilisateurs sur la plateforme.",
    "note": 3,
    "justification": "Cet article montre les évolutions des partenariats entre acteurs majeurs de l'IA et plateformes de développement.",
+   "favori": false
+  },
+  {
+   "id": 7668,
+   "titre": "Codex Desktop continuously generates Crashpad pending dumps",
+   "url": "https://github.com/openai/codex/issues/25921",
+   "source": "Hacker News",
+   "categorie": "Communauté",
+   "date": "2026-10-17T17:45:08+00:00",
+   "collecte": "2026-10-18T09:18:27.245690+00:00",
+   "tags": [
+    "Outils dev"
+   ],
+   "mots_cles": [
+    "Codex"
+   ],
+   "resume": "Cet extrait de discussion discute de problèmes techniques liés à des plantages et des rapports de crash sur l'application Codex Desktop. Aucun nouveau modèle d'intelligence artificielle ni technique de développement majeure n'y est présenté.",
+   "note": 1,
+   "justification": "Il s'agit d'une discussion isolée sur un bug technique sans intérêt pour le développement en IA.",
    "favori": false
   },
   {
@@ -282,6 +754,26 @@
    "resume": "Cet article discute de l'impact de la quantification de la table n-gram (PLE) sur les performances d'un modèle local comme Qwen. Un utilisateur explique comment utiliser une version non quantifiée ou en FP8 (sidecar) pour améliorer la qualité des réponses sans perte de vitesse.",
    "note": 3,
    "justification": "Intéressant pour un développeur qui déploie des LLM en local, car cela améliore la qualité sans impacter la vitesse.",
+   "favori": false
+  },
+  {
+   "id": 7593,
+   "titre": "web-edit 0.1a2",
+   "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+   "source": "Simon Willison",
+   "categorie": "Développement",
+   "date": "2026-10-17T13:16:49+00:00",
+   "collecte": "2026-10-18T09:18:23.063538+00:00",
+   "tags": [
+    "Outils dev",
+    "Open source"
+   ],
+   "mots_cles": [
+    "DeepSeek"
+   ],
+   "resume": "L'auteur a publié la version 0.1a2 de web-edit, une petite application web permettant de parcourir et modifier des fichiers à distance. Cette mise à jour inclut notamment une option pour copier facilement des textes et des images dans le presse-papiers.",
+   "note": 2,
+   "justification": "Cet outil personnel de gestion de fichiers n'apporte pas de nouveauté majeure pour le développement d'applications avec l'IA.",
    "favori": false
   },
   {
@@ -16205,6 +16697,46 @@
    "resume": "OpenAI et la GSA s'associent pour offrir aux gouvernements américains locaux et fédéraux des licences gratuites ainsi qu'une réduction de 50 pour cent sur l'utilisation. Ce partenariat vise également à renforcer le soutien en matière de cyberdéfense publique grâce à l'intelligence artificielle.",
    "note": 2,
    "justification": "Cet article concerne des partenariats gouvernementaux et n'apporte pas de nouveauté technique pour le développement.",
+   "favori": false
+  },
+  {
+   "id": 265,
+   "titre": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-10T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "LLM",
+    "Audio & voix"
+   ],
+   "mots_cles": [
+    "GPT"
+   ],
+   "resume": "OpenAI lance GPT-Live-1 dans son API pour permettre des conversations vocales fluides et bidirectionnelles. Cette technologie offre de meilleures capacités d'instruction, des voix personnalisées et une compatibilité avec la téléphonie.",
+   "note": 5,
+   "justification": "C'est un nouvel outil majeur pour intégrer des fonctionnalités vocales avancées dans le développement d'applications.",
+   "favori": false
+  },
+  {
+   "id": 266,
+   "titre": "Introducing the Agents API",
+   "url": "https://openai.com/index/introducing-the-agents-api",
+   "source": "OpenAI News",
+   "categorie": "Éditeur",
+   "date": "2026-09-10T00:00:00+00:00",
+   "collecte": "2026-10-09T23:22:21.714309+00:00",
+   "tags": [
+    "Agents IA",
+    "Entreprises"
+   ],
+   "mots_cles": [
+    "Codex"
+   ],
+   "resume": "OpenAI lance l'Agents API, un service managé cloud propulsé par Codex. Cet outil gère l'orchestration, les sessions longues et l'utilisation d'outils pour créer des agents IA.",
+   "note": 5,
+   "justification": "C'est un outil majeur pour les développeurs souhaitant créer et orchestrer des agents IA cloud.",
    "favori": false
   }
  ]
