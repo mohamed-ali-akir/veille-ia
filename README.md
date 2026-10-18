@@ -67,24 +67,38 @@ veille-ia/
 ├── chercher.py            recherche en ligne de commande (secours)
 ├── synthese.py            brouillon de synthèse mensuelle → syntheses/
 ├── tests.py               tests automatiques
-├── data/veille.db         la base de données
+├── data/veille.db         la base de données (branche data)
 ├── docs/                  le site web (publié par GitHub Pages)
 │   ├── index.html         page de recherche
 │   ├── methodologie.html  explication de la démarche
 │   ├── style.css          apparence (mode sombre, version mobile)
 │   ├── app.js             recherche instantanée et filtres
-│   ├── articles.json      données (fichier généré)
-│   └── flux.xml           flux RSS des articles 4-5★ (fichier généré)
-└── .github/workflows/
-    ├── veille.yml         la veille complète, 2 fois par jour
-    ├── tests.yml          tests à chaque push et pull request
-    └── favoris.yml        synchronisation des favoris ⭐, toutes les 5 minutes
+│   ├── articles.json      données (fichier généré, branche data)
+│   └── flux.xml           flux RSS des articles 4-5★ (fichier généré, branche data)
+└── .github/
+    ├── sauvegarder-donnees.sh   enregistre la base et les fichiers générés sur la branche data
+    └── workflows/
+        ├── veille.yml     la veille complète, 2 fois par jour
+        ├── favoris.yml    synchronisation des favoris ⭐, toutes les 5 minutes
+        ├── site.yml       publication du site (code de main + données de data)
+        └── tests.yml      tests à chaque push et pull request
 ```
+
+### Deux branches : le code et les données
+
+- **`main`** contient le code. Son historique ne montre que les vrais changements.
+- **`data`** contient seulement ce que la veille produit : `data/veille.db`, `docs/articles.json` et `docs/flux.xml`.
+  Elle garde un seul commit, remplacé à chaque sauvegarde : la base contient déjà tout l'historique des articles,
+  inutile d'en garder deux copies par jour (le dépôt grossirait sans fin).
+
+Le site publié assemble les deux : le HTML, le CSS et le JavaScript de `main`, les données de `data`.
 
 ## Utilisation sur mon PC (Windows)
 
 ```bash
 py -m pip install -r requirements.txt   # installer les bibliothèques (une seule fois)
+git fetch origin data                   # récupérer les dernières données de la veille...
+git restore --source=origin/data --worktree -- data/veille.db docs/articles.json docs/flux.xml   # ...et les copier ici
 py collecte.py                          # récupérer les nouveaux articles
 py tri.py                               # filtrer + analyser par l'IA
 py essentiel.py --forcer                # écrire l'essentiel de la semaine tout de suite
@@ -99,8 +113,9 @@ py -m http.server --directory docs      # voir le site sur http://localhost:8000
 
 Sous Linux (GitHub Actions), on remplace `py` par `python`.
 
-> ⚠️ GitHub Actions modifie la base deux fois par jour. Avant de travailler sur mon PC,
-> je fais toujours `git pull`, pour ne pas avoir deux versions différentes de `veille.db`.
+> ⚠️ GitHub Actions modifie la base deux fois par jour. Avant de travailler sur mon PC, je récupère
+> les dernières données (les deux commandes `git` ci-dessus). Les fichiers de données sont ignorés par git sur
+> `main` : une base modifiée sur mon PC n'est jamais envoyée par erreur.
 
 ## Fiabilité
 
@@ -108,7 +123,7 @@ La veille tourne seule, sans personne pour la surveiller. Elle est donc conçue 
 
 - **Pannes réseau** : toutes les erreurs possibles (site injoignable, délai dépassé, connexion coupée, réponse tronquée) sont regroupées dans `reseau.py`. Une panne passagère de l'API d'IA (erreur 5xx, connexion coupée) est réessayée 3 fois, avec une pause qui double à chaque essai. Une source ou un message Discord en échec n'arrête jamais le reste.
 - **Rien n'est perdu** : la base enregistre chaque article dès qu'il est traité, et le workflow sauvegarde ce qui a été fait même si une étape plante. Un article envoyé sur Discord est donc toujours marqué comme envoyé : il ne sera jamais renvoyé en double.
-- **Pas de conflit** : la veille et les favoris partagent le même groupe de concurrence, ils ne modifient jamais la base en même temps. Si un commit arrive pendant la veille, le push récupère ce commit puis réessaie.
+- **Pas de conflit** : la veille et les favoris partagent le même groupe de concurrence, ils ne modifient jamais la base en même temps. Les données vont sur la branche `data`, où personne d'autre n'écrit : un commit poussé sur `main` pendant la veille ne la gêne plus.
 - **Versions figées** des bibliothèques (`requirements.txt`), mises à jour par Dependabot après passage des tests.
 
 ## Secrets (jamais dans le code)

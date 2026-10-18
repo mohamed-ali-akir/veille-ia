@@ -3,8 +3,8 @@
 # =============================================================
 #  Workflow léger, séparé de la veille principale :
 #  il lit seulement les réactions ⭐ (pas d'IA, pas de quota),
-#  toutes les 5 minutes, et ne crée un commit QUE si mes
-#  favoris ont changé.
+#  toutes les 5 minutes, et ne sauvegarde et ne republie le site
+#  QUE si mes favoris ont changé.
 #
 #  Pourquoi pas en temps réel ? Il faudrait un bot connecté
 #  en permanence sur un serveur allumé 24h/24 (payant).
@@ -20,9 +20,6 @@ on:
   # Bouton "Run workflow" pour une mise à jour immédiate (démo)
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 # Même groupe que la veille principale : les deux workflows ne tournent
 # jamais en même temps, donc ne modifient jamais veille.db en même temps
 concurrency:
@@ -31,9 +28,18 @@ concurrency:
 jobs:
   favoris:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      change: ${{ steps.sauvegarde.outputs.change }}
     steps:
       - name: Récupérer le code du dépôt
         uses: actions/checkout@v5
+
+      - name: Récupérer la base (branche data)
+        run: |
+          git fetch --depth=1 origin +refs/heads/data:refs/remotes/origin/data
+          git restore --source=origin/data --worktree -- data/veille.db docs/articles.json docs/flux.xml
 
       - name: Installer Python
         uses: actions/setup-python@v6
@@ -48,20 +54,24 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_WEBHOOK_FAVORIS: ${{ secrets.DISCORD_WEBHOOK_FAVORIS }}
 
-      - name: Mettre à jour le site si les favoris ont changé
+      - name: Sauvegarder si les favoris ont changé
+        id: sauvegarde
         run: |
-          if git diff --quiet data/veille.db; then
+          # Même empreinte que la base de la branche data = favoris inchangés
+          if [ "$(git hash-object data/veille.db)" = "$(git rev-parse origin/data:data/veille.db)" ]; then
             echo "Aucun changement de favoris : rien à faire."
+            echo "change=false" >> "$GITHUB_OUTPUT"
           else
             python generer_site.py
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/veille.db docs/articles.json docs/flux.xml
-            git commit -m "Favoris mis à jour depuis Discord"
-            # Push refusé si quelqu'un a poussé entre-temps : on récupère et on réessaie
-            for essai in 1 2 3; do
-              git pull --rebase && git push && exit 0
-              sleep 10
-            done
-            exit 1
+            bash .github/sauvegarder-donnees.sh "Favoris mis à jour depuis Discord"
           fi
+
+  # Republie le site seulement si les favoris ont changé
+  site:
+    needs: favoris
+    if: ${{ needs.favoris.outputs.change == 'true' }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/site.yml

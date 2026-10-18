@@ -11,8 +11,6 @@ name: Tests
 on:
   push:
     branches: [main]
-    # Les commits automatiques de la veille ne touchent que les données
-    paths-ignore: ["data/**", "docs/articles.json", "docs/flux.xml"]
   pull_request:
 
 permissions:
