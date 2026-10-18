@@ -11,14 +11,21 @@ Pour les lancer :  py -m unittest -v tests
 =============================================================
 """
 
+import http.client
+import io
+import json
 import unittest
+import urllib.error
+from unittest import mock
 
 import feedparser
 
+import alerte_discord
 import collecte
 import essentiel
 import favoris
 import generer_site
+import reseau
 import tri
 
 
@@ -216,6 +223,75 @@ class TestFluxRSS(unittest.TestCase):
 
     def test_caracteres_speciaux_conserves(self):
         self.assertEqual(self.flux.entries[0].title, "Un titre piège <script> & co")
+
+
+class TestReseau(unittest.TestCase):
+    """Les pannes réseau ne doivent jamais faire planter la veille."""
+
+    @staticmethod
+    def reponse(donnees):
+        """Fausse réponse HTTP, utilisable avec "with ... as reponse"."""
+        fausse = mock.MagicMock()
+        fausse.__enter__.return_value = io.BytesIO(json.dumps(donnees).encode())
+        return fausse
+
+    @staticmethod
+    def erreur_http(code):
+        return urllib.error.HTTPError("https://exemple.test", code, "erreur", {}, io.BytesIO(b""))
+
+    def lire(self, *resultats):
+        """Appelle reseau.lire_json avec urlopen qui renvoie (ou lève) les résultats donnés."""
+        pauses = []
+        with mock.patch("urllib.request.urlopen", side_effect=resultats) as urlopen:
+            try:
+                return reseau.lire_json("requete", timeout=1, attendre=pauses.append), urlopen.call_count, pauses
+            except Exception as erreur:  # noqa: BLE001 - on veut tester l'erreur remontée
+                return erreur, urlopen.call_count, pauses
+
+    def test_reponse_directe(self):
+        resultat, appels, _ = self.lire(self.reponse({"ok": 1}))
+        self.assertEqual(resultat, {"ok": 1})
+        self.assertEqual(appels, 1)
+
+    def test_panne_passagere_reessayee(self):
+        resultat, appels, pauses = self.lire(
+            http.client.RemoteDisconnected("connexion coupée"),
+            self.erreur_http(503),
+            self.reponse({"ok": 1}),
+        )
+        self.assertEqual(resultat, {"ok": 1})
+        self.assertEqual(appels, 3)
+        self.assertEqual(pauses, [2, 4])  # la pause double à chaque essai
+
+    def test_reponse_tronquee_reessayee(self):
+        # IncompleteRead n'est pas une OSError : avant, elle faisait planter tri.py
+        resultat, appels, _ = self.lire(http.client.IncompleteRead(b""), self.reponse({"ok": 1}))
+        self.assertEqual(resultat, {"ok": 1})
+        self.assertEqual(appels, 2)
+
+    def test_quota_pas_reessaye(self):
+        # 429 : tri.py doit le recevoir tout de suite pour s'arrêter proprement
+        resultat, appels, _ = self.lire(self.erreur_http(429))
+        self.assertIsInstance(resultat, urllib.error.HTTPError)
+        self.assertEqual(resultat.code, 429)
+        self.assertEqual(appels, 1)
+
+    def test_abandon_apres_trois_essais(self):
+        resultat, appels, _ = self.lire(*[TimeoutError("trop long")] * 3)
+        self.assertIsInstance(resultat, TimeoutError)
+        self.assertEqual(appels, 3)
+
+    def test_toutes_les_pannes_sont_des_erreurs_reseau(self):
+        for erreur in (urllib.error.URLError("injoignable"), TimeoutError(), ConnectionResetError(),
+                       http.client.RemoteDisconnected(), http.client.IncompleteRead(b""),
+                       self.erreur_http(500)):
+            self.assertIsInstance(erreur, reseau.ERREURS_RESEAU)
+
+    def test_discord_coupe_ne_plante_pas(self):
+        # Avant, une connexion coupée faisait planter alerte_discord.py en plein envoi
+        with mock.patch("urllib.request.urlopen", side_effect=http.client.RemoteDisconnected()):
+            self.assertIsNone(alerte_discord.envoyer_sur_discord("https://exemple.test", {}))
+            self.assertFalse(alerte_discord.supprimer_sur_discord("https://exemple.test", "1"))
 
 
 if __name__ == "__main__":

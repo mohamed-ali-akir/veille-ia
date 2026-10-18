@@ -33,6 +33,7 @@ from datetime import datetime, timedelta, timezone
 from alerte_discord import (PAUSE_ENTRE_MESSAGES, creer_carte, envoyer_sur_discord,
                             supprimer_sur_discord)
 from base import ouvrir_base
+from reseau import ERREURS_RESEAU
 
 
 # ---------- Réglages ----------
@@ -136,12 +137,16 @@ def main():
         try:
             messages = lire_messages(canal_id, jeton)
         except urllib.error.HTTPError as erreur:
-            # 401 = jeton invalide ; 403 = le bot n'a pas accès au salon
-            print(f"Erreur Discord {erreur.code} : vérifie le jeton du bot "
-                  "et qu'il a bien accès au salon des alertes.")
+            if erreur.code in (401, 403):
+                # 401 = jeton invalide ; 403 = le bot n'a pas accès au salon
+                print(f"Erreur Discord {erreur.code} : vérifie le jeton du bot "
+                      "et qu'il a bien accès au salon des alertes.")
+            else:
+                # 429 = trop de requêtes, 5xx = panne de Discord : passager
+                print(f"Erreur Discord {erreur.code} : on réessaiera au prochain lancement.")
             connexion.close()
             return
-        except urllib.error.URLError as erreur:
+        except ERREURS_RESEAU as erreur:
             print(f"Discord injoignable : {erreur}")
             connexion.close()
             return
