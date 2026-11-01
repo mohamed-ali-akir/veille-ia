@@ -46,7 +46,7 @@ jobs:
           git fetch --depth=1 origin +refs/heads/data:refs/remotes/origin/data
           git restore --source=origin/data --worktree -- docs/articles.json docs/flux.xml
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
       - uses: actions/upload-pages-artifact@v3
         with:
