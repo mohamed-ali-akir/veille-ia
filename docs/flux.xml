@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille IA : les articles importants</title>
+    <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
+    <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
+    <language>fr</language>
+    <lastBuildDate>Sat, 07 Nov 2026 11:30:51 +0000</lastBuildDate>
+    <item>
+      <title>I'm going to try to turn a 4B model into a genuinely useful coding agent that can compete with much larger models</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/</guid>
+      <pubDate>Fri, 06 Nov 2026 22:17:58 +0000</pubDate>
+      <description>Un développeur souhaite transformer un petit modèle open source de 4 milliards de paramètres en un agent de programmation performant. Il partage sa démarche méthodologique combinant fine-tuning supervisé et apprentissage par renforcement avec la communauté.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Beyond code generation: A developer’s guide to agentic engineering</title>
+      <link>https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</link>
+      <guid>https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</guid>
+      <pubDate>Fri, 06 Nov 2026 22:15:59 +0000</pubDate>
+      <description>Cet article du blog GitHub explore l'évolution du développement vers l'ingénierie agentique. Il montre comment GitHub Copilot aide à planifier, coder, relire et enquêter sur des incidents, tout en soulignant le rôle indispensable du jugement humain.
+
+★★★★☆ · GitHub Blog (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>We are in the golden age of Local LLM</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/</guid>
+      <pubDate>Fri, 06 Nov 2026 21:54:01 +0000</pubDate>
+      <description>L'article explore les avancées des grands modèles de langage locaux fin 2026, notamment grâce aux modèles Qwen et aux techniques de quantification comme Unsloth. Ces progrès permettent d'exécuter des modèles performants sur du matériel grand public avec une faible quantité de VRAM.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>NousResearch/Arete-27B · Hugging Face (Qwen finetune)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/</guid>
+      <pubDate>Fri, 06 Nov 2026 19:58:47 +0000</pubDate>
+      <description>Le laboratoire NousResearch a publié Arete-27B, un modèle open source basé sur Qwen3.8-27B et réentraîné pour modifier les biais politiques d'origine. Cette version ajuste les réponses sur des sujets sensibles tout en conservant les performances générales du modèle.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Mirage: A 22 MB visual-language model that runs scene descriptions + object detection + OCR + segmentation + spatial relations analysis + extractions + decisions, in a single pass.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xpm8mw/mirage_a_22_mb_visuallanguage_model_that_runs/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xpm8mw/mirage_a_22_mb_visuallanguage_model_that_runs/</guid>
+      <pubDate>Fri, 06 Nov 2026 19:46:41 +0000</pubDate>
+      <description>Cactus Compute a lance Mirage, un petit modele de vision de 22 Mo capable de realiser detection, OCR et segmentation en un seul passage. Concu pour tourner localement sur des appareils mobiles, il offre d'excellentes performances sur NPU et CPU.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>bartowski/XingChen-AGI_Xing4.0-29B-A4B-GGUF · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xplkdu/bartowskixingchenagi_xing4029ba4bgguf_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xplkdu/bartowskixingchenagi_xing4029ba4bgguf_hugging_face/</guid>
+      <pubDate>Fri, 06 Nov 2026 19:19:24 +0000</pubDate>
+      <description>La sortie du modèle XingChen-AGI_Xing4.0-29B-A4B, un LLM MoE chinois de 29 milliards de paramètres, propose une architecture orientée agents avec un contexte étendu. Ce modèle met en avant un entraînement sur puces Ascend NPU et des optimisations pour les tâches d'ingénierie.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Agents IA</category>
+    </item>
+    <item>
+      <title>SoMarkAI/OXR-1.0 · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xplapb/somarkaioxr10_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xplapb/somarkaioxr10_hugging_face/</guid>
+      <pubDate>Fri, 06 Nov 2026 19:08:47 +0000</pubDate>
+      <description>SoMarkAI a lance OXR-1.0, un modele open-source de 1,3 milliard de parametres specialise dans la conversion de documents et PDF en donnees structurees. Il surpasse plusieurs benchmarks en matiere de rapidite et de precision grace a une methode d'auto-amelioration recursive.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>AMA: How we trained a SOTA Decision model, got top 3 on OpenRouter &amp; top on 5 ArtificalAnalysis: full playbook - arch, datasets, training, evals, inference</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xphq4u/ama_how_we_trained_a_sota_decision_model_got_top/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xphq4u/ama_how_we_trained_a_sota_decision_model_got_top/</guid>
+      <pubDate>Fri, 06 Nov 2026 16:51:38 +0000</pubDate>
+      <description>L'équipe de Nace AI a publié un rapport technique sur la création de Drex, une famille de quatre modèles de décision ouverts et performants. Contrairement aux modèles traditionnels, ces modèles renvoient une distribution de probabilité en un seul passage sans décodage autorégressif.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Recherche</category>
+    </item>
+    <item>
+      <title>moe-cache : LRFU/MQ-like hybrid cache, ClassLRU by sanmai · Pull Request #31233 · ggml-org/llama.cpp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xpfvfz/moecache_lrfumqlike_hybrid_cache_classlru_by/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xpfvfz/moecache_lrfumqlike_hybrid_cache_classlru_by/</guid>
+      <pubDate>Fri, 06 Nov 2026 15:39:09 +0000</pubDate>
+      <description>Cette modification propose un nouveau cache hybride nommé moe-cache pour llama.cpp, optimisant la gestion des experts dans les modèles Mixture of Experts. Les tests montrent des gains de performance de décodage notables ainsi qu'une réduction des transferts mémoire.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Harness Adapters: LoRA adapter for your model per task per harness</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xpeee1/harness_adapters_lora_adapter_for_your_model_per/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xpeee1/harness_adapters_lora_adapter_for_your_model_per/</guid>
+      <pubDate>Fri, 06 Nov 2026 14:38:46 +0000</pubDate>
+      <description>Hugging Face introduce les "harness adapters", permettant d'entraîner des adaptateurs LoRA spécifiques à une tâche et à un harnais d'évaluation. Cette approche facilite l'optimisation des modèles de langage pour des cas d'usage précis comme le développement logiciel.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>A 0.1B model just killed 8B embedding models... I tried it out.</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xpdk0i/a_01b_model_just_killed_8b_embedding_models_i/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xpdk0i/a_01b_model_just_killed_8b_embedding_models_i/</guid>
+      <pubDate>Fri, 06 Nov 2026 14:02:37 +0000</pubDate>
+      <description>Un développeur teste un modèle SPLADE sparse de seulement 0.1B de paramètres pour la recherche sémantique. Ce modèle léger remplace efficacement de plus grands modèles d'embedding sur des machines locales modestes.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Qwen 4 is stealth announced</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/</guid>
+      <pubDate>Fri, 06 Nov 2026 12:26:17 +0000</pubDate>
+      <description>L'équipe d'Alibaba Qwen a annoncé discrètement l'arrivée prochaine de Qwen 4. Cette annonce suscite l'intérêt de la communauté open source sur l'évolution de ces modèles de langage performants.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>OpenAI dévoile GPT-6 Cyber</title>
+      <link>https://www.lemondeinformatique.fr/actualites/lire-openai-devoile-gpt-6-cyber-100921.html</link>
+      <guid>https://www.lemondeinformatique.fr/actualites/lire-openai-devoile-gpt-6-cyber-100921.html</guid>
+      <pubDate>Fri, 06 Nov 2026 11:11:26 +0000</pubDate>
+      <description>OpenAI annonce la sortie de GPT-6 Cyber, quelques jours seulement après le lancement de leur nouveau générateur d'images Image 2.6. Cette annonce s'inscrit dans la continuité des évolutions rapides des modèles d'intelligence artificielle de l'entreprise.
+
+★★★★☆ · Le Monde Informatique (IA)</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>My setup for 2x 5060TI</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xp9v5s/my_setup_for_2x_5060ti/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xp9v5s/my_setup_for_2x_5060ti/</guid>
+      <pubDate>Fri, 06 Nov 2026 10:48:46 +0000</pubDate>
+      <description>Cet article partage des conseils d'optimisation matérielle et logicielle pour faire tourner localement des modèles de langage sur deux cartes graphiques RTX 5060 Ti. L'auteur explique comment configurer les lignes PCIe et la quantification pour améliorer significativement les performances.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Matériel &amp; GPU</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>OpenAI débauche une responsable de Claude Code et lorgne du côté de GitHub</title>
+      <link>https://next.ink/266026/openai-debauche-une-responsable-de-claude-code-et-lorgne-du-cote-de-github/</link>
+      <guid>https://next.ink/266026/openai-debauche-une-responsable-de-claude-code-et-lorgne-du-cote-de-github/</guid>
+      <pubDate>Fri, 06 Nov 2026 07:18:00 +0000</pubDate>
+      <description>OpenAI renforce son équipe de développement en recrutant une ancienne responsable du projet Claude Code. L'entreprise cherche à positionner Codex comme un outil incontournable pour la génération et la gestion de code.
+
+★★★★☆ · Next</description>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Introducing Inkling 2 Small</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xp32od/introducing_inkling_2_small/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xp32od/introducing_inkling_2_small/</guid>
+      <pubDate>Fri, 06 Nov 2026 03:50:26 +0000</pubDate>
+      <description>L'article présente Inkling 2 Small, un nouveau modèle multimodal de type Mixture-of-Experts avec 594 milliards de paramètres totaux. Il excelle en programmation et en vision, et ses poids open source sous licence Apache 2.0 seront publiés prochainement après des tests de sécurité.
+
+★★★★★ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>I fixed my tiny TTS by editing the weights directly, no retraining</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xou096/i_fixed_my_tiny_tts_by_editing_the_weights/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xou096/i_fixed_my_tiny_tts_by_editing_the_weights/</guid>
+      <pubDate>Thu, 05 Nov 2026 20:54:52 +0000</pubDate>
+      <description>Un développeur explique comment il a corrigé et amélioré un modèle de synthèse vocale (TTS) en modifiant directement ses poids neuronaux grâce à un agent LLM, sans réentraînement. Cette approche de programmation dans l'espace des poids a permis de stabiliser la gestion des émotions et des sons intégrés.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Audio &amp; voix</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Tencent Launches Hy4, One of the Leading Open-Source AI Models</title>
+      <link>https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</link>
+      <guid>https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</guid>
+      <pubDate>Thu, 05 Nov 2026 20:21:43 +0000</pubDate>
+      <description>Tencent a lance le modele d'intelligence artificielle open source Hy4. Ce modele se positionne parmi les meilleures solutions actuellement disponibles sur le marche.
+
+★★★★☆ · Hacker News</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Appreciation post for OrcaCyber-Nano-1.0</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xosw1w/appreciation_post_for_orcacybernano10/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xosw1w/appreciation_post_for_orcacybernano10/</guid>
+      <pubDate>Thu, 05 Nov 2026 20:09:52 +0000</pubDate>
+      <description>Un utilisateur partage son expérience très positive avec le modèle de langage affiné OrcaCyber-Nano-1.0. Il souligne son excellente capacité à générer des scripts bash et à planifier des architectures logicielles. Ce modèle local offre des performances comparables aux solutions frontières pour le développement.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>New NVIDIA Cosmos 3 Open Models for Interactive World Simulation</title>
+      <link>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</link>
+      <guid>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</guid>
+      <pubDate>Thu, 05 Nov 2026 19:35:16 +0000</pubDate>
+      <description>NVIDIA lance les nouveaux modèles ouverts Cosmos pour la simulation interactive de mondes virtuels. Ces outils avancés ouvrent de nouvelles perspectives pour le développement de environnements intelligents.
+
+★★★★☆ · Hugging Face Blog</description>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+      <category>Image &amp; vidéo</category>
+    </item>
+    <item>
+      <title>Meta a racheté Conductor, une start-up spécialisée dans le codage par IA qui permet aux utilisateurs de lancer des projets logiciels en déployant plusieurs agents IA dans des espaces de travail parallèles</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/388803/Meta-a-rachete-Conductor-une-start-up-specialisee-dans-le-codage-par-IA-qui-permet-aux-utilisateurs-de-lancer-des-projets-logiciels-en-deployant-plusieurs-agents-IA-dans-des-espaces-de-travail-paralleles/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/388803/Meta-a-rachete-Conductor-une-start-up-specialisee-dans-le-codage-par-IA-qui-permet-aux-utilisateurs-de-lancer-des-projets-logiciels-en-deployant-plusieurs-agents-IA-dans-des-espaces-de-travail-paralleles/</guid>
+      <pubDate>Thu, 05 Nov 2026 19:07:00 +0000</pubDate>
+      <description>Meta a racheté la start-up Conductor, spécialisée dans le codage par intelligence artificielle. Cette technologie permet de lancer des projets logiciels en déployant plusieurs agents IA dans des espaces de travail parallèles.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>I added local TTS and STT to apple-llm using what's already on your Mac. 30 minutes of narration renders in under 20 seconds on an M4 Air</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xoowb4/i_added_local_tts_and_stt_to_applellm_using_whats/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xoowb4/i_added_local_tts_and_stt_to_applellm_using_whats/</guid>
+      <pubDate>Thu, 05 Nov 2026 17:37:08 +0000</pubDate>
+      <description>L'outil apple-llm intègre désormais la synthèse vocale et la reconnaissance de parole locales en exploitant les fonctionnalités natives de macOS. Cette mise à jour permet aux développeurs d'utiliser des capacités audio performantes sans clé API ni dépendance cloud.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Outils dev</category>
+      <category>Audio &amp; voix</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips</title>
+      <link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link>
+      <guid>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</guid>
+      <pubDate>Thu, 05 Nov 2026 17:00:00 +0000</pubDate>
+      <description>Google annonce le lancement de Gemini Omni 1.2 Flash, une version plus rapide et économique adaptée aux extraits multimédias plus longs. Ce nouveau modèle enrichit l'écosystème des outils d'intelligence artificielle conversationnelle et multimodale.
+
+★★★★☆ · Google AI Blog</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>[GUIDE] Qwen3.8 Flash-Next on a single RTX 5080 + 64GB RAM: &gt;250 tok/s tg and 5700 tok/s prefill in real agent coding sessions (Basalt + new Unsloth UD-IQ3_XXS + Lamina drafter),+ how it compares to llama.cpp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xomy0i/guide_qwen38_flashnext_on_a_single_rtx_5080_64gb/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xomy0i/guide_qwen38_flashnext_on_a_single_rtx_5080_64gb/</guid>
+      <pubDate>Thu, 05 Nov 2026 16:23:15 +0000</pubDate>
+      <description>Ce guide détaille comment optimiser l'exécution locale du modèle Qwen sur une seule RTX 5080 grâce à de nouveaux moteurs et quantifications. Il démontre des performances impressionnantes en génération de code pour les agents IA, surpassant nettement les configurations classiques.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>[Paper] FireFlash : An Open Recipe for Long-Horizon Agentic RL Achieving the Performance-Cost Pareto Frontier</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xomst7/paper_fireflash_an_open_recipe_for_longhorizon/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xomst7/paper_fireflash_an_open_recipe_for_longhorizon/</guid>
+      <pubDate>Thu, 05 Nov 2026 16:17:42 +0000</pubDate>
+      <description>L'article présente FireFlash, un modèle open source de 300 milliards de paramètres conçu pour les agents autonomes de programmation. Il atteint les performances des modèles de pointe tout en réduisant considérablement les coûts et le nombre de GPU nécessaires.
+
+★★★★★ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Getting editable layers out of Qwen-Image 2.1, a model that only edits: what works, what still fails (local, open source) Kokon</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xoji3b/getting_editable_layers_out_of_qwenimage_21_a/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xoji3b/getting_editable_layers_out_of_qwenimage_21_a/</guid>
+      <pubDate>Thu, 05 Nov 2026 14:06:27 +0000</pubDate>
+      <description>L'auteur présente Kokon, un éditeur photo local et open source basé sur Qwen-Image 2.1. Cet outil permet d'extraire des objets d'une image pour les placer sur des calques distincts grâce à une combinaison de modèles d'IA. Il utilise notamment la segmentation, la retouche et la génération d'inpainting pour combler les arrière-plans.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Image &amp; vidéo</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Box taps Nvidia’s Nemotron for new agent-first content retrieval system</title>
+      <link>https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/</link>
+      <guid>https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/</guid>
+      <pubDate>Thu, 05 Nov 2026 14:00:00 +0000</pubDate>
+      <description>La plateforme Box intègre le modèle Nemotron de Nvidia pour propulser son nouveau système de recherche de contenu piloté par les agents IA. Cette solution promet des réponses quatre fois plus rapides avec moins d'erreurs et une réduction massive de l'utilisation des tokens.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>Agents IA</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>An open-source project just ranked #1 on EnterpriseRAG-Bench, ahead of the listed systems from OpenAI, Google, Microsoft and Amazon</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xoiaye/an_opensource_project_just_ranked_1_on/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xoiaye/an_opensource_project_just_ranked_1_on/</guid>
+      <pubDate>Thu, 05 Nov 2026 13:12:49 +0000</pubDate>
+      <description>Un projet open source nommé PipesHub s'est classé premier à l'EnterpriseRAG-Bench, surpassant les grands acteurs du secteur. Il utilise une boucle d'agents et une recherche hybride sur une vaste base documentaire. La plateforme est auto-hébergeable et compatible avec les modèles ouverts.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Microsoft publie Terminal Intelligent 0.3, un fork expérimental de Windows Terminal avec intégration native d'agents IA, offrant une nouvelle façon de gérer vos onglets et vos agents</title>
+      <link>https://microsoft.developpez.com/actu/388771/Microsoft-publie-Terminal-Intelligent-0-3-un-fork-experimental-de-Windows-Terminal-avec-integration-native-d-agents-IA-offrant-une-nouvelle-facon-de-gerer-vos-onglets-et-vos-agents/</link>
+      <guid>https://microsoft.developpez.com/actu/388771/Microsoft-publie-Terminal-Intelligent-0-3-un-fork-experimental-de-Windows-Terminal-avec-integration-native-d-agents-IA-offrant-une-nouvelle-facon-de-gerer-vos-onglets-et-vos-agents/</guid>
+      <pubDate>Thu, 05 Nov 2026 13:06:00 +0000</pubDate>
+      <description>Microsoft a publié Terminal intelligent 0.3, un fork expérimental de Windows Terminal intégrant nativement des agents IA. Cette version ajoute une barre latérale pour suivre les agents et gérer les onglets.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Quantization livestream with goats of inference</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xoglot/quantization_livestream_with_goats_of_inference/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xoglot/quantization_livestream_with_goats_of_inference/</guid>
+      <pubDate>Thu, 05 Nov 2026 11:46:10 +0000</pubDate>
+      <description>Des experts de Hugging Face et de vLLM organisent un atelier en direct sur la quantification des modèles de langage. La session aborde les concepts fondamentaux et les techniques avancées comme les k-quants et i-quants.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+  </channel>
+</rss>
