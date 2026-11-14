@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille IA : les articles importants</title>
+    <link>https://mohamed-ali-akir.github.io/veille-ia/</link>
+    <description>Actualité de l'intelligence artificielle pour les développeurs, résumée et notée par une IA (articles notés 4 ou 5 sur 5).</description>
+    <language>fr</language>
+    <lastBuildDate>Sat, 14 Nov 2026 11:59:34 +0000</lastBuildDate>
+    <item>
+      <title>IBM trains two small open models to ignore orders hidden in documents</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xw09tu/ibm_trains_two_small_open_models_to_ignore_orders/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xw09tu/ibm_trains_two_small_open_models_to_ignore_orders/</guid>
+      <pubDate>Sat, 14 Nov 2026 11:33:26 +0000</pubDate>
+      <description>IBM a entraîné de petits modèles open source pour ignorer les ordres malveillants cachés dans les documents. Cette recherche aide à contrer les attaques par injection de prompt.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Open source</category>
+      <category>Sécurité</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>sensenova/SenseNova-Loop-9B-Preview · Hugging Face</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xvysss/sensenovasensenovaloop9bpreview_hugging_face/</guid>
+      <pubDate>Sat, 14 Nov 2026 10:02:25 +0000</pubDate>
+      <description>Un nouvel article présente SenseNova-Loop-9B-Preview, un modèle de langage open source de 9 milliards de paramètres aux performances prometteuses. Son architecture innovante rivalise avec des modèles beaucoup plus grands selon les retours de la communauté.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>L'agent de codage Grok Build divulgue une multitude d'informations confidentielles dont certaines appartiennent à SpaceX. Un chercheur découvre 35 000 applications Grok Build accessibles à tous</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/389094/L-agent-de-codage-Grok-Build-divulgue-une-multitude-d-informations-confidentielles-dont-certaines-appartiennent-a-SpaceX-Un-chercheur-decouvre-35-000-applications-Grok-Build-accessibles-a-tous/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/389094/L-agent-de-codage-Grok-Build-divulgue-une-multitude-d-informations-confidentielles-dont-certaines-appartiennent-a-SpaceX-Un-chercheur-decouvre-35-000-applications-Grok-Build-accessibles-a-tous/</guid>
+      <pubDate>Sat, 14 Nov 2026 06:41:00 +0000</pubDate>
+      <description>Un chercheur a découvert que des milliers d'applications générées par l'agent de codage Grok Build étaient accessibles publiquement sans authentification. Cette faille de sécurité majeure a exposé des informations confidentielles, y compris des données de l'entreprise SpaceX.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Agents IA</category>
+      <category>Sécurité</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>[Paper] Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xvuit5/paper_read_less_solve_more_tokenefficient_sparse/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xvuit5/paper_read_less_solve_more_tokenefficient_sparse/</guid>
+      <pubDate>Sat, 14 Nov 2026 05:41:22 +0000</pubDate>
+      <description>L'article présente SparseRead, une couche de contrôle de lecture pour les agents IA qui réduit drastiquement la consommation de tokens et le temps de traitement lors de l'analyse de documents externes. Cette technique améliore l'efficacité des agents sur le web sans modifier les modèles sous-jacents.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Recherche</category>
+    </item>
+    <item>
+      <title>AI agent startup LangChain hits $3B valuation</title>
+      <link>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/</link>
+      <guid>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/</guid>
+      <pubDate>Fri, 13 Nov 2026 19:37:57 +0000</pubDate>
+      <description>La startup LangChain a atteint une valorisation de 3 milliards de dollars grâce à sa plateforme de gestion d'agents LangSmith. Cette forte valorisation témoigne de l'adoption croissante des outils de développement d'agents intelligents en entreprise.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Weight Space Programming for Quantization: Nace quants achieve up to 2x better KL divergence for Qwen 9B, 27B, 35B &amp; Flash Next [GGUF]</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xvh4ag/weight_space_programming_for_quantization_nace/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xvh4ag/weight_space_programming_for_quantization_nace/</guid>
+      <pubDate>Fri, 13 Nov 2026 19:23:54 +0000</pubDate>
+      <description>L'article présente une nouvelle méthode de quantification des modèles de langage open-source comme Qwen. Cette technique améliore significativement la fidélité des poids des modèles pour une meilleure inférence locale. Des fichiers GGUF optimisés sont mis à disposition de la communauté.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>I built speedy Strix Halo kernels for the top-51 LLMs with AMD Loom (and you can too)</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xvcmm0/i_built_speedy_strix_halo_kernels_for_the_top51/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xvcmm0/i_built_speedy_strix_halo_kernels_for_the_top51/</guid>
+      <pubDate>Fri, 13 Nov 2026 16:37:41 +0000</pubDate>
+      <description>Un développeur présente l'utilisation d'AMD Loom, un nouvel outil open source permettant d'optimiser les noyaux d'exécution pour les LLM. Grâce à un agent IA, il a pu générer rapidement des noyaux plus performants que les solutions existantes pour 51 modèles populaires.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Microsot annonce que la fonctionnalité « Bring Your Own Model » (BYOM) est disponible pour tous dans Visual Studio, permettant aux développeurs d'utiliser leurs propres modèles d'IA sans quitter l'EDI</title>
+      <link>https://visualstudio.developpez.com/actu/389084/Microsot-annonce-que-la-fonctionnalite-Bring-Your-Own-Model-BYOM-est-disponible-pour-tous-dans-Visual-Studio-permettant-aux-developpeurs-d-utiliser-leurs-propres-modeles-d-IA-sans-quitter-l-EDI/</link>
+      <guid>https://visualstudio.developpez.com/actu/389084/Microsot-annonce-que-la-fonctionnalite-Bring-Your-Own-Model-BYOM-est-disponible-pour-tous-dans-Visual-Studio-permettant-aux-developpeurs-d-utiliser-leurs-propres-modeles-d-IA-sans-quitter-l-EDI/</guid>
+      <pubDate>Fri, 13 Nov 2026 16:32:00 +0000</pubDate>
+      <description>Microsoft lance la fonctionnalité Bring Your Own Model (BYOM) dans Visual Studio. Les développeurs peuvent ainsi intégrer et tester leurs propres modèles d'IA directement au sein de l'EDI.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>Outils dev</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>DeepSeek flash max is the first model to reach &gt;1% on challenging SWE-sweep bug finding benchmark</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xvcgxq/deepseek_flash_max_is_the_first_model_to_reach_1/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xvcgxq/deepseek_flash_max_is_the_first_model_to_reach_1/</guid>
+      <pubDate>Fri, 13 Nov 2026 16:31:47 +0000</pubDate>
+      <description>Un nouveau modèle open-weight, DeepSeek v4.1 flash (max), dépasse pour la première fois le seuil de 1% sur le benchmark extrêmement difficile SWE-sweep de correction de bugs. Ce test mesure les capacités de raisonnement à long terme des IA sur de vastes dépôts de code sans aucune indication.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>modules for my opensource (GPL3) harness have evolved to the point where this is possible. this is a full fledged videogame running inside it!</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xvbq3s/modules_for_my_opensource_gpl3_harness_have/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xvbq3s/modules_for_my_opensource_gpl3_harness_have/</guid>
+      <pubDate>Fri, 13 Nov 2026 16:03:17 +0000</pubDate>
+      <description>Un développeur présente un module open-source pour sa plateforme d'IA locale permettant de faire tourner un jeu vidéo textuel complet. Le système utilise un unique modèle Gemma4 en local avec llama.cpp pour gérer l'aventure et la génération d'images.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Qwen3.5-9B running on a PS4’s GPU, offline, using its own MTP head for speculative decoding</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/</guid>
+      <pubDate>Fri, 13 Nov 2026 16:00:36 +0000</pubDate>
+      <description>Un développeur a créé un projet open source permettant de faire tourner un modèle Qwen3.5-9B en local sur un GPU de PS4. Cette réalisation utilise une technique de décodage spéculatif pour atteindre une vitesse de 31 à 39 tokens par seconde sans connexion Internet.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>ChatGPT’s new Wallet lets AI agents shop and check out for you</title>
+      <link>https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/</link>
+      <guid>https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/</guid>
+      <pubDate>Fri, 13 Nov 2026 16:00:12 +0000</pubDate>
+      <description>ChatGPT introduit un portefeuille numérique permettant aux agents IA d'effectuer des achats et des paiements automatisés pour le compte des utilisateurs. Cette fonctionnalité est actuellement déployée de manière restreinte auprès des abonnés Pro aux États-Unis.
+
+★★★★☆ · TechCrunch (IA)</description>
+      <category>Agents IA</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Wallet</title>
+      <link>https://openai.com/index/introducing-chatgpt-wallet</link>
+      <guid>https://openai.com/index/introducing-chatgpt-wallet</guid>
+      <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+      <description>OpenAI lance ChatGPT Wallet, une solution sécurisée permettant aux assistants IA d'effectuer des achats avec l'approbation de l'utilisateur. Cette fonctionnalité s'intègre aux outils de travail et de code pour automatiser des transactions en toute sécurité.
+
+★★★★☆ · OpenAI News</description>
+      <category>Agents IA</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>llama.cpp v1.0 is here 🦙</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/</guid>
+      <pubDate>Fri, 13 Nov 2026 14:07:33 +0000</pubDate>
+      <description>Llama.cpp annonce la sortie de sa version 1.0, accompagnée de nouvelles applications de bureau pour simplifier l'utilisation locale de l'intelligence artificielle. Ce projet open source continue d'évoluer pour s'adapter à de nombreux modèles et plateformes.
+
+★★★★★ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem</title>
+      <link>https://huggingface.co/blog/ggml-org/llama-cpp-v1</link>
+      <guid>https://huggingface.co/blog/ggml-org/llama-cpp-v1</guid>
+      <pubDate>Fri, 13 Nov 2026 14:05:22 +0000</pubDate>
+      <description>La version 1.0.0 de llama.cpp est sortie, renforçant l'écosystème de l'intelligence artificielle locale. Cette mise à jour offre une base plus solide pour exécuter et développer des modèles open source sur sa propre machine.
+
+★★★★☆ · Hugging Face Blog</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>I ran the same Halloween animation prompt through five coding agents on one local Qwen model</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xv5dsb/i_ran_the_same_halloween_animation_prompt_through/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xv5dsb/i_ran_the_same_halloween_animation_prompt_through/</guid>
+      <pubDate>Fri, 13 Nov 2026 11:25:12 +0000</pubDate>
+      <description>Un développeur compare les performances de cinq assistants de codage différents utilisant le même modèle local Qwen pour générer une animation d'Halloween en pixel-art. L'expérience met en œuvre une configuration matérielle et logicielle avancée sous Linux avec un serveur d'inférence local.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>[Tuto] Agents IA : installer le harnais Pi.dev ou sa version dopée aux hormones Oh My Pi</title>
+      <link>https://next.ink/260033/tuto-agents-ia-installer-le-harnais-pi-dev-ou-sa-version-dopee-aux-hormones-oh-my-pi/</link>
+      <guid>https://next.ink/260033/tuto-agents-ia-installer-le-harnais-pi-dev-ou-sa-version-dopee-aux-hormones-oh-my-pi/</guid>
+      <pubDate>Fri, 13 Nov 2026 11:09:08 +0000</pubDate>
+      <description>Cet article propose un tutoriel pour installer et configurer des agents IA minimalistes comme Pi.dev et Oh My Pi directement sur son ordinateur. Il s'adresse aux utilisateurs souhaitant explorer l'IA générative locale.
+
+★★★★☆ · Next</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Llama.cpp: 6.5x faster prompt processing on Arm with a NEON kernel</title>
+      <link>https://github.com/hardwiredagent/silicon-forge-arm-neon-study</link>
+      <guid>https://github.com/hardwiredagent/silicon-forge-arm-neon-study</guid>
+      <pubDate>Fri, 13 Nov 2026 10:28:36 +0000</pubDate>
+      <description>L'article présente une optimisation majeure de Llama.cpp offrant un traitement des prompts 6,5 fois plus rapide sur l'architecture ARM grâce à un noyau NEON. Cette amélioration technique permet d'exécuter des modèles de langage plus efficacement sur du matériel grand public.
+
+★★★★☆ · Hacker News</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>llama.cpp : bump version to 1.0.0 by ggerganov · Pull Request #32190 · ggml-org/llama.cpp</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xv3cyt/llamacpp_bump_version_to_100_by_ggerganov_pull/</guid>
+      <pubDate>Fri, 13 Nov 2026 09:22:15 +0000</pubDate>
+      <description>Le projet llama.cpp vient d'atteindre la version majeure 1.0.0. Cet outil populaire permet de faire tourner des modèles de langage localement de manière optimisée.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Google lance Gemini 4 Hydrogen, un modèle Gemini plus rapide destiné au codage et aux tâches basées sur des agents, présenté comme une mise à jour de Gemini 3.8 Flash</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/389060/Google-lance-Gemini-4-Hydrogen-un-modele-Gemini-plus-rapide-destine-au-codage-et-aux-taches-basees-sur-des-agents-presente-comme-une-mise-a-jour-de-Gemini-3-8-Flash/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/389060/Google-lance-Gemini-4-Hydrogen-un-modele-Gemini-plus-rapide-destine-au-codage-et-aux-taches-basees-sur-des-agents-presente-comme-une-mise-a-jour-de-Gemini-3-8-Flash/</guid>
+      <pubDate>Fri, 13 Nov 2026 08:30:00 +0000</pubDate>
+      <description>Google lance Gemini 4 Hydrogen, un nouveau modèle rapide et optimisé pour le développement et les agents IA. Cette mise à jour vise à améliorer les performances des applications et des outils de code.
+
+★★★★★ · Developpez.com (IA)</description>
+      <category>LLM</category>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Shield helps technicians hand off legacy portal work with OpenAI</title>
+      <link>https://openai.com/business/customer-stories/shield</link>
+      <guid>https://openai.com/business/customer-stories/shield</guid>
+      <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
+      <description>Shield utilise OpenAI et des agents intelligents pour automatiser la navigation dans les portails informatiques hérités. Cela permet aux techniciens de déléguer les tâches répétitives et de se concentrer sur les problèmes complexes.
+
+★★★★☆ · OpenAI News</description>
+      <category>Agents IA</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Gemini 4 Hydrogen : Google donne de l’air à son IA du quotidien</title>
+      <link>https://next.ink/267314/gemini-4-hydrogen-google-donne-de-lair-a-son-ia-du-quotidien/</link>
+      <guid>https://next.ink/267314/gemini-4-hydrogen-google-donne-de-lair-a-son-ia-du-quotidien/</guid>
+      <pubDate>Fri, 13 Nov 2026 07:32:00 +0000</pubDate>
+      <description>Google a déployé son nouveau modèle d'intelligence artificielle Gemini 4 Hydrogen, qui remplace la version précédente. Ce modèle est spécialement conçu pour alimenter les services grand public du géant du web.
+
+★★★★☆ · Next</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Google lance un nouveau modèle d'IA multimodal spécialisé, Gemini Decisions API 1, capable d'évaluer jusqu'à 1 000 questions à partir d'une même entrée, et de renvoyer des probabilités calibrées</title>
+      <link>https://intelligence-artificielle.developpez.com/actu/389056/Google-lance-un-nouveau-modele-d-IA-multimodal-specialise-Gemini-Decisions-API-1-capable-d-evaluer-jusqu-a-1-000-questions-a-partir-d-une-meme-entree-et-de-renvoyer-des-probabilites-calibrees/</link>
+      <guid>https://intelligence-artificielle.developpez.com/actu/389056/Google-lance-un-nouveau-modele-d-IA-multimodal-specialise-Gemini-Decisions-API-1-capable-d-evaluer-jusqu-a-1-000-questions-a-partir-d-une-meme-entree-et-de-renvoyer-des-probabilites-calibrees/</guid>
+      <pubDate>Fri, 13 Nov 2026 07:09:00 +0000</pubDate>
+      <description>Google lance Gemini Decisions API 1, un nouveau modèle multimodal d'IA conçu pour évaluer rapidement jusqu'à 1 000 questions à partir d'une même entrée. Ce service fournit des probabilités calibrées pour faciliter la prise de décision automatisée.
+
+★★★★☆ · Developpez.com (IA)</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>Edge0-145B: Open-Source On-Device AI with 145B Parameters</title>
+      <link>https://www.reddit.com/r/LocalLLaMA/comments/1xuuq0b/edge0145b_opensource_ondevice_ai_with_145b/</link>
+      <guid>https://www.reddit.com/r/LocalLLaMA/comments/1xuuq0b/edge0145b_opensource_ondevice_ai_with_145b/</guid>
+      <pubDate>Fri, 13 Nov 2026 01:25:20 +0000</pubDate>
+      <description>Cet article présente Edge0-145B, un modèle d'intelligence artificielle open-source fonctionnant directement sur les appareils avec 145 milliards de paramètres. Il illustre les avancées récentes permettant d'exécuter des modèles très lourds en local.
+
+★★★★☆ · Reddit r/LocalLLaMA</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>Edge0-145B: Frontier AI Capabilities on Your Own Computer</title>
+      <link>https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</link>
+      <guid>https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer</guid>
+      <pubDate>Thu, 12 Nov 2026 23:06:17 +0000</pubDate>
+      <description>Cet article présente Edge0-145B, un modèle d'intelligence artificielle avancé conçu pour être exécuté localement sur votre propre ordinateur. Les discussions se concentrent sur la possibilité d'utiliser des capacités de pointe en dehors des serveurs cloud.
+
+★★★★☆ · Hacker News</description>
+      <category>LLM</category>
+      <category>Open source</category>
+      <category>Matériel &amp; GPU</category>
+    </item>
+    <item>
+      <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
+      <link>https://openai.com/index/amplitude</link>
+      <guid>https://openai.com/index/amplitude</guid>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+      <description>L'entreprise Amplitude utilise les modèles et agents de codage d'OpenAI pour identifier, développer et mesurer l'impact de ses produits en quelques jours. Cette approche illustre l'intégration concrète de l'IA dans les processus de développement logiciel.
+
+★★★★☆ · OpenAI News</description>
+      <category>Agents IA</category>
+      <category>Outils dev</category>
+      <category>Entreprises</category>
+    </item>
+    <item>
+      <title>How Amplitude ships product improvements in 1–2 days with OpenAI</title>
+      <link>https://openai.com/business/customer-stories/amplitude</link>
+      <guid>https://openai.com/business/customer-stories/amplitude</guid>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 +0000</pubDate>
+      <description>L'entreprise Amplitude utilise les modèles et agents de codage d'OpenAI pour développer et déployer des améliorations de produits en un à deux jours. Cette approche proactive permet d'identifier les besoins, de coder les changements et d'en mesurer l'impact rapidement.
+
+★★★★☆ · OpenAI News</description>
+      <category>Agents IA</category>
+      <category>Entreprises</category>
+      <category>Outils dev</category>
+    </item>
+    <item>
+      <title>Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash</title>
+      <link>https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/</link>
+      <guid>https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/</guid>
+      <pubDate>Thu, 12 Nov 2026 19:23:03 +0000</pubDate>
+      <description>Google lance Gemini 4 Hydrogen sans phase de test prolongée pour remplacer le modèle 3.8 Flash. Cette nouvelle version apporte des mises à jour majeures dans l'écosystème d'intelligence artificielle de l'entreprise.
+
+★★★★☆ · Ars Technica (IA)</description>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</title>
+      <link>https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</link>
+      <guid>https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</guid>
+      <pubDate>Thu, 12 Nov 2026 19:07:35 +0000</pubDate>
+      <description>IBM annonce le lancement de Granite 4.1 3B et 8B, intégrant LLMON, un langage de balisage natif pour les grands modèles de langage. Cette nouveauté offre de nouvelles perspectives pour structurer les données et interagir avec les LLM de manière optimisée.
+
+★★★★☆ · Hugging Face Blog</description>
+      <category>LLM</category>
+      <category>Outils dev</category>
+      <category>Open source</category>
+    </item>
+    <item>
+      <title>Google Search gets a major upgrade with Gemini 4 Hydrogen</title>
+      <link>https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/</link>
+      <guid>https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/</guid>
+      <pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
+      <description>Google intègre son nouveau modèle Gemini 4 Hydrogen directement au sein de son moteur de recherche. Cette mise à jour majeure améliore l'interface et les capacités de recherche interactive des utilisateurs.
+
+★★★★☆ · Google AI Blog</description>
+      <category>LLM</category>
+      <category>Entreprises</category>
+    </item>
+  </channel>
+</rss>
